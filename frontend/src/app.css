@@ -1692,11 +1692,38 @@ details[open] > summary .disclosure-icon {
 .case-about > summary {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 16px;
   min-height: 52px;
   cursor: pointer;
   color: var(--ink-1);
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
+  list-style: none;
+}
+
+.case-about > summary::-webkit-details-marker {
+  display: none;
+}
+
+.case-about > summary::after {
+  width: 8px;
+  height: 8px;
+  flex: none;
+  margin-right: 6px;
+  border-right: 1.5px solid var(--ink-2);
+  border-bottom: 1.5px solid var(--ink-2);
+  transform: rotate(45deg);
+  transition: transform var(--duration-fast) var(--ease-out);
+  content: '';
+}
+
+.case-about[open] > summary::after {
+  transform: rotate(-135deg);
+}
+
+.case-about > summary:hover {
+  color: var(--accent-strong);
 }
 
 .case-about > div {
