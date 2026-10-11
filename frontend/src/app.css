@@ -3832,185 +3832,173 @@ details[open] > summary .disclosure-icon {
 }
 
 .method-page {
-  width: min(calc(100% - 48px), 1180px);
+  width: min(calc(100% - 64px), 1180px);
   margin: 0 auto;
-  padding: 54px 0 72px;
+  padding: 44px 0 80px;
 }
 
 .method-hero {
   display: grid;
-  gap: var(--space-4);
-  max-width: 900px;
-  padding-bottom: 54px;
-}
-
-.method-kicker,
-.method-model > header > span,
-.method-panel > span,
-.method-example > div > span {
-  color: var(--accent-strong);
-  font-size: 0.6875rem;
-  font-weight: var(--weight-semibold);
-  text-transform: uppercase;
-  letter-spacing: var(--tracking-label);
+  gap: 12px;
+  max-width: 760px;
+  padding-bottom: 40px;
 }
 
 .method-hero h1 {
-  max-width: 15ch;
-  font-size: clamp(3rem, 6vw, 5.25rem);
-  line-height: 0.98;
-  letter-spacing: -0.045em;
+  font-size: clamp(1.75rem, 2.6vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
 }
 
 .method-hero > p {
-  max-width: 68ch;
+  max-width: 66ch;
   color: var(--ink-1);
-  font-size: var(--text-lg);
+  font-size: var(--text-md);
   line-height: 1.55;
 }
 
-.method-hero__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-3);
-  align-items: center;
-  margin-top: var(--space-2);
-}
-
-.method-hero__actions a,
-.method-primary-link {
-  display: inline-flex;
-  min-height: 44px;
-  align-items: center;
-  padding: 0 14px;
-  border-radius: var(--radius-2);
-  color: var(--accent-strong);
-  font-size: var(--text-sm);
-  font-weight: var(--weight-medium);
-}
-
-.method-primary-link {
-  background: var(--accent);
-  color: #fff;
-}
-
-.method-model {
+.method-section {
   display: grid;
-  grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.8fr);
-  gap: 48px;
-  padding: 34px 0;
+  gap: 22px;
+  padding-top: 16px;
   border-top: 1px solid var(--line-1);
-  border-bottom: 1px solid var(--line-1);
 }
 
-.method-model > header {
+.method-section + .method-section {
+  margin-top: 56px;
+}
+
+.method-section h2 {
+  font-size: var(--text-lg);
+  letter-spacing: -0.015em;
+}
+
+.method-section--prose {
+  gap: 12px;
+}
+
+.method-section--prose p {
+  max-width: 66ch;
+  color: var(--ink-1);
+  font-size: var(--text-base);
+  line-height: 1.6;
+}
+
+.method-layers {
   display: grid;
-  align-content: start;
-  gap: 8px;
 }
 
-.method-model h2,
-.method-panel h2,
-.method-example h2 {
-  font-size: var(--text-xl);
-}
-
-.method-model ol {
+.method-layers > div {
   display: grid;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 24px;
+  padding: 16px 0;
+  border-top: 1px solid var(--line-0);
 }
 
-.method-model li {
-  display: grid;
-  grid-template-columns: 38px minmax(0, 1fr);
-  gap: var(--space-4);
-  padding: 18px 0;
-  border-bottom: 1px solid var(--line-0);
-}
-
-.method-model li:first-child {
+.method-layers > div:first-child {
+  border-top: 0;
   padding-top: 0;
 }
 
-.method-model li:last-child {
-  padding-bottom: 0;
-  border-bottom: 0;
+.method-layers dt {
+  font-size: var(--text-base);
+  font-weight: var(--weight-semibold);
+  line-height: 1.4;
 }
 
-.method-model li > span {
-  color: var(--ink-3);
-  font-family: var(--font-mono);
+.method-layers dd {
+  display: grid;
+  gap: 6px;
+  max-width: 64ch;
+}
+
+.method-layers dd p {
+  color: var(--ink-1);
+  font-size: var(--text-base);
+  line-height: 1.55;
+}
+
+.method-layers dd a {
+  text-decoration: underline;
+}
+
+.method-layers dd span {
+  color: var(--ink-2);
   font-size: var(--text-xs);
 }
 
-.method-model li div {
+.method-notes {
+  gap: 0;
+}
+
+.method-notes h2 {
+  padding-bottom: 8px;
+  color: var(--ink-1);
+  font-size: var(--text-base);
+}
+
+.method-note {
+  border-top: 1px solid var(--line-0);
+}
+
+.method-note > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 48px;
+  padding: 10px 0;
+  color: var(--ink-0);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  list-style: none;
+}
+
+.method-note > summary::-webkit-details-marker {
+  display: none;
+}
+
+.method-note > summary::after {
+  width: 8px;
+  height: 8px;
+  flex: none;
+  margin-right: 6px;
+  border-right: 1.5px solid var(--ink-2);
+  border-bottom: 1.5px solid var(--ink-2);
+  transform: rotate(45deg);
+  transition: transform var(--duration-fast) var(--ease-out);
+  content: '';
+}
+
+.method-note[open] > summary::after {
+  transform: rotate(-135deg);
+}
+
+.method-note > summary:hover {
+  color: var(--accent-strong);
+}
+
+.method-note > div {
   display: grid;
-  gap: 6px;
+  gap: 10px;
+  max-width: 66ch;
+  padding: 2px 0 20px;
 }
 
-.method-model li strong {
-  font-size: var(--text-md);
-}
-
-.method-model li p,
-.method-panel p,
-.method-panel li,
-.method-example p {
+.method-note p,
+.method-note li {
   color: var(--ink-1);
   font-size: var(--text-sm);
   line-height: 1.6;
 }
 
-.method-model li small {
-  color: var(--ink-3);
-  font-size: var(--text-xs);
-}
-
-.method-grid {
+.method-note ul {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1px;
-  margin-top: 48px;
-  border: 1px solid var(--line-1);
-  border-radius: var(--radius-3);
-  overflow: hidden;
-  background: var(--line-1);
-}
-
-.method-panel {
-  display: grid;
-  align-content: start;
-  gap: 10px;
-  min-height: 280px;
-  padding: 28px;
-  background: var(--surface-0);
-}
-
-.method-panel ul {
-  display: grid;
-  gap: 7px;
-  margin: 2px 0 0;
+  gap: 6px;
+  margin: 0;
   padding-left: 18px;
-}
-
-.method-example {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-  margin-top: 48px;
-  padding: 28px;
-  border: 1px solid var(--line-1);
-  border-radius: var(--radius-3);
-  background: var(--surface-0);
-}
-
-.method-example > div {
-  display: grid;
-  gap: 7px;
-  max-width: 720px;
 }
 
 @media (max-width: 980px) {
@@ -4024,11 +4012,6 @@ details[open] > summary .disclosure-icon {
 
   .archive-toolbar__result-count {
     justify-self: end;
-  }
-
-  .method-model {
-    grid-template-columns: 1fr;
-    gap: 24px;
   }
 }
 
@@ -4051,27 +4034,22 @@ details[open] > summary .disclosure-icon {
 
   .method-page {
     width: min(calc(100% - 28px), 1180px);
-    padding: 34px 0 52px;
+    padding: 20px 0 56px;
   }
 
   .method-hero {
-    padding-bottom: 36px;
+    padding-bottom: 24px;
   }
 
-  .method-hero h1 {
-    font-size: clamp(2.6rem, 13vw, 4rem);
+  .method-section + .method-section {
+    margin-top: 40px;
   }
 
-  .method-grid {
+  .method-layers > div {
     grid-template-columns: 1fr;
+    gap: 8px;
   }
 
-  .method-panel {
-    min-height: auto;
-    padding: 22px;
-  }
-
-  .method-example,
   .archive-context {
     align-items: flex-start;
     flex-direction: column;
