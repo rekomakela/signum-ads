@@ -1,0 +1,320 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-kfc-s-apology-for-the-chicken-shortage-this-week-319ef714",
+    "media_type": "image",
+    "path": "cases/real-kfc-s-apology-for-the-chicken-shortage-this-week-319ef714/asset.jpg",
+    "sha256": "380255670365a876ad0da96125e910c32fd41a84912507a81ea2c9e5b212b695"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:16:20.438Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-kfc-s-apology-for-the-chicken-shortage-this-week-319ef714",
+    "sha256": "380255670365a876ad0da96125e910c32fd41a84912507a81ea2c9e5b212b695"
+  },
+  "raw_provider_output": {
+    "summary": "KFC apologizes for a chicken shortage by humorously rebranding its bucket as 'FCK' (Fried Chicken KFC), using self-deprecation to maintain customer goodwill.",
+    "observations": [
+      {
+        "description": "A white paper bucket with red stripes, resembling the classic KFC bucket, is shown lying on its side on a reddish-brown surface.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The Colonel Sanders logo is visible on the bucket, but the text below it reads 'FCK' instead of 'KFC'.",
+        "evidence_type": "brand_mark",
+        "location": "on the bucket",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text reads 'WE'RE SORRY'.",
+        "evidence_type": "copy",
+        "location": "below the bucket",
+        "confidence": "high"
+      },
+      {
+        "description": "The body copy explains the situation: 'A chicken restaurant without any chicken. It's not ideal. Huge apologies to our customers...'",
+        "evidence_type": "copy",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The copy mentions 'KFC team members' and 'franchise partners' working to improve the situation.",
+        "evidence_type": "copy",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "A URL is provided: 'Visit kfc.co.uk/crossed-the-road for details about your local restaurant.'",
+        "evidence_type": "cta",
+        "location": "bottom of the ad",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The brand is apologizing for a supply chain failure that resulted in a lack of product, using a visual pun to acknowledge the error.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The visual signifier of the bucket with the 'FCK' logo acts as a metaphor for the brand's identity being temporarily 'crossed' or disrupted, mirroring the 'crossed the road' URL.",
+        "evidence_indices": [
+          1,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By using humor and self-deprecation, the brand attempts to mitigate customer frustration and maintain brand affinity despite the service failure.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The ad frames the crisis as a temporary, shared experience ('It's been a hell of a week') to build solidarity with the consumer.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "storytelling",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A white paper bucket with red stripes, resembling the classic KFC bucket, is shown lying on its side on a reddish-brown surface.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "The Colonel Sanders logo is visible on the bucket, but the text below it reads 'FCK' instead of 'KFC'.",
+      "location": "on the bucket",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The headline text reads 'WE'RE SORRY'.",
+      "location": "below the bucket",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The body copy explains the situation: 'A chicken restaurant without any chicken. It's not ideal. Huge apologies to our customers...'",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The copy mentions 'KFC team members' and 'franchise partners' working to improve the situation.",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "cta",
+      "description": "A URL is provided: 'Visit kfc.co.uk/crossed-the-road for details about your local restaurant.'",
+      "location": "bottom of the ad",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "KFC apologizes for a chicken shortage by humorously rebranding its bucket as 'FCK' (Fried Chicken KFC), using self-deprecation to maintain customer goodwill.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The brand is apologizing for a supply chain failure that resulted in a lack of product, using a visual pun to acknowledge the error.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The visual signifier of the bucket with the 'FCK' logo acts as a metaphor for the brand's identity being temporarily 'crossed' or disrupted, mirroring the 'crossed the road' URL.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By using humor and self-deprecation, the brand attempts to mitigate customer frustration and maintain brand affinity despite the service failure.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The ad frames the crisis as a temporary, shared experience ('It's been a hell of a week') to build solidarity with the consumer.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "storytelling",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

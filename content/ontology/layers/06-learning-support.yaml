@@ -1,0 +1,116 @@
+metadata:
+  id: signum_domain_ontology.learning_support
+  version: 0.1.0
+  status: final_draft
+  project: Signum
+  title: Learning Support Layer
+  description: Classes for learner-facing explanations, learner responses, and local learning sessions.
+  source_manifest: ../ontology.yaml
+layer:
+  id: learning_support
+  order: '06'
+  class_names:
+  - GlossaryEntry
+  - TryFirstResponse
+  - UserSession
+entity_classes:
+  GlossaryEntry:
+    description: Learner-facing explanation of an ontology class, subtype, property, relationship, or
+      pedagogical concept.
+    properties:
+      id:
+        type: id
+        required: true
+      concept_name:
+        type: string
+        required: true
+      slug:
+        type: string
+        required: true
+      ontology_ref:
+        type: object
+        properties:
+          class:
+            type: string
+          subtype:
+            type: string
+          property:
+            type: string
+          relationship:
+            type: string
+      domain:
+        type: enum
+        values:
+        - semiotics
+        - sociology
+        - marketing
+        - rhetoric
+        - media_literacy
+        - behavioral_science
+        - pedagogy
+      difficulty:
+        type: enum
+        values:
+        - beginner
+        - intermediate
+        - advanced
+      tier:
+        type: integer
+      entry_status:
+        type: enum
+        values:
+        - full
+        - condensed
+        - placeholder
+      source_references:
+        type: list
+        item_type: SourceReference
+  TryFirstResponse:
+    description: A learner-authored observation, interpretation, or question recorded before expert reveal.
+    properties:
+      id:
+        type: id
+        required: true
+      ad_id:
+        type: reference
+        range: Advertisement
+        required: true
+      text:
+        type: text
+        required: true
+      response_type:
+        type: enum
+        values:
+        - observation
+        - interpretation
+        - question
+        - reflection
+      created_at:
+        type: datetime
+  UserSession:
+    description: A local learning session containing progress and try-first activity.
+    properties:
+      id:
+        type: id
+        required: true
+      started_at:
+        type: datetime
+      last_active_at:
+        type: datetime
+      ads_seen:
+        type: list
+        item_type: reference
+        range: Advertisement
+      concepts_seen:
+        type: list
+        item_type: reference
+        range: GlossaryEntry
+relationships:
+  glossary_explains_ontology_ref:
+    domain: GlossaryEntry
+    range: entity_class_or_subtype
+    description: A glossary entry explains a class, subtype, property, or relationship.
+  glossary_promotes_social_concept:
+    domain: GlossaryEntry
+    range: SocialConcept
+    description: A glossary entry turns a curated social concept into learner-facing vocabulary.

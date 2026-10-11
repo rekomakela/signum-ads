@@ -1,0 +1,342 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ikea-sleep",
+    "media_type": "image",
+    "path": "cases/real-ikea-sleep/asset.jpg",
+    "sha256": "48566291fef6dbf3e5ba44255b62ebbb4b83bc598537c9669b16f2698c405f2b"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:09:10.702Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ikea-sleep",
+    "sha256": "48566291fef6dbf3e5ba44255b62ebbb4b83bc598537c9669b16f2698c405f2b"
+  },
+  "raw_provider_output": {
+    "summary": "An IKEA advertisement that uses a visual metaphor of a 'Sleep' supplement bottle spilling out pillows to suggest that the RUMSMALVA ergonomic pillows are the natural, effective solution for better sleep.",
+    "observations": [
+      {
+        "description": "A large amber glass bottle, styled like a supplement container, is lying on its side with its cap off. The label reads 'Sleep' in a large serif font, with smaller text below stating 'NATURALLY SUPPLEMENTS FOCUS & MEMORY'.",
+        "evidence_type": "visual",
+        "location": "Upper left quadrant",
+        "confidence": "high"
+      },
+      {
+        "description": "Instead of pills, several small, white, rectangular pillows are spilling out of the bottle's opening and scattered across the blue surface.",
+        "evidence_type": "visual",
+        "location": "Center and lower half",
+        "confidence": "high"
+      },
+      {
+        "description": "Product information text located in the lower right area: 'RUMSMALVA ergonomic pillows' followed by the price '£13'.",
+        "evidence_type": "copy",
+        "location": "Lower right",
+        "confidence": "high"
+      },
+      {
+        "description": "The main headline at the bottom left reads 'Tomorrow starts tonight'.",
+        "evidence_type": "copy",
+        "location": "Bottom left",
+        "confidence": "high"
+      },
+      {
+        "description": "The IKEA logo (blue and yellow oval) is positioned in the bottom right corner, above the tagline 'THE WONDERFUL EVERYDAY'.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a solid, matte blue surface with soft shadows cast by the objects, creating a clean, studio-shot aesthetic.",
+        "evidence_type": "visual",
+        "location": "Background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by equating the physical pillow with a 'sleep supplement,' suggesting the product has a direct, therapeutic effect on the act of sleeping.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": false
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The core message is that the RUMSMALVA pillow is an essential, effective tool for achieving restful sleep, framed as a 'natural supplement' for the body.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The copy 'Naturally supplements focus & memory' borrows the language of health and wellness to position a household item as a functional health aid, appealing to the consumer's desire for self-improvement.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": false
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The headline 'Tomorrow starts tonight' creates a temporal link between the product (used at night) and the benefit (a better next day), reinforcing the idea that the pillow is an investment in one's daily performance.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The clean, minimalist design and the specific price point (£13) target a broad, value-conscious audience looking for simple, effective solutions to everyday problems like insomnia or poor sleep quality.",
+        "evidence_indices": [
+          2,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": false
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large amber glass bottle, styled like a supplement container, is lying on its side with its cap off. The label reads 'Sleep' in a large serif font, with smaller text below stating 'NATURALLY SUPPLEMENTS FOCUS & MEMORY'.",
+      "location": "Upper left quadrant",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "Instead of pills, several small, white, rectangular pillows are spilling out of the bottle's opening and scattered across the blue surface.",
+      "location": "Center and lower half",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "Product information text located in the lower right area: 'RUMSMALVA ergonomic pillows' followed by the price '£13'.",
+      "location": "Lower right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The main headline at the bottom left reads 'Tomorrow starts tonight'.",
+      "location": "Bottom left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The IKEA logo (blue and yellow oval) is positioned in the bottom right corner, above the tagline 'THE WONDERFUL EVERYDAY'.",
+      "location": "Bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The background is a solid, matte blue surface with soft shadows cast by the objects, creating a clean, studio-shot aesthetic.",
+      "location": "Background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "An IKEA advertisement that uses a visual metaphor of a 'Sleep' supplement bottle spilling out pillows to suggest that the RUMSMALVA ergonomic pillows are the natural, effective solution for better sleep.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by equating the physical pillow with a 'sleep supplement,' suggesting the product has a direct, therapeutic effect on the act of sleeping.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": false
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "core_message",
+        "text": "The core message is that the RUMSMALVA pillow is an essential, effective tool for achieving restful sleep, framed as a 'natural supplement' for the body.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The copy 'Naturally supplements focus & memory' borrows the language of health and wellness to position a household item as a functional health aid, appealing to the consumer's desire for self-improvement.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": false
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The headline 'Tomorrow starts tonight' creates a temporal link between the product (used at night) and the benefit (a better next day), reinforcing the idea that the pillow is an investment in one's daily performance.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The clean, minimalist design and the specific price point (£13) target a broad, value-conscious audience looking for simple, effective solutions to everyday problems like insomnia or poor sleep quality.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": false
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

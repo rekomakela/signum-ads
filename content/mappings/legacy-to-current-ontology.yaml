@@ -1,0 +1,98 @@
+schema_version: signum_legacy_to_current_mapping.v0.1
+status: draft
+purpose: Maps the older Signum concepts ontology vocabulary to the current richer
+  domain ontology and layered knowledge model.
+mapping_policy:
+- Use this file for migration and search compatibility, not as a source of truth.
+- Do not automatically rename existing reviewed outputs without contract-aware migration.
+- Prefer current ontology class names for new content.
+class_mappings:
+- legacy_id: ad_execution
+  current_ref: Advertisement
+  mapping_type: rename
+  notes: Current ontology uses Advertisement as the bounded ad artifact.
+- legacy_id: campaign_pattern
+  current_ref: Campaign / NarrativePattern
+  mapping_type: split
+  notes: Campaign holds grouped ads; NarrativePattern holds recurring story structure.
+- legacy_id: medium_context
+  current_ref: Advertisement.medium / Source.source_type
+  mapping_type: field_or_class
+  notes: Do not create a separate MediumContext class unless media analysis grows.
+- legacy_id: strategy_frame
+  current_ref: Interpretation / future StrategyFrame extension
+  mapping_type: defer
+  notes: Keep internal only for now; not core learner ontology.
+- legacy_id: persuasive_claim
+  current_ref: AdvertiserClaim or Interpretation
+  mapping_type: needs_decision
+  notes: Corpus Model v0.1 splits advertiser propositions into AdvertiserClaim and
+    Signum analytical propositions into Interpretation.
+- legacy_id: support_reason
+  current_ref: EvidenceLink
+  mapping_type: merge
+  notes: EvidenceLink can express support for interpretation or claim-like reading.
+- legacy_id: signifier
+  current_ref: Signifier
+  mapping_type: same
+  notes: Core semiotic unit.
+- legacy_id: signified_meaning
+  current_ref: Signified
+  mapping_type: rename
+  notes: Current ontology uses Signified.
+- legacy_id: cultural_code
+  current_ref: SocialConcept.CulturalCode / ReferentSystem
+  mapping_type: split
+  notes: Use SocialConcept for curated code vocabulary; ReferentSystem for cultural
+    knowledge structures.
+- legacy_id: semiotic_device
+  current_ref: MeaningMechanism
+  mapping_type: promote_family
+  notes: Semiotic devices such as metaphor, metonymy, contrast, and juxtaposition
+    are governed as MeaningMechanism concepts.
+- legacy_id: persuasion_mechanism
+  current_ref: PersuasionTechnique
+  mapping_type: rename
+  notes: Current ontology uses PersuasionTechnique.
+- legacy_id: appeal
+  current_ref: PersuasionTechnique / Interpretation
+  mapping_type: needs_decision
+  notes: Keep as glossary/analysis vocabulary unless promoted.
+- legacy_id: implied_viewer
+  current_ref: AudiencePosition
+  mapping_type: replace
+  notes: Corpus Model v0.1 uses AudiencePosition; TargetAudience remains runtime compatibility
+    terminology.
+- legacy_id: target_audience
+  current_ref: AudiencePosition
+  mapping_type: replace
+  notes: Corpus Model v0.1 uses AudiencePosition; TargetAudience remains runtime compatibility
+    terminology.
+- legacy_id: audience_response
+  current_ref: Interpretation / TryFirstResponse
+  mapping_type: contextual
+  notes: Use Interpretation for analytical response; TryFirstResponse for learner-authored
+    response.
+- legacy_id: audience_inference
+  current_ref: Interpretation
+  mapping_type: merge
+- legacy_id: reading
+  current_ref: Interpretation
+  mapping_type: rename
+- legacy_id: counter_reading
+  current_ref: 'Interpretation with stance: counter'
+  mapping_type: subtype
+- legacy_id: brand
+  current_ref: Brand
+  mapping_type: promote
+  notes: Brand is first-class corpus identity in Corpus Model v0.1.
+- legacy_id: brand_cue
+  current_ref: Signifier
+  mapping_type: subtype_or_tag
+  notes: A brand cue is a signifier function.
+- legacy_id: tone
+  current_ref: VisualStyle / Interpretation
+  mapping_type: contextual
+- legacy_id: execution_choice
+  current_ref: Signifier subtypes / VisualStyle
+  mapping_type: split

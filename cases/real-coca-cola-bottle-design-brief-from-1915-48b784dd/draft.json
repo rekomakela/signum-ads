@@ -1,0 +1,310 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-coca-cola-bottle-design-brief-from-1915-48b784dd",
+    "media_type": "image",
+    "path": "cases/real-coca-cola-bottle-design-brief-from-1915-48b784dd/asset.png",
+    "sha256": "559a7c9e13008407b93b5727942573a93d22aab59d240be2a22e7aaee9e0c272"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:29:22.404Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-coca-cola-bottle-design-brief-from-1915-48b784dd",
+    "sha256": "559a7c9e13008407b93b5727942573a93d22aab59d240be2a22e7aaee9e0c272"
+  },
+  "raw_provider_output": {
+    "summary": "The advertisement highlights the iconic and enduring design of the Coca-Cola bottle, emphasizing its unique recognizability through a quote from its original 1915 design brief.",
+    "observations": [
+      {
+        "description": "A large, white silhouette of the classic Coca-Cola contour bottle is displayed on a red wall.",
+        "evidence_type": "visual",
+        "location": "Left side of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A large text quote reads: 'A bottle so distinct that it could be recognized by touch in the dark or when lying broken on the ground.'",
+        "evidence_type": "copy",
+        "location": "Center of the image on a white wall",
+        "confidence": "high"
+      },
+      {
+        "description": "Attribution text below the quote reads: 'COCA-COLA BOTTLE DESIGN BRIEF 1915'.",
+        "evidence_type": "copy",
+        "location": "Below the main quote",
+        "confidence": "high"
+      },
+      {
+        "description": "A small, red Coca-Cola can is visible near the base of the bottle silhouette.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom left, on the red wall",
+        "confidence": "high"
+      },
+      {
+        "description": "The display is set in a modern, public space with a staircase and people walking by, suggesting a museum or corporate headquarters setting.",
+        "evidence_type": "context",
+        "location": "Foreground and background",
+        "confidence": "medium"
+      },
+      {
+        "description": "The layout uses a strong contrast between the red wall with the bottle silhouette and the white wall with the text.",
+        "evidence_type": "layout",
+        "location": "Overall composition",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The Coca-Cola bottle's design is so iconic and unique that it is instantly recognizable, even without visual cues.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By citing the original 1915 design brief, the ad uses the brand's own history to establish authority and authenticity regarding the bottle's design.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The bottle silhouette functions as a powerful signifier, representing the entire Coca-Cola brand and its heritage, while the text provides the signified meaning of its distinctiveness.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "symbol",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of the phrase 'recognized by touch in the dark' is a metaphor for the deep, intuitive familiarity consumers have with the product, elevating it beyond a simple beverage to a cultural icon.",
+        "evidence_indices": [
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large, white silhouette of the classic Coca-Cola contour bottle is displayed on a red wall.",
+      "location": "Left side of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "A large text quote reads: 'A bottle so distinct that it could be recognized by touch in the dark or when lying broken on the ground.'",
+      "location": "Center of the image on a white wall",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "Attribution text below the quote reads: 'COCA-COLA BOTTLE DESIGN BRIEF 1915'.",
+      "location": "Below the main quote",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "A small, red Coca-Cola can is visible near the base of the bottle silhouette.",
+      "location": "Bottom left, on the red wall",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The display is set in a modern, public space with a staircase and people walking by, suggesting a museum or corporate headquarters setting.",
+      "location": "Foreground and background",
+      "confidence": "medium"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "layout",
+      "description": "The layout uses a strong contrast between the red wall with the bottle silhouette and the white wall with the text.",
+      "location": "Overall composition",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The advertisement highlights the iconic and enduring design of the Coca-Cola bottle, emphasizing its unique recognizability through a quote from its original 1915 design brief.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The Coca-Cola bottle's design is so iconic and unique that it is instantly recognizable, even without visual cues.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By citing the original 1915 design brief, the ad uses the brand's own history to establish authority and authenticity regarding the bottle's design.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The bottle silhouette functions as a powerful signifier, representing the entire Coca-Cola brand and its heritage, while the text provides the signified meaning of its distinctiveness.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "symbol",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The use of the phrase 'recognized by touch in the dark' is a metaphor for the deep, intuitive familiarity consumers have with the product, elevating it beyond a simple beverage to a cultural icon.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

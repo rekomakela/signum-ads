@@ -1,0 +1,353 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-cigarette-packaging-done-right-912c7fdb",
+    "media_type": "image",
+    "path": "cases/real-cigarette-packaging-done-right-912c7fdb/asset.png",
+    "sha256": "30fd98c643a37675abce8760cce2efa649c046fe457372811470079e51dc68ab"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:25:16.194Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-cigarette-packaging-done-right-912c7fdb",
+    "sha256": "30fd98c643a37675abce8760cce2efa649c046fe457372811470079e51dc68ab"
+  },
+  "raw_provider_output": {
+    "summary": "A public health anti-smoking campaign that uses a visual metaphor to show how cigarette consumption progressively destroys a person's teeth, equating the cigarette pack with the mouth.",
+    "observations": [
+      {
+        "description": "A triptych layout featuring three panels arranged horizontally, showing a progression from left to right.",
+        "evidence_type": "layout",
+        "location": "entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "A woman's face is framed within a dark, rectangular box that resembles a cigarette pack, with the top of the box open.",
+        "evidence_type": "visual",
+        "location": "all three panels",
+        "confidence": "high"
+      },
+      {
+        "description": "In the left panel, the 'pack' is full of white cigarettes, and the woman has a complete, healthy set of white teeth.",
+        "evidence_type": "visual",
+        "location": "left panel",
+        "confidence": "high"
+      },
+      {
+        "description": "In the center panel, the number of cigarettes in the pack has decreased, and the woman is missing a front tooth.",
+        "evidence_type": "visual",
+        "location": "center panel",
+        "confidence": "high"
+      },
+      {
+        "description": "In the right panel, the pack is empty, and the woman's mouth is completely devoid of teeth.",
+        "evidence_type": "visual",
+        "location": "right panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The woman maintains a smiling expression in all three panels, contrasting with the physical deterioration of her teeth.",
+        "evidence_type": "visual",
+        "location": "all three panels",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a blurred, neutral interior setting, keeping the focus on the central metaphor.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Smoking cigarettes leads to the progressive loss of teeth.",
+        "evidence_indices": [
+          2,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor where the cigarette pack is superimposed over the face, suggesting that the cigarettes are literally 'eating' the person's teeth.",
+        "evidence_indices": [
+          1,
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The sequential layout creates a narrative of cause and effect, demonstrating the 'before and after' of smoking without using any text.",
+        "evidence_indices": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "before_and_after",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The juxtaposition of the woman's pleasant smile with the horrifying loss of teeth creates a sense of irony and shock, emphasizing the hidden costs of the habit.",
+        "evidence_indices": [
+          5,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "layout",
+      "description": "A triptych layout featuring three panels arranged horizontally, showing a progression from left to right.",
+      "location": "entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A woman's face is framed within a dark, rectangular box that resembles a cigarette pack, with the top of the box open.",
+      "location": "all three panels",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "In the left panel, the 'pack' is full of white cigarettes, and the woman has a complete, healthy set of white teeth.",
+      "location": "left panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "In the center panel, the number of cigarettes in the pack has decreased, and the woman is missing a front tooth.",
+      "location": "center panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "In the right panel, the pack is empty, and the woman's mouth is completely devoid of teeth.",
+      "location": "right panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The woman maintains a smiling expression in all three panels, contrasting with the physical deterioration of her teeth.",
+      "location": "all three panels",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "context",
+      "description": "The background is a blurred, neutral interior setting, keeping the focus on the central metaphor.",
+      "location": "background",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public health anti-smoking campaign that uses a visual metaphor to show how cigarette consumption progressively destroys a person's teeth, equating the cigarette pack with the mouth.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Smoking cigarettes leads to the progressive loss of teeth.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor where the cigarette pack is superimposed over the face, suggesting that the cigarettes are literally 'eating' the person's teeth.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The sequential layout creates a narrative of cause and effect, demonstrating the 'before and after' of smoking without using any text.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "before_and_after",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The juxtaposition of the woman's pleasant smile with the horrifying loss of teeth creates a sense of irony and shock, emphasizing the hidden costs of the habit.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-mercedes-benz-christmas-advertisement-b1d5b5b1",
+    "media_type": "image",
+    "path": "cases/real-mercedes-benz-christmas-advertisement-b1d5b5b1/asset.png",
+    "sha256": "af676b3321f5e86ef054ee74b686d83d1392a2ee98ec5472bb64b0ebea4c0738"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:28:11.681Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-mercedes-benz-christmas-advertisement-b1d5b5b1",
+    "sha256": "af676b3321f5e86ef054ee74b686d83d1392a2ee98ec5472bb64b0ebea4c0738"
+  },
+  "raw_provider_output": {
+    "summary": "A minimalist, high-contrast advertisement for Mercedes-Benz that highlights the iconic three-pointed star and grille to evoke luxury, engineering precision, and brand heritage.",
+    "observations": [
+      {
+        "description": "The Mercedes-Benz logo (three-pointed star in a circle) and the text 'Mercedes-Benz' are displayed in the top left corner.",
+        "evidence_type": "brand_mark",
+        "location": "top_left",
+        "confidence": "high"
+      },
+      {
+        "description": "A large, illuminated three-pointed star hood ornament is centered in the upper portion of the image, glowing against a dark background.",
+        "evidence_type": "visual",
+        "location": "center_top",
+        "confidence": "high"
+      },
+      {
+        "description": "A close-up of a car's front grille with horizontal slats occupies the lower half of the image, illuminated by a spotlight effect.",
+        "evidence_type": "visual",
+        "location": "bottom_half",
+        "confidence": "high"
+      },
+      {
+        "description": "The image utilizes a high-contrast, low-key lighting style with deep blacks and sharp highlights on the chrome elements.",
+        "evidence_type": "visual",
+        "location": "global",
+        "confidence": "high"
+      },
+      {
+        "description": "The composition is symmetrical and centered, focusing attention strictly on the brand emblem and the vehicle's front fascia.",
+        "evidence_type": "layout",
+        "location": "global",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement positions the Mercedes-Benz brand as a symbol of timeless luxury and engineering excellence through the isolation of its iconic design elements.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "luxury_wealth_referent_system",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The three-pointed star functions as a primary signifier for prestige and status, while the illuminated grille suggests the power and engineering contained within the vehicle.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of dramatic, spotlight-style lighting and a dark background creates an atmosphere of exclusivity and sophistication, appealing to the viewer's desire for high-status consumption.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "By removing the full vehicle from the frame and focusing on the emblem and grille, the ad relies on brand recognition and the cultural capital associated with the Mercedes-Benz name rather than specific product features.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "The Mercedes-Benz logo (three-pointed star in a circle) and the text 'Mercedes-Benz' are displayed in the top left corner.",
+      "location": "top_left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A large, illuminated three-pointed star hood ornament is centered in the upper portion of the image, glowing against a dark background.",
+      "location": "center_top",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A close-up of a car's front grille with horizontal slats occupies the lower half of the image, illuminated by a spotlight effect.",
+      "location": "bottom_half",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The image utilizes a high-contrast, low-key lighting style with deep blacks and sharp highlights on the chrome elements.",
+      "location": "global",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The composition is symmetrical and centered, focusing attention strictly on the brand emblem and the vehicle's front fascia.",
+      "location": "global",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A minimalist, high-contrast advertisement for Mercedes-Benz that highlights the iconic three-pointed star and grille to evoke luxury, engineering precision, and brand heritage.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement positions the Mercedes-Benz brand as a symbol of timeless luxury and engineering excellence through the isolation of its iconic design elements.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "luxury_wealth_referent_system",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The three-pointed star functions as a primary signifier for prestige and status, while the illuminated grille suggests the power and engineering contained within the vehicle.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The use of dramatic, spotlight-style lighting and a dark background creates an atmosphere of exclusivity and sophistication, appealing to the viewer's desire for high-status consumption.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "By removing the full vehicle from the frame and focusing on the emblem and grille, the ad relies on brand recognition and the cultural capital associated with the Mercedes-Benz name rather than specific product features.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

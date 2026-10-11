@@ -1,0 +1,282 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-norwegian-airline-shows-destinations-on-its-nati-d4709d67",
+    "media_type": "image",
+    "path": "cases/real-norwegian-airline-shows-destinations-on-its-nati-d4709d67/asset.jpg",
+    "sha256": "d855b112a9aed47491220c9699adfc2a611cc01797ad4b677bce026dd9d4d98f"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:36:04.200Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-norwegian-airline-shows-destinations-on-its-nati-d4709d67",
+    "sha256": "d855b112a9aed47491220c9699adfc2a611cc01797ad4b677bce026dd9d4d98f"
+  },
+  "raw_provider_output": {
+    "summary": "Norwegian Air Shuttle uses the Norwegian flag as a visual metaphor to advertise affordable flights to global destinations, positioning the airline as a gateway to the world from Norway.",
+    "observations": [
+      {
+        "description": "The entire background of the advertisement is a close-up photograph of the Norwegian flag, featuring its red field and blue-and-white cross.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "White rectangular boxes are superimposed on the flag, each containing a destination city name (Paris, Amsterdam, Helsinki, Krakow, Bangkok) and a price (e.g., 299,-, 1299,-).",
+        "evidence_type": "copy",
+        "location": "center and left",
+        "confidence": "high"
+      },
+      {
+        "description": "The airline's logo and name 'norwegian' appear in the bottom right corner, accompanied by the tagline '417 routes to 126 destinations. Discover the world with norwegian'.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The prices are listed in a format typical of Scandinavian currencies (comma as decimal separator), such as '299,-' and '399,-'.",
+        "evidence_type": "price",
+        "location": "within destination boxes",
+        "confidence": "high"
+      },
+      {
+        "description": "The layout places the destinations and prices directly on the national symbol, visually connecting the act of flying with the identity of the country.",
+        "evidence_type": "layout",
+        "location": "overall composition",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The use of the national flag as the primary visual element functions as a signifier for national identity and pride, suggesting that Norwegian Air Shuttle is a representative of the country.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By displaying specific, low prices for international destinations, the ad employs a value proposition to persuade the audience that travel is affordable and accessible.",
+        "evidence_indices": [
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The advertisement communicates that Norwegian Air Shuttle offers a wide network of routes (417 routes to 126 destinations) that allow passengers to 'discover the world' starting from Norway.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The visual metaphor of the flag suggests that the airline is an extension of the nation itself, leveraging national pride to build brand trust and association.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "pride",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "The entire background of the advertisement is a close-up photograph of the Norwegian flag, featuring its red field and blue-and-white cross.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "White rectangular boxes are superimposed on the flag, each containing a destination city name (Paris, Amsterdam, Helsinki, Krakow, Bangkok) and a price (e.g., 299,-, 1299,-).",
+      "location": "center and left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The airline's logo and name 'norwegian' appear in the bottom right corner, accompanied by the tagline '417 routes to 126 destinations. Discover the world with norwegian'.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "price",
+      "description": "The prices are listed in a format typical of Scandinavian currencies (comma as decimal separator), such as '299,-' and '399,-'.",
+      "location": "within destination boxes",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The layout places the destinations and prices directly on the national symbol, visually connecting the act of flying with the identity of the country.",
+      "location": "overall composition",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "Norwegian Air Shuttle uses the Norwegian flag as a visual metaphor to advertise affordable flights to global destinations, positioning the airline as a gateway to the world from Norway.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The use of the national flag as the primary visual element functions as a signifier for national identity and pride, suggesting that Norwegian Air Shuttle is a representative of the country.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By displaying specific, low prices for international destinations, the ad employs a value proposition to persuade the audience that travel is affordable and accessible.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "core_message",
+        "text": "The advertisement communicates that Norwegian Air Shuttle offers a wide network of routes (417 routes to 126 destinations) that allow passengers to 'discover the world' starting from Norway.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The visual metaphor of the flag suggests that the airline is an extension of the nation itself, leveraging national pride to build brand trust and association.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "pride",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

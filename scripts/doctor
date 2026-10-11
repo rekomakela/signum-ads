@@ -1,0 +1,111 @@
+#!/usr/bin/env bash
+# Read-only environment and repository-readiness diagnostics.
+# Never installs dependencies or mutates project state.
+
+set -uo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+
+STRICT=0
+if [[ "${1:-}" == "--strict" ]]; then
+  STRICT=1
+  shift
+fi
+if [[ "$#" -ne 0 ]]; then
+  echo "usage: bash scripts/doctor [--strict]" >&2
+  exit 2
+fi
+
+ERRORS=0
+WARNINGS=0
+
+ok() { printf 'OK    %s\n' "$*"; }
+info() { printf 'INFO  %s\n' "$*"; }
+warn() { WARNINGS=$((WARNINGS + 1)); printf 'WARN  %s\n' "$*"; }
+error() { ERRORS=$((ERRORS + 1)); printf 'ERROR %s\n' "$*"; }
+strict_warn() {
+  if [[ "$STRICT" -eq 1 ]]; then
+    error "$*"
+  else
+    warn "$*"
+  fi
+}
+
+printf 'Signum repository doctor\n'
+printf '%s\n' '────────────────────────────────────────'
+
+EXPECTED_NODE="$(tr -d '[:space:]' < .nvmrc 2>/dev/null || true)"
+if [[ -z "$EXPECTED_NODE" ]]; then
+  error ".nvmrc is missing or empty"
+elif command -v node >/dev/null 2>&1; then
+  ACTUAL_NODE="$(node --version | sed 's/^v//')"
+  if [[ "$ACTUAL_NODE" == "$EXPECTED_NODE" ]]; then
+    ok "Node matches pin: $ACTUAL_NODE"
+  else
+    strict_warn "Node $ACTUAL_NODE does not match pinned $EXPECTED_NODE"
+  fi
+else
+  error "Node is not installed (expected $EXPECTED_NODE)"
+fi
+
+if command -v npm >/dev/null 2>&1; then
+  ok "npm available: $(npm --version)"
+else
+  error "npm is not installed"
+fi
+
+if [[ -f package-lock.json ]]; then
+  ok "package-lock.json present"
+else
+  error "package-lock.json missing"
+fi
+
+if [[ -d node_modules ]]; then
+  ok "workspace dependencies installed"
+else
+  strict_warn "node_modules absent; run bash scripts/bootstrap"
+fi
+
+if command -v node >/dev/null 2>&1; then
+  DOC_CHECK_OUTPUT="$(mktemp -t signum-doc-check.XXXXXX)"
+  if node scripts/check-docs.mjs >"$DOC_CHECK_OUTPUT" 2>&1; then
+    ok "documentation authority topology valid"
+  else
+    error "documentation authority topology invalid; run npm run docs:check"
+    sed -n '1,20p' "$DOC_CHECK_OUTPUT" 2>/dev/null || true
+  fi
+  rm -f "$DOC_CHECK_OUTPUT"
+fi
+
+
+if command -v git >/dev/null 2>&1; then
+  BRANCH="$(git branch --show-current 2>/dev/null || true)"
+  HEAD="$(git rev-parse --short HEAD 2>/dev/null || true)"
+  info "git: ${BRANCH:-detached}@${HEAD:-unknown}"
+  if [[ -n "$(git status --short 2>/dev/null)" ]]; then
+    info "worktree has local changes; preserve them explicitly before destructive operations"
+  else
+    ok "worktree clean"
+  fi
+else
+  error "git is not available"
+fi
+
+if [[ -n "${SIGNUM_DECODE_BASE_URL:-}" ]]; then
+  info "SIGNUM_DECODE_BASE_URL is set; runtime health must still be verified separately"
+else
+  info "decode runtime uses the documented local default unless overridden"
+fi
+
+if [[ -f .github/workflows/pages.yml ]]; then
+  info "static publication workflow is configured; this does not prove current Pages deployment state"
+fi
+
+printf '%s\n' '────────────────────────────────────────'
+printf 'Doctor: %d error(s), %d warning(s)\n' "$ERRORS" "$WARNINGS"
+
+if [[ "$ERRORS" -ne 0 ]]; then
+  exit 1
+fi
+exit 0

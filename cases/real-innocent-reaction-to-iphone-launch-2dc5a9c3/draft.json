@@ -1,0 +1,308 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-innocent-reaction-to-iphone-launch-2dc5a9c3",
+    "media_type": "image",
+    "path": "cases/real-innocent-reaction-to-iphone-launch-2dc5a9c3/asset.jpg",
+    "sha256": "4a914a02e1ddf5edb238ae013029c808d6b30f1d73b69002c206f6a281ad2417"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:11:52.887Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-innocent-reaction-to-iphone-launch-2dc5a9c3",
+    "sha256": "4a914a02e1ddf5edb238ae013029c808d6b30f1d73b69002c206f6a281ad2417"
+  },
+  "raw_provider_output": {
+    "summary": "A humorous advertisement for Innocent Apple Juice that mimics the layout of a high-tech product spec sheet to present a simple juice bottle as an innovative technological device.",
+    "observations": [
+      {
+        "description": "Headline text reads 'iNnocent 330 ML' and 'The latest in apple technology'.",
+        "evidence_type": "copy",
+        "location": "Top center",
+        "confidence": "high"
+      },
+      {
+        "description": "A bottle of apple juice is depicted with a red cap and a label featuring a cartoon apple with a halo.",
+        "evidence_type": "visual",
+        "location": "Center",
+        "confidence": "high"
+      },
+      {
+        "description": "Technical callouts point to bottle features with text such as 'INNOVATIVE OPEN/CLOSE MECHANISM plugs into any mouth' and 'NEW ROUNDED EDGES featuring Roundiest Ever Technology™'.",
+        "evidence_type": "copy",
+        "location": "Right side",
+        "confidence": "high"
+      },
+      {
+        "description": "A dimension line on the left indicates the bottle height as '6.69\" 170mm'.",
+        "evidence_type": "visual",
+        "location": "Left side",
+        "confidence": "high"
+      },
+      {
+        "description": "A blue price tag graphic displays 'under £539'.",
+        "evidence_type": "price",
+        "location": "Bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "Fine print at the bottom reads 'quite a bit under £539 actually. Does anyone read this stuff? Does anyone even read this far into the paper? Who knows. Might as well use it to flag something.'",
+        "evidence_type": "copy",
+        "location": "Bottom edge",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand name 'innocent' and product type 'apple juice' are visible on the bottle label.",
+        "evidence_type": "brand_mark",
+        "location": "Bottle label",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement uses a parody of tech marketing to position Innocent Apple Juice as a fun and 'innovative' product.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of technical specifications and a high price point creates a visual metaphor that elevates a simple beverage to the status of a premium gadget.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The fine print serves as a meta-commentary on the absurdity of the ad itself, reinforcing the brand's self-aware and witty personality.",
+        "evidence_indices": [
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By associating the product with the language of 'technology' and 'innovation', the ad leverages the cultural prestige of the tech industry to make the juice seem more desirable.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "Headline text reads 'iNnocent 330 ML' and 'The latest in apple technology'.",
+      "location": "Top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A bottle of apple juice is depicted with a red cap and a label featuring a cartoon apple with a halo.",
+      "location": "Center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "Technical callouts point to bottle features with text such as 'INNOVATIVE OPEN/CLOSE MECHANISM plugs into any mouth' and 'NEW ROUNDED EDGES featuring Roundiest Ever Technology™'.",
+      "location": "Right side",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A dimension line on the left indicates the bottle height as '6.69\" 170mm'.",
+      "location": "Left side",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "price",
+      "description": "A blue price tag graphic displays 'under £539'.",
+      "location": "Bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "Fine print at the bottom reads 'quite a bit under £539 actually. Does anyone read this stuff? Does anyone even read this far into the paper? Who knows. Might as well use it to flag something.'",
+      "location": "Bottom edge",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "brand_mark",
+      "description": "The brand name 'innocent' and product type 'apple juice' are visible on the bottle label.",
+      "location": "Bottle label",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A humorous advertisement for Innocent Apple Juice that mimics the layout of a high-tech product spec sheet to present a simple juice bottle as an innovative technological device.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement uses a parody of tech marketing to position Innocent Apple Juice as a fun and 'innovative' product.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of technical specifications and a high price point creates a visual metaphor that elevates a simple beverage to the status of a premium gadget.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "interpretation",
+        "text": "The fine print serves as a meta-commentary on the absurdity of the ad itself, reinforcing the brand's self-aware and witty personality.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "By associating the product with the language of 'technology' and 'innovation', the ad leverages the cultural prestige of the tech industry to make the juice seem more desirable.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,133 @@
+schema_version: signum_knowledge_validation_report.v0.1
+status: generated_static_check
+summary:
+  current_ontology_classes: 21
+  glossary_entries: 88
+  curated_social_concepts: 55
+  advertising_principles: 18
+  example_only_terms: 20
+  legacy_classes: 22
+  legacy_relations: 26
+  legacy_glossary_terms: 33
+glossary_ontology_ref_counts:
+  Signifier: 22
+  Signified: 1
+  ReferentSystem: 10
+  Ideology: 9
+  GlossaryEntry: 1
+  TryFirstResponse: 1
+  SocialConcept: 25
+  Observation: 1
+  Interpretation: 3
+  PersuasionTechnique: 8
+  NarrativePattern: 2
+  TargetAudience: 2
+  VisualStyle: 1
+  Advertisement: 1
+  EvidenceLink: 1
+missing_glossary_class_refs: []
+subtype_ref_warnings: []
+social_concepts:
+  status_counts:
+    curated: 30
+    promoted_to_glossary: 25
+  role_counts:
+    orientation_anchor: 5
+    comparison_lens: 24
+    interpretation_anchor: 4
+    counter_reading_prompt: 25
+    glossary_candidate: 26
+    representation_check: 10
+    subject_position_check: 1
+    audience_check: 2
+advertising_principles:
+  priority_counts:
+    P1: 13
+    P2: 5
+  principle_ids:
+  - separate_surface_from_idea
+  - find_the_main_claim
+  - look_for_what_is_implied
+  - read_signs_relationally
+  - identify_the_cultural_code
+  - execution_choices_shape_meaning
+  - distinguish_hard_sell_from_soft_sell
+  - attention_is_not_enough
+  - ask_what_supports_the_claim
+  - model_the_viewer
+  - decode_identity_and_desire
+  - name_the_persuasion_mechanism
+  - campaigns_repeat_with_variation
+  - evaluate_relevance_not_just_cleverness
+  - always_allow_counter_reading
+  - medium_changes_meaning
+  - simplicity_must_still_carry_insight
+  - exaggeration_must_begin_from_truth
+import_recommendation:
+- Commit files as content-only first.
+- Add or update validators in a later slice.
+- Normalize legacy lower_snake_case references only through an explicit mapping layer.
+- Resolve missing glossary ontology_ref classes before exposing all entries in runtime
+  UI.
+master_ontology:
+  status: corpus_model_v0.1_structurally_valid_with_known_glossary_coverage_debt
+  artifacts:
+    corpus_model: content/ontology/corpus-model.v0.1.yaml
+    controlled_concept_model: content/ontology/controlled-concept-model.v0.1.yaml
+    core_classes: content/ontology/core-classes.v1.yaml
+    core_relationships: content/ontology/core-relationships.v1.yaml
+    class_decisions: content/mappings/ontology-class-decisions.v1.yaml
+    decisions_doc: docs/knowledge/master-ontology-decisions.md
+  summary:
+    canonical_classes: 27
+    compatibility_classes: 4
+    core_relationships: 41
+    imported_class_decisions: 21
+    legacy_class_decisions: 22
+    new_or_promoted_classes: 11
+  structural_checks:
+    declared_class_count_matches: pass
+    active_and_compatibility_ids_unique: pass
+    active_and_compatibility_labels_unique: pass
+    relationship_ids_unique: pass
+    relationships_reference_active_classes: pass
+    decisions_reference_valid_imported_or_legacy_classes: pass
+    no_parking_lot_term_promoted: pass
+    no_learner_or_workbench_state_in_core: pass
+    known_glossary_coverage_debt:
+    - civic_duty
+    - visual_contrast
+  promoted_or_new:
+  - Brand
+  - Placement
+  - AcquisitionSource
+  - DecodeRevision
+  - AdvertiserClaim
+  - MeaningMechanism
+  - AudiencePosition
+  - TheoreticalConcept
+  - MetadataAssertion
+  - Market
+  - TemporalExtent
+  deferred_from_import:
+  - Source
+  - VisualStyle
+  - NarrativePattern
+  - ModernBridge
+  - TryFirstResponse
+  - UserSession
+  notes:
+  - Corpus Model v0.1 is authority/content only; current Decode schema, Case persistence,
+    model prompt, runtime vocabulary, frontend behavior, and case data are unchanged
+    by this slice.
+  - 'The knowledge validator passes the new corpus-model structural checks but still
+    reports two pre-existing controlled-vocabulary glossary coverage gaps: civic_duty
+    and visual_contrast.'
+  implementation_state_counts:
+    represented_or_reference_now: 15
+    target_model: 12
+  superseded_or_compatibility_only:
+  - Claim
+  - CounterReading
+  - TargetAudience
+  - GlossaryEntry

@@ -1,0 +1,245 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-advertising-both-their-pens-and-razors-0b2101fa",
+    "media_type": "image",
+    "path": "cases/real-advertising-both-their-pens-and-razors-0b2101fa/asset.jpg",
+    "sha256": "cc4c7670cac38c3672aea50c6833ad73d4dcd714c9bc67e10b827cf739c3d6ef"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:05:33.954Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-advertising-both-their-pens-and-razors-0b2101fa",
+    "sha256": "cc4c7670cac38c3672aea50c6833ad73d4dcd714c9bc67e10b827cf739c3d6ef"
+  },
+  "raw_provider_output": {
+    "summary": "A split-screen comparison showing a man with a full beard on the left and the same man clean-shaven on the right, implying that BIC products can remove facial hair.",
+    "observations": [
+      {
+        "description": "A man with a full, dark beard and mustache is shown on the left side of the image.",
+        "evidence_type": "visual",
+        "location": "left panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The same man is shown on the right side of the image, but he is completely clean-shaven.",
+        "evidence_type": "visual",
+        "location": "right panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The BIC logo is present in the top right corner of both panels.",
+        "evidence_type": "brand_mark",
+        "location": "top right of both panels",
+        "confidence": "high"
+      },
+      {
+        "description": "A small graphic of a razor is shown next to the BIC logo in the right panel.",
+        "evidence_type": "visual",
+        "location": "top right of right panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The layout is a side-by-side comparison, with the 'before' state on the left and the 'after' state on the right.",
+        "evidence_type": "layout",
+        "location": "entire image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "BIC razors are effective at removing facial hair, transforming a bearded man into a clean-shaven one.",
+        "evidence_indices": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "before_and_after",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of the same person in both panels creates a direct causal link between the product (implied by the razor icon) and the result (clean-shaven face).",
+        "evidence_indices": [
+          0,
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "causality",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets men who are considering removing their beards or are dissatisfied with their current facial hair.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "masculine_grooming",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A man with a full, dark beard and mustache is shown on the left side of the image.",
+      "location": "left panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The same man is shown on the right side of the image, but he is completely clean-shaven.",
+      "location": "right panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The BIC logo is present in the top right corner of both panels.",
+      "location": "top right of both panels",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A small graphic of a razor is shown next to the BIC logo in the right panel.",
+      "location": "top right of right panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The layout is a side-by-side comparison, with the 'before' state on the left and the 'after' state on the right.",
+      "location": "entire image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A split-screen comparison showing a man with a full beard on the left and the same man clean-shaven on the right, implying that BIC products can remove facial hair.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "BIC razors are effective at removing facial hair, transforming a bearded man into a clean-shaven one.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "before_and_after",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of the same person in both panels creates a direct causal link between the product (implied by the razor icon) and the result (clean-shaven face).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "causality",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "audience",
+        "text": "The ad targets men who are considering removing their beards or are dissatisfied with their current facial hair.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "masculine_grooming",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

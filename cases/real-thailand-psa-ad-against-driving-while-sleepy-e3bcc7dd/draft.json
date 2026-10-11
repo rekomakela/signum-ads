@@ -1,0 +1,292 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-thailand-psa-ad-against-driving-while-sleepy-e3bcc7dd",
+    "media_type": "image",
+    "path": "cases/real-thailand-psa-ad-against-driving-while-sleepy-e3bcc7dd/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:05:49.286Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-thailand-psa-ad-against-driving-while-sleepy-e3bcc7dd",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A public health advertisement warning that drowsiness is a greater threat to drivers than any vehicle, illustrated by a car looming over a sleepy eye.",
+    "observations": [
+      {
+        "description": "A close-up photograph of a human eye that is half-closed, with heavy eyelids and visible wrinkles, conveying a state of extreme fatigue.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "A small, sketched drawing of a car positioned directly above the eye, appearing to loom over the eyelid.",
+        "evidence_type": "visual",
+        "location": "upper center",
+        "confidence": "high"
+      },
+      {
+        "description": "A small, sketched drawing of a person on a bicycle positioned below the eye, appearing to be in the driver's peripheral vision or path.",
+        "evidence_type": "visual",
+        "location": "lower center",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text 'SLEEPINESS IS STRONGER THAN YOU.'",
+        "evidence_type": "copy",
+        "location": "bottom left",
+        "confidence": "high"
+      },
+      {
+        "description": "The logo and name 'ThaiHealth (Thai Health Promotion Foundation)' along with the project name 'DON'T DRIVE SLEEPY PROJECT'.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad warns that drowsiness is a dangerous force that can overpower a driver's control, leading to accidents.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The visual metaphor of the car looming over the eye represents the external threat of traffic, while the heavy eyelid represents the internal threat of sleep, suggesting the driver is losing the battle against fatigue.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By placing a vulnerable cyclist in the lower visual field, the ad implies that a sleepy driver might fail to notice or react to pedestrians and cyclists, highlighting the potential for fatal consequences.",
+        "evidence_indices": [
+          2,
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The phrase 'stronger than you' personifies sleepiness as an antagonist, shifting the blame from the driver's choice to an overwhelming physiological force that must be respected.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A close-up photograph of a human eye that is half-closed, with heavy eyelids and visible wrinkles, conveying a state of extreme fatigue.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A small, sketched drawing of a car positioned directly above the eye, appearing to loom over the eyelid.",
+      "location": "upper center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A small, sketched drawing of a person on a bicycle positioned below the eye, appearing to be in the driver's peripheral vision or path.",
+      "location": "lower center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The headline text 'SLEEPINESS IS STRONGER THAN YOU.'",
+      "location": "bottom left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The logo and name 'ThaiHealth (Thai Health Promotion Foundation)' along with the project name 'DON'T DRIVE SLEEPY PROJECT'.",
+      "location": "bottom right",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public health advertisement warning that drowsiness is a greater threat to drivers than any vehicle, illustrated by a car looming over a sleepy eye.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad warns that drowsiness is a dangerous force that can overpower a driver's control, leading to accidents.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The visual metaphor of the car looming over the eye represents the external threat of traffic, while the heavy eyelid represents the internal threat of sleep, suggesting the driver is losing the battle against fatigue.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By placing a vulnerable cyclist in the lower visual field, the ad implies that a sleepy driver might fail to notice or react to pedestrians and cyclists, highlighting the potential for fatal consequences.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The phrase 'stronger than you' personifies sleepiness as an antagonist, shifting the blame from the driver's choice to an overwhelming physiological force that must be respected.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

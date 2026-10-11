@@ -1,0 +1,247 @@
+schema_version: "signum_principles_v1"
+source_note: "Derived from OCR-assisted conceptual extraction; not quote-perfect."
+principles:
+  - id: separate_surface_from_idea
+    name: "Separate surface from idea"
+    statement: "An ad’s visible execution is not the same as its underlying concept."
+    why_it_matters_for_ad_decoding: "Prevents learners from stopping at style and pushes them toward meaning."
+    related_glossary_terms:
+      - execution
+      - signifier
+      - reading
+    related_ontology_classes:
+      - ad_execution
+      - signifier
+      - reading
+    priority: P1
+
+  - id: find_the_main_claim
+    name: "Find the main claim"
+    statement: "Most ads organize persuasion around one central promise, benefit, or proposition."
+    why_it_matters_for_ad_decoding: "Gives analysis a clear spine."
+    related_glossary_terms:
+      - persuasive_claim
+      - proposition
+    related_ontology_classes:
+      - persuasive_claim
+      - strategy_frame
+    priority: P1
+
+  - id: look_for_what_is_implied
+    name: "Look for what is implied"
+    statement: "Ads often persuade by leaving the viewer to complete the meaning."
+    why_it_matters_for_ad_decoding: "Supports the core Signum path from visible sign to implied meaning."
+    related_glossary_terms:
+      - implication
+      - audience_response
+    related_ontology_classes:
+      - audience_inference
+      - reading
+    priority: P1
+
+  - id: read_signs_relationally
+    name: "Read signs relationally"
+    statement: "Meaning often comes from the relation between image, words, symbols, layout, and brand cues."
+    why_it_matters_for_ad_decoding: "Prevents isolated label extraction and encourages real interpretation."
+    related_glossary_terms:
+      - signifier
+      - symbol
+      - visual_metaphor
+      - contrast
+    related_ontology_classes:
+      - signifier
+      - semiotic_device
+      - signified_meaning
+    priority: P1
+
+  - id: identify_the_cultural_code
+    name: "Identify the cultural code"
+    statement: "A sign works because it activates shared beliefs, stereotypes, myths, rituals, or values."
+    why_it_matters_for_ad_decoding: "Helps learners see culture inside persuasion."
+    related_glossary_terms:
+      - cultural_code
+      - symbol
+      - human_truth
+    related_ontology_classes:
+      - cultural_code
+      - signified_meaning
+    priority: P1
+
+  - id: execution_choices_shape_meaning
+    name: "Execution choices shape meaning"
+    statement: "Cropping, hierarchy, white space, scale, typography, color, and omission guide interpretation."
+    why_it_matters_for_ad_decoding: "Turns visible design choices into analyzable meaning."
+    related_glossary_terms:
+      - hierarchy
+      - framing
+      - contrast
+    related_ontology_classes:
+      - execution_choice
+      - signifier
+      - tone
+    priority: P1
+
+  - id: distinguish_hard_sell_from_soft_sell
+    name: "Distinguish hard sell from soft sell"
+    statement: "Some ads state the sale directly; others sell indirectly through identity, mood, or implication."
+    why_it_matters_for_ad_decoding: "Helps learners identify subtle persuasion."
+    related_glossary_terms:
+      - hard_sell
+      - soft_sell
+      - persuasive_claim
+    related_ontology_classes:
+      - persuasion_mechanism
+      - persuasive_claim
+    priority: P1
+
+  - id: attention_is_not_enough
+    name: "Attention is not enough"
+    statement: "A strong ad must connect attention to brand, claim, and relevance."
+    why_it_matters_for_ad_decoding: "Prevents cool-ad analysis without product or brand meaning."
+    related_glossary_terms:
+      - recall
+      - brand_cue
+      - brand
+      - relevance
+    related_ontology_classes:
+      - audience_response
+      - brand_cue
+      - brand
+      - reading
+    priority: P1
+
+  - id: ask_what_supports_the_claim
+    name: "Ask what supports the claim"
+    statement: "Claims become more credible when backed by evidence, demonstration, truth, or recognizable experience."
+    why_it_matters_for_ad_decoding: "Builds more careful interpretation by separating claim from support."
+    related_glossary_terms:
+      - support_reason
+      - human_truth
+      - proposition
+    related_ontology_classes:
+      - support_reason
+      - persuasive_claim
+    priority: P1
+
+  - id: model_the_viewer
+    name: "Model the viewer"
+    statement: "Ads speak to an intended audience and construct an implied viewer identity."
+    why_it_matters_for_ad_decoding: "Supports identity, desire, class, gender, status, and aspiration analysis."
+    related_glossary_terms:
+      - target_audience
+      - implied_viewer
+      - tone
+    related_ontology_classes:
+      - target_audience
+      - implied_viewer
+      - tone
+    priority: P1
+
+  - id: decode_identity_and_desire
+    name: "Decode identity and desire"
+    statement: "Ads often sell a self-image, aspiration, belonging, escape, relief, or status, not only a product."
+    why_it_matters_for_ad_decoding: "Keeps Signum focused on how ads create desire and identity."
+    related_glossary_terms:
+      - appeal
+      - implied_viewer
+      - cultural_code
+      - brand
+    related_ontology_classes:
+      - appeal
+      - implied_viewer
+      - cultural_code
+      - brand
+    priority: P1
+
+  - id: name_the_persuasion_mechanism
+    name: "Name the persuasion mechanism"
+    statement: "An ad may persuade through humor, fear, demonstration, social proof, status, logic, desire, or empathy."
+    why_it_matters_for_ad_decoding: "Helps learners move from reaction to explanation."
+    related_glossary_terms:
+      - appeal
+      - exaggeration
+      - testimonial
+    related_ontology_classes:
+      - persuasion_mechanism
+      - appeal
+    priority: P1
+
+  - id: campaigns_repeat_with_variation
+    name: "Campaigns repeat with variation"
+    statement: "Campaign executions should preserve a recognizable idea while changing the surface expression."
+    why_it_matters_for_ad_decoding: "Helps learners compare patterns across multiple ads."
+    related_glossary_terms:
+      - campaign
+      - brand_cue
+      - tone
+      - recall
+    related_ontology_classes:
+      - campaign_pattern
+      - brand_cue
+      - tone
+    priority: P2
+
+  - id: evaluate_relevance_not_just_cleverness
+    name: "Evaluate relevance, not just cleverness"
+    statement: "A clever sign or joke only works if it fits the product, audience, brand, and claim."
+    why_it_matters_for_ad_decoding: "Supports disciplined interpretation rather than taste-based reaction."
+    related_glossary_terms:
+      - relevance
+      - borrowed_interest
+      - persuasive_claim
+    related_ontology_classes:
+      - reading
+      - persuasive_claim
+    priority: P2
+
+  - id: always_allow_counter_reading
+    name: "Always allow counter-reading"
+    statement: "Viewers can resist, reinterpret, or critique the intended meaning."
+    why_it_matters_for_ad_decoding: "Keeps Signum critical and educational."
+    related_glossary_terms:
+      - counter_reading
+      - cultural_code
+      - reading
+    related_ontology_classes:
+      - counter_reading
+      - reading
+      - cultural_code
+    priority: P1
+
+  - id: medium_changes_meaning
+    name: "Medium changes meaning"
+    statement: "A poster, print ad, TV spot, radio ad, ambient placement, or interactive ad changes attention, sequence, and response."
+    why_it_matters_for_ad_decoding: "Prevents medium-blind analysis."
+    related_glossary_terms:
+      - medium
+      - interaction
+      - hierarchy
+    related_ontology_classes:
+      - medium_context
+      - audience_response
+    priority: P2
+
+  - id: simplicity_must_still_carry_insight
+    name: "Simplicity must still carry insight"
+    statement: "Simple ads work when they are meaningful, not merely plain."
+    why_it_matters_for_ad_decoding: "Helps learners evaluate minimal ads without mistaking plainness for strength."
+    related_glossary_terms:
+      - relevance
+      - human_truth
+      - proposition
+    related_ontology_classes:
+      - reading
+      - support_reason
+    priority: P2
+
+  - id: exaggeration_must_begin_from_truth
+    name: "Exaggeration must begin from truth"
+    statement: "Hyperbole is stronger when it amplifies something recognizable rather than inventing an arbitrary setup."
+    why_it_matters_for_ad_decoding: "Helps learners separate persuasive dramatization from contrivance."
+    related_glossary_terms:
+      - exaggeration
+      - human_truth
+    related_ontology_classes:
+      - persuasion_mechanism
+      - support_reason
+    priority: P2

@@ -1,0 +1,344 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-great-advertising-if-you-really-are-confident-ab-f04f7229",
+    "media_type": "image",
+    "path": "cases/real-great-advertising-if-you-really-are-confident-ab-f04f7229/asset.jpg",
+    "sha256": "b9d18f72082a970004ae3bae0aff76d5d76c70d1a10e211a1a239cc171a2da1b"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:55:10.708Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-great-advertising-if-you-really-are-confident-ab-f04f7229",
+    "sha256": "b9d18f72082a970004ae3bae0aff76d5d76c70d1a10e211a1a239cc171a2da1b"
+  },
+  "raw_provider_output": {
+    "summary": "A sidewalk sign invites passersby to try the 'worst pizza' a Trip Advisor reviewer has ever had, using self-deprecation and irony to generate curiosity and engagement.",
+    "observations": [
+      {
+        "description": "A black A-frame sidewalk sign with white text reading 'COME AND TRY THE WORST PIZZA ONE GUY ON TRIP ADVISOR EVER HAD IN HIS LIFE.'",
+        "evidence_type": "copy",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A white 'P' logo inside a circle, indicating a pizza brand, located at the bottom right of the sign.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right of the sign",
+        "confidence": "high"
+      },
+      {
+        "description": "The sign is placed on a paved sidewalk next to a stone step and a red brick wall with a black metal fence.",
+        "evidence_type": "visual",
+        "location": "background and surrounding area",
+        "confidence": "high"
+      },
+      {
+        "description": "The text is arranged in a stacked, left-aligned format with a bold, sans-serif font.",
+        "evidence_type": "layout",
+        "location": "on the sign face",
+        "confidence": "high"
+      },
+      {
+        "description": "The phrase 'COME AND TRY' serves as a direct call to action.",
+        "evidence_type": "cta",
+        "location": "top of the sign text",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad's core message is an invitation to experience a pizza that is ironically labeled as the 'worst' a reviewer has ever tasted, turning a negative into a unique selling point.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of the word 'worst' in a promotional context functions as a visual and verbal paradox, a semiotic device that signals irony and subverts standard advertising conventions.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By referencing a specific, relatable platform like Trip Advisor, the ad leverages social proof in reverse, implying that the pizza is so memorable it warranted a review, even if negative.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets a modern, digitally-savvy audience that is familiar with online review culture and appreciates humor and unconventional marketing.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The physical placement of the sign on a public sidewalk, combined with the casual, direct tone of the copy, creates an informal and approachable brand identity that contrasts with traditional, polished food advertising.",
+        "evidence_indices": [
+          1,
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "A black A-frame sidewalk sign with white text reading 'COME AND TRY THE WORST PIZZA ONE GUY ON TRIP ADVISOR EVER HAD IN HIS LIFE.'",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "A white 'P' logo inside a circle, indicating a pizza brand, located at the bottom right of the sign.",
+      "location": "bottom right of the sign",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The sign is placed on a paved sidewalk next to a stone step and a red brick wall with a black metal fence.",
+      "location": "background and surrounding area",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "layout",
+      "description": "The text is arranged in a stacked, left-aligned format with a bold, sans-serif font.",
+      "location": "on the sign face",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "cta",
+      "description": "The phrase 'COME AND TRY' serves as a direct call to action.",
+      "location": "top of the sign text",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A sidewalk sign invites passersby to try the 'worst pizza' a Trip Advisor reviewer has ever had, using self-deprecation and irony to generate curiosity and engagement.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad's core message is an invitation to experience a pizza that is ironically labeled as the 'worst' a reviewer has ever tasted, turning a negative into a unique selling point.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of the word 'worst' in a promotional context functions as a visual and verbal paradox, a semiotic device that signals irony and subverts standard advertising conventions.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By referencing a specific, relatable platform like Trip Advisor, the ad leverages social proof in reverse, implying that the pizza is so memorable it warranted a review, even if negative.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets a modern, digitally-savvy audience that is familiar with online review culture and appreciates humor and unconventional marketing.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "The physical placement of the sign on a public sidewalk, combined with the casual, direct tone of the copy, creates an informal and approachable brand identity that contrasts with traditional, polished food advertising.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

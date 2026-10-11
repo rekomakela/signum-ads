@@ -1,0 +1,360 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-an-idea-so-stupid-10fa4472",
+    "media_type": "image",
+    "path": "cases/real-an-idea-so-stupid-10fa4472/asset.jpg",
+    "sha256": "a27a313bd4b2a29427ae2c451ee52730729790ea06967404e4be4f1f0c42a0c0"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:08:30.318Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-an-idea-so-stupid-10fa4472",
+    "sha256": "a27a313bd4b2a29427ae2c451ee52730729790ea06967404e4be4f1f0c42a0c0"
+  },
+  "raw_provider_output": {
+    "summary": "The advertisement promotes Garage Lemon Lager by positioning its simple, unpretentious ingredients (lemon, ice, alcohol) as a 'kind of genius' through a minimalist, self-deprecating visual style.",
+    "observations": [
+      {
+        "description": "Handwritten text in black marker at the top of the page reads: 'idea: MAKE AN AD SO DUMB, PEOPLE WILL ACTUALLY WANT TO LOOK AT THE BOTTOM TO SEE WHO THE HECK PAID FOR THIS SHIT.'",
+        "evidence_type": "copy",
+        "location": "top center",
+        "confidence": "high"
+      },
+      {
+        "description": "A photograph of a glass bottle of 'Garage Lemon Lager' and a glass mason jar mug filled with a pale yellow beverage.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The bottle label features a diamond shape with the text 'GARAGE' and 'LEMON LAGER'.",
+        "evidence_type": "brand_mark",
+        "location": "center on bottle",
+        "confidence": "high"
+      },
+      {
+        "description": "Bold, sans-serif text in a box below the product image reads: 'LEMON. ICE. AND ALCOHOL. KIND OF GENIUS. KIND OF.'",
+        "evidence_type": "copy",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "Small print at the very bottom of the ad reads: 'DRINKING RESPONSIBLY. IT'S KIND OF GENIUS.'",
+        "evidence_type": "copy",
+        "location": "bottom edge",
+        "confidence": "high"
+      },
+      {
+        "description": "The ad is printed on a page that appears to be a newspaper, with columns of Norwegian text visible to the left.",
+        "evidence_type": "context",
+        "location": "left side",
+        "confidence": "high"
+      },
+      {
+        "description": "The background of the ad is plain white, creating a stark contrast with the black text and the product photo.",
+        "evidence_type": "layout",
+        "location": "entire ad area",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The product is a simple, no-nonsense beverage made from basic ingredients, and its simplicity is its main selling point.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a mason jar and a simple bottle design evokes a sense of authenticity, craft, and a 'garage' or DIY aesthetic, distancing the product from mass-produced, overly polished brands.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "craft_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "authenticity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The handwritten 'idea' text acts as a meta-commentary, using self-deprecation and a 'dumb' concept to create a sense of insider knowledge and cleverness, making the ad itself a point of interest.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets a demographic that appreciates irony, wit, and a rejection of traditional, high-budget advertising, likely younger consumers or those with an interest in craft and independent brands.",
+        "evidence_indices": [
+          0,
+          3,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The phrase 'KIND OF GENIUS. KIND OF.' is a deliberate understatement that reinforces the brand's casual, unpretentious tone, suggesting that while the product is good, it doesn't take itself too seriously.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "understatement",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "Handwritten text in black marker at the top of the page reads: 'idea: MAKE AN AD SO DUMB, PEOPLE WILL ACTUALLY WANT TO LOOK AT THE BOTTOM TO SEE WHO THE HECK PAID FOR THIS SHIT.'",
+      "location": "top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A photograph of a glass bottle of 'Garage Lemon Lager' and a glass mason jar mug filled with a pale yellow beverage.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The bottle label features a diamond shape with the text 'GARAGE' and 'LEMON LAGER'.",
+      "location": "center on bottle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "Bold, sans-serif text in a box below the product image reads: 'LEMON. ICE. AND ALCOHOL. KIND OF GENIUS. KIND OF.'",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "Small print at the very bottom of the ad reads: 'DRINKING RESPONSIBLY. IT'S KIND OF GENIUS.'",
+      "location": "bottom edge",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "The ad is printed on a page that appears to be a newspaper, with columns of Norwegian text visible to the left.",
+      "location": "left side",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "layout",
+      "description": "The background of the ad is plain white, creating a stark contrast with the black text and the product photo.",
+      "location": "entire ad area",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The advertisement promotes Garage Lemon Lager by positioning its simple, unpretentious ingredients (lemon, ice, alcohol) as a 'kind of genius' through a minimalist, self-deprecating visual style.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The product is a simple, no-nonsense beverage made from basic ingredients, and its simplicity is its main selling point.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a mason jar and a simple bottle design evokes a sense of authenticity, craft, and a 'garage' or DIY aesthetic, distancing the product from mass-produced, overly polished brands.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "craft_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "authenticity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The handwritten 'idea' text acts as a meta-commentary, using self-deprecation and a 'dumb' concept to create a sense of insider knowledge and cleverness, making the ad itself a point of interest.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets a demographic that appreciates irony, wit, and a rejection of traditional, high-budget advertising, likely younger consumers or those with an interest in craft and independent brands.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "The phrase 'KIND OF GENIUS. KIND OF.' is a deliberate understatement that reinforces the brand's casual, unpretentious tone, suggesting that while the product is good, it doesn't take itself too seriously.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "understatement",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

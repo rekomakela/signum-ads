@@ -1,0 +1,282 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-a-picture-is-worth-1000-words-no-tag-line-necess-b461c1b7",
+    "media_type": "image",
+    "path": "cases/real-a-picture-is-worth-1000-words-no-tag-line-necess-b461c1b7/asset.jpg",
+    "sha256": "966197b9135a3a50ca631da269b45ea483edcddcddea57e98b05130dc37290e0"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-15T23:48:37.943Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-a-picture-is-worth-1000-words-no-tag-line-necess-b461c1b7",
+    "sha256": "966197b9135a3a50ca631da269b45ea483edcddcddea57e98b05130dc37290e0"
+  },
+  "raw_provider_output": {
+    "summary": "Tabasco sauce is presented as a versatile condiment that can be used in unexpected ways, such as on corn on the cob, to add a unique flavor profile.",
+    "observations": [
+      {
+        "description": "A bottle of Tabasco sauce with its distinctive red cap and diamond-shaped label is positioned in the background.",
+        "evidence_type": "brand_mark",
+        "location": "top left",
+        "confidence": "high"
+      },
+      {
+        "description": "A whole ear of corn on the cob sits on a white plate in the foreground.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "Several pieces of popped popcorn are scattered on top of the corn and on the plate.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The scene is set against a plain blue background with a beige table surface, creating a clean, studio-shot aesthetic.",
+        "evidence_type": "layout",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The corn appears to have been partially eaten, with a section of kernels missing, revealing the cob underneath.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Tabasco is a versatile condiment that can enhance even simple foods like corn on the cob.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "versatility",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The juxtaposition of the classic Tabasco bottle with the unexpected combination of corn and popcorn creates a sense of culinary experimentation and playfulness.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "culinary_experimentation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By showing the product in a casual, everyday setting (corn on the cob), the ad positions Tabasco as an accessible and practical addition to any meal, not just a specialty item.",
+        "evidence_indices": [
+          0,
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "everyday_use",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The partially eaten corn suggests that the product has already been tried and enjoyed, implying a positive consumer experience.",
+        "evidence_indices": [
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "A bottle of Tabasco sauce with its distinctive red cap and diamond-shaped label is positioned in the background.",
+      "location": "top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A whole ear of corn on the cob sits on a white plate in the foreground.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "Several pieces of popped popcorn are scattered on top of the corn and on the plate.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "layout",
+      "description": "The scene is set against a plain blue background with a beige table surface, creating a clean, studio-shot aesthetic.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "The corn appears to have been partially eaten, with a section of kernels missing, revealing the cob underneath.",
+      "location": "center",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "Tabasco sauce is presented as a versatile condiment that can be used in unexpected ways, such as on corn on the cob, to add a unique flavor profile.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Tabasco is a versatile condiment that can enhance even simple foods like corn on the cob.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "versatility",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The juxtaposition of the classic Tabasco bottle with the unexpected combination of corn and popcorn creates a sense of culinary experimentation and playfulness.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "culinary_experimentation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By showing the product in a casual, everyday setting (corn on the cob), the ad positions Tabasco as an accessible and practical addition to any meal, not just a specialty item.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "everyday_use",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The partially eaten corn suggests that the product has already been tried and enjoyed, implying a positive consumer experience.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

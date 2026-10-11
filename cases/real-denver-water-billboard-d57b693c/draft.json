@@ -1,0 +1,327 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-denver-water-billboard-d57b693c",
+    "media_type": "image",
+    "path": "cases/real-denver-water-billboard-d57b693c/asset.jpg",
+    "sha256": "8901e2c2c1fb643eb37414789a8e4f5e7925eba91080fae82febdcafd259d1f3"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:32:08.413Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-denver-water-billboard-d57b693c",
+    "sha256": "8901e2c2c1fb643eb37414789a8e4f5e7925eba91080fae82febdcafd259d1f3"
+  },
+  "raw_provider_output": {
+    "summary": "A public service advertisement for Denver Water that uses the visual metaphor of an empty billboard frame to urge consumers to practice water conservation by using only what is necessary.",
+    "observations": [
+      {
+        "description": "A large billboard structure is shown from a low angle, but the main display area is empty, revealing only the metal scaffolding and support beams against a cloudy sky.",
+        "evidence_type": "visual",
+        "location": "center and upper portion of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A bright orange rectangular panel is mounted on the right side of the empty billboard frame.",
+        "evidence_type": "visual",
+        "location": "right side of the billboard structure",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'USE ONLY WHAT YOU NEED.' is printed in large, white, sans-serif capital letters on the orange panel.",
+        "evidence_type": "copy",
+        "location": "upper section of the orange panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The 'DENVER WATER' logo and name appear in white text at the bottom of the orange panel, accompanied by a small water drop icon.",
+        "evidence_type": "brand_mark",
+        "location": "bottom of the orange panel",
+        "confidence": "high"
+      },
+      {
+        "description": "A city skyline with various high-rise buildings and trees is visible in the background beneath the billboard.",
+        "evidence_type": "context",
+        "location": "bottom of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard is supported by a thick, rusted metal pole.",
+        "evidence_type": "visual",
+        "location": "center bottom of the image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement's primary message is a direct call to action for water conservation, specifically to limit consumption to only what is essential.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The empty billboard frame functions as a visual metaphor for 'emptying' or reducing water usage, reinforcing the textual message through the absence of a typical commercial image.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of a stark, empty structure creates a sense of minimalism and focus, stripping away commercial noise to emphasize the simplicity and importance of the conservation message.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The presence of the city skyline and the specific branding of 'Denver Water' targets the local urban population, framing water conservation as a civic responsibility for city residents.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "By subverting the expectation of a billboard to sell a product, the ad positions water not as a commodity to be bought, but as a resource to be respected and managed wisely.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large billboard structure is shown from a low angle, but the main display area is empty, revealing only the metal scaffolding and support beams against a cloudy sky.",
+      "location": "center and upper portion of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A bright orange rectangular panel is mounted on the right side of the empty billboard frame.",
+      "location": "right side of the billboard structure",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The text 'USE ONLY WHAT YOU NEED.' is printed in large, white, sans-serif capital letters on the orange panel.",
+      "location": "upper section of the orange panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The 'DENVER WATER' logo and name appear in white text at the bottom of the orange panel, accompanied by a small water drop icon.",
+      "location": "bottom of the orange panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "A city skyline with various high-rise buildings and trees is visible in the background beneath the billboard.",
+      "location": "bottom of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The billboard is supported by a thick, rusted metal pole.",
+      "location": "center bottom of the image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public service advertisement for Denver Water that uses the visual metaphor of an empty billboard frame to urge consumers to practice water conservation by using only what is necessary.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement's primary message is a direct call to action for water conservation, specifically to limit consumption to only what is essential.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The empty billboard frame functions as a visual metaphor for 'emptying' or reducing water usage, reinforcing the textual message through the absence of a typical commercial image.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The use of a stark, empty structure creates a sense of minimalism and focus, stripping away commercial noise to emphasize the simplicity and importance of the conservation message.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The presence of the city skyline and the specific branding of 'Denver Water' targets the local urban population, framing water conservation as a civic responsibility for city residents.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "By subverting the expectation of a billboard to sell a product, the ad positions water not as a commodity to be bought, but as a resource to be respected and managed wisely.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

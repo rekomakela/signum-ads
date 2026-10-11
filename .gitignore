@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+dist/
+tmp/
+.state/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+frontend/src/lib/generated/signum-workbench-data.json
+frontend/src/lib/generated/signum-glossary-data.json
+frontend/static/generated/

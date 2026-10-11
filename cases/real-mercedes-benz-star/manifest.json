@@ -1,0 +1,220 @@
+{
+  "manifest_id": "real-mercedes-benz-star",
+  "asset": {
+    "asset_id": "asset_real_mercedes_benz_star",
+    "media_type": "image",
+    "path": "cases/real-mercedes-benz-star/asset.jpg",
+    "sha256": "bcca74201a7f85aaa4b93c916831c7b09fc16bc079a13fbf6242adb31f2bf4b1"
+  },
+  "source_url": "https://www.reddit.com/r/AdPorn/comments/1tjtx4/mercedesbenz_christmas_advertisement_472x521/",
+  "summary": "Real Mercedes-Benz case built from the supplied image, using a star emblem and stark lighting to foreground luxury control.",
+  "learning_guidance": {
+    "overview": "Use this case to study how darkness, emblem placement, and careful lighting make luxury feel controlled rather than loud.",
+    "look_for": [
+      "the three-pointed star hovering above the grille",
+      "the nearly black field surrounding the vehicle",
+      "the lit grille that stages the emblem like a spotlight"
+    ],
+    "concepts_to_know": [
+      "authority",
+      "luxury_wealth_referent_system",
+      "status"
+    ],
+    "concept_explanations": {
+      "authority": "Making the brand feel credible, powerful, or worth trusting through the star and controlled lighting.",
+      "luxury_wealth_referent_system": "Using restraint, rarity, polish, or distance to suggest wealth or luxury.",
+      "status": "Linking the product or brand to social standing through a composed, high-end presentation."
+    },
+    "thinking_questions": [
+      "What emotion does restraint create compared with abundance?",
+      "What does the black field hide?"
+    ],
+    "connects_to": [
+      "real-ford-saudi-women-driving",
+      "real-volkswagen-beetles"
+    ]
+  },
+  "observations": [
+    {
+      "ref": "obs_star_emblem",
+      "evidence_type": "brand_mark",
+      "description": "The Mercedes three-pointed star hangs above the grille like a lit icon.",
+      "location": "upper center",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_black_field",
+      "evidence_type": "visual",
+      "description": "A nearly black field surrounds the subject, isolating the front of the vehicle in the frame.",
+      "location": "full frame",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_wordmark",
+      "evidence_type": "brand_mark",
+      "description": "The Mercedes-Benz wordmark sits in the upper-left corner.",
+      "location": "upper left",
+      "confidence": "medium"
+    },
+    {
+      "ref": "obs_grille_light",
+      "evidence_type": "layout",
+      "description": "The grille is lit from above and below, creating a spotlight effect around the emblem.",
+      "location": "center frame",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_context_source",
+      "evidence_type": "context",
+      "description": "Analysis is based on the provided image and source provenance, not external campaign knowledge.",
+      "location": null,
+      "confidence": "high"
+    }
+  ],
+  "claims": [
+    {
+      "ref": "claim_core_message",
+      "kind": "core_message",
+      "text": "The star and grille can be read as presenting the front of the car as a composed icon of control.",
+      "evidence_refs": [
+        {
+          "ref": "obs_star_emblem",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_grille_light",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "signifier",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "ontology_class",
+          "reference_value": "ReferentSystem",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_persuasion",
+      "kind": "persuasion",
+      "text": "The lighting suggests prestige and confidence more than abundance, positioning restraint as strength.",
+      "evidence_refs": [
+        {
+          "ref": "obs_star_emblem",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_black_field",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_wordmark",
+          "support": "unsupported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "persuasion_technique",
+          "reference_value": "authority",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "confidence",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "trust",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_semiotic",
+      "kind": "semiotic",
+      "text": "The star functions like a beacon, while the grille becomes a stage for the emblem.",
+      "evidence_refs": [
+        {
+          "ref": "obs_star_emblem",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_grille_light",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "semiotics",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "cultural_code",
+          "reference_value": "cultural_capital",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_interpretation",
+      "kind": "interpretation",
+      "text": "The image frames minimalism as authority and luxury rather than emptiness.",
+      "evidence_refs": [
+        {
+          "ref": "obs_black_field",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_context_source",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "luxury_wealth_referent_system",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "status",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_interpretation_alternate",
+      "kind": "interpretation",
+      "text": "The same black field can also read as distance or coldness, making the scene feel remote rather than inviting.",
+      "evidence_refs": [
+        {
+          "ref": "obs_black_field",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_grille_light",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "symbol",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "trust",
+          "required_for_claim": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-mcdonalds-sun-clock-from-2006-agency-leo-burnett-481c02c3",
+    "media_type": "image",
+    "path": "cases/real-mcdonalds-sun-clock-from-2006-agency-leo-burnett-481c02c3/asset.jpg",
+    "sha256": "13c96425ae9d2e4557ac1e4cf8224835b4ff7dde348cdc86214b32141aa0a665"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:25:36.918Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-mcdonalds-sun-clock-from-2006-agency-leo-burnett-481c02c3",
+    "sha256": "13c96425ae9d2e4557ac1e4cf8224835b4ff7dde348cdc86214b32141aa0a665"
+  },
+  "raw_provider_output": {
+    "summary": "A McDonald's billboard displays a numbered selection of breakfast items, including coffee, pastries, and sandwiches, against a bold red background to promote their morning menu.",
+    "observations": [
+      {
+        "description": "A large red billboard featuring the McDonald's golden arches logo and the slogan 'I'm lovin' it' in the bottom left corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom left of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A white cup of black coffee with the number '6' next to it.",
+        "evidence_type": "visual",
+        "location": "top left of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A breakfast sandwich with a waffle-style bun and egg, labeled with the number '7'.",
+        "evidence_type": "visual",
+        "location": "center-left of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A blueberry muffin with white icing, labeled with the number '8'.",
+        "evidence_type": "visual",
+        "location": "center of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A breakfast sandwich with a round bun, labeled with the number '9'.",
+        "evidence_type": "visual",
+        "location": "center-right of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A donut with a bite taken out, revealing a cream filling, labeled with the number '10'.",
+        "evidence_type": "visual",
+        "location": "right of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A breakfast sandwich with a bagel bun, labeled with the number '11'.",
+        "evidence_type": "visual",
+        "location": "far right of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "Thin white lines radiating from the top right corner, connecting to each food item.",
+        "evidence_type": "layout",
+        "location": "across the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A city street scene with U-Haul trucks and a Quizno's sign visible below the billboard.",
+        "evidence_type": "context",
+        "location": "bottom of the image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement promotes a variety of McDonald's breakfast options, using a numbered list to suggest a simple, easy-to-navigate menu.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a bold red background and the golden arches logo functions as a powerful signifier for the McDonald's brand, creating immediate recognition and association with fast food.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The high-quality, appetizing images of the food items are used to create desire and visualize the positive outcome of a McDonald's breakfast.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The numbered items suggest a 'build your own' or 'choose your favorite' approach, appealing to the consumer's sense of control and personal preference.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "A large red billboard featuring the McDonald's golden arches logo and the slogan 'I'm lovin' it' in the bottom left corner.",
+      "location": "bottom left of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A white cup of black coffee with the number '6' next to it.",
+      "location": "top left of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A breakfast sandwich with a waffle-style bun and egg, labeled with the number '7'.",
+      "location": "center-left of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A blueberry muffin with white icing, labeled with the number '8'.",
+      "location": "center of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A breakfast sandwich with a round bun, labeled with the number '9'.",
+      "location": "center-right of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "A donut with a bite taken out, revealing a cream filling, labeled with the number '10'.",
+      "location": "right of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "visual",
+      "description": "A breakfast sandwich with a bagel bun, labeled with the number '11'.",
+      "location": "far right of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_008",
+      "evidence_type": "layout",
+      "description": "Thin white lines radiating from the top right corner, connecting to each food item.",
+      "location": "across the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_009",
+      "evidence_type": "context",
+      "description": "A city street scene with U-Haul trucks and a Quizno's sign visible below the billboard.",
+      "location": "bottom of the image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A McDonald's billboard displays a numbered selection of breakfast items, including coffee, pastries, and sandwiches, against a bold red background to promote their morning menu.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement promotes a variety of McDonald's breakfast options, using a numbered list to suggest a simple, easy-to-navigate menu.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a bold red background and the golden arches logo functions as a powerful signifier for the McDonald's brand, creating immediate recognition and association with fast food.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The high-quality, appetizing images of the food items are used to create desire and visualize the positive outcome of a McDonald's breakfast.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The numbered items suggest a 'build your own' or 'choose your favorite' approach, appealing to the consumer's sense of control and personal preference.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

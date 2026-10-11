@@ -1,0 +1,343 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-mcdonald-s-minimalistic-typographical-ad-1e7786d0",
+    "media_type": "image",
+    "path": "cases/real-mcdonald-s-minimalistic-typographical-ad-1e7786d0/asset.jpg",
+    "sha256": "ea0e5b92261f418252b8b8733db658b706996360fe1b92bc17116f06b5dffd02"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:22:31.095Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-mcdonald-s-minimalistic-typographical-ad-1e7786d0",
+    "sha256": "ea0e5b92261f418252b8b8733db658b706996360fe1b92bc17116f06b5dffd02"
+  },
+  "raw_provider_output": {
+    "summary": "A minimalist outdoor advertisement for Burger King that uses a typographic list of ingredients to visually construct the anatomy of a burger, relying on brand recognition and simplicity to convey product quality.",
+    "observations": [
+      {
+        "description": "A large green billboard mounted on a building facade in an urban setting at dusk.",
+        "evidence_type": "visual",
+        "location": "center-right",
+        "confidence": "high"
+      },
+      {
+        "description": "A vertical stack of text listing burger ingredients: 'Bun', 'Beef', 'Gherkin', 'Lettuce', 'Sauce', 'Bun', 'Beef', 'Cheese', 'Lettuce', 'Sauce', 'Bun'.",
+        "evidence_type": "copy",
+        "location": "center of billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "The text is color-coded to represent the ingredients: white for bun, reddish-brown for beef, yellow for gherkin/cheese, and green for lettuce/sauce.",
+        "evidence_type": "visual",
+        "location": "text block",
+        "confidence": "high"
+      },
+      {
+        "description": "The text is arranged in a centered, columnar format that mimics the physical stacking order of a burger.",
+        "evidence_type": "layout",
+        "location": "billboard text",
+        "confidence": "high"
+      },
+      {
+        "description": "A 'FORALL OUTDOOR MEDIA' logo is visible on the building below the billboard.",
+        "evidence_type": "brand_mark",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a solid, deep green color, characteristic of Burger King's brand identity.",
+        "evidence_type": "visual",
+        "location": "billboard background",
+        "confidence": "high"
+      },
+      {
+        "description": "The scene includes a traffic light showing green and a blurred car, indicating a busy city street.",
+        "evidence_type": "context",
+        "location": "left and foreground",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The advertisement employs a visual metaphor where the vertical arrangement of text serves as a signifier for the physical structure of a burger, transforming a list into a recognizable object.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By listing specific ingredients like 'Gherkin' and 'Beef' in a clean, uncluttered format, the ad appeals to the consumer's desire for transparency and quality, suggesting a premium product without using explicit superlatives.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The ad relies on the 'green' background and the specific ingredient list to trigger brand recognition for Burger King, positioning the product as a simple, honest, and well-constructed meal.",
+        "evidence_indices": [
+          1,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "Product",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of a minimalist, text-only design in a busy urban environment creates a 'curiosity gap' or visual pause, forcing the viewer to mentally assemble the burger from the words, thereby engaging them more deeply than a standard photo would.",
+        "evidence_indices": [
+          0,
+          3,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large green billboard mounted on a building facade in an urban setting at dusk.",
+      "location": "center-right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "A vertical stack of text listing burger ingredients: 'Bun', 'Beef', 'Gherkin', 'Lettuce', 'Sauce', 'Bun', 'Beef', 'Cheese', 'Lettuce', 'Sauce', 'Bun'.",
+      "location": "center of billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The text is color-coded to represent the ingredients: white for bun, reddish-brown for beef, yellow for gherkin/cheese, and green for lettuce/sauce.",
+      "location": "text block",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "layout",
+      "description": "The text is arranged in a centered, columnar format that mimics the physical stacking order of a burger.",
+      "location": "billboard text",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "A 'FORALL OUTDOOR MEDIA' logo is visible on the building below the billboard.",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The background is a solid, deep green color, characteristic of Burger King's brand identity.",
+      "location": "billboard background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "context",
+      "description": "The scene includes a traffic light showing green and a blurred car, indicating a busy city street.",
+      "location": "left and foreground",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A minimalist outdoor advertisement for Burger King that uses a typographic list of ingredients to visually construct the anatomy of a burger, relying on brand recognition and simplicity to convey product quality.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The advertisement employs a visual metaphor where the vertical arrangement of text serves as a signifier for the physical structure of a burger, transforming a list into a recognizable object.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By listing specific ingredients like 'Gherkin' and 'Beef' in a clean, uncluttered format, the ad appeals to the consumer's desire for transparency and quality, suggesting a premium product without using explicit superlatives.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "core_message",
+        "text": "The ad relies on the 'green' background and the specific ingredient list to trigger brand recognition for Burger King, positioning the product as a simple, honest, and well-constructed meal.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "Product",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The use of a minimalist, text-only design in a busy urban environment creates a 'curiosity gap' or visual pause, forcing the viewer to mentally assemble the burger from the words, thereby engaging them more deeply than a standard photo would.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

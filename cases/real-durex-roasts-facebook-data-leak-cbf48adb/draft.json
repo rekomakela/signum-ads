@@ -1,0 +1,287 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-durex-roasts-facebook-data-leak-cbf48adb",
+    "media_type": "image",
+    "path": "cases/real-durex-roasts-facebook-data-leak-cbf48adb/asset.jpg",
+    "sha256": "f3c9982e4981342f8c28a9e1f7766f23802dad852c920c527c727b0152bf83d0"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:38:23.468Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-durex-roasts-facebook-data-leak-cbf48adb",
+    "sha256": "f3c9982e4981342f8c28a9e1f7766f23802dad852c920c527c727b0152bf83d0"
+  },
+  "raw_provider_output": {
+    "summary": "A Durex advertisement that uses a visual pun to equate the Facebook logo with a condom, humorously asserting the product's reliability with the tagline 'NO LEAKS'.",
+    "observations": [
+      {
+        "description": "The Durex brand logo is visible in the top left corner, accompanied by the slogan 'love sex'.",
+        "evidence_type": "brand_mark",
+        "location": "top_left",
+        "confidence": "high"
+      },
+      {
+        "description": "A large, stylized Facebook 'f' logo is depicted in the center, but the bottom of the letter is replaced by a translucent, textured condom with a rolled rim.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "A single drop of liquid is shown falling from the tip of the condom portion of the logo.",
+        "evidence_type": "visual",
+        "location": "center_bottom",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'NO LEAKS' is printed in white capital letters at the bottom of the image.",
+        "evidence_type": "copy",
+        "location": "bottom_center",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a solid, gradient blue color, matching the brand color of Facebook.",
+        "evidence_type": "layout",
+        "location": "background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement's primary message is that Durex condoms are reliable and do not leak, ensuring a safe experience.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by merging the Facebook logo with a condom, creating a pun where 'leaks' refers to both the product's function and the concept of data or privacy leaks on the social media platform.",
+        "evidence_indices": [
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of a well-known social media brand creates a humorous and memorable association, leveraging the cultural ubiquity of Facebook to make the product's benefit (reliability) more impactful.",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The single drop of liquid serves as a visual anchor for the word 'leaks,' grounding the abstract wordplay in a concrete, physical representation of the product's potential failure, which the brand then negates.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "The Durex brand logo is visible in the top left corner, accompanied by the slogan 'love sex'.",
+      "location": "top_left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A large, stylized Facebook 'f' logo is depicted in the center, but the bottom of the letter is replaced by a translucent, textured condom with a rolled rim.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A single drop of liquid is shown falling from the tip of the condom portion of the logo.",
+      "location": "center_bottom",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'NO LEAKS' is printed in white capital letters at the bottom of the image.",
+      "location": "bottom_center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The background is a solid, gradient blue color, matching the brand color of Facebook.",
+      "location": "background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A Durex advertisement that uses a visual pun to equate the Facebook logo with a condom, humorously asserting the product's reliability with the tagline 'NO LEAKS'.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement's primary message is that Durex condoms are reliable and do not leak, ensuring a safe experience.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by merging the Facebook logo with a condom, creating a pun where 'leaks' refers to both the product's function and the concept of data or privacy leaks on the social media platform.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The use of a well-known social media brand creates a humorous and memorable association, leveraging the cultural ubiquity of Facebook to make the product's benefit (reliability) more impactful.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The single drop of liquid serves as a visual anchor for the word 'leaks,' grounding the abstract wordplay in a concrete, physical representation of the product's potential failure, which the brand then negates.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

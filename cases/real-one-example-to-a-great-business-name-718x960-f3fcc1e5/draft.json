@@ -1,0 +1,305 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-one-example-to-a-great-business-name-718x960-f3fcc1e5",
+    "media_type": "image",
+    "path": "cases/real-one-example-to-a-great-business-name-718x960-f3fcc1e5/asset.jpg",
+    "sha256": "1652eb6c6a1d912f820832a00ee71bce3c91a17a1a30693fa1a3c95f213950b7"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:42:24.500Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-one-example-to-a-great-business-name-718x960-f3fcc1e5",
+    "sha256": "1652eb6c6a1d912f820832a00ee71bce3c91a17a1a30693fa1a3c95f213950b7"
+  },
+  "raw_provider_output": {
+    "summary": "A sign for 'Ill Eagle Fireworks' uses a cartoon eagle mascot and the slogan 'COUGH COUGH' to create a humorous, memorable brand identity, while 'Since 1978' establishes a long-standing local presence.",
+    "observations": [
+      {
+        "description": "A cartoon illustration of an eagle's head wearing a black top hat, with a stern or unimpressed expression.",
+        "evidence_type": "visual",
+        "location": "Top-left of the main sign",
+        "confidence": "high"
+      },
+      {
+        "description": "The text '\"COUGH\" \"COUGH\"' is written next to the eagle's beak, implying the eagle is coughing.",
+        "evidence_type": "copy",
+        "location": "Top-right of the main sign",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand name 'ILL EAGLE FIREWORKS' is written in large, red, arched letters.",
+        "evidence_type": "copy",
+        "location": "Center of the main sign",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'Since 1978' is displayed in black, indicating the year the business was founded.",
+        "evidence_type": "copy",
+        "location": "Bottom-right of the main sign",
+        "confidence": "high"
+      },
+      {
+        "description": "A yellow banner with a large red letter 'F' is visible to the right of the main sign.",
+        "evidence_type": "visual",
+        "location": "Right edge of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The sign is mounted on the exterior of a building with white siding.",
+        "evidence_type": "context",
+        "location": "Background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad's core message is to identify the business as 'Ill Eagle Fireworks' and to make it memorable through a humorous and slightly irreverent mascot.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The eagle, a national symbol of the United States, is subverted by giving it a top hat and a cough, which creates a comedic contrast and a more approachable, local-feeling brand identity rather than a purely patriotic one.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The phrase 'Since 1978' is used to build trust and credibility by signaling longevity and experience in the fireworks business.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The name 'Ill Eagle' is likely a play on words, possibly a reference to the state of Illinois ('Ill') combined with the eagle mascot, creating a unique and catchy brand name.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A cartoon illustration of an eagle's head wearing a black top hat, with a stern or unimpressed expression.",
+      "location": "Top-left of the main sign",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text '\"COUGH\" \"COUGH\"' is written next to the eagle's beak, implying the eagle is coughing.",
+      "location": "Top-right of the main sign",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The brand name 'ILL EAGLE FIREWORKS' is written in large, red, arched letters.",
+      "location": "Center of the main sign",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'Since 1978' is displayed in black, indicating the year the business was founded.",
+      "location": "Bottom-right of the main sign",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A yellow banner with a large red letter 'F' is visible to the right of the main sign.",
+      "location": "Right edge of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "The sign is mounted on the exterior of a building with white siding.",
+      "location": "Background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A sign for 'Ill Eagle Fireworks' uses a cartoon eagle mascot and the slogan 'COUGH COUGH' to create a humorous, memorable brand identity, while 'Since 1978' establishes a long-standing local presence.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad's core message is to identify the business as 'Ill Eagle Fireworks' and to make it memorable through a humorous and slightly irreverent mascot.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The eagle, a national symbol of the United States, is subverted by giving it a top hat and a cough, which creates a comedic contrast and a more approachable, local-feeling brand identity rather than a purely patriotic one.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The phrase 'Since 1978' is used to build trust and credibility by signaling longevity and experience in the fireworks business.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The name 'Ill Eagle' is likely a play on words, possibly a reference to the state of Illinois ('Ill') combined with the eagle mascot, creating a unique and catchy brand name.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

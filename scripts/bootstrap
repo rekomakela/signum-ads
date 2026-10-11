@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Deterministic bootstrap for the tracked Signum Decoder toolchain.
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+
+EXPECTED_NODE="$(tr -d '[:space:]' < .nvmrc)"
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "ERROR: Node is not installed. Expected $EXPECTED_NODE from .nvmrc." >&2
+  exit 1
+fi
+
+ACTUAL_NODE="$(node --version | sed 's/^v//')"
+if [[ "$ACTUAL_NODE" != "$EXPECTED_NODE" ]]; then
+  echo "WARNING: expected Node $EXPECTED_NODE; current Node is $ACTUAL_NODE." >&2
+  echo "         Use your Node version manager to activate .nvmrc before certification runs." >&2
+fi
+
+npm ci
+
+cat <<EOF
+
+Bootstrap complete.
+Node: $(node --version)
+npm:  $(npm --version)
+
+Next:
+  bash scripts/doctor --strict
+  bash scripts/validate
+EOF

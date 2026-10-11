@@ -1,0 +1,9 @@
+cases/
+dist/
+node_modules/
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+frontend/src/lib/generated/
+reports/
+tmp/

@@ -1,0 +1,348 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-jbl-noise-cancelling-headphones-7281658c",
+    "media_type": "image",
+    "path": "cases/real-jbl-noise-cancelling-headphones-7281658c/asset.jpg",
+    "sha256": "f48af036143490034e179f348d6685746843b2826601ffbf5d82a47e0b529dae"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:13:24.664Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-jbl-noise-cancelling-headphones-7281658c",
+    "sha256": "f48af036143490034e179f348d6685746843b2826601ffbf5d82a47e0b529dae"
+  },
+  "raw_provider_output": {
+    "summary": "A surreal advertisement for JBL noise-cancelling headphones that uses a visual metaphor of a calm individual ignoring the aggressive shouting of world leaders to demonstrate the product's ability to block out chaos.",
+    "observations": [
+      {
+        "description": "A central figure with short dark hair and glasses is shown with eyes closed and a calm, slight smile, positioned in the center of the frame.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "Two caricatured figures resembling Donald Trump (left) and Kim Jong-un (right) are shown with mouths wide open in aggressive shouting, flanking the central figure.",
+        "evidence_type": "visual",
+        "location": "left and right",
+        "confidence": "high"
+      },
+      {
+        "description": "The figure on the left (Trump) is holding a red missile-like object near the central figure's head.",
+        "evidence_type": "visual",
+        "location": "top left",
+        "confidence": "high"
+      },
+      {
+        "description": "The figure on the right (Kim Jong-un) is holding a yellow box with a large red emergency stop button.",
+        "evidence_type": "visual",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The JBL logo is displayed in white text at the bottom center of the image.",
+        "evidence_type": "brand_mark",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'NOISE-CANCELLING HEADPHONES' appears in small white capital letters directly below the JBL logo.",
+        "evidence_type": "copy",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The composition creates a visual frame where the open mouths of the shouting figures surround the peaceful face of the central subject.",
+        "evidence_type": "layout",
+        "location": "overall composition",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "JBL noise-cancelling headphones allow the user to maintain inner peace and ignore external chaos and conflict.",
+        "evidence_indices": [
+          0,
+          1,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of caricatures of world leaders represents the 'noise' of global politics and geopolitical tension, which the product is capable of silencing.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The contrast between the aggressive, high-stakes actions of the leaders (missile, emergency button) and the serene expression of the user highlights the effectiveness of the noise cancellation.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "relief",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets an audience that feels overwhelmed by the current political climate and seeks a personal sanctuary or escape from the news cycle.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "freedom",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A central figure with short dark hair and glasses is shown with eyes closed and a calm, slight smile, positioned in the center of the frame.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "Two caricatured figures resembling Donald Trump (left) and Kim Jong-un (right) are shown with mouths wide open in aggressive shouting, flanking the central figure.",
+      "location": "left and right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The figure on the left (Trump) is holding a red missile-like object near the central figure's head.",
+      "location": "top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The figure on the right (Kim Jong-un) is holding a yellow box with a large red emergency stop button.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The JBL logo is displayed in white text at the bottom center of the image.",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "The text 'NOISE-CANCELLING HEADPHONES' appears in small white capital letters directly below the JBL logo.",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "layout",
+      "description": "The composition creates a visual frame where the open mouths of the shouting figures surround the peaceful face of the central subject.",
+      "location": "overall composition",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A surreal advertisement for JBL noise-cancelling headphones that uses a visual metaphor of a calm individual ignoring the aggressive shouting of world leaders to demonstrate the product's ability to block out chaos.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "JBL noise-cancelling headphones allow the user to maintain inner peace and ignore external chaos and conflict.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of caricatures of world leaders represents the 'noise' of global politics and geopolitical tension, which the product is capable of silencing.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The contrast between the aggressive, high-stakes actions of the leaders (missile, emergency button) and the serene expression of the user highlights the effectiveness of the noise cancellation.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "relief",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets an audience that feels overwhelmed by the current political climate and seeks a personal sanctuary or escape from the news cycle.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "freedom",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

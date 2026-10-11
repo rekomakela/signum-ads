@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Set up Python for glossary data generation
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Python dependencies
+        run: python -m pip install --disable-pip-version-check pyyaml
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      # Tests and frontend checks read generated data artifacts (glossary
+      # catalog, workbench data). Produce them before the gate so it passes
+      # from a clean checkout.
+      - name: Generate frontend data
+        run: npm run frontend:data
+
+      - name: Validate repository
+        run: bash scripts/validate

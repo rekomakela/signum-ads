@@ -1,0 +1,321 @@
+schema_version: signum_persuasion_taxonomy.v1
+status: source_content
+project: Signum
+last_updated: '2026-06-24'
+purpose: >-
+  Source-content reconciliation of Signum's persuasion knowledge across three divergent
+  layers: the runtime controlled-vocabulary persuasion_technique / emotional_lever IDs, the
+  imported ontology PersuasionTechnique subtypes (layer 04), and the glossary technique
+  entries. This file is SOURCE CONTENT only. It is NOT a runtime snapshot, is NOT wired into
+  validators/export, and does NOT mutate controlled-vocabulary.v1.json. See
+  docs/knowledge/controlled-vocabulary-ontology-alignment.md.
+ontology_refs:
+  technique_class: PersuasionTechnique
+  technique_class_id: SIG-C-11
+  lever_class: EmotionalLever
+  lever_class_id: SIG-C-12
+  technique_uses_lever_relationship: SIG-R-15
+runtime_status_legend:
+  in_controlled_vocabulary: ID is present in controlled-vocabulary.v1.json today and resolves at runtime.
+  conceptual_only: Ontology subtype + glossary entry exist, but there is no runtime ID yet. Do not reference in a case until added (would block export).
+  runtime_only_needs_grounding: Runtime ID exists, but the imported ontology has no matching subtype and the glossary has no technique entry. Needs conceptual grounding.
+evidence_hint_vocabulary:
+  source: src/contracts/decode-draft-v1.ts EVIDENCE_TYPES
+  values: [visual, copy, layout, context, cta, price, brand_mark]
+techniques:
+  - id: social_proof
+    label: Social Proof
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: SocialProof
+    glossary_ref: social_proof
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      Using the behaviour or approval of others to make a claim feel credible or desirable.
+    evidence_hints: [copy, visual]
+    common_emotional_levers: [trust, status]
+    related_social_concepts: [social_norm]
+    related_ideologies: []
+    source_notes: Present in controlled vocabulary, ontology subtype SocialProof, and glossary social_proof.
+    decision_note: Fully aligned across all three layers; reference example in seed-digital-scarcity.
+  - id: scarcity
+    label: Scarcity
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: Scarcity
+    glossary_ref: scarcity
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      Framing access as limited in time, quantity, or eligibility to create urgency.
+    evidence_hints: [copy, cta, price]
+    common_emotional_levers: [relief, control]
+    related_social_concepts: [social_identity_threat]
+    related_ideologies: []
+    source_notes: Present in controlled vocabulary, ontology subtype Scarcity, and glossary scarcity.
+    decision_note: Fully aligned; used in seed-digital-scarcity.
+  - id: authority
+    label: Authority
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: Authority
+    glossary_ref: authority_persuasion
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      Making a brand or claim feel credible, expert, or worthy of trust through legitimacy cues.
+    evidence_hints: [visual, copy, brand_mark]
+    common_emotional_levers: [trust, confidence]
+    related_social_concepts: [authority_social_concept, power_distance]
+    related_ideologies: [scientific_authority]
+    source_notes: Runtime ID is `authority`; glossary entry is `authority_persuasion` (alias); ontology subtype Authority.
+    decision_note: >-
+      Persuasion sense only. Distinct from authority_social_concept (social legitimacy as a
+      SocialConcept). See aliases.
+  - id: reciprocity
+    label: Reciprocity
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: Reciprocity
+    glossary_ref: reciprocity
+    runtime_status: conceptual_only
+    plain_language: >-
+      Offering something first so the viewer feels an obligation to give back.
+    evidence_hints: [copy, cta]
+    common_emotional_levers: [trust]
+    related_social_concepts: []
+    related_ideologies: []
+    source_notes: Ontology subtype Reciprocity + glossary reciprocity; NOT in controlled vocabulary.
+    decision_note: Conceptually grounded; defer runtime ID until a case needs it (adding now = dead ID, referencing without it = blocked export).
+  - id: liking_and_association
+    label: Liking and Association
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: LikingAssociation
+    glossary_ref: liking_and_association
+    runtime_status: conceptual_only
+    plain_language: >-
+      Transferring positive feeling from an attractive person, mood, or lifestyle onto the product.
+    evidence_hints: [visual]
+    common_emotional_levers: [trust, hope]
+    related_social_concepts: []
+    related_ideologies: [mirror_identification]
+    source_notes: Ontology subtype LikingAssociation + glossary; NOT in controlled vocabulary.
+    decision_note: Modern bridge from mirror_identification ideology. Defer runtime ID until needed.
+  - id: outcome_visualization
+    label: Outcome Visualization
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: OutcomeVisualization
+    glossary_ref: outcome_visualization
+    runtime_status: conceptual_only
+    plain_language: >-
+      Showing the clean, finished result while hiding the work, so the outcome feels easy and given.
+    evidence_hints: [visual]
+    common_emotional_levers: [hope, confidence]
+    related_social_concepts: []
+    related_ideologies: [magic_naturalization]
+    source_notes: Ontology subtype OutcomeVisualization + glossary; NOT in controlled vocabulary.
+    decision_note: Modern bridge from magic_naturalization ideology. Defer runtime ID until needed.
+  - id: commitment_and_consistency
+    label: Commitment and Consistency
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: CommitmentConsistency
+    glossary_ref: commitment_and_consistency
+    runtime_status: conceptual_only
+    plain_language: >-
+      Securing a small first step so the viewer stays consistent with a larger later action.
+    evidence_hints: [copy, cta]
+    common_emotional_levers: [confidence, control]
+    related_social_concepts: []
+    related_ideologies: []
+    source_notes: Ontology subtype CommitmentConsistency + glossary; NOT in controlled vocabulary.
+    decision_note: Rarely visible in a single static frame; defer runtime ID until needed.
+  - id: curiosity_gap
+    label: Curiosity Gap
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: CuriosityGap
+    glossary_ref: curiosity_gap
+    runtime_status: conceptual_only
+    plain_language: >-
+      Withholding a piece of information so the viewer feels pulled to resolve the gap.
+    evidence_hints: [copy, layout]
+    common_emotional_levers: [hope]
+    related_social_concepts: []
+    related_ideologies: []
+    source_notes: Ontology subtype CuriosityGap + glossary; NOT in controlled vocabulary.
+    decision_note: Digital/CRO-specific but useful for ad deconstruction; defer runtime ID until needed.
+  - id: aspiration
+    label: Aspiration
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: null
+    glossary_ref: aspiration
+    runtime_status: runtime_only_needs_grounding
+    plain_language: >-
+      Appealing to the viewer's desire to become someone better, more successful, or more valued.
+    evidence_hints: [visual, copy]
+    common_emotional_levers: [hope, status, confidence]
+    related_social_concepts: []
+    related_ideologies: [success_through_consumption]
+    source_notes: In controlled vocabulary and frontend metadata; NO ontology subtype, NO glossary technique entry.
+    decision_note: >-
+      Runtime-origin marketing framing. Keep the runtime ID; defer adding an ontology subtype.
+      Overlaps Signified.Emotion(aspiration) and hope/status levers.
+  - id: identity_signaling
+    label: Identity Signaling
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: null
+    glossary_ref: identity_signaling
+    runtime_status: runtime_only_needs_grounding
+    plain_language: >-
+      Using a product or brand to communicate the kind of person or group the viewer might be.
+    evidence_hints: [visual, brand_mark]
+    common_emotional_levers: [status, confidence]
+    related_social_concepts: [cultural_identity, identity_social_science]
+    related_ideologies: []
+    source_notes: In controlled vocabulary and frontend metadata; NO ontology subtype, NO glossary technique entry.
+    decision_note: >-
+      Runtime-origin framing. Keep the runtime ID; overlaps SocialConcept(IdentityCategory).
+      Stays a technique, not a social concept.
+  - id: simplicity_framing
+    label: Simplicity Framing
+    ontology_class: PersuasionTechnique
+    ontology_class_id: SIG-C-11
+    ontology_subtype: null
+    glossary_ref: simplicity_framing
+    runtime_status: runtime_only_needs_grounding
+    plain_language: >-
+      Presenting a complex need or problem as if it has a clear, immediate, purchasable solution.
+    evidence_hints: [copy, layout]
+    common_emotional_levers: [relief, confidence]
+    related_social_concepts: []
+    related_ideologies: []
+    source_notes: In controlled vocabulary and frontend metadata; NO ontology subtype, NO glossary technique entry.
+    decision_note: >-
+      Runtime-origin CRO framing. Keep the runtime ID; overlaps Claim(core_message) and the relief lever.
+      Used in real-ikea-sleep.
+levers:
+  - id: control
+    label: Control
+    ontology_class: EmotionalLever
+    ontology_class_id: SIG-C-12
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      A promised sense of agency, order, command, or reduced vulnerability.
+    related_techniques: [scarcity, commitment_and_consistency]
+    source_notes: Controlled vocabulary + frontend metadata; no imported lever taxonomy.
+    decision_note: Runtime-origin. SIG-C-12 EmotionalLever has no ontology subtype enum; this file is its first source-content backing.
+  - id: hope
+    label: Hope
+    ontology_class: EmotionalLever
+    ontology_class_id: SIG-C-12
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      A feeling that a better outcome is possible, used to make an offer feel promising.
+    related_techniques: [aspiration, outcome_visualization, curiosity_gap]
+    source_notes: Controlled vocabulary + frontend metadata; no imported lever taxonomy.
+    decision_note: Runtime-origin.
+  - id: confidence
+    label: Confidence
+    ontology_class: EmotionalLever
+    ontology_class_id: SIG-C-12
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      A feeling of assurance, control, or reduced uncertainty offered by the advertisement.
+    related_techniques: [authority, outcome_visualization]
+    source_notes: Controlled vocabulary + frontend metadata; overlaps Signified.Emotion(confidence).
+    decision_note: Runtime-origin.
+  - id: status
+    label: Status
+    ontology_class: EmotionalLever
+    ontology_class_id: SIG-C-12
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      A desired feeling of social standing, recognition, prestige, or distinction.
+    related_techniques: [social_proof, identity_signaling, aspiration]
+    source_notes: Controlled vocabulary + frontend metadata; overlaps Signified.SocialPosition(status).
+    decision_note: Runtime-origin.
+  - id: relief
+    label: Relief
+    ontology_class: EmotionalLever
+    ontology_class_id: SIG-C-12
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      A promised release from discomfort, effort, uncertainty, or risk.
+    related_techniques: [simplicity_framing, scarcity]
+    source_notes: Controlled vocabulary + frontend metadata; no imported lever taxonomy.
+    decision_note: Runtime-origin.
+  - id: trust
+    label: Trust
+    ontology_class: EmotionalLever
+    ontology_class_id: SIG-C-12
+    runtime_status: in_controlled_vocabulary
+    plain_language: >-
+      A feeling of safety or reliance on a brand, person, or system to deliver as promised.
+    related_techniques: [authority, social_proof, reciprocity, liking_and_association]
+    source_notes: Controlled vocabulary + frontend metadata; no imported lever taxonomy.
+    decision_note: Runtime-origin.
+aliases:
+  - alias: authority_persuasion
+    canonical: authority
+    kind: glossary_entry_to_technique
+    note: Glossary entry `authority_persuasion` names the same technique as runtime `authority`.
+  - alias: SocialProof
+    canonical: social_proof
+    kind: ontology_subtype_to_technique
+  - alias: Scarcity
+    canonical: scarcity
+    kind: ontology_subtype_to_technique
+  - alias: Authority
+    canonical: authority
+    kind: ontology_subtype_to_technique
+  - alias: Reciprocity
+    canonical: reciprocity
+    kind: ontology_subtype_to_technique
+  - alias: LikingAssociation
+    canonical: liking_and_association
+    kind: ontology_subtype_to_technique
+  - alias: OutcomeVisualization
+    canonical: outcome_visualization
+    kind: ontology_subtype_to_technique
+  - alias: CommitmentConsistency
+    canonical: commitment_and_consistency
+    kind: ontology_subtype_to_technique
+  - alias: CuriosityGap
+    canonical: curiosity_gap
+    kind: ontology_subtype_to_technique
+mapping_notes:
+  - Three technique layers diverge. Shared by all three: social_proof, scarcity, authority.
+  - conceptual_only (ontology + glossary, no runtime ID): reciprocity, liking_and_association, outcome_visualization, commitment_and_consistency, curiosity_gap.
+  - runtime_only_needs_grounding (runtime ID, no ontology subtype/glossary): aspiration, identity_signaling, simplicity_framing.
+  - All six emotional levers are runtime-origin; SIG-C-12 had no imported taxonomy before this file.
+deferred_or_excluded:
+  - item: authority_social_concept
+    reason: Social legitimacy as a SocialConcept (SocialRole), not the persuasion technique. Distinct from the `authority` technique.
+    better_modeled_as: SocialConcept
+  - item: testimonial
+    reason: An instance/example of social_proof or authority, not a top-level technique.
+    better_modeled_as: GlossaryEntry
+  - item: borrowed_interest
+    reason: Parking-lot/example-only term (P3 glossary).
+    better_modeled_as: GlossaryEntry
+  - item: hard_sell / soft_sell
+    reason: Sell-style framing of a claim, not a catalog technique.
+    better_modeled_as: Claim / Interpretation
+  - item: appeal
+    reason: Reading-level persuasion vocabulary, not a catalog technique.
+    better_modeled_as: Interpretation
+  - item: call_to_action
+    reason: A text role of a Signifier (and a parking-lot term), not a technique.
+    better_modeled_as: Signifier
+  - item: cultural_capital / cultural_identity / cultural_hegemony
+    reason: Shared cultural codes, not persuasion techniques.
+    better_modeled_as: CulturalCode
+  - item: media terms (ambient media, interactive media, viral effect)
+    reason: Medium/distribution concepts, not persuasion techniques.
+    better_modeled_as: excluded
+  - item: parking-lot terms (USP, single-minded proposition, teaser campaign, mnemonic, etc.)
+    reason: Example-only / do-not-promote per content/parking-lot/example_only_terms.yaml.
+    better_modeled_as: excluded

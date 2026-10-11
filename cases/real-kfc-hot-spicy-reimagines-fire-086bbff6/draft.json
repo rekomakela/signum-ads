@@ -1,0 +1,320 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-kfc-hot-spicy-reimagines-fire-086bbff6",
+    "media_type": "image",
+    "path": "cases/real-kfc-hot-spicy-reimagines-fire-086bbff6/asset.jpg",
+    "sha256": "c76c98e1184c6c9ec878461c60702aa81066ef9c9e00f6f030f14909ef142257"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:14:40.919Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-kfc-hot-spicy-reimagines-fire-086bbff6",
+    "sha256": "c76c98e1184c6c9ec878461c60702aa81066ef9c9e00f6f030f14909ef142257"
+  },
+  "raw_provider_output": {
+    "summary": "KFC's 'Hot & Spicy' chicken is so intensely flavorful that it powers a race car, leaving a trail of fried chicken in its wake.",
+    "observations": [
+      {
+        "description": "A red and white race car, number 11, is speeding along a racetrack.",
+        "evidence_type": "visual",
+        "location": "center-right",
+        "confidence": "high"
+      },
+      {
+        "description": "A massive, textured trail of golden-brown fried chicken extends from the car's exhaust, replacing the typical smoke or flame.",
+        "evidence_type": "visual",
+        "location": "left to center",
+        "confidence": "high"
+      },
+      {
+        "description": "The KFC logo featuring Colonel Sanders is visible in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'HOT & SPICY' is displayed next to the KFC logo.",
+        "evidence_type": "copy",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "A checkered finish line and a traffic light are visible in the background, establishing a racing context.",
+        "evidence_type": "visual",
+        "location": "top center",
+        "confidence": "high"
+      },
+      {
+        "description": "The word 'away' is partially visible on the track surface near the finish line.",
+        "evidence_type": "copy",
+        "location": "top center",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The product's spiciness is so powerful it functions as a high-octane fuel source.",
+        "evidence_indices": [
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "exaggeration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The fried chicken trail serves as a visual metaphor for the 'heat' of the food, translating a sensory experience (spice) into a visual one (speed and power).",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By associating the food with the high-energy world of motorsports, the ad appeals to a desire for excitement and intensity.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "excitement",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The surreal nature of the image creates a curiosity gap, forcing the viewer to reconcile the absurdity of a chicken-fueled car to understand the brand's message about flavor intensity.",
+        "evidence_indices": [
+          1,
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A red and white race car, number 11, is speeding along a racetrack.",
+      "location": "center-right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A massive, textured trail of golden-brown fried chicken extends from the car's exhaust, replacing the typical smoke or flame.",
+      "location": "left to center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The KFC logo featuring Colonel Sanders is visible in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'HOT & SPICY' is displayed next to the KFC logo.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A checkered finish line and a traffic light are visible in the background, establishing a racing context.",
+      "location": "top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "The word 'away' is partially visible on the track surface near the finish line.",
+      "location": "top center",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "KFC's 'Hot & Spicy' chicken is so intensely flavorful that it powers a race car, leaving a trail of fried chicken in its wake.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The product's spiciness is so powerful it functions as a high-octane fuel source.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "exaggeration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The fried chicken trail serves as a visual metaphor for the 'heat' of the food, translating a sensory experience (spice) into a visual one (speed and power).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By associating the food with the high-energy world of motorsports, the ad appeals to a desire for excitement and intensity.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "excitement",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The surreal nature of the image creates a curiosity gap, forcing the viewer to reconcile the absurdity of a chicken-fueled car to understand the brand's message about flavor intensity.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

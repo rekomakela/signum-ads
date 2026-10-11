@@ -1,0 +1,318 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-one-child-is-holding-something-that-s-been-banne-0b971f29",
+    "media_type": "image",
+    "path": "cases/real-one-child-is-holding-something-that-s-been-banne-0b971f29/asset.jpg",
+    "sha256": "5ef54a3546a21715e6393fd8284b621e268681c9253049c10ca0764b1c2038fb"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:39:15.672Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-one-child-is-holding-something-that-s-been-banne-0b971f29",
+    "sha256": "5ef54a3546a21715e6393fd8284b621e268681c9253049c10ca0764b1c2038fb"
+  },
+  "raw_provider_output": {
+    "summary": "A public service advertisement by Moms Demand Action that uses a visual contrast between a child holding a chocolate egg and another holding an assault weapon to argue for stricter gun control laws in the United States.",
+    "observations": [
+      {
+        "description": "A young boy in a red t-shirt stands in a classroom holding a Kinder chocolate egg in both hands.",
+        "evidence_type": "visual",
+        "location": "Left-center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A young girl in a striped shirt stands next to the boy, holding a black assault rifle (AR-15 style) with both hands.",
+        "evidence_type": "visual",
+        "location": "Right-center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "Headline text in a black box reads: 'ONE CHILD IS HOLDING SOMETHING THAT'S BEEN BANNED IN AMERICA TO PROTECT THEM. GUESS WHICH ONE.'",
+        "evidence_type": "copy",
+        "location": "Top center",
+        "confidence": "high"
+      },
+      {
+        "description": "Body copy at the bottom reads: 'We won't sell Kinder chocolate eggs in the interest of child safety. Why not assault weapons?'",
+        "evidence_type": "copy",
+        "location": "Bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The logo for 'MOMS DEMAND ACTION FOR GUN SENSE IN AMERICA' is visible in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom right corner",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a typical elementary school classroom with a chalkboard, desks, and a calendar.",
+        "evidence_type": "context",
+        "location": "Background",
+        "confidence": "high"
+      },
+      {
+        "description": "The URL 'MOMSDEMANDACTION.ORG' is displayed below the body copy.",
+        "evidence_type": "cta",
+        "location": "Bottom center",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement argues that assault weapons should be banned in the United States to protect children, drawing a parallel to the safety regulations surrounding food products like chocolate eggs.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The juxtaposition of the innocent chocolate egg and the lethal weapon creates a visual metaphor that frames gun violence as a threat to childhood innocence.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad utilizes a rhetorical question to challenge the viewer's logic, suggesting that if society accepts safety bans on other items, it should logically accept bans on firearms.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "emotional",
+        "text": "By placing a weapon in the hands of a child in a school setting, the ad triggers a fear appeal regarding the vulnerability of children to gun violence.",
+        "evidence_indices": [
+          1,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A young boy in a red t-shirt stands in a classroom holding a Kinder chocolate egg in both hands.",
+      "location": "Left-center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A young girl in a striped shirt stands next to the boy, holding a black assault rifle (AR-15 style) with both hands.",
+      "location": "Right-center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "Headline text in a black box reads: 'ONE CHILD IS HOLDING SOMETHING THAT'S BEEN BANNED IN AMERICA TO PROTECT THEM. GUESS WHICH ONE.'",
+      "location": "Top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "Body copy at the bottom reads: 'We won't sell Kinder chocolate eggs in the interest of child safety. Why not assault weapons?'",
+      "location": "Bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The logo for 'MOMS DEMAND ACTION FOR GUN SENSE IN AMERICA' is visible in the bottom right corner.",
+      "location": "Bottom right corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "The background is a typical elementary school classroom with a chalkboard, desks, and a calendar.",
+      "location": "Background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "cta",
+      "description": "The URL 'MOMSDEMANDACTION.ORG' is displayed below the body copy.",
+      "location": "Bottom center",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public service advertisement by Moms Demand Action that uses a visual contrast between a child holding a chocolate egg and another holding an assault weapon to argue for stricter gun control laws in the United States.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement argues that assault weapons should be banned in the United States to protect children, drawing a parallel to the safety regulations surrounding food products like chocolate eggs.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The juxtaposition of the innocent chocolate egg and the lethal weapon creates a visual metaphor that frames gun violence as a threat to childhood innocence.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad utilizes a rhetorical question to challenge the viewer's logic, suggesting that if society accepts safety bans on other items, it should logically accept bans on firearms.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "By placing a weapon in the hands of a child in a school setting, the ad triggers a fear appeal regarding the vulnerability of children to gun violence.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

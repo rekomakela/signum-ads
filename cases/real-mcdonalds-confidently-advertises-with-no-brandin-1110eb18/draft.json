@@ -1,0 +1,245 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-mcdonalds-confidently-advertises-with-no-brandin-1110eb18",
+    "media_type": "image",
+    "path": "cases/real-mcdonalds-confidently-advertises-with-no-brandin-1110eb18/asset.jpg",
+    "sha256": "286819c5fa191fdd6093dba98aec120cfe17a13a76b8600f719541830eb73bc6"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:23:46.714Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-mcdonalds-confidently-advertises-with-no-brandin-1110eb18",
+    "sha256": "286819c5fa191fdd6093dba98aec120cfe17a13a76b8600f719541830eb73bc6"
+  },
+  "raw_provider_output": {
+    "summary": "A close-up, appetizing shot of golden French fries in a red and yellow container, designed to trigger immediate hunger and desire for a fast-food meal.",
+    "observations": [
+      {
+        "description": "A large, high-resolution close-up of thick-cut, golden-brown French fries filling the majority of the frame.",
+        "evidence_type": "visual",
+        "location": "center and upper portion",
+        "confidence": "high"
+      },
+      {
+        "description": "The fries are contained within a red container featuring a distinct yellow rim, characteristic of specific fast-food branding.",
+        "evidence_type": "visual",
+        "location": "bottom and sides",
+        "confidence": "high"
+      },
+      {
+        "description": "The lighting is warm and directional, highlighting the texture and salt crystals on the surface of the fries.",
+        "evidence_type": "visual",
+        "location": "across the fries",
+        "confidence": "high"
+      },
+      {
+        "description": "Small, vertical copyright text is visible on the far left edge of the image.",
+        "evidence_type": "copy",
+        "location": "left edge",
+        "confidence": "high"
+      },
+      {
+        "description": "The composition is a tight crop with no negative space, focusing entirely on the food product.",
+        "evidence_type": "layout",
+        "location": "entire image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The product is fresh, crispy, and highly appetizing, serving as a visual trigger for consumption.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The specific red and yellow color palette functions as a brand signifier, leveraging color association to identify the product as a specific fast-food brand without the need for a logo.",
+        "evidence_indices": [
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The extreme close-up and high-quality photography serve as a visual demonstration of the product's quality, specifically its crispiness and golden color.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "product_demonstration",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large, high-resolution close-up of thick-cut, golden-brown French fries filling the majority of the frame.",
+      "location": "center and upper portion",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The fries are contained within a red container featuring a distinct yellow rim, characteristic of specific fast-food branding.",
+      "location": "bottom and sides",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The lighting is warm and directional, highlighting the texture and salt crystals on the surface of the fries.",
+      "location": "across the fries",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "Small, vertical copyright text is visible on the far left edge of the image.",
+      "location": "left edge",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The composition is a tight crop with no negative space, focusing entirely on the food product.",
+      "location": "entire image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A close-up, appetizing shot of golden French fries in a red and yellow container, designed to trigger immediate hunger and desire for a fast-food meal.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The product is fresh, crispy, and highly appetizing, serving as a visual trigger for consumption.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The specific red and yellow color palette functions as a brand signifier, leveraging color association to identify the product as a specific fast-food brand without the need for a logo.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The extreme close-up and high-quality photography serve as a visual demonstration of the product's quality, specifically its crispiness and golden color.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "product_demonstration",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

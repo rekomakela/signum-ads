@@ -1,0 +1,320 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-donation-ad-and-drop-off-for-usb-sticks-to-send--798b296d",
+    "media_type": "image",
+    "path": "cases/real-donation-ad-and-drop-off-for-usb-sticks-to-send--798b296d/asset.jpg",
+    "sha256": "e292d19a89b772f4a3a8829235bff99468122d97a361ed8ccb78d328a923801a"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:34:59.186Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-donation-ad-and-drop-off-for-usb-sticks-to-send--798b296d",
+    "sha256": "e292d19a89b772f4a3a8829235bff99468122d97a361ed8ccb78d328a923801a"
+  },
+  "raw_provider_output": {
+    "summary": "A Human Rights Foundation installation invites the public to donate USB drives, which will be filled with outside media and smuggled into North Korea to liberate citizens from state propaganda.",
+    "observations": [
+      {
+        "description": "A wall covered in rows of USB drives plugged into sockets shaped like the face of Kim Jong-un.",
+        "evidence_type": "visual",
+        "location": "Left and upper portions of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "Text explaining the campaign: 'Donate your USB drives. We'll erase them, fill them with films and e-books from the outside world, and get them into North Korea...'",
+        "evidence_type": "copy",
+        "location": "Right side of the installation",
+        "confidence": "high"
+      },
+      {
+        "description": "The logo of the Human Rights Foundation is visible at the bottom right.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom right corner",
+        "confidence": "high"
+      },
+      {
+        "description": "A red USB drive is being pulled out of a Kim Jong-un face socket, suggesting the act of donation or retrieval.",
+        "evidence_type": "visual",
+        "location": "Upper center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text explicitly states the goal is to help 'free citizens' minds from Kim Jong-un's propaganda machine.'",
+        "evidence_type": "copy",
+        "location": "Bottom of the text block",
+        "confidence": "high"
+      },
+      {
+        "description": "The image is framed as a Reddit post from the subreddit r/interestingasfuck.",
+        "evidence_type": "context",
+        "location": "Bottom banner",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement calls for a specific physical action (donating USB drives) to achieve a political and humanitarian goal (information freedom in North Korea).",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of Kim Jong-un's face as a receptacle for USB drives creates a visual metaphor where the dictator is literally 'plugged' with information, subverting his image of control.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The campaign frames the donation of a simple tech item as a powerful act of resistance, leveraging the viewer's sense of agency and moral duty.",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "altruism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The installation uses irony and shock value to make the abstract concept of 'information warfare' tangible and accessible to a Western audience.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A wall covered in rows of USB drives plugged into sockets shaped like the face of Kim Jong-un.",
+      "location": "Left and upper portions of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "Text explaining the campaign: 'Donate your USB drives. We'll erase them, fill them with films and e-books from the outside world, and get them into North Korea...'",
+      "location": "Right side of the installation",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The logo of the Human Rights Foundation is visible at the bottom right.",
+      "location": "Bottom right corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A red USB drive is being pulled out of a Kim Jong-un face socket, suggesting the act of donation or retrieval.",
+      "location": "Upper center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The text explicitly states the goal is to help 'free citizens' minds from Kim Jong-un's propaganda machine.'",
+      "location": "Bottom of the text block",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "The image is framed as a Reddit post from the subreddit r/interestingasfuck.",
+      "location": "Bottom banner",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A Human Rights Foundation installation invites the public to donate USB drives, which will be filled with outside media and smuggled into North Korea to liberate citizens from state propaganda.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement calls for a specific physical action (donating USB drives) to achieve a political and humanitarian goal (information freedom in North Korea).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of Kim Jong-un's face as a receptacle for USB drives creates a visual metaphor where the dictator is literally 'plugged' with information, subverting his image of control.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The campaign frames the donation of a simple tech item as a powerful act of resistance, leveraging the viewer's sense of agency and moral duty.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "altruism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The installation uses irony and shock value to make the abstract concept of 'information warfare' tangible and accessible to a Western audience.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ad-for-sharpie-fine-tip-permanent-markers-977157b2",
+    "media_type": "image",
+    "path": "cases/real-ad-for-sharpie-fine-tip-permanent-markers-977157b2/asset.jpg",
+    "sha256": "04af776573f8206d246610b2115f1128cbe2e27cddfe66e18e79dc850df61482"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:02:22.633Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ad-for-sharpie-fine-tip-permanent-markers-977157b2",
+    "sha256": "04af776573f8206d246610b2115f1128cbe2e27cddfe66e18e79dc850df61482"
+  },
+  "raw_provider_output": {
+    "summary": "A black-and-white advertisement for Sharpie permanent markers that uses a crime scene investigation context to demonstrate the product's permanence and precision.",
+    "observations": [
+      {
+        "description": "The Sharpie logo with the tagline 'permanent | extra fine' is displayed in the top left corner.",
+        "evidence_type": "brand_mark",
+        "location": "top_left",
+        "confidence": "high"
+      },
+      {
+        "description": "A hand is holding a black Sharpie marker, actively writing on a form.",
+        "evidence_type": "visual",
+        "location": "center_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The form is a police 'APPLICANT' card featuring fingerprint boxes and fields for physical description.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The image is monochromatic (black and white) with high contrast, evoking a noir or crime documentary aesthetic.",
+        "evidence_type": "visual",
+        "location": "global",
+        "confidence": "high"
+      },
+      {
+        "description": "A second person's hands are visible on the left side, appearing to be handcuffed or restrained on the table.",
+        "evidence_type": "visual",
+        "location": "left",
+        "confidence": "medium"
+      },
+      {
+        "description": "A stapler is visible in the upper right background, reinforcing the office or administrative setting.",
+        "evidence_type": "visual",
+        "location": "top_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The marker tip is shown making a precise, dark line on the paper.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Sharpie markers are the definitive tool for creating permanent records that cannot be erased or altered.",
+        "evidence_indices": [
+          0,
+          2,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "product_demonstration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "permanence",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a police booking form and fingerprinting context creates a semiotic link between the product and the concept of 'evidence' or 'proof'.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "crime_scene",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "authority",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The noir-style black and white photography elevates a mundane office supply to a serious, high-stakes instrument of justice.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "dramatic_tension",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contextual_reframing",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "By placing the marker in the hands of an investigator rather than a student or artist, the ad targets professional users who require reliability and precision.",
+        "evidence_indices": [
+          1,
+          2,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "professionalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "workplace_tool",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "The Sharpie logo with the tagline 'permanent | extra fine' is displayed in the top left corner.",
+      "location": "top_left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A hand is holding a black Sharpie marker, actively writing on a form.",
+      "location": "center_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The form is a police 'APPLICANT' card featuring fingerprint boxes and fields for physical description.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The image is monochromatic (black and white) with high contrast, evoking a noir or crime documentary aesthetic.",
+      "location": "global",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A second person's hands are visible on the left side, appearing to be handcuffed or restrained on the table.",
+      "location": "left",
+      "confidence": "medium"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "A stapler is visible in the upper right background, reinforcing the office or administrative setting.",
+      "location": "top_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "visual",
+      "description": "The marker tip is shown making a precise, dark line on the paper.",
+      "location": "center",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A black-and-white advertisement for Sharpie permanent markers that uses a crime scene investigation context to demonstrate the product's permanence and precision.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Sharpie markers are the definitive tool for creating permanent records that cannot be erased or altered.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "product_demonstration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "permanence",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a police booking form and fingerprinting context creates a semiotic link between the product and the concept of 'evidence' or 'proof'.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "crime_scene",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "authority",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The noir-style black and white photography elevates a mundane office supply to a serious, high-stakes instrument of justice.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "dramatic_tension",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contextual_reframing",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "By placing the marker in the hands of an investigator rather than a student or artist, the ad targets professional users who require reliability and precision.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "professionalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "workplace_tool",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

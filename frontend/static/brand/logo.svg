@@ -1,0 +1,7 @@
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Signum">
+  <rect x="9" y="11" width="26" height="26" rx="2" stroke="#211d18" stroke-width="1.6" fill="#fffdf9"/>
+  <path d="M9 17.5 V13 a2 2 0 0 1 2-2 H15.5" stroke="#2f6b82" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M35 30.5 V35 a2 2 0 0 1-2 2 H28.5" stroke="#2f6b82" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="22" cy="24" r="3.4" fill="#2f6b82"/>
+  <text x="50" y="31" font-family="'IBM Plex Sans', Arial, sans-serif" font-size="22" font-weight="600" fill="#211d18" letter-spacing="0.01em">Signum</text>
+</svg>

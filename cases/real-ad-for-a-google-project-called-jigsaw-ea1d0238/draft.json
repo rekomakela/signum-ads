@@ -1,0 +1,262 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ad-for-a-google-project-called-jigsaw-ea1d0238",
+    "media_type": "image",
+    "path": "cases/real-ad-for-a-google-project-called-jigsaw-ea1d0238/asset.jpg",
+    "sha256": "6f50e2bd0edbb8dd423b37ea776edcc67cb4b0555661dcfefa042ebebae456c1"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:01:33.427Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ad-for-a-google-project-called-jigsaw-ea1d0238",
+    "sha256": "6f50e2bd0edbb8dd423b37ea776edcc67cb4b0555661dcfefa042ebebae456c1"
+  },
+  "raw_provider_output": {
+    "summary": "The advertisement uses a visual metaphor of a torn page to argue that the true value of free speech is only recognized when it is restricted or removed.",
+    "observations": [
+      {
+        "description": "A hand is shown physically tearing a page from a book, revealing the text underneath.",
+        "evidence_type": "visual",
+        "location": "center-bottom",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'YOU ONLY NOTICE FREE SPEECH WHEN IT'S' is printed in large, white, sans-serif capital letters on a black background.",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The sentence is visually interrupted by the torn edge of the page, leaving the final word of the phrase missing.",
+        "evidence_type": "layout",
+        "location": "bottom-center",
+        "confidence": "high"
+      },
+      {
+        "description": "A small logo for 'Adbusters' is visible at the top of the black page.",
+        "evidence_type": "brand_mark",
+        "location": "top-center",
+        "confidence": "high"
+      },
+      {
+        "description": "The book is resting on top of what appears to be old banknotes or currency.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad argues that people take freedom of speech for granted until it is actively suppressed or taken away.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "loss_aversion",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The act of tearing the page serves as a physical representation of censorship, where the missing word is the 'censored' part of the message.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By leaving the sentence incomplete, the ad forces the viewer to mentally supply the missing word (likely 'gone' or 'taken away'), creating a more personal and active engagement with the concept of censorship.",
+        "evidence_indices": [
+          2,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "interactive_puzzle",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The use of the Adbusters brand suggests the target audience is politically engaged individuals who are critical of mainstream media and corporate influence.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "anti_corporate_activism",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A hand is shown physically tearing a page from a book, revealing the text underneath.",
+      "location": "center-bottom",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text 'YOU ONLY NOTICE FREE SPEECH WHEN IT'S' is printed in large, white, sans-serif capital letters on a black background.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "layout",
+      "description": "The sentence is visually interrupted by the torn edge of the page, leaving the final word of the phrase missing.",
+      "location": "bottom-center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "A small logo for 'Adbusters' is visible at the top of the black page.",
+      "location": "top-center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The book is resting on top of what appears to be old banknotes or currency.",
+      "location": "background",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The advertisement uses a visual metaphor of a torn page to argue that the true value of free speech is only recognized when it is restricted or removed.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad argues that people take freedom of speech for granted until it is actively suppressed or taken away.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "loss_aversion",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The act of tearing the page serves as a physical representation of censorship, where the missing word is the 'censored' part of the message.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By leaving the sentence incomplete, the ad forces the viewer to mentally supply the missing word (likely 'gone' or 'taken away'), creating a more personal and active engagement with the concept of censorship.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "interactive_puzzle",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The use of the Adbusters brand suggests the target audience is politically engaged individuals who are critical of mainstream media and corporate influence.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "anti_corporate_activism",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

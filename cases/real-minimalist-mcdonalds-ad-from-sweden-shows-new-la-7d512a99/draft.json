@@ -1,0 +1,290 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-minimalist-mcdonalds-ad-from-sweden-shows-new-la-7d512a99",
+    "media_type": "image",
+    "path": "cases/real-minimalist-mcdonalds-ad-from-sweden-shows-new-la-7d512a99/asset.jpg",
+    "sha256": "205c308dae5140f6653613505837595b70c7dfd7c393dbc74945b0bcb2c6486c"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:31:00.586Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-minimalist-mcdonalds-ad-from-sweden-shows-new-la-7d512a99",
+    "sha256": "205c308dae5140f6653613505837595b70c7dfd7c393dbc74945b0bcb2c6486c"
+  },
+  "raw_provider_output": {
+    "summary": "A minimalist McDonald's advertisement that uses the visual metaphor of a coffee-stained, open book to represent the sheer volume of an 'Extra Large' coffee, priced at 16 SEK.",
+    "observations": [
+      {
+        "description": "An open book with white pages is shown from a top-down perspective, resting on a dark wooden surface.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "Brownish-yellow stains resembling spilled coffee are visible on the top and bottom corners of the book's pages.",
+        "evidence_type": "visual",
+        "location": "top-left, top-right, bottom-left, bottom-right",
+        "confidence": "high"
+      },
+      {
+        "description": "Faint, ghostly text is visible on the pages, suggesting the pages are filled with words but are not legible.",
+        "evidence_type": "visual",
+        "location": "pages",
+        "confidence": "medium"
+      },
+      {
+        "description": "The text 'EXTRA LARGE COFFEE 16 SEK' is printed in black sans-serif font in the bottom right corner.",
+        "evidence_type": "copy",
+        "location": "bottom-right",
+        "confidence": "high"
+      },
+      {
+        "description": "The McDonald's 'Golden Arches' logo and the slogan 'I'm lovin' it' appear in a red box in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom-right",
+        "confidence": "high"
+      },
+      {
+        "description": "The layout is dominated by negative space (the white pages), with the only text and branding confined to a small area in the corner.",
+        "evidence_type": "layout",
+        "location": "overall",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The coffee stains on the book pages function as a visual metaphor for the 'Extra Large' size of the coffee, implying the drink is so big it leaves a mark or is as substantial as a book.",
+        "evidence_indices": [
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of a book as the central visual element suggests that the coffee is a 'read' or a 'story,' potentially appealing to an audience that values culture or leisure, or simply using the book as a neutral, relatable object to measure size.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The ad communicates a specific value proposition: a large coffee is available for a low price (16 SEK), using the visual to emphasize the 'large' aspect of the offer.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The extreme minimalism of the design, with vast white space, forces the viewer to focus on the subtle stains and the small text, creating a 'curiosity gap' that makes the viewer work to decode the connection between the book and the coffee.",
+        "evidence_indices": [
+          5,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "An open book with white pages is shown from a top-down perspective, resting on a dark wooden surface.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "Brownish-yellow stains resembling spilled coffee are visible on the top and bottom corners of the book's pages.",
+      "location": "top-left, top-right, bottom-left, bottom-right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "Faint, ghostly text is visible on the pages, suggesting the pages are filled with words but are not legible.",
+      "location": "pages",
+      "confidence": "medium"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'EXTRA LARGE COFFEE 16 SEK' is printed in black sans-serif font in the bottom right corner.",
+      "location": "bottom-right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The McDonald's 'Golden Arches' logo and the slogan 'I'm lovin' it' appear in a red box in the bottom right corner.",
+      "location": "bottom-right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "layout",
+      "description": "The layout is dominated by negative space (the white pages), with the only text and branding confined to a small area in the corner.",
+      "location": "overall",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A minimalist McDonald's advertisement that uses the visual metaphor of a coffee-stained, open book to represent the sheer volume of an 'Extra Large' coffee, priced at 16 SEK.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The coffee stains on the book pages function as a visual metaphor for the 'Extra Large' size of the coffee, implying the drink is so big it leaves a mark or is as substantial as a book.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The use of a book as the central visual element suggests that the coffee is a 'read' or a 'story,' potentially appealing to an audience that values culture or leisure, or simply using the book as a neutral, relatable object to measure size.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "core_message",
+        "text": "The ad communicates a specific value proposition: a large coffee is available for a low price (16 SEK), using the visual to emphasize the 'large' aspect of the offer.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The extreme minimalism of the design, with vast white space, forces the viewer to focus on the subtle stains and the small text, creating a 'curiosity gap' that makes the viewer work to decode the connection between the book and the coffee.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

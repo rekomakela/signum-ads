@@ -1,0 +1,335 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ad-for-stabilo-highlighter-pens-ed451c17",
+    "media_type": "image",
+    "path": "cases/real-ad-for-stabilo-highlighter-pens-ed451c17/asset.jpg",
+    "sha256": "1b62e7bdf26a0e70459805f9cb357cff57dcbb39a79faf6441394ffab6869b33"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:03:42.529Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ad-for-stabilo-highlighter-pens-ed451c17",
+    "sha256": "1b62e7bdf26a0e70459805f9cb357cff57dcbb39a79faf6441394ffab6869b33"
+  },
+  "raw_provider_output": {
+    "summary": "A Stabilo highlighter draws a line of light onto a historical NASA control room photo, specifically illuminating a single woman to highlight the contributions of mathematician Katherine Johnson.",
+    "observations": [
+      {
+        "description": "A large, yellow Stabilo highlighter is positioned at the top right, with a thick yellow line extending downwards from its tip.",
+        "evidence_type": "visual",
+        "location": "top right to center",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand name 'STABILO' is printed vertically in black on the yellow body of the highlighter.",
+        "evidence_type": "brand_mark",
+        "location": "top right",
+        "confidence": "high"
+      },
+      {
+        "description": "A black and white photograph depicts a crowded NASA mission control room filled with rows of men in shirts and ties working at consoles.",
+        "evidence_type": "visual",
+        "location": "bottom half",
+        "confidence": "high"
+      },
+      {
+        "description": "The yellow highlighter line passes through the crowd, specifically coloring the face and upper body of one woman standing among the men.",
+        "evidence_type": "visual",
+        "location": "center right of the photo",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text reads: 'Highlight the remarkable Katherine Johnson.'",
+        "evidence_type": "copy",
+        "location": "center, above the photo",
+        "confidence": "high"
+      },
+      {
+        "description": "The sub-headline text reads: 'The Nasa mathematician responsible for the calculations resulting in Apollo 11's safe return to earth.'",
+        "evidence_type": "copy",
+        "location": "center, below the headline",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad uses the product's function (highlighting) to metaphorically bring attention to the overlooked historical contributions of a specific woman in a male-dominated field.",
+        "evidence_indices": [
+          0,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "historical_recognition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The contrast between the monochrome historical photo and the vibrant yellow highlighter visually represents the act of 'bringing to light' or 'illuminating' a forgotten figure.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "visual_contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "symbolism",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By associating the brand with the recognition of a hero (Katherine Johnson), the ad elevates the product from a simple office supply to a tool of discovery and importance.",
+        "evidence_indices": [
+          1,
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "admiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets an audience interested in education, history, and social justice, positioning the brand as culturally relevant and socially conscious.",
+        "evidence_indices": [
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "education",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large, yellow Stabilo highlighter is positioned at the top right, with a thick yellow line extending downwards from its tip.",
+      "location": "top right to center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "The brand name 'STABILO' is printed vertically in black on the yellow body of the highlighter.",
+      "location": "top right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A black and white photograph depicts a crowded NASA mission control room filled with rows of men in shirts and ties working at consoles.",
+      "location": "bottom half",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The yellow highlighter line passes through the crowd, specifically coloring the face and upper body of one woman standing among the men.",
+      "location": "center right of the photo",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The headline text reads: 'Highlight the remarkable Katherine Johnson.'",
+      "location": "center, above the photo",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "The sub-headline text reads: 'The Nasa mathematician responsible for the calculations resulting in Apollo 11's safe return to earth.'",
+      "location": "center, below the headline",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A Stabilo highlighter draws a line of light onto a historical NASA control room photo, specifically illuminating a single woman to highlight the contributions of mathematician Katherine Johnson.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad uses the product's function (highlighting) to metaphorically bring attention to the overlooked historical contributions of a specific woman in a male-dominated field.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "historical_recognition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The contrast between the monochrome historical photo and the vibrant yellow highlighter visually represents the act of 'bringing to light' or 'illuminating' a forgotten figure.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "visual_contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "symbolism",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By associating the brand with the recognition of a hero (Katherine Johnson), the ad elevates the product from a simple office supply to a tool of discovery and importance.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "admiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets an audience interested in education, history, and social justice, positioning the brand as culturally relevant and socially conscious.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "education",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

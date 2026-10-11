@@ -1,0 +1,128 @@
+metadata:
+  id: signum_domain_ontology.ideology_social
+  version: 0.1.0
+  status: final_draft
+  project: Signum
+  title: Ideology and Social Concepts Layer
+  description: Classes for ideology, social-science concepts, identity, culture, hierarchy, and value
+    systems.
+  source_manifest: ../ontology.yaml
+layer:
+  id: ideology_social
+  order: '03'
+  class_names:
+  - Ideology
+  - SocialConcept
+entity_classes:
+  Ideology:
+    description: A naturalized belief system that an advertisement draws upon, produces, or reinforces.
+    properties:
+      id:
+        type: id
+        required: true
+      name:
+        type: string
+        required: true
+      definition:
+        type: text
+        required: true
+      subtype:
+        type: enum
+        values:
+        - MagicNaturalization
+        - MirrorIdentification
+        - CookingNature
+        - CommodityFetishism
+        - GenderedEssentialism
+        - ScientificAuthority
+        - SuccessThroughConsumption
+        - IndividualismAndChoice
+      visual_indicators:
+        type: list
+        item_type: string
+      modern_relevance:
+        type: text
+      source_references:
+        type: list
+        item_type: SourceReference
+    subtypes:
+      MagicNaturalization: {}
+      MirrorIdentification: {}
+      CookingNature: {}
+      CommodityFetishism: {}
+      GenderedEssentialism: {}
+      ScientificAuthority: {}
+      SuccessThroughConsumption: {}
+      IndividualismAndChoice: {}
+  SocialConcept:
+    description: A curated social-science concept used in Signum when a reading needs vocabulary for identity,
+      culture, hierarchy, value, or social roles beyond the core semiotic chain.
+    properties:
+      id:
+        type: id
+        required: true
+      label:
+        type: string
+        required: true
+      definition:
+        type: text
+        required: true
+      subtype:
+        type: enum
+        values:
+        - CulturalCode
+        - SocialRole
+        - IdentityCategory
+        - PowerRelation
+        - ValueIdeal
+      typical_clues:
+        type: list
+        item_type: string
+      learner_note:
+        type: text
+    subtypes:
+      CulturalCode:
+        description: Shared symbolic rule, style, ritual, or cultural shorthand an ad can activate.
+      SocialRole:
+        description: Social position or role script an ad can assign, praise, or normalize.
+      IdentityCategory:
+        description: Identity lens through which an ad sorts viewers, bodies, belonging, or aspiration.
+      PowerRelation:
+        description: Hierarchy, domination, privilege, exclusion, or legitimacy relation that shapes the
+          reading.
+      ValueIdeal:
+        description: Socially valued good, virtue, aspiration, or moral horizon attached to the ad.
+relationships:
+  participates_in_ideology:
+    domain: Advertisement
+    range: Ideology
+    description: An ad naturalizes or reinforces an ideology.
+  bridges_to_technique:
+    domain: Ideology
+    range: PersuasionTechnique
+    description: A historical ideology appears as a modern persuasion technique.
+  frames_referent_system:
+    domain: SocialConcept
+    range: ReferentSystem
+    description: A curated social concept helps name the broader cultural system an ad draws upon.
+  informs_interpretation:
+    domain: SocialConcept
+    range: Interpretation
+    description: A curated social concept gives analytical vocabulary to an interpretation.
+  supports_ideology_reading:
+    domain: SocialConcept
+    range: Ideology
+    description: A curated social concept sharpens how an ideology is identified or questioned.
+  surfaced_in_observation:
+    domain: Observation
+    range: SocialConcept
+    description: An observation can explicitly surface a relevant social concept before a full interpretation.
+  glossary_promotes_social_concept:
+    domain: GlossaryEntry
+    range: SocialConcept
+    description: A glossary entry turns a curated social concept into learner-facing vocabulary.
+  modern_bridge_reuses_social_concept:
+    domain: ModernBridge
+    range: SocialConcept
+    description: A modern bridge can reuse a curated social concept when connecting older readings to
+      newer persuasion.

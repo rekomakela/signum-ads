@@ -1,0 +1,528 @@
+schema_version: "signum_concepts_v1"
+source_note: "Derived from OCR-assisted conceptual extraction; not quote-perfect."
+classes:
+  - id: ad_execution
+    label: AdExecution
+    user_label: Ad
+    definition: "A concrete ad instance the learner analyzes."
+    category: core
+    parent_class: null
+    allowed_relations:
+      - realizes_concept
+      - uses_medium
+      - contains_signifier
+      - belongs_to_campaign
+    should_be_user_visible: true
+    reason_for_inclusion: "Root learner-facing object for decoding a specific advertisement."
+
+  - id: campaign_pattern
+    label: CampaignPattern
+    user_label: Campaign
+    definition: "A repeated concept expressed across multiple related ad executions."
+    category: campaign
+    parent_class: null
+    allowed_relations:
+      - contains_execution
+      - varies_execution
+      - maintains_tone
+      - repeats_brand_cue
+    should_be_user_visible: true
+    reason_for_inclusion: "Explains how campaigns repeat a recognizable idea while varying the execution."
+
+  - id: medium_context
+    label: MediumContext
+    user_label: Medium
+    definition: "The media form or placement that shapes how an ad is experienced."
+    category: media
+    parent_class: null
+    allowed_relations:
+      - constrains_execution
+      - affects_attention_window
+      - enables_interaction
+    should_be_user_visible: true
+    reason_for_inclusion: "Medium changes attention, sequence, motion, sound, interaction, and context."
+
+  - id: strategy_frame
+    label: StrategyFrame
+    user_label: Strategy frame
+    definition: "The underlying problem, audience, and claim behind the ad."
+    category: strategy
+    parent_class: null
+    allowed_relations:
+      - defines_claim
+      - targets_audience
+      - addresses_problem
+      - guides_concept
+    should_be_user_visible: false
+    reason_for_inclusion: "Useful for internal modeling of why an ad is structured as it is, without turning Signum into a strategy textbook."
+
+  - id: persuasive_claim
+    label: PersuasiveClaim
+    user_label: Persuasive claim
+    definition: "The main promise, benefit, value, or assertion the ad asks the viewer to accept."
+    category: persuasion
+    parent_class: strategy_frame
+    allowed_relations:
+      - supported_by_evidence
+      - expressed_by_signifier
+      - implied_by_execution
+    should_be_user_visible: true
+    reason_for_inclusion: "Connects visible meaning-making to persuasion."
+
+  - id: support_reason
+    label: SupportReason
+    user_label: Support reason
+    definition: "A fact, reason, demonstration, or warrant that supports the persuasive claim."
+    category: strategy
+    parent_class: strategy_frame
+    allowed_relations:
+      - supports_claim
+      - appears_as_signifier
+      - strengthens_relevance
+    should_be_user_visible: true
+    reason_for_inclusion: "Helps learners distinguish what the ad claims from what supports the claim."
+
+  - id: signifier
+    label: Signifier
+    user_label: Signifier
+    definition: "Any visible, verbal, sonic, spatial, or interactive element that carries meaning."
+    category: semiotics
+    parent_class: null
+    allowed_relations:
+      - evokes_meaning
+      - activates_code
+      - functions_as_brand_cue
+      - participates_in_device
+    should_be_user_visible: true
+    reason_for_inclusion: "Core semiotic unit for moving from observation to interpretation."
+
+  - id: signified_meaning
+    label: SignifiedMeaning
+    user_label: Signified meaning
+    definition: "The concept, value, feeling, fear, desire, or identity evoked by a signifier."
+    category: semiotics
+    parent_class: null
+    allowed_relations:
+      - evoked_by_signifier
+      - contributes_to_reading
+      - supports_claim
+    should_be_user_visible: true
+    reason_for_inclusion: "Core meaning unit for explaining what signs imply."
+
+  - id: cultural_code
+    label: CulturalCode
+    user_label: Cultural code
+    definition: "Shared cultural knowledge that makes a sign interpretable."
+    category: semiotics
+    parent_class: null
+    allowed_relations:
+      - activated_by_signifier
+      - enables_reading
+      - contested_by_counter_reading
+    should_be_user_visible: true
+    reason_for_inclusion: "Explains how ads rely on social norms, myths, values, stereotypes, and collective memory."
+
+  - id: semiotic_device
+    label: SemioticDevice
+    user_label: Semiotic device
+    definition: "A meaning-making technique such as metaphor, symbol, contrast, simile, implication, or twist."
+    category: semiotics
+    parent_class: null
+    allowed_relations:
+      - connects_signifier_to_meaning
+      - creates_inference
+      - intensifies_claim
+    should_be_user_visible: true
+    reason_for_inclusion: "Groups the main techniques ads use to turn visible elements into meaning."
+
+  - id: persuasion_mechanism
+    label: PersuasionMechanism
+    user_label: Persuasion mechanism
+    definition: "The way an ad moves the viewer toward belief, desire, memory, or action."
+    category: persuasion
+    parent_class: null
+    allowed_relations:
+      - advances_claim
+      - triggers_response
+      - uses_appeal
+      - frames_identity
+    should_be_user_visible: true
+    reason_for_inclusion: "Gives learners language for how an ad persuades, not just what it shows."
+
+  - id: appeal
+    label: Appeal
+    user_label: Appeal
+    definition: "An emotional, logical, social, identity, fear, humor, status, or desire route used to persuade."
+    category: persuasion
+    parent_class: persuasion_mechanism
+    allowed_relations:
+      - triggers_response
+      - frames_identity
+      - supports_claim
+    should_be_user_visible: true
+    reason_for_inclusion: "Helps learners identify the kind of pressure or attraction the ad creates."
+
+  - id: implied_viewer
+    label: ImpliedViewer
+    user_label: Implied viewer
+    definition: "The kind of person the ad assumes, addresses, flatters, pressures, or invites the viewer to become."
+    category: audience
+    parent_class: null
+    allowed_relations:
+      - addressed_by_tone
+      - targeted_by_claim
+      - positioned_by_identity_appeal
+    should_be_user_visible: true
+    reason_for_inclusion: "Essential for identity, desire, aspiration, and belonging analysis."
+
+  - id: target_audience
+    label: TargetAudience
+    user_label: Target audience
+    definition: "The intended audience segment or use situation for the ad."
+    category: audience
+    parent_class: implied_viewer
+    allowed_relations:
+      - targeted_by_strategy
+      - differs_from_actual_viewer
+    should_be_user_visible: true
+    reason_for_inclusion: "Keeps intended audience distinct from the viewer identity constructed by the ad."
+
+  - id: audience_response
+    label: AudienceResponse
+    user_label: Audience response
+    definition: "An intended or possible reaction, such as attention, recognition, laughter, discomfort, desire, action, or recall."
+    category: audience
+    parent_class: null
+    allowed_relations:
+      - triggered_by_device
+      - shaped_by_medium
+      - completes_inference
+    should_be_user_visible: true
+    reason_for_inclusion: "Connects ad design choices to viewer reaction."
+
+  - id: audience_inference
+    label: AudienceInference
+    user_label: Audience inference
+    definition: "A conclusion the viewer is expected to complete rather than receive explicitly."
+    category: interpretation
+    parent_class: audience_response
+    allowed_relations:
+      - completes_implication
+      - produces_reading
+      - supports_claim
+    should_be_user_visible: true
+    reason_for_inclusion: "Central to decoding implication and unstated persuasion."
+
+  - id: reading
+    label: Reading
+    user_label: Reading
+    definition: "A coherent interpretation of what the ad means and how it persuades."
+    category: interpretation
+    parent_class: null
+    allowed_relations:
+      - combines_meanings
+      - evaluates_claim
+      - may_have_counter_reading
+    should_be_user_visible: true
+    reason_for_inclusion: "Represents the learner’s interpretive output."
+
+  - id: counter_reading
+    label: CounterReading
+    user_label: Counter-reading
+    definition: "A resistant, alternative, unintended, or critical interpretation of the ad."
+    category: interpretation
+    parent_class: reading
+    allowed_relations:
+      - challenges_reading
+      - contests_code
+      - questions_claim
+    should_be_user_visible: true
+    reason_for_inclusion: "Keeps Signum critical rather than only reconstructing intended persuasion."
+
+  - id: brand
+    label: Brand
+    user_label: Brand
+    definition: "The identity, memory, values, and associations connected to a product, service, organization, or cause."
+    category: brand
+    parent_class: null
+    allowed_relations:
+      - expressed_by_brand_cue
+      - linked_to_claim
+      - shapes_tone
+    should_be_user_visible: true
+    reason_for_inclusion: "Required because brand cues point to a brand, and because ads often sell identity through brand meaning."
+
+  - id: brand_cue
+    label: BrandCue
+    user_label: Brand cue
+    definition: "A signifier that helps identify, remember, or feel the brand."
+    category: brand
+    parent_class: signifier
+    allowed_relations:
+      - evokes_brand
+      - supports_recall
+      - links_claim_to_brand
+    should_be_user_visible: true
+    reason_for_inclusion: "Explains how ads connect signs, memory, and brand recognition."
+
+  - id: tone
+    label: Tone
+    user_label: Tone
+    definition: "The ad’s attitude, mood, or manner of address."
+    category: execution
+    parent_class: null
+    allowed_relations:
+      - addresses_implied_viewer
+      - modulated_by_execution_choice
+      - maintained_by_campaign
+      - shaped_by_brand
+    should_be_user_visible: true
+    reason_for_inclusion: "Required because execution choices and campaigns refer to tone, and tone shapes the relationship between ad and viewer."
+
+  - id: execution_choice
+    label: ExecutionChoice
+    user_label: Execution choice
+    definition: "A formal choice such as hierarchy, white space, crop, framing, scale, type, color, sequencing, or omission."
+    category: execution
+    parent_class: signifier
+    allowed_relations:
+      - emphasizes_signifier
+      - shapes_attention
+      - modulates_tone
+    should_be_user_visible: true
+    reason_for_inclusion: "Lets Signum analyze visible craft only where it affects meaning."
+
+relations:
+  - id: realizes_concept
+    relation: realizes_concept
+    label: "realizes concept"
+    from: ad_execution
+    to: strategy_frame
+    definition: "The visible execution expresses an underlying strategic or creative idea."
+    category: core
+    inverse_relation: guides_execution
+
+  - id: belongs_to_campaign
+    relation: belongs_to_campaign
+    label: "belongs to campaign"
+    from: ad_execution
+    to: campaign_pattern
+    definition: "An execution is part of a broader campaign system."
+    category: campaign
+    inverse_relation: contains_execution
+
+  - id: contains_signifier
+    relation: contains_signifier
+    label: "contains signifier"
+    from: ad_execution
+    to: signifier
+    definition: "The ad contains a meaningful visible, verbal, sonic, spatial, or interactive element."
+    category: semiotics
+    inverse_relation: appears_in_execution
+
+  - id: uses_medium
+    relation: uses_medium
+    label: "uses medium"
+    from: ad_execution
+    to: medium_context
+    definition: "The ad appears in a medium that shapes how it works."
+    category: media
+    inverse_relation: carries_execution
+
+  - id: defines_claim
+    relation: defines_claim
+    label: "defines claim"
+    from: strategy_frame
+    to: persuasive_claim
+    definition: "The strategy determines the main persuasive claim."
+    category: strategy
+    inverse_relation: is_defined_by_strategy
+
+  - id: supports_claim
+    relation: supports_claim
+    label: "supports claim"
+    from: support_reason
+    to: persuasive_claim
+    definition: "A reason, demonstration, or fact backs the claim."
+    category: strategy
+    inverse_relation: supported_by
+
+  - id: expressed_by_signifier
+    relation: expressed_by_signifier
+    label: "expressed by signifier"
+    from: persuasive_claim
+    to: signifier
+    definition: "The claim is made visible, verbal, sonic, spatial, or interactive through signs."
+    category: semiotics
+    inverse_relation: expresses_claim
+
+  - id: evokes_meaning
+    relation: evokes_meaning
+    label: "evokes meaning"
+    from: signifier
+    to: signified_meaning
+    definition: "A signifier calls up an implied concept, feeling, value, desire, or identity."
+    category: semiotics
+    inverse_relation: evoked_by
+
+  - id: activates_code
+    relation: activates_code
+    label: "activates code"
+    from: signifier
+    to: cultural_code
+    definition: "A sign relies on shared cultural knowledge to become meaningful."
+    category: semiotics
+    inverse_relation: activated_by
+
+  - id: connects_signifier_to_meaning
+    relation: connects_signifier_to_meaning
+    label: "connects signifier to meaning"
+    from: semiotic_device
+    to: signified_meaning
+    definition: "A device such as metaphor, symbol, contrast, simile, implication, or twist creates meaning."
+    category: semiotics
+    inverse_relation: produced_by_device
+
+  - id: frames_identity
+    relation: frames_identity
+    label: "frames identity"
+    from: appeal
+    to: implied_viewer
+    definition: "An appeal positions the viewer as a certain kind of person."
+    category: persuasion
+    inverse_relation: identity_framed_by
+
+  - id: triggers_response
+    relation: triggers_response
+    label: "triggers response"
+    from: persuasion_mechanism
+    to: audience_response
+    definition: "A persuasion mechanism aims to produce a viewer reaction."
+    category: persuasion
+    inverse_relation: response_triggered_by
+
+  - id: completes_inference
+    relation: completes_inference
+    label: "completes inference"
+    from: audience_inference
+    to: persuasive_claim
+    definition: "The viewer fills in the missing step that makes the claim work."
+    category: interpretation
+    inverse_relation: completed_by_inference
+
+  - id: produces_reading
+    relation: produces_reading
+    label: "produces reading"
+    from: audience_inference
+    to: reading
+    definition: "Inference contributes to the learner’s interpretation."
+    category: interpretation
+    inverse_relation: produced_from_inference
+
+  - id: challenges_reading
+    relation: challenges_reading
+    label: "challenges reading"
+    from: counter_reading
+    to: reading
+    definition: "A counter-reading questions or reframes the dominant reading."
+    category: interpretation
+    inverse_relation: challenged_by_counter_reading
+
+  - id: contests_code
+    relation: contests_code
+    label: "contests code"
+    from: counter_reading
+    to: cultural_code
+    definition: "A critical reading challenges the cultural assumptions behind the ad."
+    category: interpretation
+    inverse_relation: contested_by_counter_reading
+
+  - id: evokes_brand
+    relation: evokes_brand
+    label: "evokes brand"
+    from: brand_cue
+    to: brand
+    definition: "A cue activates brand recognition or brand meaning."
+    category: brand
+    inverse_relation: evoked_by_brand_cue
+
+  - id: supports_recall
+    relation: supports_recall
+    label: "supports recall"
+    from: brand_cue
+    to: audience_response
+    definition: "A cue helps the viewer remember the product, brand, or campaign."
+    category: brand
+    inverse_relation: recall_supported_by
+
+  - id: links_claim_to_brand
+    relation: links_claim_to_brand
+    label: "links claim to brand"
+    from: brand_cue
+    to: persuasive_claim
+    definition: "A brand cue helps connect the persuasive claim to the brand."
+    category: brand
+    inverse_relation: linked_to_brand_cue
+
+  - id: shapes_attention
+    relation: shapes_attention
+    label: "shapes attention"
+    from: execution_choice
+    to: audience_response
+    definition: "Layout, crop, scale, hierarchy, or omission directs viewer attention."
+    category: execution
+    inverse_relation: attention_shaped_by
+
+  - id: modulates_tone
+    relation: modulates_tone
+    label: "modulates tone"
+    from: execution_choice
+    to: tone
+    definition: "Formal choices affect the ad’s attitude, mood, or manner of address."
+    category: execution
+    inverse_relation: tone_modulated_by
+
+  - id: addresses_implied_viewer
+    relation: addresses_implied_viewer
+    label: "addresses implied viewer"
+    from: tone
+    to: implied_viewer
+    definition: "Tone shapes how the ad speaks to the viewer it imagines."
+    category: audience
+    inverse_relation: addressed_by_tone
+
+  - id: maintains_tone
+    relation: maintains_tone
+    label: "maintains tone"
+    from: campaign_pattern
+    to: tone
+    definition: "Campaign variants preserve a recognizable voice or mood."
+    category: campaign
+    inverse_relation: maintained_by_campaign
+
+  - id: varies_execution
+    relation: varies_execution
+    label: "varies execution"
+    from: campaign_pattern
+    to: ad_execution
+    definition: "A campaign repeats the idea while changing the execution."
+    category: campaign
+    inverse_relation: execution_varied_by_campaign
+
+  - id: enables_interaction
+    relation: enables_interaction
+    label: "enables interaction"
+    from: medium_context
+    to: audience_response
+    definition: "Interactive or social media allows user action, response, or participation."
+    category: media
+    inverse_relation: interaction_enabled_by_medium
+
+  - id: affects_attention_window
+    relation: affects_attention_window
+    label: "affects attention window"
+    from: medium_context
+    to: audience_response
+    definition: "Different placements create different time constraints and response patterns."
+    category: media
+    inverse_relation: attention_window_shaped_by_medium

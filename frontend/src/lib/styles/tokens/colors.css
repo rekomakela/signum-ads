@@ -1,0 +1,89 @@
+:root {
+  --shell-0: #0d1014;
+  --shell-1: #14181e;
+  --shell-2: #1b2028;
+  --shell-line: #29313c;
+  --shell-text: #f5f7fa;
+  --shell-muted: #a2adba;
+
+  --paper-0: #f4f6f8;
+  --paper-1: #eef1f4;
+  --paper-2: #e4e8ed;
+  --surface-0: #ffffff;
+  --surface-1: #fafbfc;
+  --surface-2: #f6f8fa;
+
+  --ink-0: #101319;
+  --ink-1: #35404c;
+  --ink-2: #66717d;
+  --ink-3: #657078;
+
+  --line-0: #e4e8ed;
+  --line-1: #d3d9e0;
+  --line-2: #b7c0ca;
+
+  --accent: #2f6fed;
+  --accent-strong: #1d4ed8;
+  --accent-soft: #ccdcff;
+  --accent-wash: #f2f6ff;
+
+  --success: #16794f;
+  --success-wash: #eff8f3;
+  --warning: #8a6100;
+  --warning-wash: #fff8e6;
+  --danger: #b42318;
+  --danger-wash: #fff4f2;
+
+  --catalog-card: var(--surface-0);
+  --catalog-well: var(--surface-1);
+  --catalog-label: var(--ink-2);
+  --source-text: var(--ink-2);
+
+  --observation-fill: #f7f9fb;
+  --observation-border: #dfe5eb;
+  --observation-marker: #536170;
+  --observation-text: var(--ink-0);
+  --observation-rule: #8c9aaa;
+
+  --interpretation-fill: #fbfbfa;
+  --interpretation-border: #e5e6e2;
+  --interpretation-text: var(--ink-0);
+  --interpretation-rule: #a4a79d;
+
+  --task-fill: var(--surface-1);
+  --task-border: var(--line-1);
+  --task-text: var(--ink-1);
+  --task-line: var(--line-0);
+
+  --marginalia-fill: var(--surface-2);
+  --marginalia-border: var(--line-1);
+  --marginalia-text: var(--ink-2);
+
+  --confidence-supported: #16794f;
+  --confidence-plural: #8a6100;
+  --confidence-speculative: #7d5964;
+  --tag-beginner: #16794f;
+  --tag-intermediate: #8a6100;
+  --tag-advanced: #6f5f88;
+
+  --focus-ring: #2f6fed;
+  --selection: #ccdcff;
+  --shadow-color: 16 19 25;
+
+  --bg-app: var(--paper-0);
+  --bg-recessed: var(--paper-1);
+  --surface-card: var(--surface-0);
+  --text-primary: var(--ink-0);
+  --text-secondary: var(--ink-1);
+  --text-muted: var(--ink-2);
+  --text-faint: var(--ink-3);
+  --border-hairline: var(--line-0);
+  --border-strong: var(--line-1);
+  --link: var(--accent-strong);
+  --link-hover: #153ea8;
+}
+
+::selection {
+  background: var(--selection);
+  color: var(--ink-0);
+}

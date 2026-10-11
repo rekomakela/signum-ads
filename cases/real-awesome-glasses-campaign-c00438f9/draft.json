@@ -1,0 +1,330 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-awesome-glasses-campaign-c00438f9",
+    "media_type": "image",
+    "path": "cases/real-awesome-glasses-campaign-c00438f9/asset.jpg",
+    "sha256": "e0e59698358bb67ae8e06c4254a9adce2fe3f6cc1751cb9fcfc791b677db5eb3"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:11:25.551Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-awesome-glasses-campaign-c00438f9",
+    "sha256": "e0e59698358bb67ae8e06c4254a9adce2fe3f6cc1751cb9fcfc791b677db5eb3"
+  },
+  "raw_provider_output": {
+    "summary": "A pair of Keloptic glasses transforms a painterly, impressionistic self-portrait into a sharp, photorealistic image, demonstrating the brand's ability to provide clear vision at an affordable price.",
+    "observations": [
+      {
+        "description": "A pair of rimless eyeglasses is positioned in the foreground, partially obscuring a framed painting.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The image seen through the left lens of the glasses is a sharp, photorealistic portrait of a man with a red beard.",
+        "evidence_type": "visual",
+        "location": "inside the left lens",
+        "confidence": "high"
+      },
+      {
+        "description": "The image seen outside the lens is the same portrait, but rendered in a swirling, impressionistic style reminiscent of Vincent van Gogh.",
+        "evidence_type": "visual",
+        "location": "the framed painting",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand logo 'Keloptic.com' is displayed in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The tagline 'Voyez plus clair pour moins cher sur www.keloptic.com' (See more clearly for less on www.keloptic.com) is at the bottom of the ad.",
+        "evidence_type": "copy",
+        "location": "bottom left",
+        "confidence": "high"
+      },
+      {
+        "description": "The entire scene is set against a plain, muted green wall, focusing attention on the central visual metaphor.",
+        "evidence_type": "layout",
+        "location": "background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The core message is that Keloptic glasses provide superior clarity, transforming a blurry or distorted view into a sharp, clear one, all at a lower cost.",
+        "evidence_indices": [
+          1,
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "before_and_after",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "value",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a Van Gogh-style painting as the 'before' image is a sophisticated semiotic choice. It equates poor vision with an artistic, subjective, and distorted perception of reality, while the clear lens represents objective, factual truth.",
+        "evidence_indices": [
+          2,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "art_as_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "clarity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad persuades by creating a powerful visual metaphor. The immediate and dramatic difference between the two images serves as a tangible demonstration of the product's benefit, making the abstract concept of 'clear vision' concrete and desirable.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target audience is likely price-conscious consumers who are also culturally aware, as the ad uses a high-culture reference (Van Gogh) to make a point about a practical, everyday product (eyeglasses).",
+        "evidence_indices": [
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "value_seeker",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A pair of rimless eyeglasses is positioned in the foreground, partially obscuring a framed painting.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The image seen through the left lens of the glasses is a sharp, photorealistic portrait of a man with a red beard.",
+      "location": "inside the left lens",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The image seen outside the lens is the same portrait, but rendered in a swirling, impressionistic style reminiscent of Vincent van Gogh.",
+      "location": "the framed painting",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The brand logo 'Keloptic.com' is displayed in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The tagline 'Voyez plus clair pour moins cher sur www.keloptic.com' (See more clearly for less on www.keloptic.com) is at the bottom of the ad.",
+      "location": "bottom left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "layout",
+      "description": "The entire scene is set against a plain, muted green wall, focusing attention on the central visual metaphor.",
+      "location": "background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A pair of Keloptic glasses transforms a painterly, impressionistic self-portrait into a sharp, photorealistic image, demonstrating the brand's ability to provide clear vision at an affordable price.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The core message is that Keloptic glasses provide superior clarity, transforming a blurry or distorted view into a sharp, clear one, all at a lower cost.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "before_and_after",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "value",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a Van Gogh-style painting as the 'before' image is a sophisticated semiotic choice. It equates poor vision with an artistic, subjective, and distorted perception of reality, while the clear lens represents objective, factual truth.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "art_as_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "clarity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad persuades by creating a powerful visual metaphor. The immediate and dramatic difference between the two images serves as a tangible demonstration of the product's benefit, making the abstract concept of 'clear vision' concrete and desirable.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The target audience is likely price-conscious consumers who are also culturally aware, as the ad uses a high-culture reference (Van Gogh) to make a point about a practical, everyday product (eyeglasses).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "value_seeker",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

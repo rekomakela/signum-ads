@@ -1,0 +1,320 @@
+schema_version: signum_ontology_class_decisions.v1
+status: master_foundation
+project: Signum
+last_updated: '2026-08-29'
+purpose: Record how imported and legacy ontology concepts map into Signum Corpus Model
+  v0.1. The mapping is no longer constrained to 20 classes or to current decoder object
+  shapes.
+decision_legend:
+  keep: Imported class kept as a canonical class, same name.
+  promote: A subtype or contract-implied concept raised to a canonical class.
+  rename: Legacy class maps onto a canonical class under a new name.
+  merge: Legacy/imported class folded into an existing canonical class.
+  split: One class maps onto more than one canonical class or class+field.
+  field: Represented as a field on a canonical class, not as its own class.
+  defer: Not canonical now; reference-only, revisit later.
+  legacy_only: Kept for migration/search compatibility; no canonical class.
+  relationship: Represented as a relationship in core-relationships.v1.yaml, not a
+    node.
+canonical_classes:
+- id: SIG-C-01
+  label: Advertisement
+- id: SIG-C-02
+  label: Asset
+- id: SIG-C-03
+  label: Product
+- id: SIG-C-04
+  label: Campaign
+- id: SIG-C-05
+  label: Signifier
+- id: SIG-C-06
+  label: Signified
+- id: SIG-C-07
+  label: ReferentSystem
+- id: SIG-C-08
+  label: CulturalCode
+- id: SIG-C-09
+  label: Ideology
+- id: SIG-C-10
+  label: SocialConcept
+- id: SIG-C-11
+  label: PersuasionTechnique
+- id: SIG-C-12
+  label: EmotionalLever
+- id: SIG-C-14
+  label: Interpretation
+- id: SIG-C-16
+  label: Observation
+- id: SIG-C-17
+  label: EvidenceLink
+- id: SIG-C-20
+  label: SourceReference
+- id: SIG-C-21
+  label: Brand
+- id: SIG-C-22
+  label: Placement
+- id: SIG-C-23
+  label: AcquisitionSource
+- id: SIG-C-24
+  label: DecodeRevision
+- id: SIG-C-25
+  label: AdvertiserClaim
+- id: SIG-C-26
+  label: MeaningMechanism
+- id: SIG-C-27
+  label: AudiencePosition
+- id: SIG-C-28
+  label: TheoreticalConcept
+- id: SIG-C-29
+  label: MetadataAssertion
+- id: SIG-C-30
+  label: Market
+- id: SIG-C-31
+  label: TemporalExtent
+imported_class_decisions:
+- imported_class: Signifier
+  decision: keep
+  canonical_ref: SIG-C-05
+  rationale: Core semiotic unit; contract semiotic_reading.key_signifiers uses it.
+- imported_class: Signified
+  decision: keep
+  canonical_ref: SIG-C-06
+  rationale: Contract semiotic_reading.signified_meanings uses it.
+- imported_class: ReferentSystem
+  decision: keep
+  canonical_ref: SIG-C-07
+  rationale: Used as an ontology_class reference value in case manifests.
+- imported_class: Advertisement
+  decision: keep
+  canonical_ref: SIG-C-01
+  rationale: Root object of analysis; one manifest equals one Advertisement.
+- imported_class: Campaign
+  decision: keep
+  canonical_ref: SIG-C-04
+  rationale: Active corpus structure. Campaign membership is historically meaningful
+    and supports multi-ad archive relationships.
+- imported_class: Product
+  decision: keep
+  canonical_ref: SIG-C-03
+  rationale: What is advertised; central context for claim analysis.
+- imported_class: Source
+  decision: split
+  canonical_ref: null
+  rationale: 'Ambiguous source concept is split: Placement describes where an ad appeared;
+    AcquisitionSource describes where Signum obtained an Asset; SourceReference grounds
+    factual/theoretical assertions.'
+- imported_class: TargetAudience
+  decision: replace
+  canonical_ref: SIG-C-27
+  rationale: Corpus model uses AudiencePosition to represent the subject/viewer position
+    constructed or invited by the ad. Runtime TargetAudience remains compatibility
+    terminology.
+- imported_class: VisualStyle
+  decision: defer
+  canonical_ref: null
+  rationale: Overlaps Signifier composition/typography subtypes; revisit if execution
+    analysis grows.
+- imported_class: NarrativePattern
+  decision: defer
+  canonical_ref: null
+  rationale: Covered by the Advertisement.narrative_pattern enum field today.
+- imported_class: Ideology
+  decision: keep
+  canonical_ref: SIG-C-09
+  rationale: Endpoint of the deconstruction chain; surfaces in interpretation/myth.
+- imported_class: SocialConcept
+  decision: keep
+  canonical_ref: SIG-C-10
+  rationale: Backed by 55 curated instances and glossary refs; CulturalCode subtype
+    promoted out.
+- imported_class: PersuasionTechnique
+  decision: keep
+  canonical_ref: SIG-C-11
+  rationale: persuasion_technique is a contract reference_type.
+- imported_class: ModernBridge
+  decision: relationship
+  canonical_ref: null
+  rationale: A mapping from historical reading to modern technique; modeled as a relationship,
+    not a node.
+- imported_class: Observation
+  decision: keep
+  canonical_ref: SIG-C-16
+  rationale: Contract observations[] and draft evidence_records map to it.
+- imported_class: Interpretation
+  decision: keep
+  canonical_ref: SIG-C-14
+  rationale: Contract interpretation section and the interpretation claim kind use
+    it.
+- imported_class: EvidenceLink
+  decision: keep
+  canonical_ref: SIG-C-17
+  rationale: evidence_record is a contract reference_type; evidence_observation_ids
+    realize it.
+- imported_class: GlossaryEntry
+  decision: demote
+  canonical_ref: null
+  rationale: GlossaryEntry is a presentation projection from controlled concepts,
+    not a core corpus entity. Runtime glossary_concept compatibility remains unchanged
+    in this slice.
+- imported_class: TryFirstResponse
+  decision: defer
+  canonical_ref: null
+  rationale: Learner-authored workbench state; learning_only, out of the automated-deconstruction
+    core.
+- imported_class: UserSession
+  decision: defer
+  canonical_ref: null
+  rationale: Local learner session state; excluded from core per the no-workbench-state
+    rule.
+- imported_class: SourceReference
+  decision: keep
+  canonical_ref: SIG-C-20
+  rationale: Auditable theory grounding and quote safety across content.
+legacy_class_decisions:
+- legacy_id: ad_execution
+  decision: rename
+  canonical_ref: SIG-C-01
+  rationale: Current ontology uses Advertisement for the bounded artifact.
+- legacy_id: campaign_pattern
+  decision: split
+  canonical_ref: SIG-C-04
+  rationale: Campaign holds grouped ads; recurring story structure deferred (NarrativePattern).
+- legacy_id: medium_context
+  decision: field
+  canonical_ref: SIG-C-01
+  rationale: Modeled as Advertisement.medium / Source.source_type, not a separate
+    class.
+- legacy_id: strategy_frame
+  decision: defer
+  canonical_ref: null
+  rationale: Internal strategy modeling; not core learner/deconstruction ontology.
+- legacy_id: persuasive_claim
+  decision: split
+  canonical_ref: SIG-C-25
+  rationale: Maps to AdvertiserClaim when it describes what the ad asks the viewer
+    to believe; Signum analytical propositions map to Interpretation.
+- legacy_id: support_reason
+  decision: merge
+  canonical_ref: SIG-C-17
+  rationale: Folds into EvidenceLink, which expresses support for a claim or reading.
+- legacy_id: signifier
+  decision: rename
+  canonical_ref: SIG-C-05
+  rationale: Same core semiotic unit under the PascalCase Signifier.
+- legacy_id: signified_meaning
+  decision: rename
+  canonical_ref: SIG-C-06
+  rationale: Current ontology uses Signified.
+- legacy_id: cultural_code
+  decision: promote
+  canonical_ref: SIG-C-08
+  rationale: Raised to first-class CulturalCode; cultural_code is a contract reference_type.
+- legacy_id: semiotic_device
+  decision: promote_family
+  canonical_ref: SIG-C-26
+  rationale: Metaphor, metonymy, juxtaposition and related devices belong to the first-class
+    controlled MeaningMechanism family.
+- legacy_id: persuasion_mechanism
+  decision: rename
+  canonical_ref: SIG-C-11
+  rationale: Current ontology uses PersuasionTechnique.
+- legacy_id: appeal
+  decision: merge
+  canonical_ref: SIG-C-12
+  rationale: Folds into EmotionalLever (and PersuasionTechnique) rather than a separate
+    class.
+- legacy_id: implied_viewer
+  decision: replace
+  canonical_ref: SIG-C-27
+  rationale: 'Recast as AudiencePosition: the subject/viewer position constructed
+    or invited by the advertisement.'
+- legacy_id: target_audience
+  decision: replace
+  canonical_ref: SIG-C-27
+  rationale: 'Recast as AudiencePosition: the subject/viewer position constructed
+    or invited by the advertisement.'
+- legacy_id: audience_response
+  decision: defer
+  canonical_ref: SIG-C-14
+  rationale: Intended viewer reaction handled via Interpretation / EmotionalLever,
+    not its own class.
+- legacy_id: audience_inference
+  decision: merge
+  canonical_ref: SIG-C-14
+  rationale: The completed-inference reading merges into Interpretation.
+- legacy_id: reading
+  decision: rename
+  canonical_ref: SIG-C-14
+  rationale: Current ontology uses Interpretation.
+- legacy_id: counter_reading
+  decision: fold
+  canonical_ref: SIG-C-14
+  rationale: Counter-reading is an Interpretation stance/relationship, not a separate
+    ontological species.
+- legacy_id: brand
+  decision: promote
+  canonical_ref: SIG-C-21
+  rationale: Brand is first-class corpus identity with stable IDs and aliases; it
+    is required for Brand × Time and cross-brand archive queries.
+- legacy_id: brand_cue
+  decision: merge
+  canonical_ref: SIG-C-05
+  rationale: A brand cue is a signifier function; folds into Signifier.
+- legacy_id: tone
+  decision: defer
+  canonical_ref: null
+  rationale: Handled via VisualStyle (deferred) / Interpretation; not a core class.
+- legacy_id: execution_choice
+  decision: merge
+  canonical_ref: SIG-C-05
+  rationale: Formal execution choices fold into Signifier subtypes (composition/typography).
+new_or_promoted_classes:
+- canonical_ref: SIG-C-21
+  label: Brand
+  origin: corpus_model_v0.1
+  note: Brand aliases resolve to one canonical Brand ID; Brand is no longer an arbitrary
+    string field.
+- canonical_ref: SIG-C-22
+  label: Placement
+  origin: corpus_model_v0.1
+  note: ''
+- canonical_ref: SIG-C-23
+  label: AcquisitionSource
+  origin: corpus_model_v0.1
+  note: Distinct from original Placement and theory SourceReference.
+- canonical_ref: SIG-C-24
+  label: DecodeRevision
+  origin: corpus_model_v0.1
+  note: Current Decode objects are a runtime precursor. Future re-analysis appends
+    revisions rather than silently overwriting history.
+- canonical_ref: SIG-C-25
+  label: AdvertiserClaim
+  origin: corpus_model_v0.1
+  note: Split from the ambiguous legacy Claim term. Current core_message claims map
+    most naturally here.
+- canonical_ref: SIG-C-26
+  label: MeaningMechanism
+  origin: corpus_model_v0.1
+  note: Distinct from CulturalCode, PersuasionTechnique, and TheoreticalConcept.
+- canonical_ref: SIG-C-27
+  label: AudiencePosition
+  origin: corpus_model_v0.1
+  note: Recasts the older TargetAudience class away from demographic targeting toward
+    constructed subject position.
+- canonical_ref: SIG-C-28
+  label: TheoreticalConcept
+  origin: corpus_model_v0.1
+  note: Examples may include commodity fetishism, subject position, denotation/connotation,
+    or naturalization.
+- canonical_ref: SIG-C-29
+  label: MetadataAssertion
+  origin: corpus_model_v0.1
+  note: Keeps archival fact provenance separate from interpretive evidence.
+- canonical_ref: SIG-C-30
+  label: Market
+  origin: corpus_model_v0.1
+  note: ''
+- canonical_ref: SIG-C-31
+  label: TemporalExtent
+  origin: corpus_model_v0.1
+  note: Do not collapse approximate or range dates into false exact years.

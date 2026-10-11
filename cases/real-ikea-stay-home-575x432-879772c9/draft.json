@@ -1,0 +1,327 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ikea-stay-home-575x432-879772c9",
+    "media_type": "image",
+    "path": "cases/real-ikea-stay-home-575x432-879772c9/asset.jpg",
+    "sha256": "4f47223d6e9eef20018bf764a49e9a27d73d9f678f24a4a0332750a0303c669b"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:10:29.896Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ikea-stay-home-575x432-879772c9",
+    "sha256": "4f47223d6e9eef20018bf764a49e9a27d73d9f678f24a4a0332750a0303c669b"
+  },
+  "raw_provider_output": {
+    "summary": "A minimalist IKEA advertisement that uses the visual language of a furniture assembly manual to humorously instruct customers to stay home and keep their doors closed during the pandemic.",
+    "observations": [
+      {
+        "description": "The text 'STAY HÖME' is displayed in the top left corner, with the letter 'O' replaced by an umlaut (Ö), a stylistic choice associated with the brand's Scandinavian origin.",
+        "evidence_type": "copy",
+        "location": "Top left",
+        "confidence": "high"
+      },
+      {
+        "description": "A line drawing of a two-story house is positioned next to the headline.",
+        "evidence_type": "visual",
+        "location": "Top left, below text",
+        "confidence": "high"
+      },
+      {
+        "description": "A box in the top right corner lists 'parts' with icons and quantities: a key (1x), a keyhole (1x), and a roll of toilet paper (100x).",
+        "evidence_type": "visual",
+        "location": "Top right",
+        "confidence": "high"
+      },
+      {
+        "description": "A large box at the bottom shows two diagrams of a door. The left diagram shows a closed door with a green checkmark, and the right diagram shows an open door with a red cross.",
+        "evidence_type": "visual",
+        "location": "Bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The entire image is rendered in a black-and-white line art style, mimicking the aesthetic of IKEA's product assembly instructions.",
+        "evidence_type": "layout",
+        "location": "Entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "The IKEA logo is visible in the bottom left corner.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom left",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement's primary message is a public health directive to stay at home and avoid going out, framed as a simple set of instructions.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by adopting the format of an IKEA assembly manual to communicate a non-product-related message, creating a sense of familiarity and trust.",
+        "evidence_indices": [
+          4,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The humor is derived from the absurdity of treating a public health crisis like a piece of flat-pack furniture that needs to be 'assembled' by keeping the door closed and stocking up on toilet paper.",
+        "evidence_indices": [
+          2,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The inclusion of '100x' toilet paper as a required 'part' is a cultural reference to the widespread panic buying and stockpiling of this item during the early stages of the pandemic.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets consumers who are familiar with the IKEA brand and its signature assembly instructions, using this shared cultural knowledge to make the message more engaging and memorable.",
+        "evidence_indices": [
+          5,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "The text 'STAY HÖME' is displayed in the top left corner, with the letter 'O' replaced by an umlaut (Ö), a stylistic choice associated with the brand's Scandinavian origin.",
+      "location": "Top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A line drawing of a two-story house is positioned next to the headline.",
+      "location": "Top left, below text",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A box in the top right corner lists 'parts' with icons and quantities: a key (1x), a keyhole (1x), and a roll of toilet paper (100x).",
+      "location": "Top right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A large box at the bottom shows two diagrams of a door. The left diagram shows a closed door with a green checkmark, and the right diagram shows an open door with a red cross.",
+      "location": "Bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The entire image is rendered in a black-and-white line art style, mimicking the aesthetic of IKEA's product assembly instructions.",
+      "location": "Entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "The IKEA logo is visible in the bottom left corner.",
+      "location": "Bottom left",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A minimalist IKEA advertisement that uses the visual language of a furniture assembly manual to humorously instruct customers to stay home and keep their doors closed during the pandemic.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement's primary message is a public health directive to stay at home and avoid going out, framed as a simple set of instructions.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by adopting the format of an IKEA assembly manual to communicate a non-product-related message, creating a sense of familiarity and trust.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The humor is derived from the absurdity of treating a public health crisis like a piece of flat-pack furniture that needs to be 'assembled' by keeping the door closed and stocking up on toilet paper.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The inclusion of '100x' toilet paper as a required 'part' is a cultural reference to the widespread panic buying and stockpiling of this item during the early stages of the pandemic.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The ad targets consumers who are familiar with the IKEA brand and its signature assembly instructions, using this shared cultural knowledge to make the message more engaging and memorable.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

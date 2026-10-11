@@ -1,0 +1,52 @@
+schema_version: signum_knowledge_import_manifest.v0.1
+package_id: signum_knowledge_import_2026_06_24
+project: Signum
+status: active_knowledge_package
+purpose: Knowledge package for the Signum corpus ontology, controlled analytical vocabulary,
+  glossary, principles, and legacy mappings.
+import_policy:
+- Import as source content first; do not wire into runtime behavior until validators
+  pass.
+- Keep frontend read-only.
+- Do not mutate reviewed outputs or generated fixtures during import.
+- Use legacy mappings for reference only.
+files:
+  ontology_manifest: content/ontology/ontology.yaml
+  ontology_layers:
+  - content/ontology/layers/01-core-semiotic.yaml
+  - content/ontology/layers/02-ad-context.yaml
+  - content/ontology/layers/03-ideology-social.yaml
+  - content/ontology/layers/04-persuasion-modern.yaml
+  - content/ontology/layers/05-interpretation-evidence.yaml
+  - content/ontology/layers/06-learning-support.yaml
+  - content/ontology/layers/07-governance-sources.yaml
+  glossary_entries: content/glossary/entries.yaml
+  curated_social_concepts: content/concepts/social_concepts.curated.yaml
+  advertising_principles: content/principles/advertising_principles.yaml
+  example_only_terms: content/parking-lot/example_only_terms.yaml
+  legacy_glossary: content/legacy/glossary.legacy.yaml
+  legacy_concepts_ontology: content/legacy/ontology.legacy-concepts.yaml
+  legacy_mapping: content/mappings/legacy-to-current-ontology.yaml
+  corpus_model: content/ontology/corpus-model.v0.1.yaml
+  controlled_concept_model: content/ontology/controlled-concept-model.v0.1.yaml
+counts:
+  current_ontology_classes: 21
+  glossary_entries: 88
+  curated_social_concepts: 55
+  advertising_principles: 18
+  example_only_terms: 20
+  legacy_classes: 22
+  legacy_relations: 26
+  legacy_glossary_terms: 33
+  canonical_corpus_classes: 27
+  compatibility_classes: 4
+  core_relationships: 41
+known_integration_notes:
+- The older legacy ontology uses lower_snake_case class IDs while the newer domain
+  ontology uses PascalCase entity class names.
+- Some glossary ontology_ref subtype values may refer to enum/subtype names that need
+  validator normalization.
+- Do not promote example-only terms to ontology classes without an explicit design
+  decision.
+- Corpus Model v0.1 is target authority; current Decode and Case persistence contracts
+  remain compatibility projections until a separate migration.

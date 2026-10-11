@@ -1,0 +1,36 @@
+schema_version: signum_controlled_concept_model.v0.1
+status: canonical_target_model
+project: Signum
+last_updated: '2026-08-29'
+families:
+- MeaningMechanism
+- ReferentSystem
+- CulturalCode
+- Ideology
+- SocialConcept
+- PersuasionTechnique
+- EmotionalLever
+- TheoreticalConcept
+required_shape:
+  id: permanent stable identifier
+  type: controlled family
+  label: mutable display label
+  definition: current definition
+  scope_note: boundary of use
+  aliases: list
+  broader_ids: list
+  narrower_ids: list
+  related_ids: list
+  status: active|deprecated|candidate
+  replaced_by: id|null
+  source_refs: list
+  positive_examples: list
+  negative_examples: list
+governance_rules:
+- IDs are permanent; labels and definitions may evolve.
+- The decoder may propose a candidate concept but may not silently create canonical
+  vocabulary.
+- Aliases resolve to one canonical ID; near-synonyms do not become parallel corpus
+  dimensions by accident.
+- Meaning mechanism, cultural code, persuasion technique, emotional lever, and theoretical
+  concept remain distinct analytical families.

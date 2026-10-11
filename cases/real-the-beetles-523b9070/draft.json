@@ -1,0 +1,265 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-the-beetles-523b9070",
+    "media_type": "image",
+    "path": "cases/real-the-beetles-523b9070/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:08:48.396Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-the-beetles-523b9070",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A lineup of colorful Volkswagen Beetles parked on a classic London street, positioning the car as a stylish and iconic choice for urban living.",
+    "observations": [
+      {
+        "description": "Four Volkswagen Beetles in different colors (green, blue, yellow, red) are parked in a row in the foreground.",
+        "evidence_type": "visual",
+        "location": "foreground, bottom half",
+        "confidence": "high"
+      },
+      {
+        "description": "The background features a residential street with brick buildings, bare trees, and other parked cars, suggesting a London setting.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'The Beetles' is displayed in the bottom right corner.",
+        "evidence_type": "copy",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The Volkswagen logo is positioned next to the text in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The cars are arranged in a way that emphasizes their variety of colors and their presence in a shared urban space.",
+        "evidence_type": "layout",
+        "location": "foreground",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The Volkswagen Beetle is a vibrant, iconic, and stylish car that fits perfectly into a sophisticated urban environment.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of the plural 'The Beetles' alongside the lineup of cars creates a cultural reference to the famous band, implying a sense of coolness, unity, and iconic status for the car model.",
+        "evidence_indices": [
+          2,
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By placing the cars in a recognizable and aesthetically pleasing London street, the ad uses the setting to signal that the Beetle is a car for the modern, stylish city dweller.",
+        "evidence_indices": [
+          1,
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "Four Volkswagen Beetles in different colors (green, blue, yellow, red) are parked in a row in the foreground.",
+      "location": "foreground, bottom half",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The background features a residential street with brick buildings, bare trees, and other parked cars, suggesting a London setting.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The text 'The Beetles' is displayed in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The Volkswagen logo is positioned next to the text in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The cars are arranged in a way that emphasizes their variety of colors and their presence in a shared urban space.",
+      "location": "foreground",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A lineup of colorful Volkswagen Beetles parked on a classic London street, positioning the car as a stylish and iconic choice for urban living.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The Volkswagen Beetle is a vibrant, iconic, and stylish car that fits perfectly into a sophisticated urban environment.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of the plural 'The Beetles' alongside the lineup of cars creates a cultural reference to the famous band, implying a sense of coolness, unity, and iconic status for the car model.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By placing the cars in a recognizable and aesthetically pleasing London street, the ad uses the setting to signal that the Beetle is a car for the modern, stylish city dweller.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

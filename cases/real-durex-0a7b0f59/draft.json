@@ -1,0 +1,374 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-durex-0a7b0f59",
+    "media_type": "image",
+    "path": "cases/real-durex-0a7b0f59/asset.jpg",
+    "sha256": "f1a7d318949b02bc3b6b4249f0d9219035d6457a0d159647062f906ef5450930"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:37:04.392Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-durex-0a7b0f59",
+    "sha256": "f1a7d318949b02bc3b6b4249f0d9219035d6457a0d159647062f906ef5450930"
+  },
+  "raw_provider_output": {
+    "summary": "A minimalist Durex advertisement that uses the visual pun of a baby bottle nipple and a condom to suggest that the brand's product is a safe and responsible alternative to the risk of an unplanned pregnancy.",
+    "observations": [
+      {
+        "description": "A baby bottle nipple, shown with its ring, is positioned on the left side of the frame.",
+        "evidence_type": "visual",
+        "location": "center-left",
+        "confidence": "high"
+      },
+      {
+        "description": "A yellow condom, unrolled, is positioned on the right side of the frame.",
+        "evidence_type": "visual",
+        "location": "center-right",
+        "confidence": "high"
+      },
+      {
+        "description": "The word 'or' is written in a casual, blue font between the two objects.",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The Durex brand logo is placed at the bottom center of the image.",
+        "evidence_type": "brand_mark",
+        "location": "bottom-center",
+        "confidence": "high"
+      },
+      {
+        "description": "The entire composition is set against a stark white background with a simple dark blue border.",
+        "evidence_type": "layout",
+        "location": "background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad presents a binary choice: use a condom (Durex) or face the consequence of a baby (symbolized by the bottle nipple).",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The baby bottle nipple is used as a metonym for a baby or pregnancy, while the condom is the signifier for the product and the act of prevention.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By framing the choice as a simple 'or', the ad uses a minimalist approach to make the decision seem straightforward and to position Durex as the rational, responsible option.",
+        "evidence_indices": [
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets sexually active individuals, appealing to their sense of responsibility and desire to avoid the significant life change of an unplanned pregnancy.",
+        "evidence_indices": [
+          0,
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The humor and cleverness of the visual pun are designed to make the potentially serious topic of contraception more approachable and memorable, a common tactic in Durex's brand identity.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A baby bottle nipple, shown with its ring, is positioned on the left side of the frame.",
+      "location": "center-left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A yellow condom, unrolled, is positioned on the right side of the frame.",
+      "location": "center-right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The word 'or' is written in a casual, blue font between the two objects.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The Durex brand logo is placed at the bottom center of the image.",
+      "location": "bottom-center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The entire composition is set against a stark white background with a simple dark blue border.",
+      "location": "background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A minimalist Durex advertisement that uses the visual pun of a baby bottle nipple and a condom to suggest that the brand's product is a safe and responsible alternative to the risk of an unplanned pregnancy.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad presents a binary choice: use a condom (Durex) or face the consequence of a baby (symbolized by the bottle nipple).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The baby bottle nipple is used as a metonym for a baby or pregnancy, while the condom is the signifier for the product and the act of prevention.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By framing the choice as a simple 'or', the ad uses a minimalist approach to make the decision seem straightforward and to position Durex as the rational, responsible option.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets sexually active individuals, appealing to their sense of responsibility and desire to avoid the significant life change of an unplanned pregnancy.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "The humor and cleverness of the visual pun are designed to make the potentially serious topic of contraception more approachable and memorable, a common tactic in Durex's brand identity.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

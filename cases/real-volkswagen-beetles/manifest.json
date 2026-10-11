@@ -1,0 +1,219 @@
+{
+  "manifest_id": "real-volkswagen-beetles",
+  "asset": {
+    "asset_id": "asset_real_volkswagen_beetles",
+    "media_type": "image",
+    "path": "cases/real-volkswagen-beetles/asset.jpg",
+    "sha256": "c70c380cdf672cee8ce45ff457834bb5459781fa6a80af15fd13053972df4f30"
+  },
+  "source_url": "https://www.reddit.com/r/AdPorn/comments/6oz4wy/the_beetles_1200x859/",
+  "summary": "Real Volkswagen Beetles case built from the supplied image, using repetition and street placement to foreground brand recognition.",
+  "learning_guidance": {
+    "overview": "Use this case to study how repeated product forms and street placement turn a lineup of Beetles into brand recognition.",
+    "look_for": [
+      "the three brightly colored Beetles in the foreground",
+      "the repeating cars receding down the tree-lined street",
+      "the Volkswagen roundel and The Beetles title in the lower-right corner"
+    ],
+    "concepts_to_know": [
+      "signifier",
+      "semiotics",
+      "identity_signaling"
+    ],
+    "concept_explanations": {
+      "signifier": "A visible form that stands for something else in the ad, like the Beetles row standing for the brand.",
+      "semiotics": "How signs and images create meaning together, which this ad does through repetition and the title.",
+      "identity_signaling": "Showing the kind of person or group the ad invites the viewer to identify with."
+    },
+    "thinking_questions": [
+      "What is left out of the frame?",
+      "What would a viewer who does not know VW notice first?"
+    ],
+    "connects_to": [
+      "real-mercedes-benz-star",
+      "real-ikea-sleep"
+    ]
+  },
+  "observations": [
+    {
+      "ref": "obs_beetles_row",
+      "evidence_type": "visual",
+      "description": "Three brightly colored Beetles span the foreground while more cars recede down the street.",
+      "location": "foreground street",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_urban_street",
+      "evidence_type": "layout",
+      "description": "The cars are staged on a tree-lined residential street that opens toward the horizon.",
+      "location": "full frame",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_color_variety",
+      "evidence_type": "visual",
+      "description": "The foreground cars use distinct body colors, making the repetition feel playful rather than uniform.",
+      "location": "foreground",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_brand_mark",
+      "evidence_type": "brand_mark",
+      "description": "The Volkswagen roundel and The Beetles title sit in the lower-right corner.",
+      "location": "lower right",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_context_source",
+      "evidence_type": "context",
+      "description": "Analysis is based on the provided image and source provenance, not external campaign knowledge.",
+      "location": null,
+      "confidence": "high"
+    }
+  ],
+  "claims": [
+    {
+      "ref": "claim_core_message",
+      "kind": "core_message",
+      "text": "The row of Beetles can be read as turning product plurality into an everyday street presence.",
+      "evidence_refs": [
+        {
+          "ref": "obs_beetles_row",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_urban_street",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "signifier",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "ontology_class",
+          "reference_value": "SocialConcept",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_semiotic",
+      "kind": "semiotic",
+      "text": "The repeated silhouettes and the Beetles title work like a visual pun, making the cars read as both product and sign.",
+      "evidence_refs": [
+        {
+          "ref": "obs_beetles_row",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_brand_mark",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_urban_street",
+          "support": "unsupported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "semiotics",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "ontology_class",
+          "reference_value": "ReferentSystem",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_persuasion",
+      "kind": "persuasion",
+      "text": "The repetition and street placement suggest identity signaling, making the brand feel like a confident part of ordinary city life.",
+      "evidence_refs": [
+        {
+          "ref": "obs_beetles_row",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_brand_mark",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_context_source",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "persuasion_technique",
+          "reference_value": "identity_signaling",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "confidence",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_interpretation",
+      "kind": "interpretation",
+      "text": "The image frames familiarity and abundance as part of the appeal, not just repetition.",
+      "evidence_refs": [
+        {
+          "ref": "obs_color_variety",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_context_source",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "symbol",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "cultural_code",
+          "reference_value": "cultural_capital",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_interpretation_alternate",
+      "kind": "interpretation",
+      "text": "The same lineup can also read as playful crowding, making the street itself feel staged for display.",
+      "evidence_refs": [
+        {
+          "ref": "obs_beetles_row",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_urban_street",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "symbol",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "confidence",
+          "required_for_claim": false
+        }
+      ]
+    }
+  ]
+}

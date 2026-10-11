@@ -1,0 +1,308 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-utah-ski-resort-uses-a-1-star-review-from-a-cali-86eca2f2",
+    "media_type": "image",
+    "path": "cases/real-utah-ski-resort-uses-a-1-star-review-from-a-cali-86eca2f2/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:17:09.540Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-utah-ski-resort-uses-a-1-star-review-from-a-cali-86eca2f2",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "Snowbird Resort is positioned as an extreme, high-difficulty destination for expert skiers, using a customer testimonial to validate its reputation for challenging terrain.",
+    "observations": [
+      {
+        "description": "A full-page photograph of a vast, snow-covered mountain range with steep slopes and ski lifts.",
+        "evidence_type": "visual",
+        "location": "background, spanning both pages",
+        "confidence": "high"
+      },
+      {
+        "description": "A skier in a blue jacket is shown carving aggressively, kicking up a large spray of powder snow.",
+        "evidence_type": "visual",
+        "location": "bottom left foreground",
+        "confidence": "high"
+      },
+      {
+        "description": "A five-star rating system is displayed with only the first star filled in black.",
+        "evidence_type": "visual",
+        "location": "left page, above the headline",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text reads 'Too Advanced'.",
+        "evidence_type": "copy",
+        "location": "left page, middle",
+        "confidence": "high"
+      },
+      {
+        "description": "A testimonial quote reads: 'I've heard Snowbird is a tough mountain, but this is ridiculous. It felt like every trail was a steep chute or littered with tree wells. How is anyone supposed to ride in that? Not fun!' attributed to 'Greg, Los Angeles, CA'.",
+        "evidence_type": "copy",
+        "location": "left page, below headline",
+        "confidence": "high"
+      },
+      {
+        "description": "The 'snowbird' logo with a stylized bird icon is located in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "Contact information 'snowbird.com | 800.232.9542' is printed in the bottom left corner.",
+        "evidence_type": "copy",
+        "location": "bottom left",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement's core message is that Snowbird is a destination exclusively for elite, advanced skiers who seek extreme difficulty.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses a 'negative' testimonial to create a sense of exclusivity; by complaining that the mountain is 'too advanced' and 'not fun,' the customer inadvertently validates the resort's reputation for being a serious, expert-level challenge.",
+        "evidence_indices": [
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The single filled star in the rating system acts as a visual metaphor for 'difficulty level 1' (easiest) or '1 out of 5 stars for beginners,' reinforcing the text's claim that the terrain is not for the casual skier.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target audience is not the average tourist but the 'hardcore' skier who derives status and identity from conquering difficult terrain, as evidenced by the specific mention of 'steep chutes' and 'tree wells'.",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "sports_fandom",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A full-page photograph of a vast, snow-covered mountain range with steep slopes and ski lifts.",
+      "location": "background, spanning both pages",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A skier in a blue jacket is shown carving aggressively, kicking up a large spray of powder snow.",
+      "location": "bottom left foreground",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A five-star rating system is displayed with only the first star filled in black.",
+      "location": "left page, above the headline",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The headline text reads 'Too Advanced'.",
+      "location": "left page, middle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "A testimonial quote reads: 'I've heard Snowbird is a tough mountain, but this is ridiculous. It felt like every trail was a steep chute or littered with tree wells. How is anyone supposed to ride in that? Not fun!' attributed to 'Greg, Los Angeles, CA'.",
+      "location": "left page, below headline",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "The 'snowbird' logo with a stylized bird icon is located in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "copy",
+      "description": "Contact information 'snowbird.com | 800.232.9542' is printed in the bottom left corner.",
+      "location": "bottom left",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "Snowbird Resort is positioned as an extreme, high-difficulty destination for expert skiers, using a customer testimonial to validate its reputation for challenging terrain.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement's core message is that Snowbird is a destination exclusively for elite, advanced skiers who seek extreme difficulty.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The ad uses a 'negative' testimonial to create a sense of exclusivity; by complaining that the mountain is 'too advanced' and 'not fun,' the customer inadvertently validates the resort's reputation for being a serious, expert-level challenge.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The single filled star in the rating system acts as a visual metaphor for 'difficulty level 1' (easiest) or '1 out of 5 stars for beginners,' reinforcing the text's claim that the terrain is not for the casual skier.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The target audience is not the average tourist but the 'hardcore' skier who derives status and identity from conquering difficult terrain, as evidenced by the specific mention of 'steep chutes' and 'tree wells'.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "sports_fandom",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

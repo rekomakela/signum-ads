@@ -1,0 +1,310 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-one-click-can-change-your-future-ee56145e",
+    "media_type": "image",
+    "path": "cases/real-one-click-can-change-your-future-ee56145e/asset.jpg",
+    "sha256": "861e17843d8501493ad3f8f8e6c93dd5d494e30eac8b02d06394a2a8a6113f5d"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:40:44.457Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-one-click-can-change-your-future-ee56145e",
+    "sha256": "861e17843d8501493ad3f8f8e6c93dd5d494e30eac8b02d06394a2a8a6113f5d"
+  },
+  "raw_provider_output": {
+    "summary": "A public safety advertisement using a medical X-ray visual metaphor to illustrate the life-saving function of a seatbelt, urging viewers to buckle up.",
+    "observations": [
+      {
+        "description": "A full-body X-ray image showing a human torso, spine, and pelvis in a blue monochrome palette.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A seatbelt buckle is depicted as a metallic implant fused into the spine, replacing the lower vertebrae.",
+        "evidence_type": "visual",
+        "location": "center, mid-spine",
+        "confidence": "high"
+      },
+      {
+        "description": "The corresponding seatbelt tongue is shown as a separate metallic implant in the pelvic region, positioned to connect with the buckle.",
+        "evidence_type": "visual",
+        "location": "center, lower pelvis",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'One click could change your future. Belt up.' is printed in white at the bottom right.",
+        "evidence_type": "copy",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The 'Drive Smart. Arrive Safe.' slogan and a logo are visible in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right corner",
+        "confidence": "high"
+      },
+      {
+        "description": "Technical X-ray markings (e.g., 'BOM0640', '1:01:0 AP') are present in the bottom left corner, mimicking a medical record.",
+        "evidence_type": "visual",
+        "location": "bottom left",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Wearing a seatbelt is a critical, life-saving action that should be a fundamental part of one's safety routine.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad uses a visual metaphor where the seatbelt is internalized as a skeletal structure, suggesting that safety is as essential to the body as bone.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of an X-ray aesthetic and medical terminology creates an appeal to authority, framing the seatbelt as a medical necessity rather than just a legal requirement.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The phrase 'One click could change your future' leverages the fear of a life-altering accident to motivate immediate action.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A full-body X-ray image showing a human torso, spine, and pelvis in a blue monochrome palette.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A seatbelt buckle is depicted as a metallic implant fused into the spine, replacing the lower vertebrae.",
+      "location": "center, mid-spine",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The corresponding seatbelt tongue is shown as a separate metallic implant in the pelvic region, positioned to connect with the buckle.",
+      "location": "center, lower pelvis",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'One click could change your future. Belt up.' is printed in white at the bottom right.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The 'Drive Smart. Arrive Safe.' slogan and a logo are visible in the bottom right corner.",
+      "location": "bottom right corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "Technical X-ray markings (e.g., 'BOM0640', '1:01:0 AP') are present in the bottom left corner, mimicking a medical record.",
+      "location": "bottom left",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public safety advertisement using a medical X-ray visual metaphor to illustrate the life-saving function of a seatbelt, urging viewers to buckle up.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Wearing a seatbelt is a critical, life-saving action that should be a fundamental part of one's safety routine.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad uses a visual metaphor where the seatbelt is internalized as a skeletal structure, suggesting that safety is as essential to the body as bone.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The use of an X-ray aesthetic and medical terminology creates an appeal to authority, framing the seatbelt as a medical necessity rather than just a legal requirement.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The phrase 'One click could change your future' leverages the fear of a life-altering accident to motivate immediate action.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

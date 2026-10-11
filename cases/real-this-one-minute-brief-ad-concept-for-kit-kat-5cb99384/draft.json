@@ -1,0 +1,255 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-this-one-minute-brief-ad-concept-for-kit-kat-5cb99384",
+    "media_type": "image",
+    "path": "cases/real-this-one-minute-brief-ad-concept-for-kit-kat-5cb99384/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:14:15.432Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-this-one-minute-brief-ad-concept-for-kit-kat-5cb99384",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A humorous advertisement for KitKat that uses a calendar of repetitive 'Zoom calls' to position the chocolate bar as a necessary break from the monotony of remote work.",
+    "observations": [
+      {
+        "description": "A vertical list of time slots (13, 14, 15, 16, 17) where most entries are labeled 'Zoom call' in a uniform pinkish bar.",
+        "evidence_type": "copy",
+        "location": "Main poster area",
+        "confidence": "high"
+      },
+      {
+        "description": "Two KitKat chocolate bars are depicted in the 15:00 time slot, replacing the 'Zoom call' text and breaking the visual pattern.",
+        "evidence_type": "visual",
+        "location": "Center of the poster (15:00 slot)",
+        "confidence": "high"
+      },
+      {
+        "description": "The ad is displayed on a glass bus shelter located on a city sidewalk with buildings in the background.",
+        "evidence_type": "context",
+        "location": "Entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "The 'KitKat' logo is embossed on the chocolate bars shown in the image.",
+        "evidence_type": "brand_mark",
+        "location": "On the chocolate bars",
+        "confidence": "high"
+      },
+      {
+        "description": "The layout mimics a digital calendar or schedule interface.",
+        "evidence_type": "layout",
+        "location": "Poster design",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad suggests that eating a KitKat is a welcome and necessary break in a day filled with endless video meetings.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "relief",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The chocolate bar functions as a visual 'interruption' or 'pause' in the semiotic flow of the work schedule, signifying a moment of leisure.",
+        "evidence_indices": [
+          0,
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The advertisement targets remote workers or office employees who are experiencing fatigue from the repetitive nature of virtual meetings.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "A vertical list of time slots (13, 14, 15, 16, 17) where most entries are labeled 'Zoom call' in a uniform pinkish bar.",
+      "location": "Main poster area",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "Two KitKat chocolate bars are depicted in the 15:00 time slot, replacing the 'Zoom call' text and breaking the visual pattern.",
+      "location": "Center of the poster (15:00 slot)",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "context",
+      "description": "The ad is displayed on a glass bus shelter located on a city sidewalk with buildings in the background.",
+      "location": "Entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The 'KitKat' logo is embossed on the chocolate bars shown in the image.",
+      "location": "On the chocolate bars",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The layout mimics a digital calendar or schedule interface.",
+      "location": "Poster design",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A humorous advertisement for KitKat that uses a calendar of repetitive 'Zoom calls' to position the chocolate bar as a necessary break from the monotony of remote work.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad suggests that eating a KitKat is a welcome and necessary break in a day filled with endless video meetings.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "relief",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The chocolate bar functions as a visual 'interruption' or 'pause' in the semiotic flow of the work schedule, signifying a moment of leisure.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "audience",
+        "text": "The advertisement targets remote workers or office employees who are experiencing fatigue from the repetitive nature of virtual meetings.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,3737 @@
+---
+id: signifier
+concept_name: Signifier
+slug: signifier
+domain: semiotics
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Signifier
+short_definition: 'A concrete element in an advertisement that you can literally point
+  to: a person, object, word, color, or arrangement.'
+plain_language: The signifier is the visible or audible thing before interpretation
+  begins. In a perfume ad, it may be a face, a bottle, a brand name, a color palette,
+  or the position of the product in the frame. Signum starts here because careful
+  looking comes before meaning-making.
+why_it_matters: Separating signifiers from meanings gives the learner a pause button.
+  It prevents the ad’s impression from replacing evidence.
+how_to_spot:
+- 'Ask: what do I literally see?'
+- Use neutral labels before interpretive adjectives.
+- Point to the exact element in the frame.
+common_clues:
+- people
+- objects
+- written words
+- dominant colors
+- layout and spatial hierarchy
+- typefaces
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: Catherine Deneuve’s face, direct gaze, blonde hair, the Chanel bottle,
+    amber liquid, cream background, and brand name are signifiers before they become
+    meanings.
+related_concepts:
+- signified
+- referent_system
+- observation
+- person_signifier
+- object_signifier
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: signified
+concept_name: Signified
+slug: signified
+domain: semiotics
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Signified
+short_definition: The idea, feeling, value, or social meaning evoked by a signifier
+  in the viewer’s mind.
+plain_language: 'The signifier is what appears in the ad. The signified is what it
+  calls up: elegance, purity, power, belonging, youth, expertise, desire. Signifieds
+  are not simply inside the image; they depend on cultural learning and viewer context.'
+why_it_matters: This concept shows that ad meaning is constructed, not natural. It
+  lets the learner ask why a face, color, or product has come to mean what it means.
+how_to_spot:
+- After naming a signifier, ask what idea or feeling it evokes.
+- Ask whether a different viewer would make the same association.
+- Look for abstract nouns or social values activated by the visible element.
+common_clues:
+- elegance
+- freedom
+- purity
+- status
+- confidence
+- nostalgia
+- security
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: Deneuve’s face may evoke timeless beauty, French sophistication, cinematic
+    glamour, and cool elegance.
+related_concepts:
+- signifier
+- referent_system
+- ideology
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: referent_system
+concept_name: Referent System
+slug: referent-system
+domain: semiotics
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: ReferentSystem
+short_definition: The cultural knowledge system a signifier draws on for its meaning.
+plain_language: A referent system is the cultural database behind a sign. A celebrity
+  face works only if the viewer knows the celebrity’s public meaning. A lab coat works
+  only because science already carries authority. Ads borrow from these systems and
+  attach their value to products.
+why_it_matters: Referent systems reveal that ads do not create meaning from nothing.
+  They import meaning from culture, history, science, celebrity, nature, luxury, or
+  everyday life.
+how_to_spot:
+- Ask what you must already know for the signifier to work.
+- Ask where the association was learned.
+- Name the cultural domain being borrowed.
+common_clues:
+- celebrity recognition
+- art-historical styling
+- scientific props
+- nature imagery
+- national identity cues
+- luxury codes
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: The Chanel ad draws on French cinema, Parisian elegance, and high-fashion
+    celebrity culture.
+related_concepts:
+- signifier
+- signified
+- nature_referent_system
+- celebrity_culture_referent_system
+- ideology
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: ideology
+concept_name: Ideology
+slug: ideology
+domain: semiotics
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Ideology
+short_definition: A hidden belief system an ad makes feel natural, obvious, or commonsensical.
+plain_language: 'Ideology is not just what an ad says. It is what the ad assumes:
+  what counts as normal, desirable, successful, feminine, masculine, modern, natural,
+  or beautiful. Ads often do not argue for these beliefs; they stage them as reality.'
+why_it_matters: Naming ideology lets the learner see how advertising teaches social
+  beliefs while appearing to sell only products.
+how_to_spot:
+- Ask what the ad treats as obvious.
+- Ask what belief must be accepted for the ad to feel natural.
+- Ask who benefits if this belief feels like common sense.
+common_clues:
+- absence of alternatives
+- social roles shown as natural
+- products linked to happiness or identity
+- beauty or success treated as personal obligation
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: The ad can naturalize femininity as beauty, elegance as product-mediated,
+    and luxury as effortless identity.
+related_concepts:
+- magic_naturalization
+- mirror_identification
+- gendered_essentialism
+- success_through_consumption
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: semiotics
+concept_name: Semiotics
+slug: semiotics
+domain: semiotics
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The study of signs and how they produce meaning.
+plain_language: Semiotics asks not only what something means, but how it comes to
+  mean. In Signum, semiotics is the method for moving from visible elements to cultural
+  associations, ideologies, and alternative readings.
+why_it_matters: It gives the learner a repeatable method for decoding ads instead
+  of only reacting to them.
+how_to_spot:
+- Separate what is visible from what is interpreted.
+- 'Trace the chain: signifier → signified → referent system → ideology.'
+- Ask how a connection became natural.
+common_clues:
+- signifier/signified language
+- cultural codes
+- naturalized meanings
+- mythic or ideological framing
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: The learner can trace Deneuve’s face from visible person-signifier
+    to French elegance to celebrity culture to gendered luxury ideology.
+related_concepts:
+- signifier
+- signified
+- referent_system
+- ideology
+- observation
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: visual_metaphor
+concept_name: Visual Metaphor
+slug: visual-metaphor
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: full
+ontology_ref:
+  class: Signifier
+short_definition: A visual arrangement where one image element helps carry the meaning
+  of another.
+plain_language: An ad uses visual metaphor when one thing stands in for another through
+  resemblance, substitution, or a deliberate visual pairing. The image asks you to
+  read beyond the literal scene.
+why_it_matters: It shows how ads compress big ideas into one image so the learner
+  can explain the meaning instead of treating the picture as decoration.
+how_to_spot:
+- Ask what one element is standing in for.
+- Look for substitution, analogy, or a scene that would be odd if read literally.
+- Test whether the image depends on comparison rather than direct statement.
+common_clues:
+- stand-in meaning
+- visual analogy
+- visual comparison
+- surprising pairing
+- image doing the work of copy
+local_examples:
+- ad_id: insurance-family-future
+  explanation: The calm family scene can stand in for security and long-term protection,
+    letting one image carry the promise.
+related_concepts:
+- signifier
+- signified
+- referent_system
+- interpretation
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing adapted from the archived Signum YAML concept pack and
+    Williamson-inspired advertising semiotics; no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: symbol
+concept_name: Symbol
+slug: symbol
+domain: semiotics
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Signifier
+  subtype: ObjectSignifier
+short_definition: A signifier that carries a learned cultural meaning beyond its literal
+  form.
+plain_language: A symbol works because viewers already know the code around it. A
+  watch, color, object, or mark can become shorthand for status, purity, authority,
+  or belonging.
+why_it_matters: It helps the learner explain how ads move quickly from image to idea
+  using shared cultural knowledge.
+how_to_spot:
+- Ask what the object or mark means beyond itself.
+- Look for culturally learned shorthand or repeated conventions.
+- Check whether the same form would read differently in another setting.
+common_clues:
+- cultural shorthand
+- badge
+- emblem
+- icon
+- shared code
+local_examples:
+- ad_id: sample-soap-purity-ad
+  explanation: A white, orderly domestic scene can symbolize purity and moral cleanliness
+    because the code already feels familiar.
+related_concepts:
+- signifier
+- cultural_code
+- referent_system
+- object_signifier
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing adapted from the archived Signum YAML concept pack and
+    Williamson-inspired advertising semiotics; no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: contrast
+concept_name: Contrast
+slug: contrast
+domain: semiotics
+difficulty: beginner
+tier: 2
+entry_status: full
+ontology_ref:
+  class: Signifier
+  subtype: CompositionSignifier
+short_definition: A deliberate difference in color, scale, tone, or placement that
+  makes meaning stand out.
+plain_language: Contrast creates meaning by putting differences next to each other.
+  Light and dark, big and small, plain and ornate, or calm and busy can steer attention
+  and make one element feel more important.
+why_it_matters: It helps the learner see that layout and opposition are not just decoration;
+  they shape hierarchy, mood, and emphasis.
+how_to_spot:
+- Ask what is being set against what.
+- Notice oppositions in color, scale, texture, tone, or density.
+- Look for places where difference creates emphasis or tension.
+common_clues:
+- light and dark
+- big and small
+- plain and ornate
+- calm and busy
+- opposition
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: The contrast between a dark surrounding field and a bright watch face
+    pushes precision and prestige to the front.
+related_concepts:
+- signifier
+- composition_signifier
+- spatial_hierarchy
+- visual_style
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing adapted from the archived Signum YAML concept pack and
+    Williamson-inspired advertising semiotics; no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: magic_naturalization
+concept_name: Magic Naturalization
+slug: magic-naturalization
+domain: semiotics
+difficulty: intermediate
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Ideology
+  subtype: MagicNaturalization
+short_definition: The erasure of labor, production, and process so the product appears
+  natural or magically complete.
+plain_language: Many ads hide the factory, workers, supply chain, testing, extraction,
+  and waste. The product appears pristine, glowing, or naturally given. The magic
+  is the removal of production from view.
+why_it_matters: 'It teaches the learner to ask what the ad hides: labor, process,
+  cost, environmental impact, and commercial construction.'
+how_to_spot:
+- Look for a finished product with no visible making process.
+- Notice nature imagery around manufactured goods.
+- Ask what production stages are absent.
+common_clues:
+- glow or halo
+- flowers/water/sunlight
+- no workers or tools
+- pristine surfaces
+- words like pure, essential, natural
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: The perfume bottle appears as an effortless extension of elegance;
+    no flowers, chemists, factories, or retail labor are shown.
+related_concepts:
+- cooking_nature
+- commodity_fetishism
+- nature_referent_system
+- product_as_magic_object
+ads_using_concept: []
+modern_bridge:
+  technique: outcome_visualization
+  explanation: Modern dashboards and SaaS ads also hide work and show only clean outcomes.
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: mirror_identification
+concept_name: Mirror Identification
+slug: mirror-identification
+domain: semiotics
+difficulty: intermediate
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Ideology
+  subtype: MirrorIdentification
+short_definition: A structure where the viewer is invited to recognize themselves
+  in the depicted person or desired identity.
+plain_language: 'The ad acts like a mirror. A person looks out, or the copy says “you,”
+  and the viewer is offered an identity: this is you, or this could be you. The product
+  completes the recognition.'
+why_it_matters: It explains why mass advertising can feel personally addressed.
+how_to_spot:
+- Look for direct eye contact.
+- Look for second-person address.
+- Ask what identity the viewer is invited to occupy.
+common_clues:
+- direct gaze
+- eye-level framing
+- aspirational but attainable figure
+- welcoming or knowing expression
+- you/yours copy
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: Deneuve looks at the viewer rather than at the bottle, inviting recognition
+    with the image’s composed elegance.
+related_concepts:
+- direct_gaze
+- subject_position
+- person_signifier
+- liking_and_association
+ads_using_concept: []
+modern_bridge:
+  technique: liking_and_association
+  explanation: Influencer marketing uses the same recognition structure through direct
+    address and lifestyle intimacy.
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: cooking_nature
+concept_name: Cooking Nature
+slug: cooking-nature
+domain: semiotics
+difficulty: intermediate
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Ideology
+  subtype: CookingNature
+short_definition: A raw natural material and a finished product are connected while
+  the industrial transformation between them is hidden.
+plain_language: The ad shows the raw and the finished, but not the kitchen. Flowers
+  become perfume, aloe becomes moisturizer, beans become lifestyle coffee. The transformation
+  appears gentle and inevitable, not industrial.
+why_it_matters: It exposes how “natural” product narratives can erase processing,
+  chemistry, labor, logistics, and commercial design.
+how_to_spot:
+- Look for raw ingredients beside finished goods.
+- Ask what transformation step is missing.
+- Notice language like infused, crafted, born from, natural.
+common_clues:
+- plants beside packaged products
+- water/dew/steam
+- no factory or lab
+- farm-to-table shortcuts
+- botanical language
+local_examples:
+- ad_id: generic_skincare_aloe
+  explanation: An aloe leaf next to a jar of cream implies nature has become skincare
+    without showing extraction, formulation, preservatives, packaging, or distribution.
+related_concepts:
+- magic_naturalization
+- nature_referent_system
+- commodity_fetishism
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: commodity_fetishism
+concept_name: Commodity Fetishism
+slug: commodity-fetishism
+domain: semiotics
+difficulty: advanced
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Ideology
+  subtype: CommodityFetishism
+short_definition: The product appears to possess value, power, or personality by itself,
+  while the social relations that produced that value disappear.
+plain_language: A watch seems prestigious. A car seems powerful. A perfume seems seductive.
+  But prestige, power, and seduction are social meanings, not physical substances
+  inside objects. Advertising makes the object look like the source of the meaning.
+why_it_matters: It helps the learner see how consumer culture shifts attention from
+  people, labor, and social systems onto products.
+how_to_spot:
+- Look for products shown as autonomous protagonists.
+- Ask what social relation is being converted into object-value.
+- Notice people admiring the product rather than using it.
+common_clues:
+- spotlights
+- altar-like product staging
+- monumental scale
+- glowing object
+- language giving agency to products
+local_examples:
+- ad_id: generic_luxury_watch
+  explanation: A watch shown alone against black space appears to contain prestige
+    as if prestige were a material property.
+related_concepts:
+- magic_naturalization
+- product_as_status_signal
+- success_through_consumption
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: gendered_essentialism
+concept_name: Gendered Essentialism
+slug: gendered-essentialism
+domain: sociology
+difficulty: intermediate
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Ideology
+  subtype: GenderedEssentialism
+short_definition: Gender is presented as natural, binary, and tied to fixed products,
+  behaviors, bodies, and desires.
+plain_language: 'Advertising often teaches what men and women supposedly are. It repeats
+  visual scripts: men as active, rational, rugged, controlling; women as beautiful,
+  nurturing, receptive, displayed. These scripts are cultural, but ads make them feel
+  natural.'
+why_it_matters: It lets the learner question gender roles that ads present as common
+  sense.
+how_to_spot:
+- Look for unnecessary gender coding.
+- Compare body language, gaze, space, and agency.
+- Ask what gender possibilities are excluded.
+common_clues:
+- pink/blue coding
+- men active / women displayed
+- heteronormative pairing
+- gendered product versions
+- soft vs rugged language
+local_examples:
+- ad_id: generic_household_cleaner_1950s
+  explanation: A smiling woman cleaning a kitchen frames domestic labor as natural
+    feminine fulfillment.
+related_concepts:
+- subject_position
+- mirror_identification
+- person_signifier
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: direct_gaze
+concept_name: Direct Gaze
+slug: direct-gaze
+domain: media_literacy
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Signifier
+  subtype: CompositionSignifier
+short_definition: A depicted person looks directly at the camera and therefore at
+  the viewer.
+plain_language: Direct gaze creates a relationship. The viewer feels seen, addressed,
+  invited, challenged, or recognized. It is a compositional choice, not a neutral
+  accident.
+why_it_matters: Direct gaze is one of the strongest mechanisms for viewer address
+  and mirror identification.
+how_to_spot:
+- Check whether the subject’s eyes meet the camera.
+- Ask how the gaze positions the viewer.
+- Compare with ads where the subject looks away or at the product.
+common_clues:
+- both eyes visible
+- eye-level framing
+- knowing smile
+- second-person copy nearby
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: Deneuve’s gaze addresses the viewer and makes the ad feel intimate
+    rather than merely descriptive.
+related_concepts:
+- mirror_identification
+- person_signifier
+- subject_position
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: try_first_method
+concept_name: Try-First Method
+slug: the-try-first-method
+domain: media_literacy
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: TryFirstResponse
+short_definition: A learning method where the learner records observations before
+  seeing expert analysis.
+plain_language: Instead of reading the answer first, the learner looks, writes, and
+  only then compares with curated analysis. The purpose is practice, not guessing
+  the official reading.
+why_it_matters: It builds independent decoding skill and keeps the user active inside
+  the workbench.
+how_to_spot:
+- Write at least three observations before reveal.
+- Use neutral evidence-based wording first.
+- Compare what you noticed with the expert layer.
+common_clues:
+- notebook surface
+- hidden expert analysis
+- reveal step
+- reflection prompt
+local_examples:
+- ad_id: any
+  explanation: Every Signum decode flow should invite the learner to try first before
+    the analysis opens.
+related_concepts:
+- observation
+- interpretation
+- confidence_interpretation
+- counter_reading
+ads_using_concept: []
+source_references: []
+---
+id: cultural_code
+concept_name: Cultural Code
+slug: cultural-code
+domain: sociology
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: CulturalCode
+short_definition: A shared cultural shorthand that lets an image mean more than what
+  is literally shown.
+plain_language: A cultural code is the background knowledge an ad assumes you already
+  have. It is how a white coat means expertise, or a gold watch means prestige, before
+  the copy explains anything.
+why_it_matters: It helps the learner name the shared associations that make the ad
+  readable and persuasive.
+how_to_spot:
+- Ask what the image expects you to recognize immediately.
+- Look for symbols that carry meaning because they already belong to a wider culture.
+- Check whether the ad would lose force if the viewer did not know the code.
+common_clues:
+- shared meaning
+- cultural cue
+- symbolic cue
+- code
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: The watch ad relies on codes of precision, restraint, and prestige
+    before it states any proof.
+related_concepts:
+- referent_system
+- cultural_capital
+- social_norm
+ads_using_concept: []
+source_references: []
+---
+id: cultural_capital
+concept_name: Cultural Capital
+slug: cultural-capital
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: ValueIdeal
+short_definition: Social advantage gained through recognized taste, knowledge, manners,
+  or refinement.
+plain_language: Cultural capital is not just money. It is the kind of taste or polish
+  that gets read as educated, superior, or naturally high-status.
+why_it_matters: It helps explain why some ads sell refinement and distinction as much
+  as the product itself.
+how_to_spot:
+- Look for signals of cultivated taste, ease, polish, or educated restraint.
+- Ask whether the ad rewards viewers for already recognizing elite cues.
+- Notice when style itself becomes proof of worth.
+common_clues:
+- taste
+- refinement
+- distinction
+- good taste
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: The watch promises not only ownership but also recognition as someone
+    with refined judgment.
+related_concepts:
+- luxury_belief
+- product_as_status_signal
+- lifestyle
+ads_using_concept: []
+source_references: []
+---
+id: cultural_identity
+concept_name: Cultural Identity
+slug: cultural-identity
+domain: sociology
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: IdentityCategory
+short_definition: A sense of self tied to heritage, shared symbols, belonging, or
+  collective memory.
+plain_language: Cultural identity is the part of identity shaped by heritage, community,
+  and familiar signs. Ads often borrow it to make products feel rooted, authentic,
+  or emotionally close.
+why_it_matters: It helps the learner ask whose history or belonging the ad is borrowing.
+how_to_spot:
+- Look for heritage, tradition, ancestry, or national style cues.
+- Ask whether the ad treats identity as something lived or something decorated.
+- Notice when belonging itself becomes a selling point.
+common_clues:
+- heritage
+- belonging
+- identity
+- tradition
+local_examples:
+- ad_id: sample-soap-purity-ad
+  explanation: Domestic purity can lean on inherited ideas about respectability and
+    proper family identity.
+related_concepts:
+- cultural_heritage_referent_system
+- dominant_culture
+- cultural_appropriation
+ads_using_concept: []
+source_references: []
+---
+id: dominant_culture
+concept_name: Dominant Culture
+slug: dominant-culture
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: CulturalCode
+short_definition: The culture that gets treated as normal, central, and unmarked within
+  a society.
+plain_language: Dominant culture is the version of life that does not have to explain
+  itself. Ads often present it as simple common sense rather than one position among
+  many.
+why_it_matters: It helps the learner notice whose lifestyle gets to feel universal.
+how_to_spot:
+- Ask whose norms appear ordinary and whose are missing or marked as different.
+- Look for “just normal life” scenes that quietly center one worldview.
+- Notice when respectability is shown as the default.
+common_clues:
+- normal
+- mainstream
+- default
+- respectable
+local_examples:
+- ad_id: insurance-family-future
+  explanation: The family-future ad can make one middle-class life script feel like
+    the obvious standard.
+related_concepts:
+- social_norm
+- cultural_hegemony
+- average_joe
+ads_using_concept: []
+source_references: []
+---
+id: cultural_appropriation
+concept_name: Cultural Appropriation
+slug: cultural-appropriation
+domain: media_literacy
+difficulty: intermediate
+tier: 6
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: PowerRelation
+short_definition: Borrowing a culture’s symbols or styles while stripping away its
+  people, history, or power context.
+plain_language: Cultural appropriation happens when an ad uses a culture as visual
+  material without keeping the history, ownership, or unequal power relations attached
+  to it.
+why_it_matters: It helps the learner separate admiration from extraction.
+how_to_spot:
+- Ask who benefits when cultural symbols are turned into style.
+- Look for “exotic” borrowing without real context or named people.
+- Notice when a culture appears as decoration rather than as lived history.
+common_clues:
+- exotic style
+- borrowed culture
+- foreign motif
+- tribal
+local_examples:
+- ad_id: any
+  explanation: A campaign that uses sacred dress or ritual purely as mood is leaning
+    on appropriation.
+related_concepts:
+- cultural_identity
+- exotic_referent_system
+- techno_orientalism
+ads_using_concept: []
+source_references: []
+---
+id: techno_orientalism
+concept_name: Techno-Orientalism
+slug: techno-orientalism
+domain: media_literacy
+difficulty: advanced
+tier: 6
+entry_status: condensed
+ontology_ref:
+  class: CulturalCode
+short_definition: A futuristic style that borrows flattened Asian-coded aesthetics
+  to signify advanced technology or mystery.
+plain_language: Techno-Orientalism packages “the East” as a glossy future image. It
+  turns real cultures into a visual shortcut for speed, neon modernity, or exotic
+  control.
+why_it_matters: It helps the learner question who gets turned into atmosphere inside
+  future branding.
+how_to_spot:
+- Look for futuristic styling that leans on vague Asian-coded signs without cultural
+  specificity.
+- Ask whether a culture is present as people or only as visual flavor.
+- Notice when the ad makes “advanced” and “foreign” blur together.
+common_clues:
+- exotic future
+- neon orient
+- futuristic asia
+- tech oriental
+local_examples:
+- ad_id: any
+  explanation: A future-tech brand film that uses generic neon kanji-like textures
+    is leaning on this code.
+related_concepts:
+- cultural_appropriation
+- cultural_identity
+- context_collapse
+ads_using_concept: []
+source_references: []
+---
+id: context_collapse
+concept_name: Context Collapse
+slug: context-collapse
+domain: media_literacy
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: CulturalCode
+short_definition: The flattening of different audiences, settings, or social meanings
+  into one neat branded scene.
+plain_language: Context collapse happens when an ad makes many different social worlds
+  look comfortably compatible inside one polished message.
+why_it_matters: It helps the learner see what complexity has been edited out.
+how_to_spot:
+- Ask what conflicting contexts have been compressed into one lifestyle image.
+- Look for scenes that feel universally acceptable because friction has been removed.
+- Notice when many audiences are addressed as if they share the same assumptions.
+common_clues:
+- flattened context
+- polished lifestyle
+- one message
+- many audiences
+local_examples:
+- ad_id: insurance-family-future
+  explanation: Security, intimacy, future planning, and aspiration can be collapsed
+    into one frictionless family image.
+related_concepts:
+- lifestyle
+- media_ritual
+- subject_position
+ads_using_concept: []
+source_references: []
+---
+id: media_ritual
+concept_name: Media Ritual
+slug: media-ritual
+domain: media_literacy
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: CulturalCode
+short_definition: A repeated media scene that teaches the right way to celebrate,
+  care, relax, clean, or desire.
+plain_language: A media ritual is a familiar staged routine. Ads use it to make certain
+  habits feel proper, comforting, or socially expected.
+why_it_matters: It helps the learner see that repeated routines are teaching scripts,
+  not neutral life snapshots.
+how_to_spot:
+- Look for repeated scenes of care, celebration, grooming, or domestic order.
+- Ask what behavior the scene quietly rewards.
+- Notice when the routine feels bigger than the product itself.
+common_clues:
+- daily ritual
+- family scene
+- routine
+- ceremony
+local_examples:
+- ad_id: sample-soap-purity-ad
+  explanation: Soap advertising often turns cleaning into a ritual of moral order
+    and family care.
+related_concepts:
+- everyday_life_referent_system
+- social_norm
+- lifestyle
+ads_using_concept: []
+source_references: []
+---
+id: lifestyle
+concept_name: Lifestyle
+slug: lifestyle
+domain: sociology
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: CulturalCode
+short_definition: A recognizable way of living used to bundle habits, tastes, values,
+  and identity into one image.
+plain_language: A lifestyle is the larger life picture the product gets attached to.
+  The ad is not only selling an item; it is selling a routine, atmosphere, and type
+  of person.
+why_it_matters: It helps the learner ask what kind of life the ad is really offering.
+how_to_spot:
+- Ask what daily world the product promises access to.
+- Look for routines, environments, and moods that matter more than utility.
+- Notice when the ad sells atmosphere instead of proof.
+common_clues:
+- way of life
+- daily life
+- aspirational life
+- routine
+local_examples:
+- ad_id: insurance-family-future
+  explanation: The insurance ad sells a secure future lifestyle as much as financial
+    protection.
+related_concepts:
+- subject_position
+- media_ritual
+- cultural_capital
+ads_using_concept: []
+source_references: []
+---
+id: luxury_belief
+concept_name: Luxury Belief
+slug: luxury-belief
+domain: sociology
+difficulty: advanced
+tier: 6
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: ValueIdeal
+short_definition: A belief, posture, or taste signal that marks elite distinction
+  even more than overt wealth does.
+plain_language: A luxury belief is a refined opinion or style that signals status.
+  It lets people display distinction through taste, values, or aesthetic judgment.
+why_it_matters: It helps explain why some ads sell moral or cultural superiority as
+  part of prestige.
+how_to_spot:
+- Look for elite taste framed as effortless wisdom.
+- Ask whether the ad sells a posture of superiority rather than just expense.
+- Notice when restraint itself becomes luxury.
+common_clues:
+- exclusive
+- refined
+- elite
+- luxury
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: The watch’s restraint can signal a luxury belief that true status does
+    not need loud display.
+related_concepts:
+- cultural_capital
+- product_as_status_signal
+- luxury_wealth_referent_system
+ads_using_concept: []
+source_references: []
+---
+id: average_joe
+concept_name: Average Joe
+slug: average-joe
+domain: sociology
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: SocialRole
+short_definition: An “ordinary person” figure used to make the ad feel familiar, trustworthy,
+  and socially normal.
+plain_language: The Average Joe is the regular person the ad wants you to identify
+  with. The figure says, “this is just normal life,” even when the message is carefully
+  staged.
+why_it_matters: It helps the learner notice when ordinary life is being used as authority.
+how_to_spot:
+- Look for a deliberately relatable figure or family.
+- Ask who gets presented as the default normal viewer.
+- Notice when familiarity replaces argument.
+common_clues:
+- ordinary person
+- regular person
+- normal family
+- everyday person
+local_examples:
+- ad_id: insurance-family-future
+  explanation: A calm family scene can function as an Average Joe script that normalizes
+    the product’s worldview.
+related_concepts:
+- subject_position
+- dominant_culture
+- social_norm
+ads_using_concept: []
+source_references: []
+---
+id: authority_social_concept
+concept_name: Authority (Social Concept)
+slug: authority-social-concept
+domain: sociology
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: SocialRole
+short_definition: Socially recognized legitimacy that lets a person, institution,
+  or role define what should be trusted.
+plain_language: Authority is the power to be believed, obeyed, or treated as legitimate.
+  Ads borrow it from experts, institutions, uniforms, and prestige roles.
+why_it_matters: It helps distinguish social legitimacy from simple visual confidence.
+how_to_spot:
+- Look for uniforms, official settings, certifications, or commanding posture.
+- Ask why this figure is supposed to be trusted.
+- Notice when the ad treats hierarchy as reassurance.
+common_clues:
+- expert
+- official
+- trusted
+- authority
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: Precision styling and controlled posture can lend the wearer an aura
+    of authority.
+related_concepts:
+- authority_persuasion
+- scientific_authority
+- power_distance
+ads_using_concept: []
+source_references: []
+---
+id: doing_gender
+concept_name: Doing Gender
+slug: doing-gender
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: IdentityCategory
+short_definition: The performance of gender through posture, labor, grooming, desire,
+  and social expectations.
+plain_language: Doing gender means gender is acted out in repeated social ways. Ads
+  often teach what a “proper” woman or man is supposed to look like, want, and do.
+why_it_matters: It helps the learner move from “this ad shows gender” to “this ad
+  scripts gender.”
+how_to_spot:
+- Look for repeated divisions of labor, pose, voice, or emotion by gender.
+- Ask what performance the viewer is invited to copy.
+- Notice when gender looks rehearsed rather than simply present.
+common_clues:
+- masculine role
+- feminine role
+- gender performance
+- proper woman
+local_examples:
+- ad_id: sample-soap-purity-ad
+  explanation: Domestic cleanliness can be framed as feminine competence rather than
+    as neutral labor.
+related_concepts:
+- gendered_essentialism
+- heteronormativity
+- social_norm
+ads_using_concept: []
+source_references: []
+---
+id: heteronormativity
+concept_name: Heteronormativity
+slug: heteronormativity
+domain: media_literacy
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: IdentityCategory
+short_definition: Treating heterosexual couplehood and family life as the normal or
+  preferred social script.
+plain_language: Heteronormativity makes one form of intimacy feel like the standard
+  model of adulthood, romance, and family.
+why_it_matters: It helps the learner notice which relationships are being normalized
+  and which are absent.
+how_to_spot:
+- Look for couple and family scenes treated as the only obvious future.
+- Ask what kinds of desire or kinship are missing.
+- Notice when the ad frames one relationship script as natural.
+common_clues:
+- ideal couple
+- husband and wife
+- normal family
+- boy meets girl
+local_examples:
+- ad_id: insurance-family-future
+  explanation: A family-security story can quietly treat one household form as the
+    obvious life goal.
+related_concepts:
+- doing_gender
+- social_norm
+- average_joe
+ads_using_concept: []
+source_references: []
+---
+id: toxic_masculinity
+concept_name: Toxic Masculinity
+slug: toxic-masculinity
+domain: media_literacy
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: IdentityCategory
+short_definition: A model of masculinity built around domination, emotional hardness,
+  entitlement, or control.
+plain_language: Toxic masculinity is not masculinity itself. It is the version that
+  treats aggression, dominance, and emotional suppression as proof of being a “real
+  man.”
+why_it_matters: It helps the learner question masculine authority when it is packaged
+  as aspiration.
+how_to_spot:
+- Look for domination, emotional hardness, or contempt for vulnerability.
+- Ask whether control is being sold as masculinity.
+- Notice when care, softness, or uncertainty get pushed aside.
+common_clues:
+- hard man
+- control
+- aggressive masculinity
+- toughness
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: A prestige script can slip into masculine control if authority and
+    worth are tied to dominance.
+related_concepts:
+- power_distance
+- authority_social_concept
+- doing_gender
+ads_using_concept: []
+source_references: []
+---
+id: master_status
+concept_name: Master Status
+slug: master-status
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: IdentityCategory
+short_definition: One trait or role that becomes the main social lens through which
+  a whole person is judged.
+plain_language: A master status is the identity marker that seems to explain everything
+  else about the person in the ad.
+why_it_matters: It helps the learner ask what has been made to stand for the whole
+  self.
+how_to_spot:
+- Ask which single role or trait carries the most meaning.
+- Look for identity cues that eclipse all other qualities.
+- Notice when class, beauty, gender, or authority becomes the whole story.
+common_clues:
+- status marker
+- whole identity
+- defines the person
+- social rank
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: The luxury object can become a master status cue that organizes how
+    the person is read.
+related_concepts:
+- subject_position
+- achieved_status
+- ascribed_status
+ads_using_concept: []
+source_references: []
+---
+id: social_identity_threat
+concept_name: Social Identity Threat
+slug: social-identity-threat
+domain: behavioral_science
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: IdentityCategory
+short_definition: Pressure created when a person fears not fitting the identity or
+  social standard being demanded.
+plain_language: Social identity threat is the feeling that you might not measure up
+  to the social category the ad values.
+why_it_matters: It helps the learner notice fear and insecurity that stay quieter
+  than explicit alarm.
+how_to_spot:
+- Ask what embarrassment or exclusion the ad hints at.
+- Look for subtle pressure to keep up, fit in, or avoid being left behind.
+- Notice when the product promises relief from social inadequacy.
+common_clues:
+- fit in
+- measure up
+- social risk
+- left behind
+local_examples:
+- ad_id: insurance-family-future
+  explanation: Future-security ads can imply that failing to plan means failing as
+    a responsible adult.
+related_concepts:
+- scarcity
+- master_status
+- social_norm
+ads_using_concept: []
+source_references: []
+---
+id: social_norm
+concept_name: Social Norm
+slug: social-norm
+domain: sociology
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: SocialRole
+short_definition: A shared expectation about what behavior, desire, or appearance
+  counts as proper.
+plain_language: A social norm is the rule people often follow without spelling it
+  out. Ads can reinforce it by making one pattern look obvious and another look strange.
+why_it_matters: It helps the learner ask what is being quietly taught as normal.
+how_to_spot:
+- Look for behavior presented as the proper or expected way to live.
+- Ask who is rewarded by the norm and who is left outside it.
+- Notice when the ad makes a value judgment feel factual.
+common_clues:
+- proper
+- expected
+- normal
+- the right way
+local_examples:
+- ad_id: sample-soap-purity-ad
+  explanation: Cleanliness can be framed not just as hygiene but as social respectability.
+related_concepts:
+- ideology
+- dominant_culture
+- doing_gender
+ads_using_concept: []
+source_references: []
+---
+id: achieved_status
+concept_name: Achieved Status
+slug: achieved-status
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: SocialRole
+short_definition: Social standing presented as earned through effort, success, discipline,
+  or accomplishment.
+plain_language: Achieved status is the kind of rank the ad says you deserve because
+  you worked for it.
+why_it_matters: It helps the learner see when reward and merit are being naturalized.
+how_to_spot:
+- Look for earned success language.
+- Ask whether the ad frames status as deserved self-making.
+- Notice when struggle disappears but merit remains.
+common_clues:
+- earned
+- achieved
+- deserved
+- success
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: Prestige advertising often links possession to discipline and accomplishment,
+    not only inheritance.
+related_concepts:
+- success_through_consumption
+- ascribed_status
+- master_status
+ads_using_concept: []
+source_references: []
+---
+id: ascribed_status
+concept_name: Ascribed Status
+slug: ascribed-status
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: SocialRole
+short_definition: Social standing treated as given by birth, background, lineage,
+  age, race, or gender.
+plain_language: Ascribed status is the rank the ad treats as natural or inherited
+  rather than earned.
+why_it_matters: It helps the learner notice privilege disguised as nature.
+how_to_spot:
+- Look for pedigree, lineage, breeding, or inherited ease.
+- Ask whether the ad treats authority as something built in.
+- Notice when class or identity appears as destiny.
+common_clues:
+- pedigree
+- lineage
+- breeding
+- born to
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: Heritage prestige can quietly imply that some authority belongs to
+    the right kind of person.
+related_concepts:
+- social_privilege
+- achieved_status
+- master_status
+ads_using_concept: []
+source_references: []
+---
+id: power_distance
+concept_name: Power Distance
+slug: power-distance
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: PowerRelation
+short_definition: The degree to which hierarchy, unequal authority, and deference
+  are treated as normal.
+plain_language: Power distance asks how comfortable the ad is with rank. Does it make
+  command and obedience feel natural?
+why_it_matters: It helps the learner see hierarchy as a message, not just as scenery.
+how_to_spot:
+- Look for commanding posture, service roles, or unequal treatment presented as obvious.
+- Ask who is allowed to speak, lead, or remain above question.
+- Notice whether deference is built into the scene.
+common_clues:
+- hierarchy
+- deference
+- command
+- obedience
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: Prestige can depend on making some forms of authority look elegantly
+    unquestionable.
+related_concepts:
+- authority_social_concept
+- cultural_hegemony
+- social_privilege
+ads_using_concept: []
+source_references: []
+---
+id: cultural_hegemony
+concept_name: Cultural Hegemony
+slug: cultural-hegemony
+domain: sociology
+difficulty: advanced
+tier: 6
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: PowerRelation
+short_definition: A dominant worldview becoming common sense so that it no longer
+  looks ideological.
+plain_language: Cultural hegemony is what happens when one group’s values become “just
+  how things are.”
+why_it_matters: It helps the learner question the worldview that the ad treats as
+  obvious.
+how_to_spot:
+- Look for values framed as common sense rather than as one position among others.
+- Ask whose worldview is speaking without naming itself.
+- Notice when the ad makes hierarchy feel natural and benevolent.
+common_clues:
+- common sense
+- obvious lifestyle
+- natural order
+- dominant worldview
+local_examples:
+- ad_id: insurance-family-future
+  explanation: A family-and-future ad can make one social script feel like the neutral
+    horizon of good life.
+related_concepts:
+- ideology
+- dominant_culture
+- power_distance
+ads_using_concept: []
+source_references: []
+---
+id: social_privilege
+concept_name: Social Privilege
+slug: social-privilege
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: PowerRelation
+short_definition: Unearned ease or advantage that gets treated as ordinary and universally
+  available.
+plain_language: Social privilege is the comfort, visibility, and safety some people
+  can assume without noticing it.
+why_it_matters: It helps the learner ask who gets to move through the ad’s world without
+  friction.
+how_to_spot:
+- Look for comfort, safety, or authority presented as naturally available.
+- Ask whose barriers are missing from the scene.
+- Notice when ease is sold as if it belongs to everyone equally.
+common_clues:
+- taken for granted
+- deserved comfort
+- assumed right
+- ease
+local_examples:
+- ad_id: insurance-family-future
+  explanation: Security imagery can universalize a level of stability that is not
+    equally available.
+related_concepts:
+- ascribed_status
+- dominant_culture
+- power_distance
+ads_using_concept: []
+source_references: []
+---
+id: greenwashing
+concept_name: Greenwashing
+slug: greenwashing
+domain: media_literacy
+difficulty: beginner
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: PowerRelation
+short_definition: Using ecological language or imagery more quickly than real environmental
+  evidence.
+plain_language: Greenwashing makes a brand look environmentally responsible without
+  showing enough proof that the claim holds.
+why_it_matters: It gives the learner a practical counter-reading for “green” persuasion.
+how_to_spot:
+- Look for leaves, nature, purity, or sustainability language without concrete evidence.
+- Ask whether the claim is specific, measurable, and supported.
+- Notice when ecological feeling replaces ecological proof.
+common_clues:
+- green
+- eco
+- sustainable
+- natural
+local_examples:
+- ad_id: any
+  explanation: A brand that uses forests and clean-water imagery without evidence
+    of real environmental change is greenwashing.
+related_concepts:
+- nature_referent_system
+- scientific_authority
+- social_norm
+ads_using_concept: []
+source_references: []
+---
+id: woke_capitalism
+concept_name: Woke Capitalism
+slug: woke-capitalism
+domain: media_literacy
+difficulty: advanced
+tier: 6
+entry_status: condensed
+ontology_ref:
+  class: SocialConcept
+  subtype: PowerRelation
+short_definition: Justice, inclusion, or empowerment language used as brand style
+  without deeper structural change.
+plain_language: Woke capitalism happens when a company markets moral alignment as
+  a product feature while keeping the core business logic intact.
+why_it_matters: It helps the learner separate ethical language from ethical transformation.
+how_to_spot:
+- Look for empowerment or justice language attached to polished branding rather than
+  substantive change.
+- Ask what would remain if the moral styling were removed.
+- Notice when dissent becomes a marketable aesthetic.
+common_clues:
+- empowerment
+- inclusive brand
+- purpose-driven
+- justice language
+local_examples:
+- ad_id: any
+  explanation: A campaign that sells political virtue as brand personality without
+    material accountability fits this pattern.
+related_concepts:
+- greenwashing
+- cultural_hegemony
+- social_privilege
+ads_using_concept: []
+source_references: []
+---
+id: observation
+concept_name: Observation
+slug: observation
+domain: media_literacy
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Observation
+short_definition: A specific, evidence-based noticing statement about what is present
+  in the ad.
+plain_language: An observation says what is there, not what it means. “A bottle sits
+  in the lower right” is an observation. “The bottle symbolizes desire” is interpretation.
+why_it_matters: Good interpretations require evidence. Observation is the discipline
+  that keeps analysis grounded.
+how_to_spot:
+- Ask whether another viewer could verify it.
+- Remove evaluative adjectives.
+- State location, object, text, color, or composition clearly.
+common_clues:
+- neutral description
+- pointable evidence
+- no “suggests” or “means” language
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: “The bottle is placed near the lower right of the image” is an observation.
+related_concepts:
+- signifier
+- try_first_method
+- interpretation
+- confidence_interpretation
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: interpretation
+concept_name: Interpretation
+slug: interpretation
+domain: media_literacy
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Interpretation
+short_definition: An analytical claim about how an advertisement produces meaning
+  or persuasion.
+plain_language: An interpretation goes beyond what is literally visible and explains
+  what the evidence may mean. It stays explicit about the inference instead of pretending
+  to be raw observation.
+why_it_matters: It keeps the reading separate from the evidence and makes the leap
+  from noticing to meaning visible.
+how_to_spot:
+- Look for words like suggests, implies, frames, positions, or invites.
+- Ask what visible evidence supports the claim.
+- Test whether another viewer could reasonably reach a different reading.
+common_clues:
+- reading claim
+- inference
+- explanation
+- supported claim
+local_examples:
+- ad_id: any
+  explanation: Saying that a direct gaze invites mirror identification is an interpretation,
+    not an observation.
+related_concepts:
+- observation
+- confidence_interpretation
+- counter_reading
+- evidence_link
+ads_using_concept: []
+source_references: []
+---
+id: counter_reading
+concept_name: Counter-Reading
+slug: counter-reading
+domain: media_literacy
+difficulty: advanced
+tier: 1
+entry_status: full
+ontology_ref:
+  class: CounterReading
+short_definition: An alternative interpretation that complicates, challenges, or qualifies
+  the primary reading.
+plain_language: 'Ads are polysemic: they can support more than one reading. A counter-reading
+  uses evidence to show another angle, another viewer position, or a limit in the
+  main interpretation.'
+why_it_matters: It prevents media literacy from becoming dogma and models intellectual
+  humility.
+how_to_spot:
+- 'Ask: from whose perspective?'
+- Use the same evidence to test another conclusion.
+- Look for what the primary reading leaves out.
+common_clues:
+- however / alternatively
+- same signifier, different conclusion
+- qualified confidence
+local_examples:
+- ad_id: chanel_no5_1974
+  explanation: The ad can be read as objectifying beauty, but also as staging a composed
+    woman who controls her look back at the viewer.
+related_concepts:
+- confidence_interpretation
+- interpretation
+- subject_position
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: confidence_interpretation
+concept_name: Confidence (in Interpretation)
+slug: confidence-in-interpretation
+domain: media_literacy
+difficulty: intermediate
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Interpretation
+short_definition: A label for how strongly an interpretation is supported by evidence.
+plain_language: Some readings are well supported by visible evidence and theory. Others
+  are plausible, speculative, or disputed. Signum should expose that difference rather
+  than present every interpretation as equally certain.
+why_it_matters: It teaches that analysis is judgment under evidence, not hidden truth
+  extraction.
+how_to_spot:
+- Check the confidence label.
+- Ask what evidence would raise or lower confidence.
+- Notice when the analysis says plausible rather than certain.
+common_clues:
+- well_supported
+- plausible
+- speculative
+- disputed
+local_examples:
+- ad_id: any
+  explanation: A clear direct gaze observation may strongly support mirror identification;
+    a hidden motive claim may only be speculative.
+related_concepts:
+- counter_reading
+- observation
+- interpretation
+- signifier
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: person_signifier
+concept_name: Person Signifier
+slug: person-signifier
+domain: semiotics
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: PersonSignifier
+short_definition: A human figure, face, body, hand, or body part shown in an ad.
+plain_language: Ask who is shown, how they look, what they look at, and what social
+  role their body performs.
+how_to_spot:
+- Ask who is shown, how they look, what they look at, and what social role their body
+  performs.
+common_clues: []
+local_examples: []
+related_concepts:
+- spokesperson
+- direct_gaze
+- mirror_identification
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: spokesperson
+concept_name: Spokesperson
+slug: spokesperson
+domain: semiotics
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: PersonSignifier
+short_definition: A person whose public image or role transfers meaning to the product.
+plain_language: Ask what you already know about the person and how that meaning is
+  attached to the brand.
+how_to_spot:
+- Ask what you already know about the person and how that meaning is attached to the
+  brand.
+common_clues: []
+local_examples: []
+related_concepts:
+- person_signifier
+- celebrity_culture_referent_system
+- authority_persuasion
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: object_signifier
+concept_name: Object Signifier
+slug: object-signifier
+domain: semiotics
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: ObjectSignifier
+short_definition: A physical object in the ad, including product, prop, setting element,
+  or symbolic object.
+plain_language: Ask whether the object is being used, displayed, worshipped, gifted,
+  or turned into a symbol.
+how_to_spot:
+- Ask whether the object is being used, displayed, worshipped, gifted, or turned into
+  a symbol.
+common_clues: []
+local_examples: []
+related_concepts:
+- product_as_signifier
+- product_as_magic_object
+- commodity_fetishism
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: product_as_signifier
+concept_name: The Product as Signifier
+slug: the-product-as-signifier
+domain: semiotics
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: ObjectSignifier
+short_definition: The advertised product treated as a visible sign that carries meanings
+  beyond function.
+plain_language: 'Ask what role the product plays in the ad’s story: hero, reward,
+  status signal, or magic object.'
+how_to_spot:
+- 'Ask what role the product plays in the ad’s story: hero, reward, status signal,
+  or magic object.'
+common_clues: []
+local_examples: []
+related_concepts:
+- product_as_hero
+- product_as_status_signal
+- product_as_magic_object
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: text_signifier
+concept_name: Text Signifier
+slug: text-signifier
+domain: semiotics
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: TextSignifier
+short_definition: Any written language in the ad, including headline, tagline, body
+  copy, statistics, pricing, or command.
+plain_language: Ask whether the text anchors meaning, makes a claim, gives an order,
+  or supplies proof.
+how_to_spot:
+- Ask whether the text anchors meaning, makes a claim, gives an order, or supplies
+  proof.
+common_clues: []
+local_examples: []
+related_concepts:
+- headline
+- tagline
+- call_to_action
+- typography_signifier
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: typography_signifier
+concept_name: Typography Signifier
+slug: typography-signifier
+domain: media_literacy
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: TypographySignifier
+short_definition: Typeface choice, weight, spacing, and typographic style as a signifier.
+plain_language: Ask whether the type feels serif, sans-serif, decorative, clinical,
+  or urgent, and what social code that style carries before you read the words themselves.
+how_to_spot:
+- Ask whether the type feels serif, sans-serif, decorative, clinical, or urgent.
+- Notice casing, letter spacing, weight, and contrast.
+- Ask what mood or authority the letterforms borrow.
+common_clues:
+- serif
+- sans-serif
+- all caps
+- wide tracking
+- display type
+local_examples:
+- ad_id: any
+  explanation: A narrow serif headline with careful spacing can signal tradition or
+    authority before the copy is read.
+related_concepts:
+- text_signifier
+- visual_style
+- headline
+ads_using_concept: []
+source_references: []
+---
+id: headline
+concept_name: Headline
+slug: headline
+domain: media_literacy
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: TextSignifier
+short_definition: The primary text that directs how the viewer should read the ad.
+plain_language: Ask what interpretation the headline makes preferred or obvious.
+how_to_spot:
+- Ask what interpretation the headline makes preferred or obvious.
+common_clues: []
+local_examples: []
+related_concepts:
+- text_signifier
+- composition_signifier
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: tagline
+concept_name: Tagline
+slug: tagline
+domain: media_literacy
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: TextSignifier
+short_definition: A recurring brand slogan that condenses the brand’s worldview into
+  a memorable phrase.
+plain_language: Ask what belief or promise the repetition tries to make familiar.
+how_to_spot:
+- Ask what belief or promise the repetition tries to make familiar.
+common_clues: []
+local_examples: []
+related_concepts:
+- text_signifier
+- ideology
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: call_to_action
+concept_name: Call to Action
+slug: call-to-action
+domain: marketing
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: TextSignifier
+short_definition: Text or a button that tells the viewer what to do next.
+plain_language: 'Ask where persuasion becomes instruction: buy, sign up, learn more,
+  book, download.'
+how_to_spot:
+- 'Ask where persuasion becomes instruction: buy, sign up, learn more, book, download.'
+common_clues: []
+local_examples: []
+related_concepts:
+- text_signifier
+- commitment_and_consistency
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: color_signifier
+concept_name: Color Signifier
+slug: color-signifier
+domain: semiotics
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: ColorSignifier
+short_definition: A color or palette that carries emotional and cultural associations.
+plain_language: Ask which colors dominate, which colors draw attention, and what mood
+  or code they activate.
+how_to_spot:
+- Ask which colors dominate, which colors draw attention, and what mood or code they
+  activate.
+common_clues: []
+local_examples: []
+related_concepts:
+- visual_style
+- composition_signifier
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: composition_signifier
+concept_name: Composition Signifier
+slug: composition-signifier
+domain: media_literacy
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: CompositionSignifier
+short_definition: The spatial arrangement that controls attention, hierarchy, proximity,
+  and viewer position.
+plain_language: Ask what you see first, where your eye moves, and what the layout
+  makes central.
+how_to_spot:
+- Ask what you see first, where your eye moves, and what the layout makes central.
+common_clues: []
+local_examples: []
+related_concepts:
+- spatial_hierarchy
+- negative_space
+- direct_gaze
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: camera_distance
+concept_name: Camera Distance
+slug: camera-distance
+domain: media_literacy
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: CompositionSignifier
+short_definition: How close or far the camera appears from the subject.
+plain_language: Close-up creates intimacy or scrutiny; distance creates context, spectacle,
+  or social space.
+how_to_spot:
+- Close-up creates intimacy or scrutiny; distance creates context, spectacle, or social
+  space.
+common_clues: []
+local_examples: []
+related_concepts:
+- composition_signifier
+- direct_gaze
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: nature_referent_system
+concept_name: Nature (Referent System)
+slug: nature-referent-system
+domain: semiotics
+difficulty: beginner
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: Nature
+short_definition: The natural world used as a source of authenticity, purity, origin,
+  or renewal.
+plain_language: Look for plants, landscapes, water, seasons, raw materials, and “natural”
+  language.
+how_to_spot:
+- Look for plants, landscapes, water, seasons, raw materials, and “natural” language.
+common_clues: []
+local_examples: []
+related_concepts:
+- magic_naturalization
+- cooking_nature
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: science_referent_system
+concept_name: Science (Referent System)
+slug: science-referent-system
+domain: semiotics
+difficulty: beginner
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: Science
+short_definition: Scientific authority used to make the product appear objective,
+  tested, clinical, or advanced.
+plain_language: Look for lab coats, diagrams, statistics, technical terms, and expert-looking
+  figures.
+how_to_spot:
+- Look for lab coats, diagrams, statistics, technical terms, and expert-looking figures.
+common_clues: []
+local_examples: []
+related_concepts:
+- scientific_authority
+- authority_persuasion
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: cultural_heritage_referent_system
+concept_name: Cultural Heritage (Referent System)
+slug: cultural-heritage-referent-system
+domain: semiotics
+difficulty: intermediate
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: CulturalHeritage
+short_definition: Artistic, national, historical, or classical traditions used as
+  a reservoir of meaning.
+plain_language: Look for art-historical poses, heritage architecture, national codes,
+  classical references, or museum-like staging.
+how_to_spot:
+- Look for art-historical poses, heritage architecture, national codes, classical
+  references, or museum-like staging.
+common_clues: []
+local_examples: []
+related_concepts:
+- tradition_craft_referent_system
+- luxury_wealth_referent_system
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: celebrity_culture_referent_system
+concept_name: Celebrity Culture (Referent System)
+slug: celebrity-culture-referent-system
+domain: semiotics
+difficulty: beginner
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: CelebrityCulture
+short_definition: Fame, stardom, athletic excellence, artistic aura, or influencer
+  recognition used as transferable value.
+plain_language: Ask what the celebrity already means before the product appears.
+how_to_spot:
+- Ask what the celebrity already means before the product appears.
+common_clues: []
+local_examples: []
+related_concepts:
+- spokesperson
+- liking_and_association
+- social_proof
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: tradition_craft_referent_system
+concept_name: Tradition and Craft (Referent System)
+slug: tradition-and-craft-referent-system
+domain: semiotics
+difficulty: intermediate
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: TraditionCraft
+short_definition: Heritage, lineage, artisanship, family memory, or handmade authenticity
+  used to authorize the product.
+plain_language: Look for workshops, hands, tools, old-world language, archive dates,
+  and slow-making cues.
+how_to_spot:
+- Look for workshops, hands, tools, old-world language, archive dates, and slow-making
+  cues.
+common_clues: []
+local_examples: []
+related_concepts:
+- cultural_heritage_referent_system
+- transformation_narrative
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: luxury_wealth_referent_system
+concept_name: Luxury and Wealth (Referent System)
+slug: luxury-and-wealth-referent-system
+domain: semiotics
+difficulty: intermediate
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: LuxuryWealth
+short_definition: Material abundance, exclusivity, taste, status, and elite distinction
+  as a source of meaning.
+plain_language: Look for rare materials, spaciousness, restraint, black/gold palettes,
+  elite settings, and scarcity cues.
+how_to_spot:
+- Look for rare materials, spaciousness, restraint, black/gold palettes, elite settings,
+  and scarcity cues.
+common_clues: []
+local_examples: []
+related_concepts:
+- product_as_status_signal
+- scarcity
+- commodity_fetishism
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: exotic_referent_system
+concept_name: The Exotic (Referent System)
+slug: the-exotic-referent-system
+domain: sociology
+difficulty: intermediate
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: TheExotic
+short_definition: Otherness rendered desirable, mysterious, consumable, or distant
+  from ordinary life.
+plain_language: Ask whose culture is being simplified, aestheticized, or used as atmosphere.
+how_to_spot:
+- Ask whose culture is being simplified, aestheticized, or used as atmosphere.
+common_clues: []
+local_examples: []
+related_concepts:
+- referent_system
+- ideology
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: everyday_life_referent_system
+concept_name: Everyday Life (Referent System)
+slug: everyday-life-referent-system
+domain: media_literacy
+difficulty: beginner
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: EverydayLife
+short_definition: Ordinary domestic, family, workplace, or relatable moments used
+  to make the product feel natural.
+plain_language: Look for kitchens, commuting, family scenes, casual dress, and slice-of-life
+  staging.
+how_to_spot:
+- Look for kitchens, commuting, family scenes, casual dress, and slice-of-life staging.
+common_clues: []
+local_examples: []
+related_concepts:
+- gendered_essentialism
+- success_through_consumption
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: the_future_referent
+concept_name: The Future (Referent System)
+slug: the-future-referent
+domain: semiotics
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: ReferentSystem
+  subtype: TheFuture
+short_definition: A referent system that borrows meaning from imagined futures, innovation,
+  or tomorrow.
+plain_language: Ask whether the ad borrows from space-age optimism, next-generation
+  language, or a sleek future that makes the product feel inevitable.
+how_to_spot:
+- Look for tomorrow language, futuristic surfaces, or progress metaphors.
+- Notice sleek minimalism, glowing interfaces, or space-age styling.
+- Ask what future the ad assumes the viewer wants.
+common_clues:
+- next generation
+- future
+- tomorrow
+- innovation
+- sleek minimalism
+local_examples:
+- ad_id: any
+  explanation: A product shown in chrome lighting with "next generation" language
+    borrows from the future referent.
+related_concepts:
+- referent_system
+- transformation_narrative
+- outcome_visualization
+ads_using_concept: []
+source_references: []
+---
+id: social_proof
+concept_name: Social Proof
+slug: social-proof
+domain: marketing
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+  subtype: SocialProof
+short_definition: The suggestion that a product is validated because others use, approve,
+  rate, or trust it.
+plain_language: Look for testimonials, star ratings, customer logos, user counts,
+  and “trusted by” claims.
+why_it_matters: It shows when a product leans on the visible behaviour or approval
+  of others rather than on its own evidence.
+how_to_spot:
+- Look for testimonials, star ratings, customer logos, user counts, and “trusted by”
+  claims.
+common_clues: []
+local_examples: []
+related_concepts:
+- celebrity_culture_referent_system
+- authority_persuasion
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: scarcity
+concept_name: Scarcity
+slug: scarcity
+domain: marketing
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+  subtype: Scarcity
+short_definition: Limited availability or time pressure used to increase perceived
+  value and urgency.
+plain_language: Look for countdowns, low-stock warnings, limited editions, waitlists,
+  and exclusive access.
+why_it_matters: It shows when urgency, rather than the offer itself, is being used
+  to push a quicker decision.
+how_to_spot:
+- Look for countdowns, low-stock warnings, limited editions, waitlists, and exclusive
+  access.
+common_clues: []
+local_examples: []
+related_concepts:
+- luxury_wealth_referent_system
+- commodity_fetishism
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: authority_persuasion
+concept_name: Authority (Persuasion)
+slug: authority-persuasion
+domain: marketing
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+  subtype: Authority
+short_definition: Expertise, institutional approval, certification, or professional
+  status used to transfer trust.
+plain_language: Look for doctors, scientists, awards, seals, certifications, and “as
+  seen in” logos.
+why_it_matters: It shows when credibility is carried by status or presentation rather
+  than by stated proof.
+how_to_spot:
+- Look for doctors, scientists, awards, seals, certifications, and “as seen in” logos.
+common_clues: []
+local_examples: []
+related_concepts:
+- science_referent_system
+- scientific_authority
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: reciprocity
+concept_name: Reciprocity
+slug: reciprocity
+domain: behavioral_science
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+  subtype: Reciprocity
+short_definition: A free gift, trial, guide, tool, or value exchange creates a felt
+  obligation to continue.
+plain_language: Look for free audits, samples, templates, trials, and content offered
+  before a sales request.
+how_to_spot:
+- Look for free audits, samples, templates, trials, and content offered before a sales
+  request.
+common_clues: []
+local_examples: []
+related_concepts:
+- commitment_and_consistency
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: liking_and_association
+concept_name: Liking and Association
+slug: liking-and-association
+domain: marketing
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+  subtype: LikingAssociation
+short_definition: Positive feelings toward a person, style, cause, or aesthetic transfer
+  to the product.
+plain_language: Look for influencers, admired founders, attractive visuals, cultural
+  moments, and borrowed coolness.
+how_to_spot:
+- Look for influencers, admired founders, attractive visuals, cultural moments, and
+  borrowed coolness.
+common_clues: []
+local_examples: []
+related_concepts:
+- mirror_identification
+- celebrity_culture_referent_system
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: outcome_visualization
+concept_name: Outcome Visualization
+slug: outcome-visualization
+domain: marketing
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+  subtype: OutcomeVisualization
+short_definition: The ad vividly shows the desired end state and positions the product
+  as the bridge to it.
+plain_language: Look for before/after, dashboard success metrics, lifestyle futures,
+  ROI calculators, and imagined better selves.
+how_to_spot:
+- Look for before/after, dashboard success metrics, lifestyle futures, ROI calculators,
+  and imagined better selves.
+common_clues: []
+local_examples: []
+related_concepts:
+- magic_naturalization
+- transformation_narrative
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: commitment_and_consistency
+concept_name: Commitment and Consistency
+slug: commitment-and-consistency
+domain: behavioral_science
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+  subtype: CommitmentConsistency
+short_definition: A small first action makes larger later actions feel consistent
+  with the user’s self-image.
+plain_language: Look for step-by-step forms, onboarding progress, free account creation,
+  and profile completion nudges.
+how_to_spot:
+- Look for step-by-step forms, onboarding progress, free account creation, and profile
+  completion nudges.
+common_clues: []
+local_examples: []
+related_concepts:
+- call_to_action
+- reciprocity
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: curiosity_gap
+concept_name: Curiosity Gap
+slug: curiosity-gap
+domain: marketing
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+  subtype: CuriosityGap
+short_definition: Partial information creates an open loop that the viewer wants to
+  close.
+plain_language: Look for teasers, hidden reveals, blurred content, “the secret,” and
+  read-more cuts.
+how_to_spot:
+- Look for teasers, hidden reveals, blurred content, “the secret,” and read-more cuts.
+common_clues: []
+local_examples: []
+related_concepts:
+- headline
+- call_to_action
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: transformation_narrative
+concept_name: Transformation Narrative
+slug: transformation-narrative
+domain: media_literacy
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: NarrativePattern
+short_definition: A story pattern where the product moves someone from lack to completion,
+  problem to solution, or before to after.
+plain_language: Ask what changes, who changes, and what role the product plays in
+  the change.
+how_to_spot:
+- Ask what changes, who changes, and what role the product plays in the change.
+common_clues: []
+local_examples: []
+related_concepts:
+- outcome_visualization
+- success_through_consumption
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: product_as_hero
+concept_name: The Product as Hero
+slug: the-product-as-hero
+domain: media_literacy
+difficulty: beginner
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: ObjectSignifier
+short_definition: The product is staged as the protagonist or solution agent in the
+  ad’s story.
+plain_language: Look for central placement, heroic lighting, problem-solving framing,
+  and people organized around the product.
+how_to_spot:
+- Look for central placement, heroic lighting, problem-solving framing, and people
+  organized around the product.
+common_clues: []
+local_examples: []
+related_concepts:
+- product_as_signifier
+- commodity_fetishism
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: product_as_status_signal
+concept_name: The Product as Status Signal
+slug: the-product-as-status-signal
+domain: sociology
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: ObjectSignifier
+short_definition: The product functions as visible proof of social rank, taste, belonging,
+  or distinction.
+plain_language: Look for elite settings, scarcity, quiet luxury, expensive materials,
+  and admiring social gaze.
+how_to_spot:
+- Look for elite settings, scarcity, quiet luxury, expensive materials, and admiring
+  social gaze.
+common_clues: []
+local_examples: []
+related_concepts:
+- luxury_wealth_referent_system
+- commodity_fetishism
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: product_as_magic_object
+concept_name: The Product as Magic Object
+slug: the-product-as-magic-object
+domain: semiotics
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: ObjectSignifier
+short_definition: The product is shown as if it can transform identity or reality
+  by presence alone.
+plain_language: Look for glowing treatment, impossible settings, sudden transformation,
+  and absence of ordinary use.
+how_to_spot:
+- Look for glowing treatment, impossible settings, sudden transformation, and absence
+  of ordinary use.
+common_clues: []
+local_examples: []
+related_concepts:
+- magic_naturalization
+- commodity_fetishism
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: subject_position
+concept_name: Subject Position
+slug: subject-position
+domain: semiotics
+difficulty: advanced
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: TargetAudience
+short_definition: 'The identity or viewer role the ad offers: who the ad thinks you
+  are, or who it invites you to become.'
+plain_language: Ask who is addressed, what they are assumed to want, and what kind
+  of self the product promises.
+how_to_spot:
+- Ask who is addressed, what they are assumed to want, and what kind of self the product
+  promises.
+common_clues: []
+local_examples: []
+related_concepts:
+- mirror_identification
+- target_audience
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: target_audience
+concept_name: Target Audience
+slug: target-audience
+domain: media_literacy
+difficulty: beginner
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: TargetAudience
+short_definition: The intended or implied viewer group addressed by the ad.
+plain_language: Infer from language, imagery, source, cultural references, price,
+  gender coding, and assumed knowledge.
+how_to_spot:
+- Infer from language, imagery, source, cultural references, price, gender coding,
+  and assumed knowledge.
+common_clues: []
+local_examples: []
+related_concepts:
+- subject_position
+- referent_system
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: visual_style
+concept_name: Visual Style
+slug: visual-style
+domain: media_literacy
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: VisualStyle
+short_definition: The overall aesthetic mode of the ad, such as minimal, documentary,
+  surreal, baroque, clinical, or editorial.
+plain_language: Ask what genre of image the ad resembles and what cultural authority
+  that style carries.
+how_to_spot:
+- Ask what genre of image the ad resembles and what cultural authority that style
+  carries.
+common_clues: []
+local_examples: []
+related_concepts:
+- color_signifier
+- composition_signifier
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: product_category
+concept_name: Product Category
+slug: product-category
+domain: media_literacy
+difficulty: beginner
+tier: 2
+entry_status: condensed
+ontology_ref:
+  class: Product
+short_definition: The kind of product the ad is selling, such as watch, insurance,
+  or soap.
+plain_language: Ask what shelf, market, or everyday use case this ad belongs to before
+  you compare style or ideology.
+why_it_matters: Compare needs a shared axis before it can contrast tone, audience,
+  and story.
+how_to_spot:
+- Read the product name, brand, and category label first.
+- Ask whether the ad is selling a tool, service, status object, or routine necessity.
+- Compare the ad to other ads in the same category before widening the lens.
+common_clues:
+- watch
+- insurance
+- soap
+- category label
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: The category is luxury watch, so the comparison starts from precision
+    and status rather than general jewelry.
+- ad_id: insurance-family-future
+  explanation: The category is insurance, so the comparison starts from protection
+    and future planning rather than product display.
+- ad_id: sample-soap-purity-ad
+  explanation: The category is soap, so the comparison starts from purity and domestic
+    care rather than status.
+related_concepts:
+- narrative_pattern
+- visual_style
+- target_audience
+- referent_system
+ads_using_concept: []
+source_references: []
+---
+id: narrative_pattern
+concept_name: Narrative Pattern
+slug: narrative-pattern
+domain: media_literacy
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: NarrativePattern
+short_definition: The story shape the ad uses, such as status display, domestic care,
+  or future protection.
+plain_language: Ask what kind of story the ad tells and what role the product plays
+  inside that story.
+why_it_matters: Compare becomes clearer when you can name the story grammar behind
+  different ads.
+how_to_spot:
+- Ask what changes, what promise is being made, and who benefits from the change.
+- Look for status, care, mastery, protection, or transformation scripts.
+- Compare the product's role in the story across ads, not just the look of the image.
+common_clues:
+- status display
+- domestic care
+- future protection
+- transformation
+local_examples:
+- ad_id: watch-ad-midcentury
+  explanation: The ad stages time mastery and masculine authority as a status script.
+- ad_id: insurance-family-future
+  explanation: The ad stages family protection as a future-oriented duty script.
+- ad_id: sample-soap-purity-ad
+  explanation: The ad stages cleanliness as moral care and domestic responsibility.
+related_concepts:
+- product_category
+- transformation_narrative
+- visual_style
+- target_audience
+ads_using_concept: []
+source_references: []
+---
+id: spatial_hierarchy
+concept_name: Spatial Hierarchy
+slug: spatial-hierarchy
+domain: media_literacy
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: CompositionSignifier
+short_definition: The ordered importance of elements created through size, placement,
+  contrast, proximity, and focus.
+plain_language: Ask what the image tells you to notice first, second, and last.
+how_to_spot:
+- Ask what the image tells you to notice first, second, and last.
+common_clues: []
+local_examples: []
+related_concepts:
+- composition_signifier
+- negative_space
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: negative_space
+concept_name: Negative Space
+slug: negative-space
+domain: media_literacy
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: Signifier
+  subtype: CompositionSignifier
+short_definition: Empty or low-detail space used to create focus, calm, luxury, isolation,
+  or expectation.
+plain_language: Ask what the empty area makes more important and what mood it creates.
+how_to_spot:
+- Ask what the empty area makes more important and what mood it creates.
+common_clues: []
+local_examples: []
+related_concepts:
+- composition_signifier
+- luxury_wealth_referent_system
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: scientific_authority
+concept_name: Scientific Authority
+slug: scientific-authority
+domain: semiotics
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: Ideology
+  subtype: ScientificAuthority
+short_definition: Science is invoked as neutral proof while its methods, uncertainty,
+  and debate are simplified or hidden.
+plain_language: Look for laboratory imagery, expert bodies, statistics, clinical whiteness,
+  and proof-like demonstrations.
+how_to_spot:
+- Look for laboratory imagery, expert bodies, statistics, clinical whiteness, and
+  proof-like demonstrations.
+common_clues: []
+local_examples: []
+related_concepts:
+- science_referent_system
+- authority_persuasion
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: success_through_consumption
+concept_name: Success Through Consumption
+slug: success-through-consumption
+domain: semiotics
+difficulty: intermediate
+tier: 5
+entry_status: condensed
+ontology_ref:
+  class: Ideology
+  subtype: SuccessThroughConsumption
+short_definition: The good life, personal fulfillment, love, beauty, or achievement
+  is made to appear reachable through buying.
+plain_language: Look for ownership linked to happiness, admiration, transformation,
+  or life completion.
+how_to_spot:
+- Look for ownership linked to happiness, admiration, transformation, or life completion.
+common_clues: []
+local_examples: []
+related_concepts:
+- transformation_narrative
+- commodity_fetishism
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: individualism_and_choice
+concept_name: Individualism and Choice
+slug: individualism-and-choice
+domain: semiotics
+difficulty: intermediate
+tier: 3
+entry_status: condensed
+ontology_ref:
+  class: Ideology
+  subtype: IndividualismAndChoice
+short_definition: Identity and freedom are framed as personal choices expressed through
+  products, with social constraints hidden.
+plain_language: Look for self-expression, customization, rebellion-as-branding, and
+  freedom language attached to purchases.
+how_to_spot:
+- Look for self-expression, customization, rebellion-as-branding, and freedom language
+  attached to purchases.
+common_clues: []
+local_examples: []
+related_concepts:
+- subject_position
+- call_to_action
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Conceptual framing derived from Williamson-inspired advertising semiotics;
+    no exact quotation is asserted here.
+  source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+    (1978)'
+  verified: false
+---
+id: evidence_link
+concept_name: Evidence Link
+slug: evidence-link
+domain: media_literacy
+difficulty: intermediate
+tier: 7
+entry_status: condensed
+ontology_ref:
+  class: EvidenceLink
+short_definition: A typed connection between an observation, signifier, interpretation,
+  and supporting concept chain.
+plain_language: An evidence link is the explicit bridge between what was noticed and
+  what was concluded. It makes the support chain inspectable instead of hidden in
+  the background.
+why_it_matters: It shows how a reading is grounded in a visible chain of support.
+how_to_spot:
+- Look for labels that point from a claim back to a specific observation.
+- Check whether the link names the relationship, not just the concepts.
+- Ask what part of the chain would weaken if the observation changed.
+common_clues:
+- based on observation
+- supports
+- draws on
+- evidence chain
+local_examples:
+- ad_id: any
+  explanation: A card label that says "Based on observation 03" is an evidence link.
+related_concepts:
+- observation
+- interpretation
+- confidence_interpretation
+- counter_reading
+ads_using_concept: []
+source_references: []
+---
+id: control
+concept_name: Control
+slug: control
+domain: behavioral_science
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: EmotionalLever
+short_definition: A promised sense of agency, order, or reduced vulnerability the
+  ad attaches to the product.
+plain_language: The ad can suggest that choosing the product puts the viewer in command
+  of a situation that otherwise feels uncertain or messy.
+why_it_matters: Naming control helps the learner see when an ad sells mastery and
+  order rather than the product's plain function.
+how_to_spot:
+- Look for precise, tidy framing, isolation of the product, or imagery of command.
+- Ask whether the ad promises order over something the viewer is led to find uncertain.
+- Notice language of managing, handling, or taking charge.
+common_clues:
+- in control
+- take charge
+- manage
+- order
+- precision
+related_concepts:
+- scarcity
+- commitment_and_consistency
+- confidence
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Emotional-lever vocabulary draws on widely taught behavioral and persuasion
+    practice; no specific psychological effect is asserted.
+  source: Contemporary behavioral and persuasion literature
+  verified: false
+---
+id: hope
+concept_name: Hope
+slug: hope
+domain: behavioral_science
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: EmotionalLever
+short_definition: A feeling that a better outcome is possible, attached to the product
+  as the way to reach it.
+plain_language: The ad can point to a desirable future and present the product as
+  the step that helps unlock it.
+why_it_matters: Naming hope helps the learner separate a promised future from what
+  the product actually does now.
+how_to_spot:
+- Look for imagery or copy about a better tomorrow, progress, or transformation.
+- Ask what future state the product is said to make possible.
+- Notice forward-looking language like start, become, or tomorrow.
+common_clues:
+- better future
+- tomorrow
+- possibility
+- transformation
+- start
+related_concepts:
+- aspiration
+- outcome_visualization
+- curiosity_gap
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Emotional-lever vocabulary draws on widely taught behavioral and persuasion
+    practice; no specific psychological effect is asserted.
+  source: Contemporary behavioral and persuasion literature
+  verified: false
+---
+id: confidence
+concept_name: Confidence
+slug: confidence
+domain: behavioral_science
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: EmotionalLever
+short_definition: A feeling of assurance or reduced uncertainty the ad offers through
+  the product choice.
+plain_language: The ad can present calm certainty, suggesting the viewer no longer
+  has to worry or second-guess once they choose the product.
+why_it_matters: Naming confidence helps the learner notice when reassurance, not evidence,
+  is doing the persuading.
+how_to_spot:
+- Look for calm, direct presentation, certainty in copy, or removal of ambiguity.
+- Ask whether the assurance is backed by evidence or only by tone.
+- Notice steady, declarative language.
+common_clues:
+- assured
+- certain
+- no doubt
+- reliable
+- steady
+related_concepts:
+- authority_persuasion
+- outcome_visualization
+- trust
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Emotional-lever vocabulary draws on widely taught behavioral and persuasion
+    practice; no specific psychological effect is asserted.
+  source: Contemporary behavioral and persuasion literature
+  verified: false
+---
+id: status
+concept_name: Status
+slug: status
+domain: behavioral_science
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: EmotionalLever
+short_definition: A desired feeling of social standing, recognition, or distinction
+  linked to the product.
+plain_language: The ad can promise that owning or using the product marks the viewer
+  as a certain kind of person others recognize.
+why_it_matters: Naming status helps the learner see when an ad sells social rank as
+  much as function.
+how_to_spot:
+- Ask whether the ad promises recognition, prestige, or rank, not just use.
+- Look for exclusivity cues, prestige settings, or admiring onlookers.
+- Notice language of distinction, elite, or belonging to a select group.
+common_clues:
+- prestige
+- exclusive
+- elite
+- recognized
+- distinction
+related_concepts:
+- social_proof
+- identity_signaling
+- aspiration
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Emotional-lever vocabulary draws on widely taught behavioral and persuasion
+    practice; no specific psychological effect is asserted.
+  source: Contemporary behavioral and persuasion literature
+  verified: false
+---
+id: relief
+concept_name: Relief
+slug: relief
+domain: behavioral_science
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: EmotionalLever
+short_definition: A promised release from discomfort, effort, uncertainty, or risk
+  offered by the product.
+plain_language: The ad can frame the product as the thing that removes a problem or
+  makes a hard situation easier.
+why_it_matters: Naming relief helps the learner check whether the problem is real
+  or staged to make the product feel necessary.
+how_to_spot:
+- Look for before-and-after framing, simplification, or removal of friction.
+- Ask what discomfort the ad first sets up, then promises to remove.
+- Notice protective or soothing language.
+common_clues:
+- easier
+- no more
+- finally
+- stress-free
+- simple
+related_concepts:
+- simplicity_framing
+- scarcity
+- hope
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Emotional-lever vocabulary draws on widely taught behavioral and persuasion
+    practice; no specific psychological effect is asserted.
+  source: Contemporary behavioral and persuasion literature
+  verified: false
+---
+id: trust
+concept_name: Trust
+slug: trust
+domain: behavioral_science
+difficulty: beginner
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: EmotionalLever
+short_definition: A feeling of safety or reliance on a brand, person, or system to
+  deliver as promised.
+plain_language: The ad can build a sense that the brand is dependable, so the viewer
+  feels safer choosing it.
+why_it_matters: Naming trust helps the learner separate genuine reliability cues from
+  borrowed reassurance.
+how_to_spot:
+- Look for authority cues, transparency, familiar presentation, or third-party validation.
+- Ask what actually supports the reliability, beyond a reassuring tone.
+- Notice guarantees, certifications, or long-standing-brand framing.
+common_clues:
+- trusted
+- guaranteed
+- certified
+- dependable
+- established
+related_concepts:
+- authority_persuasion
+- social_proof
+- reciprocity
+- liking_and_association
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Emotional-lever vocabulary draws on widely taught behavioral and persuasion
+    practice; no specific psychological effect is asserted.
+  source: Contemporary behavioral and persuasion literature
+  verified: false
+---
+id: aspiration
+concept_name: Aspiration
+slug: aspiration
+domain: marketing
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+short_definition: Appealing to the viewer's wish to become someone better, more successful,
+  or more valued.
+plain_language: The ad can frame buying the product as a step toward an improved version
+  of the self, not just a purchase.
+why_it_matters: Naming aspiration helps the learner see when an ad sells a self-image
+  rather than the product's function.
+how_to_spot:
+- Look for an idealized self, elevated lifestyle, or achievement the product is said
+  to enable.
+- Ask who the viewer is invited to become.
+- Notice become, your best, or success imagery.
+common_clues:
+- become
+- your best
+- achieve
+- elevate
+- ideal life
+related_concepts:
+- status
+- identity_signaling
+- success_through_consumption
+- hope
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: identity_signaling
+concept_name: Identity Signaling
+slug: identity-signaling
+domain: marketing
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+short_definition: Using a product or brand to communicate the kind of person or group
+  the viewer might be.
+plain_language: The ad can present the product as a badge that tells others, and the
+  viewer, who they are or belong with.
+why_it_matters: Naming identity signaling helps the learner see when an ad sells belonging
+  and self-presentation over use.
+how_to_spot:
+- Ask what identity becomes available through owning, recognizing, or participating.
+- Look for in-group cues, brand badges, or lifestyle markers.
+- Notice for-people-who framing, subculture cues, or recognizable brand signals.
+common_clues:
+- for people who
+- belong
+- our kind
+- brand badge
+- lifestyle
+related_concepts:
+- cultural_identity
+- status
+- aspiration
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: simplicity_framing
+concept_name: Simplicity Framing
+slug: simplicity-framing
+domain: marketing
+difficulty: intermediate
+tier: 4
+entry_status: condensed
+ontology_ref:
+  class: PersuasionTechnique
+short_definition: Presenting a complex need or problem as if it has one clear, immediate,
+  purchasable solution.
+plain_language: The ad can make a complicated issue look easy to solve by reducing
+  it to a single product gesture.
+why_it_matters: Naming simplicity framing helps the learner check what complexity
+  the ad leaves out to make the product feel sufficient.
+how_to_spot:
+- Look for a single product gesture that appears to resolve a wider life problem.
+- Ask what steps, costs, or trade-offs are hidden by the simple framing.
+- Notice minimal layouts and just or simply language.
+common_clues:
+- just
+- simply
+- one step
+- easy fix
+- all you need
+local_examples:
+- ad_id: real-ikea-sleep
+  explanation: Sleep is reframed as a purchasable product gesture, making a complex
+    need look easy to resolve.
+related_concepts:
+- relief
+- scarcity
+- confidence
+ads_using_concept: []
+source_references:
+- type: conceptual_attribution
+  text: Persuasion-technique bridge uses widely taught behavioral marketing vocabulary
+    associated with modern persuasion practice.
+  source: Contemporary marketing/CRO and persuasion literature
+  verified: false
+---
+id: visual_pun
+concept_name: Visual Pun
+slug: visual_pun
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: A visual play on words or imagery where two meanings collide in
+  a single image.
+plain_language: A visual play on words or imagery where two meanings collide in a
+  single image.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using visual pun?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: metaphor
+concept_name: Metaphor
+slug: metaphor
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: Describing one thing in terms of another to transfer meaning.
+plain_language: Describing one thing in terms of another to transfer meaning.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using metaphor?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: juxtaposition
+concept_name: Juxtaposition
+slug: juxtaposition
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: Placing two elements side by side so their contrast creates meaning.
+plain_language: Placing two elements side by side so their contrast creates meaning.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using juxtaposition?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: selective_color
+concept_name: Selective Color
+slug: selective_color
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: Coloring only part of an otherwise monochrome image to direct the
+  eye.
+plain_language: Coloring only part of an otherwise monochrome image to direct the
+  eye.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using selective color?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: brand_color
+concept_name: Brand Color
+slug: brand_color
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The signature color or palette that identifies a brand.
+plain_language: The signature color or palette that identifies a brand.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using brand color?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: visual_identity
+concept_name: Visual Identity
+slug: visual_identity
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The recognizable visual system (logo, color, type) that signals
+  a brand.
+plain_language: The recognizable visual system (logo, color, type) that signals a
+  brand.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using visual identity?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: metonymy
+concept_name: Metonymy
+slug: metonymy
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: Referring to something by a related part or associated object.
+plain_language: Referring to something by a related part or associated object.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using metonymy?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: iconic_sign
+concept_name: Iconic Sign
+slug: iconic_sign
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: A sign that resembles what it represents.
+plain_language: A sign that resembles what it represents.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using iconic sign?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: symbolism
+concept_name: Symbolism
+slug: symbolism
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The use of symbols to carry meaning beyond the literal.
+plain_language: The use of symbols to carry meaning beyond the literal.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using symbolism?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: denotation
+concept_name: Denotation
+slug: denotation
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The literal, dictionary meaning of a sign.
+plain_language: The literal, dictionary meaning of a sign.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using denotation?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: connotation
+concept_name: Connotation
+slug: connotation
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The associated, cultural meanings a sign carries beyond its literal
+  sense.
+plain_language: The associated, cultural meanings a sign carries beyond its literal
+  sense.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using connotation?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: authenticity
+concept_name: Authenticity
+slug: authenticity
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The perception that a brand or message is genuine and unmanufactured.
+plain_language: The perception that a brand or message is genuine and unmanufactured.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using authenticity?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: clarity
+concept_name: Clarity
+slug: clarity
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The quality of being immediately and unambiguously understood.
+plain_language: The quality of being immediately and unambiguously understood.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using clarity?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: permanence
+concept_name: Permanence
+slug: permanence
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: The suggestion that something lasts, endures, or is fixed.
+plain_language: The suggestion that something lasts, endures, or is fixed.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using permanence?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: professionalism
+concept_name: Professionalism
+slug: professionalism
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: Signals of competence, expertise, and serious craft.
+plain_language: Signals of competence, expertise, and serious craft.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using professionalism?'
+related_concepts: []
+ads_using_concept: []
+source_references: []
+---
+id: causality
+concept_name: Causality
+slug: causality
+domain: semiotics
+difficulty: intermediate
+tier: 2
+entry_status: minimal
+ontology_ref:
+  class: GlossaryEntry
+short_definition: A claim or visual that implies one thing causes another.
+plain_language: A claim or visual that implies one thing causes another.
+why_it_matters: Names a device the decoder needs to spot so a reading stays grounded
+  in how the ad builds meaning.
+how_to_spot:
+- 'Ask: is this ad using causality?'
+related_concepts: []
+ads_using_concept: []
+source_references: []

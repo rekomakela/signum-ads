@@ -1,0 +1,340 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-playstation-2-ad-in-the-official-playstation-mag-ad37333e",
+    "media_type": "image",
+    "path": "cases/real-playstation-2-ad-in-the-official-playstation-mag-ad37333e/asset.jpg",
+    "sha256": "bf76717cebe9acbb77486d9f55af0813eef812ed78b554508d81e8766bd680f5"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:48:45.409Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-playstation-2-ad-in-the-official-playstation-mag-ad37333e",
+    "sha256": "bf76717cebe9acbb77486d9f55af0813eef812ed78b554508d81e8766bd680f5"
+  },
+  "raw_provider_output": {
+    "summary": "A minimalist advertisement for the PlayStation 2 game 'The Third Place' that uses the visual metaphor of expired condom wrappers to convey a message of caution and the consequences of inexperience.",
+    "observations": [
+      {
+        "description": "Four white, sealed packets with the text 'MADE IN JAPAN' and an expiration date 'EXP 02/2005' are arranged on a blue tiled surface.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'PlayStation 2' and 'THE THIRD PLACE' is displayed in the bottom left corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom-left",
+        "confidence": "high"
+      },
+      {
+        "description": "The phrase 'Be careful' is written in white text in the bottom right corner.",
+        "evidence_type": "copy",
+        "location": "bottom-right",
+        "confidence": "high"
+      },
+      {
+        "description": "The packets are arranged to form a shape resembling a four-leaf clover or a cross.",
+        "evidence_type": "layout",
+        "location": "center",
+        "confidence": "medium"
+      },
+      {
+        "description": "The background consists of blue tiles with white grout lines, suggesting a bathroom or clinical setting.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The expiration date 'EXP 02/2005' is printed on the top of each packet.",
+        "evidence_type": "copy",
+        "location": "top of each packet",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement warns the viewer to 'Be careful' regarding the game's content, which likely deals with themes of sexual inexperience or risk.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of condom wrappers as the primary visual signifier creates a direct metaphor for the game's subject matter, linking the product to themes of sex, protection, and potential failure (indicated by the expiration date).",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad employs a strategy of shock and minimalism, using a stark, unadorned image to grab attention and provoke curiosity about the game's narrative.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target audience is likely older teenagers or adults who are mature enough to understand the sexual and social implications of the imagery, rather than a general or younger audience.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "Four white, sealed packets with the text 'MADE IN JAPAN' and an expiration date 'EXP 02/2005' are arranged on a blue tiled surface.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "The text 'PlayStation 2' and 'THE THIRD PLACE' is displayed in the bottom left corner.",
+      "location": "bottom-left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The phrase 'Be careful' is written in white text in the bottom right corner.",
+      "location": "bottom-right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "layout",
+      "description": "The packets are arranged to form a shape resembling a four-leaf clover or a cross.",
+      "location": "center",
+      "confidence": "medium"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The background consists of blue tiles with white grout lines, suggesting a bathroom or clinical setting.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "The expiration date 'EXP 02/2005' is printed on the top of each packet.",
+      "location": "top of each packet",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A minimalist advertisement for the PlayStation 2 game 'The Third Place' that uses the visual metaphor of expired condom wrappers to convey a message of caution and the consequences of inexperience.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement warns the viewer to 'Be careful' regarding the game's content, which likely deals with themes of sexual inexperience or risk.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of condom wrappers as the primary visual signifier creates a direct metaphor for the game's subject matter, linking the product to themes of sex, protection, and potential failure (indicated by the expiration date).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad employs a strategy of shock and minimalism, using a stark, unadorned image to grab attention and provoke curiosity about the game's narrative.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The target audience is likely older teenagers or adults who are mature enough to understand the sexual and social implications of the imagery, rather than a general or younger audience.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

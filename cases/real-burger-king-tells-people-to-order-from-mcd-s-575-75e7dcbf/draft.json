@@ -1,0 +1,385 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-burger-king-tells-people-to-order-from-mcd-s-575-75e7dcbf",
+    "media_type": "image",
+    "path": "cases/real-burger-king-tells-people-to-order-from-mcd-s-575-75e7dcbf/asset.png",
+    "sha256": "bcf7674a98884cd972c4653413d2eb20a904c935742f38758748225841f15061"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:21:39.930Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-burger-king-tells-people-to-order-from-mcd-s-575-75e7dcbf",
+    "sha256": "bcf7674a98884cd972c4653413d2eb20a904c935742f38758748225841f15061"
+  },
+  "raw_provider_output": {
+    "summary": "Burger King encourages customers to support independent and competitor restaurants during a crisis, while subtly positioning its own products as the ultimate comfort and a valid choice.",
+    "observations": [
+      {
+        "description": "The headline 'ORDER FROM MCDONALD'S.' is displayed in large, bold, black sans-serif font at the top of the ad.",
+        "evidence_type": "copy",
+        "location": "top",
+        "confidence": "high"
+      },
+      {
+        "description": "The body copy lists numerous competitors and independent restaurants, including 'KFC, Quick, O'Tacos, Domino's Pizza, Subway, Eat Sushi, Pizza Del Arte, Hippopotamus, Pitaya, Sushi Shop, Big Fernand, Mamma Primi, Chez Michel, Le Bistro Basque, Café Kokomo, Yima...'",
+        "evidence_type": "copy",
+        "location": "middle",
+        "confidence": "high"
+      },
+      {
+        "description": "The text states, 'We never thought we'd be asking you to do this,' framing the request as unusual and altruistic.",
+        "evidence_type": "copy",
+        "location": "middle",
+        "confidence": "high"
+      },
+      {
+        "description": "The copy explains the motivation: 'restaurants employing thousands of staff really need your support at the moment.'",
+        "evidence_type": "copy",
+        "location": "middle",
+        "confidence": "high"
+      },
+      {
+        "description": "The final paragraph pivots back to the brand, stating 'Getting a Whopper is always best, but ordering a Big Mac is also not such a bad thing.'",
+        "evidence_type": "copy",
+        "location": "bottom",
+        "confidence": "high"
+      },
+      {
+        "description": "The Burger King logo is centered at the bottom of the advertisement.",
+        "evidence_type": "brand_mark",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The layout is minimalist, consisting of black text on a white background with no product photography or imagery other than the logo.",
+        "evidence_type": "layout",
+        "location": "entire image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad's primary message is a call to action for consumers to support the broader restaurant industry, including competitors, to help them survive a difficult period.",
+        "evidence_indices": [
+          0,
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By explicitly naming competitors like McDonald's and KFC, the brand uses a strategy of 'noble competition' to build trust and brand affinity, suggesting they care more about the industry's health than their own market share.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a competitor's name (McDonald's) in the headline acts as a visual and textual signifier of the brand's confidence and lack of insecurity, subverting the typical aggressive tone of fast-food advertising.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The closing line 'Getting a Whopper is always best' serves as a subtle product demonstration and value proposition, reminding the consumer of the brand's superior offering while maintaining the altruistic tone.",
+        "evidence_indices": [
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "confidence",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The minimalist layout, devoid of food imagery, shifts the focus entirely to the text and the brand's message, reinforcing the sincerity of the appeal and the brand's 'human' side.",
+        "evidence_indices": [
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "The headline 'ORDER FROM MCDONALD'S.' is displayed in large, bold, black sans-serif font at the top of the ad.",
+      "location": "top",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The body copy lists numerous competitors and independent restaurants, including 'KFC, Quick, O'Tacos, Domino's Pizza, Subway, Eat Sushi, Pizza Del Arte, Hippopotamus, Pitaya, Sushi Shop, Big Fernand, Mamma Primi, Chez Michel, Le Bistro Basque, Café Kokomo, Yima...'",
+      "location": "middle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The text states, 'We never thought we'd be asking you to do this,' framing the request as unusual and altruistic.",
+      "location": "middle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The copy explains the motivation: 'restaurants employing thousands of staff really need your support at the moment.'",
+      "location": "middle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The final paragraph pivots back to the brand, stating 'Getting a Whopper is always best, but ordering a Big Mac is also not such a bad thing.'",
+      "location": "bottom",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "The Burger King logo is centered at the bottom of the advertisement.",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "layout",
+      "description": "The layout is minimalist, consisting of black text on a white background with no product photography or imagery other than the logo.",
+      "location": "entire image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "Burger King encourages customers to support independent and competitor restaurants during a crisis, while subtly positioning its own products as the ultimate comfort and a valid choice.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad's primary message is a call to action for consumers to support the broader restaurant industry, including competitors, to help them survive a difficult period.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By explicitly naming competitors like McDonald's and KFC, the brand uses a strategy of 'noble competition' to build trust and brand affinity, suggesting they care more about the industry's health than their own market share.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The use of a competitor's name (McDonald's) in the headline acts as a visual and textual signifier of the brand's confidence and lack of insecurity, subverting the typical aggressive tone of fast-food advertising.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "The closing line 'Getting a Whopper is always best' serves as a subtle product demonstration and value proposition, reminding the consumer of the brand's superior offering while maintaining the altruistic tone.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "confidence",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "The minimalist layout, devoid of food imagery, shifts the focus entirely to the text and the brand's message, reinforcing the sincerity of the appeal and the brand's 'human' side.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

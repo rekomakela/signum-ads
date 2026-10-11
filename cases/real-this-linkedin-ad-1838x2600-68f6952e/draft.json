@@ -1,0 +1,265 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-this-linkedin-ad-1838x2600-68f6952e",
+    "media_type": "image",
+    "path": "cases/real-this-linkedin-ad-1838x2600-68f6952e/asset.png",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:13:12.770Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-this-linkedin-ad-1838x2600-68f6952e",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "LinkedIn positions itself as the platform where you can curate and present your professional identity, standing out as a composed professional amidst the chaos of social life.",
+    "observations": [
+      {
+        "description": "A central male figure in a shirt and tie stands with arms crossed, smiling confidently, highlighted by a bright white circular spotlight.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a monochromatic blue scene of a chaotic bar or party, featuring silhouettes of people drinking, flying bottles, and a clock on the wall.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'Show your professional side.' appears in the bottom left corner.",
+        "evidence_type": "copy",
+        "location": "bottom_left",
+        "confidence": "high"
+      },
+      {
+        "description": "The LinkedIn logo is positioned in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The central figure is depicted in full color (skin tone, hair, tie) while the surrounding environment is rendered in shades of blue, creating a strong visual contrast.",
+        "evidence_type": "layout",
+        "location": "center vs background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad suggests that LinkedIn is the space where you can define and display your professional persona, distinct from your casual or social self.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "identity_signaling",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": false
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The visual contrast between the colorful, well-lit professional and the monochromatic, chaotic background functions as a visual metaphor for the clarity and control LinkedIn offers over one's professional image.",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By depicting the professional as calm and composed while the background is a 'party,' the ad appeals to the user's desire for status and control over their reputation.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A central male figure in a shirt and tie stands with arms crossed, smiling confidently, highlighted by a bright white circular spotlight.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The background is a monochromatic blue scene of a chaotic bar or party, featuring silhouettes of people drinking, flying bottles, and a clock on the wall.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The text 'Show your professional side.' appears in the bottom left corner.",
+      "location": "bottom_left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The LinkedIn logo is positioned in the bottom right corner.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The central figure is depicted in full color (skin tone, hair, tie) while the surrounding environment is rendered in shades of blue, creating a strong visual contrast.",
+      "location": "center vs background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "LinkedIn positions itself as the platform where you can curate and present your professional identity, standing out as a composed professional amidst the chaos of social life.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad suggests that LinkedIn is the space where you can define and display your professional persona, distinct from your casual or social self.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "identity_signaling",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": false
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The visual contrast between the colorful, well-lit professional and the monochromatic, chaotic background functions as a visual metaphor for the clarity and control LinkedIn offers over one's professional image.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By depicting the professional as calm and composed while the background is a 'party,' the ad appeals to the user's desire for status and control over their reputation.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

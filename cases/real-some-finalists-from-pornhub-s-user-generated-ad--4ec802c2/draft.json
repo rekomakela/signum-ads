@@ -1,0 +1,333 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-some-finalists-from-pornhub-s-user-generated-ad--4ec802c2",
+    "media_type": "image",
+    "path": "cases/real-some-finalists-from-pornhub-s-user-generated-ad--4ec802c2/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:59:54.525Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-some-finalists-from-pornhub-s-user-generated-ad--4ec802c2",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A satirical advertisement for Pornhub that uses irony and wordplay to reframe the platform as a repository of 'nothing' and a 'Do-It-Yourself' website, subverting the brand's actual identity.",
+    "observations": [
+      {
+        "description": "A split-screen layout with a black background on the left and an orange background on the right.",
+        "evidence_type": "layout",
+        "location": "entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "A white pictogram of a woman standing next to a man sitting at a computer desk.",
+        "evidence_type": "visual",
+        "location": "left panel, center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'what are you watching?' in white, followed by 'nothing.' in orange.",
+        "evidence_type": "copy",
+        "location": "left panel, upper section",
+        "confidence": "high"
+      },
+      {
+        "description": "A large black silhouette of a hand with the palm facing forward, containing the text 'DIY' in orange.",
+        "evidence_type": "visual",
+        "location": "right panel, center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'America's Largest Do-It-Yourself Website' in white.",
+        "evidence_type": "copy",
+        "location": "right panel, lower section",
+        "confidence": "high"
+      },
+      {
+        "description": "The Pornhub logo (white 'Porn' and orange 'hub' in a box) appearing in both panels.",
+        "evidence_type": "brand_mark",
+        "location": "bottom of both panels",
+        "confidence": "high"
+      },
+      {
+        "description": "The tagline 'the world's biggest archive of nothing.' in white and orange text.",
+        "evidence_type": "copy",
+        "location": "left panel, bottom",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement presents a satirical rebranding of Pornhub as a site for 'nothing' and 'DIY' activities, using irony to comment on the nature of the content or the act of viewing it.",
+        "evidence_indices": [
+          2,
+          4,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of the 'DIY' hand gesture and the word 'nothing' functions as a visual metaphor, suggesting that the viewer is the active creator of the experience rather than a passive consumer of explicit content.",
+        "evidence_indices": [
+          3,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad relies on the brand's existing notoriety to create a 'curiosity gap,' where the dissonance between the brand name and the 'nothing' tagline prompts the viewer to engage with the joke.",
+        "evidence_indices": [
+          5,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "By describing the site as an 'archive of nothing,' the ad employs a form of self-deprecation or understatement to distance the brand from its explicit reputation while simultaneously reinforcing its massive scale.",
+        "evidence_indices": [
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "understatement",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "layout",
+      "description": "A split-screen layout with a black background on the left and an orange background on the right.",
+      "location": "entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A white pictogram of a woman standing next to a man sitting at a computer desk.",
+      "location": "left panel, center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The text 'what are you watching?' in white, followed by 'nothing.' in orange.",
+      "location": "left panel, upper section",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A large black silhouette of a hand with the palm facing forward, containing the text 'DIY' in orange.",
+      "location": "right panel, center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The text 'America's Largest Do-It-Yourself Website' in white.",
+      "location": "right panel, lower section",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "The Pornhub logo (white 'Porn' and orange 'hub' in a box) appearing in both panels.",
+      "location": "bottom of both panels",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "copy",
+      "description": "The tagline 'the world's biggest archive of nothing.' in white and orange text.",
+      "location": "left panel, bottom",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A satirical advertisement for Pornhub that uses irony and wordplay to reframe the platform as a repository of 'nothing' and a 'Do-It-Yourself' website, subverting the brand's actual identity.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement presents a satirical rebranding of Pornhub as a site for 'nothing' and 'DIY' activities, using irony to comment on the nature of the content or the act of viewing it.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "irony",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of the 'DIY' hand gesture and the word 'nothing' functions as a visual metaphor, suggesting that the viewer is the active creator of the experience rather than a passive consumer of explicit content.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad relies on the brand's existing notoriety to create a 'curiosity gap,' where the dissonance between the brand name and the 'nothing' tagline prompts the viewer to engage with the joke.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "By describing the site as an 'archive of nothing,' the ad employs a form of self-deprecation or understatement to distance the brand from its explicit reputation while simultaneously reinforcing its massive scale.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "understatement",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

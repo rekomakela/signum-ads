@@ -1,0 +1,280 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-a-simple-brilliant-ad-by-land-rover-7ecb02ed",
+    "media_type": "image",
+    "path": "cases/real-a-simple-brilliant-ad-by-land-rover-7ecb02ed/asset.jpg",
+    "sha256": "64b5c1121668dc29b3cb1d31ca15dd7af9420ee26e07df0a60be69430cbb5b11"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-15T23:49:24.354Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-a-simple-brilliant-ad-by-land-rover-7ecb02ed",
+    "sha256": "64b5c1121668dc29b3cb1d31ca15dd7af9420ee26e07df0a60be69430cbb5b11"
+  },
+  "raw_provider_output": {
+    "summary": "The advertisement uses a passport filled with international stamps to form the silhouette of a Land Rover Defender, symbolizing the vehicle's capability for global exploration and adventure.",
+    "observations": [
+      {
+        "description": "An open passport with a textured cover lies on a dark wooden surface.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "Numerous colorful immigration stamps from various countries (e.g., Chile, Vietnam, Cambodia) are arranged to create the outline of a car.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The silhouette formed by the stamps is clearly recognizable as a Land Rover Defender.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'DEFENDER' is displayed in white capital letters in the bottom left corner.",
+        "evidence_type": "copy",
+        "location": "bottom_left",
+        "confidence": "high"
+      },
+      {
+        "description": "The Land Rover logo and the slogan 'GO BEYOND' are located in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "Specific dates on the stamps (e.g., '13-05-09', '05 11 2009') suggest a timeline of travel.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The Land Rover Defender is a vehicle designed for global exploration and reaching remote destinations.",
+        "evidence_indices": [
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The passport serves as a metonym for the traveler's life and experiences, while the stamps represent the specific locations visited.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "metonymy",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By merging the car's shape with travel documents, the ad implies that the Defender is the essential tool for creating a life of adventure.",
+        "evidence_indices": [
+          2,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "freedom",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets individuals who value travel, independence, and the ability to go off the beaten path.",
+        "evidence_indices": [
+          4,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "exploration",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "An open passport with a textured cover lies on a dark wooden surface.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "Numerous colorful immigration stamps from various countries (e.g., Chile, Vietnam, Cambodia) are arranged to create the outline of a car.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The silhouette formed by the stamps is clearly recognizable as a Land Rover Defender.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'DEFENDER' is displayed in white capital letters in the bottom left corner.",
+      "location": "bottom_left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The Land Rover logo and the slogan 'GO BEYOND' are located in the bottom right corner.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "Specific dates on the stamps (e.g., '13-05-09', '05 11 2009') suggest a timeline of travel.",
+      "location": "center",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The advertisement uses a passport filled with international stamps to form the silhouette of a Land Rover Defender, symbolizing the vehicle's capability for global exploration and adventure.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The Land Rover Defender is a vehicle designed for global exploration and reaching remote destinations.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The passport serves as a metonym for the traveler's life and experiences, while the stamps represent the specific locations visited.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "metonymy",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By merging the car's shape with travel documents, the ad implies that the Defender is the essential tool for creating a life of adventure.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "freedom",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets individuals who value travel, independence, and the ability to go off the beaten path.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "exploration",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

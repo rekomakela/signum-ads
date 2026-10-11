@@ -1,0 +1,315 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-standout-point-of-sale-merchandising-from-pasta--b79052c0",
+    "media_type": "image",
+    "path": "cases/real-standout-point-of-sale-merchandising-from-pasta--b79052c0/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:01:21.640Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-standout-point-of-sale-merchandising-from-pasta--b79052c0",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A playful pasta brand uses a visual metaphor of women's hairstyles made from different pasta shapes to help consumers easily identify and select specific types of pasta in a grocery store.",
+    "observations": [
+      {
+        "description": "White boxes featuring illustrations of women's faces where the hair is composed of specific pasta shapes (e.g., an afro made of cavatappi, a bob made of spaghetti).",
+        "evidence_type": "visual",
+        "location": "Center of the middle and bottom shelves",
+        "confidence": "high"
+      },
+      {
+        "description": "Text labels on the boxes identifying the pasta shape, such as 'Cavatappi', 'Penne', 'Fusilli', and 'Spaghetti'.",
+        "evidence_type": "copy",
+        "location": "Bottom of the white boxes",
+        "confidence": "high"
+      },
+      {
+        "description": "The word 'Pasta' printed at the top of each white box.",
+        "evidence_type": "copy",
+        "location": "Top of the white boxes",
+        "confidence": "high"
+      },
+      {
+        "description": "The boxes are placed directly on the store shelves, surrounded by other pasta brands like Delperde, PastaZara, and Malora.",
+        "evidence_type": "context",
+        "location": "Grocery store aisle",
+        "confidence": "high"
+      },
+      {
+        "description": "Price tags are visible on the shelf edges below the products.",
+        "evidence_type": "price",
+        "location": "Shelf edges",
+        "confidence": "high"
+      },
+      {
+        "description": "The illustrations use a consistent art style with a pale face and a black choker necklace, contrasting with the textured pasta 'hair'.",
+        "evidence_type": "visual",
+        "location": "On the white boxes",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor where the texture and shape of the pasta are mapped onto the concept of a hairstyle, creating a memorable and distinct signifier for each product type.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By using a playful and artistic design, the brand differentiates itself from the more traditional packaging of competitors, aiming to attract attention through aesthetic appeal and humor.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The primary function of the packaging is to serve as a visual guide, allowing shoppers to quickly identify the specific shape of pasta they are looking for without needing to read small text or open the package.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The consistent use of a female face with a choker suggests a target audience that appreciates modern, perhaps slightly edgy or fashion-conscious design, moving away from the 'rustic' or 'traditional' imagery often used in pasta marketing.",
+        "evidence_indices": [
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "White boxes featuring illustrations of women's faces where the hair is composed of specific pasta shapes (e.g., an afro made of cavatappi, a bob made of spaghetti).",
+      "location": "Center of the middle and bottom shelves",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "Text labels on the boxes identifying the pasta shape, such as 'Cavatappi', 'Penne', 'Fusilli', and 'Spaghetti'.",
+      "location": "Bottom of the white boxes",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The word 'Pasta' printed at the top of each white box.",
+      "location": "Top of the white boxes",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "context",
+      "description": "The boxes are placed directly on the store shelves, surrounded by other pasta brands like Delperde, PastaZara, and Malora.",
+      "location": "Grocery store aisle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "price",
+      "description": "Price tags are visible on the shelf edges below the products.",
+      "location": "Shelf edges",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The illustrations use a consistent art style with a pale face and a black choker necklace, contrasting with the textured pasta 'hair'.",
+      "location": "On the white boxes",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A playful pasta brand uses a visual metaphor of women's hairstyles made from different pasta shapes to help consumers easily identify and select specific types of pasta in a grocery store.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor where the texture and shape of the pasta are mapped onto the concept of a hairstyle, creating a memorable and distinct signifier for each product type.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By using a playful and artistic design, the brand differentiates itself from the more traditional packaging of competitors, aiming to attract attention through aesthetic appeal and humor.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "core_message",
+        "text": "The primary function of the packaging is to serve as a visual guide, allowing shoppers to quickly identify the specific shape of pasta they are looking for without needing to read small text or open the package.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The consistent use of a female face with a choker suggests a target audience that appreciates modern, perhaps slightly edgy or fashion-conscious design, moving away from the 'rustic' or 'traditional' imagery often used in pasta marketing.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

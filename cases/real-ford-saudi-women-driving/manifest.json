@@ -1,0 +1,269 @@
+{
+  "manifest_id": "real-ford-saudi-women-driving",
+  "asset": {
+    "asset_id": "asset_real_ford_saudi_women_driving",
+    "media_type": "image",
+    "path": "cases/real-ford-saudi-women-driving/asset.jpg",
+    "sha256": "8d835e27014dfd44c4f9cbbfab796a9d1c187e6f176989ebbd9e6fa66c636672"
+  },
+  "summary": "Real Ford case built from the provided image and caption, using a mirror-centered composition to study visibility and permission.",
+  "learning_guidance": {
+    "overview": "Use this case to study how a dark frame and mirror isolation make visibility, permission, and being seen the point of the ad.",
+    "look_for": [
+      "the rearview mirror centered in the black field",
+      "the eyes framed tightly inside the mirror",
+      "dark empty space surrounding the mirror hardware"
+    ],
+    "concepts_to_know": [
+      "signifier",
+      "semiotics",
+      "cultural_identity"
+    ],
+    "concept_explanations": {
+      "signifier": "A visible form that stands for something else in the ad, like the mirror and eyes standing for visibility.",
+      "semiotics": "How signs and images create meaning together, which here comes from the dark frame and mirror window.",
+      "cultural_identity": "Using shared cultural meaning to frame belonging, visibility, or exclusion."
+    },
+    "thinking_questions": [
+      "Who is looking, and who is being seen?",
+      "What does the dark frame communicate about context?"
+    ],
+    "connects_to": [
+      "real-mercedes-benz-star",
+      "real-ikea-sleep"
+    ]
+  },
+  "observations": [
+    {
+      "ref": "obs_rearview_eyes",
+      "evidence_type": "visual",
+      "description": "A rearview mirror frames a pair of eyes centered inside the otherwise dark image.",
+      "location": "center frame",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_mirror_framed_eyes",
+      "evidence_type": "visual",
+      "description": "The rear-view mirror tightly frames the eyes, making the face read through a small central window.",
+      "location": "center frame",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_black_field",
+      "evidence_type": "visual",
+      "description": "Most of the frame is empty black space, pushing attention onto the mirror.",
+      "location": "full frame",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_dark_mirror_space",
+      "evidence_type": "visual",
+      "description": "Dark, empty space surrounds the mirror on all sides, isolating it from any wider car interior.",
+      "location": "around center mirror",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_mirror_hardware",
+      "evidence_type": "layout",
+      "description": "The mirror housing and stem are isolated in the center rather than embedded in a full car view.",
+      "location": "center frame",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_context_caption",
+      "evidence_type": "context",
+      "description": "Analysis is based on the provided image and user-provided title/caption, not external campaign knowledge.",
+      "location": null,
+      "confidence": "high"
+    }
+  ],
+  "claims": [
+    {
+      "ref": "claim_core_message",
+      "kind": "core_message",
+      "text": "The mirror-centered composition can be read as putting women's visibility at the center of the story.",
+      "evidence_refs": [
+        {
+          "ref": "obs_rearview_eyes",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_mirror_hardware",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "signifier",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "ontology_class",
+          "reference_value": "SocialConcept",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_persuasion",
+      "kind": "persuasion",
+      "text": "The framing can be read as identity signaling, giving the moment a quiet authority without making a literal policy claim.",
+      "evidence_refs": [
+        {
+          "ref": "obs_rearview_eyes",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_context_caption",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_black_field",
+          "support": "unsupported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "persuasion_technique",
+          "reference_value": "identity_signaling",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "confidence",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "status",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_semiotic",
+      "kind": "semiotic",
+      "text": "The eyes inside the mirror turn looking and being seen into the image's main sign.",
+      "evidence_refs": [
+        {
+          "ref": "obs_rearview_eyes",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_black_field",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "semiotics",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "confidence",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_audience",
+      "kind": "audience",
+      "text": "The composition positions viewers to read the scene as a moment of newly visible agency.",
+      "evidence_refs": [
+        {
+          "ref": "obs_rearview_eyes",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_context_caption",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_black_field",
+          "support": "unsupported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "ontology_class",
+          "reference_value": "SocialConcept",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "control",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_interpretation",
+      "kind": "interpretation",
+      "text": "The dark frame, isolated mirror, and visible eyes make seeing and being seen central, while the caption context reinforces that reading rather than creating it.",
+      "evidence_refs": [
+        {
+          "ref": "obs_mirror_framed_eyes",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_dark_mirror_space",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_mirror_hardware",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_context_caption",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "symbol",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "cultural_code",
+          "reference_value": "cultural_identity",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_interpretation_alternate",
+      "kind": "interpretation",
+      "text": "The same isolation can also read as surveillance or constraint, so the mirror feels watched rather than simply empowered.",
+      "evidence_refs": [
+        {
+          "ref": "obs_dark_mirror_space",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_mirror_hardware",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_black_field",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "symbol",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "control",
+          "required_for_claim": false
+        }
+      ]
+    }
+  ]
+}

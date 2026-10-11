@@ -1,0 +1,280 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-about-autism-efe4b0fc",
+    "media_type": "image",
+    "path": "cases/real-about-autism-efe4b0fc/asset.jpg",
+    "sha256": "a3a29787536ae27dc6eb66d2befaa577a29fd2ad9534e3fce20e058177352e64"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-15T23:50:21.284Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-about-autism-efe4b0fc",
+    "sha256": "a3a29787536ae27dc6eb66d2befaa577a29fd2ad9534e3fce20e058177352e64"
+  },
+  "raw_provider_output": {
+    "summary": "A child with autism is portrayed as isolated and difficult to reach, with the ad urging early intervention through the 'Talk About Autism' campaign.",
+    "observations": [
+      {
+        "description": "A woman sits on a very long bed, reading a book, while a small child sits at the far end, separated by a significant distance.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text reads: 'The longer a child with autism goes without help, the harder they are to reach.'",
+        "evidence_type": "copy",
+        "location": "top center, overlaid on the wallpaper",
+        "confidence": "high"
+      },
+      {
+        "description": "The bed is an exaggerated, elongated piece of furniture that stretches across the room, visually representing the distance between the caregiver and the child.",
+        "evidence_type": "visual",
+        "location": "spanning the width of the room",
+        "confidence": "high"
+      },
+      {
+        "description": "The wallpaper features a repeating pattern of small, scattered figures, which could be interpreted as a visual metaphor for the complexity or fragmentation of the child's world.",
+        "evidence_type": "visual",
+        "location": "background wall",
+        "confidence": "medium"
+      },
+      {
+        "description": "The URL 'talkaboutautism.org.uk' and the logos for 'Talk About Autism' and 'Treehouse' are displayed in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "Small toys are scattered on the floor near the woman, while the child at the far end appears to be in their own separate space.",
+        "evidence_type": "visual",
+        "location": "floor, near the woman",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Early intervention is crucial for children with autism, as delays in help make them increasingly difficult to connect with.",
+        "evidence_indices": [
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The exaggerated length of the bed is a visual metaphor for the emotional and communicative distance that can develop between a child with autism and their caregivers without proper support.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The woman's act of reading, a common caregiving activity, is rendered ineffective by the physical distance, symbolizing the frustration and helplessness that can accompany a lack of understanding or intervention.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets parents and caregivers of children with autism, aiming to motivate them to seek help and resources by highlighting the consequences of delay.",
+        "evidence_indices": [
+          0,
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A woman sits on a very long bed, reading a book, while a small child sits at the far end, separated by a significant distance.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The headline text reads: 'The longer a child with autism goes without help, the harder they are to reach.'",
+      "location": "top center, overlaid on the wallpaper",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The bed is an exaggerated, elongated piece of furniture that stretches across the room, visually representing the distance between the caregiver and the child.",
+      "location": "spanning the width of the room",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The wallpaper features a repeating pattern of small, scattered figures, which could be interpreted as a visual metaphor for the complexity or fragmentation of the child's world.",
+      "location": "background wall",
+      "confidence": "medium"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The URL 'talkaboutautism.org.uk' and the logos for 'Talk About Autism' and 'Treehouse' are displayed in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "Small toys are scattered on the floor near the woman, while the child at the far end appears to be in their own separate space.",
+      "location": "floor, near the woman",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A child with autism is portrayed as isolated and difficult to reach, with the ad urging early intervention through the 'Talk About Autism' campaign.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Early intervention is crucial for children with autism, as delays in help make them increasingly difficult to connect with.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The exaggerated length of the bed is a visual metaphor for the emotional and communicative distance that can develop between a child with autism and their caregivers without proper support.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "interpretation",
+        "text": "The woman's act of reading, a common caregiving activity, is rendered ineffective by the physical distance, symbolizing the frustration and helplessness that can accompany a lack of understanding or intervention.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets parents and caregivers of children with autism, aiming to motivate them to seek help and resources by highlighting the consequences of delay.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

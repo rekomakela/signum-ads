@@ -1,0 +1,384 @@
+schema_version: signum_core_classes.v1
+corpus_model_version: '0.1'
+status: master_corpus_foundation
+project: Signum
+last_updated: '2026-08-29'
+canonical_class_count: 27
+purpose: Canonical active classes for the Signum advertising corpus and analytical
+  model. The corpus ontology models advertising culture and corpus analysis; it is
+  not bounded by the current TypeScript decoder contract.
+source_of_truth_policy: Corpus Model v0.1 and this YAML are target ontology authority.
+  Runtime contracts are compatibility projections until migrated explicitly; do not
+  infer target ontology from current object shapes.
+category_legend:
+  corpus_identity: Stable identity of archival advertising objects.
+  corpus_context: Placement, market, and temporal context.
+  corpus_provenance: Acquisition and factual metadata provenance.
+  analysis_revision: Versioned analytical output attached to an Advertisement.
+  semiotic_core: Signifier/signified meaning chain.
+  interpretation: Observations, claims, readings, evidence, and audience position.
+  controlled_vocabulary: Governed reusable analytical concept families.
+  ideology_social: Ideological/social concepts retained from the source ontology.
+  persuasion: Persuasion and emotional mechanisms.
+  governance: Auditable source grounding.
+implementation_state_legend:
+  represented_or_reference_now: Already represented in current contracts/content in
+    some form.
+  target_model: Canonical target class not yet necessarily persisted by runtime.
+classes:
+- id: SIG-C-01
+  label: Advertisement
+  definition: The canonical real-world advertising creative execution preserved by
+    Signum. It is the archival object and is not synonymous with a Case record, Asset,
+    or DecodeRevision.
+  category: ad_context
+  source_layers:
+  - ad_context
+  imported_from: Advertisement
+  legacy_from:
+  - ad_execution
+  notes: One Advertisement may have several Assets, Placements, and DecodeRevisions.
+    Current Case storage is an implementation projection, not the target identity
+    model.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-02
+  label: Asset
+  definition: A concrete representation of an Advertisement, such as a scan, web image,
+    crop, or resolution variant, identified by content and provenance.
+  category: ad_context
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Several Assets may represent one Advertisement. sha256 identifies bytes,
+    not the real-world Advertisement.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-03
+  label: Product
+  definition: An item, service, platform, cause, idea, or product family promoted
+    by an Advertisement. An Advertisement may promote more than one Product.
+  category: ad_context
+  source_layers:
+  - ad_context
+  imported_from: Product
+  legacy_from: []
+  notes: Kept as canonical context. Structured product modeling is later work.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-04
+  label: Campaign
+  definition: A named or inferable group of related Advertisement executions united
+    by a creative, strategic, temporal, or media program.
+  category: ad_context
+  source_layers:
+  - ad_context
+  imported_from: Campaign
+  legacy_from:
+  - campaign_pattern
+  notes: Promoted to active corpus structure by Corpus Model v0.1. Campaign membership
+    is archival context, not a future-only multi-ad feature.
+  implementation_state: target_model
+- id: SIG-C-05
+  label: Signifier
+  definition: A concrete, perceptible element in an ad that can be pointed to before
+    interpretation (person, object, text, color, composition, typography).
+  category: semiotic_core
+  source_layers:
+  - core_semiotic
+  imported_from: Signifier
+  legacy_from:
+  - signifier
+  - brand_cue
+  - execution_choice
+  notes: Reviewed semiotic_reading.key_signifiers and the "semiotic" claim kind already
+    use it. Legacy brand_cue and execution_choice fold in as signifier functions/subtypes.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-06
+  label: Signified
+  definition: The idea, quality, emotion, social position, or value evoked by a signifier.
+  category: semiotic_core
+  source_layers:
+  - core_semiotic
+  imported_from: Signified
+  legacy_from:
+  - signified_meaning
+  notes: Reviewed semiotic_reading.signified_meanings already uses it.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-07
+  label: ReferentSystem
+  definition: An external cultural knowledge structure (nature, science, celebrity,
+    luxury, etc.) that a signifier borrows meaning from.
+  category: semiotic_core
+  source_layers:
+  - core_semiotic
+  imported_from: ReferentSystem
+  legacy_from: []
+  notes: Used today as an ontology_class reference value in case manifests; not a
+    distinct reviewed sub-object, so reference_now.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-08
+  label: CulturalCode
+  definition: A shared symbolic rule, style, or shorthand an ad activates so an image
+    can mean more than it literally shows.
+  category: semiotic_core
+  source_layers:
+  - ideology_social
+  imported_from: SocialConcept.CulturalCode
+  legacy_from:
+  - cultural_code
+  notes: Promoted from a SocialConcept subtype to a first-class class because cultural_code
+    is a distinct reference_type in both contracts and reviewed semiotic_reading.cultural_codes
+    is its own sub-object. Retains a related-link to SocialConcept (SIG-R-08).
+  implementation_state: represented_or_reference_now
+- id: SIG-C-09
+  label: Ideology
+  definition: A naturalized belief system an ad draws upon, produces, or reinforces.
+  category: ideology_social
+  source_layers:
+  - ideology_social
+  imported_from: Ideology
+  legacy_from: []
+  notes: Surfaces in reviewed interpretation and the optional myth field but has no
+    distinct reference_type yet, so reference_now.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-10
+  label: SocialConcept
+  definition: A curated social-science concept (identity, role, power relation, value
+    ideal) that gives analytical vocabulary beyond the core semiotic chain.
+  category: ideology_social
+  source_layers:
+  - ideology_social
+  imported_from: SocialConcept
+  legacy_from: []
+  notes: Backed by 55 curated instances. Its CulturalCode subtype is promoted out
+    (SIG-C-08); the remaining subtypes (IdentityCategory, PowerRelation, SocialRole,
+    ValueIdeal) stay as instance data, not new classes.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-11
+  label: PersuasionTechnique
+  definition: A named contemporary persuasion mechanism used in digital marketing
+    and behavioral design.
+  category: persuasion
+  source_layers:
+  - persuasion_modern
+  imported_from: PersuasionTechnique
+  legacy_from:
+  - persuasion_mechanism
+  - appeal
+  notes: persuasion_technique is a contract reference_type; reviewed persuasion.primary_technique
+    / secondary_techniques use it. Legacy appeal folds in (or into EmotionalLever).
+  implementation_state: represented_or_reference_now
+- id: SIG-C-12
+  label: EmotionalLever
+  definition: A targeted feeling (control, hope, confidence, status, relief, trust)
+    a technique pulls on.
+  category: persuasion
+  source_layers: []
+  imported_from: null
+  legacy_from:
+  - appeal
+  notes: New canonical class. Absent from the imported ontology, but emotional_lever
+    is a contract reference_type, reviewed persuasion.emotional_levers carries it,
+    and six levers exist in controlled-vocabulary.v1.json. Promoted to match the contract.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-14
+  label: Interpretation
+  definition: A contestable Signum analytical proposition about how an Advertisement
+    produces meaning, persuades, positions an audience, or participates in ideology.
+    Thesis is a kind of Interpretation.
+  category: interpretation_evidence
+  source_layers:
+  - interpretation_evidence
+  imported_from: Interpretation
+  legacy_from:
+  - reading
+  - audience_inference
+  - audience_response
+  notes: Current runtime interpretive_claims map here. Counter-readings are Interpretation
+    instances related by stance/relationship rather than a separate ontological species.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-16
+  label: Observation
+  definition: A directly perceptible fact about an Advertisement, stated without interpretive
+    conclusion.
+  category: interpretation_evidence
+  source_layers:
+  - interpretation_evidence
+  imported_from: Observation
+  legacy_from: []
+  notes: Reviewed observations[] and draft evidence_records map to it; evidence_observation_ids
+    link claims and readings back to observations.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-17
+  label: EvidenceLink
+  definition: An explicit support relationship connecting an Interpretation or AdvertiserClaim
+    to one or more Observations.
+  category: interpretation_evidence
+  source_layers:
+  - interpretation_evidence
+  imported_from: EvidenceLink
+  legacy_from:
+  - support_reason
+  notes: 'evidence_record is a contract reference_type; draft evidence_references
+    (support: supported/unsupported/unknown) and reviewed evidence_observation_ids
+    realize it.'
+  implementation_state: represented_or_reference_now
+- id: SIG-C-20
+  label: SourceReference
+  definition: An auditable citation or source reference used to ground theory or factual
+    metadata assertions. It is distinct from AcquisitionSource and Placement.
+  category: governance
+  source_layers:
+  - governance_sources
+  imported_from: SourceReference
+  legacy_from: []
+  notes: Governs quote safety across glossary and interpretations. Distinct from the
+    reviewed provider-provenance source block, which is machine provenance, not theory
+    grounding.
+  implementation_state: represented_or_reference_now
+- id: SIG-C-21
+  label: Brand
+  definition: A canonical advertiser or brand identity with stable identity across
+    aliases, organizational changes, campaigns, products, and time.
+  category: corpus_identity
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Brand aliases resolve to one canonical Brand ID; Brand is no longer an arbitrary
+    string field.
+- id: SIG-C-22
+  label: Placement
+  definition: A known occurrence of an Advertisement in a publication, platform, location,
+    format, or media context. Placement is not where Signum acquired its Asset.
+  category: corpus_context
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: ''
+- id: SIG-C-23
+  label: AcquisitionSource
+  definition: The source from which Signum obtained an Asset, such as an archive,
+    agency site, Reddit post, ad library, scan collection, or user submission.
+  category: corpus_provenance
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Distinct from original Placement and theory SourceReference.
+- id: SIG-C-24
+  label: DecodeRevision
+  definition: An immutable/versioned analytical interpretation attached to an Advertisement,
+    carrying model, schema, ontology, pipeline, and generation provenance.
+  category: analysis_revision
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Current Decode objects are a runtime precursor. Future re-analysis appends
+    revisions rather than silently overwriting history.
+- id: SIG-C-25
+  label: AdvertiserClaim
+  definition: A proposition the Advertisement asks the viewer to accept, either explicitly
+    or implicitly.
+  category: interpretation
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Split from the ambiguous legacy Claim term. Current core_message claims map
+    most naturally here.
+- id: SIG-C-26
+  label: MeaningMechanism
+  definition: A controlled analytical family describing how meaning is produced, such
+    as metaphor, metonymy, juxtaposition, omission, anchorage, intertextuality, or
+    exaggeration.
+  category: controlled_vocabulary
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Distinct from CulturalCode, PersuasionTechnique, and TheoreticalConcept.
+- id: SIG-C-27
+  label: AudiencePosition
+  definition: The subject/viewer position, identity, role, or relation to the world
+    that an Advertisement constructs or invites.
+  category: interpretation
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Recasts the older TargetAudience class away from demographic targeting toward
+    constructed subject position.
+- id: SIG-C-28
+  label: TheoreticalConcept
+  definition: A controlled concept from a theoretical or critical framework used to
+    explain an Interpretation.
+  category: controlled_vocabulary
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Examples may include commodity fetishism, subject position, denotation/connotation,
+    or naturalization.
+- id: SIG-C-29
+  label: MetadataAssertion
+  definition: A provenance-bearing factual assertion about corpus metadata, including
+    certainty and source references.
+  category: corpus_provenance
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Keeps archival fact provenance separate from interpretive evidence.
+- id: SIG-C-30
+  label: Market
+  definition: A geographic, linguistic, regulatory, or commercial market context in
+    which an Advertisement or Placement circulated.
+  category: corpus_context
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: ''
+- id: SIG-C-31
+  label: TemporalExtent
+  definition: A time value that preserves precision and uncertainty using exact date,
+    month, year, circa year, range, decade, or unknown semantics.
+  category: corpus_context
+  implementation_state: target_model
+  source_layers: []
+  imported_from: null
+  legacy_from: []
+  notes: Do not collapse approximate or range dates into false exact years.
+compatibility_classes:
+- id: SIG-C-13
+  label: Claim
+  status: superseded_ambiguous_term
+  replaced_by:
+  - SIG-C-25
+  - SIG-C-14
+  reason: Legacy runtime term conflated advertiser proposition with Signum analytical
+    proposition.
+- id: SIG-C-15
+  label: CounterReading
+  status: folded
+  replaced_by:
+  - SIG-C-14
+  reason: Represent as Interpretation with counter/alternative stance and typed relationships.
+- id: SIG-C-18
+  label: TargetAudience
+  status: compatibility_only
+  replaced_by:
+  - SIG-C-27
+  reason: Current runtime vocabulary may still use the label; corpus model uses AudiencePosition.
+- id: SIG-C-19
+  label: GlossaryEntry
+  status: presentation_only
+  replaced_by: []
+  reason: Glossary entries are generated/presentation forms of controlled concepts,
+    not core corpus entities.
+superseded_foundation_assumptions:
+- Exactly 20 classes is not a design constraint.
+- Brand is not a class.
+- Campaign is future-only because multi-ad analysis is a non-goal.
+- Runtime contract object shapes determine the ontology.

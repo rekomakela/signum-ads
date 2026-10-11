@@ -1,0 +1,136 @@
+schema_version: signum_corpus_model.v0.1
+status: canonical_target_model
+project: Signum
+last_updated: '2026-08-29'
+foundational_rule: The Advertisement is the archival object. A DecodeRevision is a
+  versioned analytical interpretation attached to it.
+planes:
+- id: corpus_facts
+  owns:
+  - Advertisement
+  - Asset
+  - Brand
+  - Product
+  - Campaign
+  - Placement
+  - Market
+  - TemporalExtent
+  - AcquisitionSource
+  - MetadataAssertion
+- id: perceptual_evidence
+  owns:
+  - Observation
+- id: interpretation
+  owns:
+  - AdvertiserClaim
+  - Interpretation
+  - EvidenceLink
+  - Signifier
+  - Signified
+- id: controlled_analytical_vocabulary
+  owns:
+  - MeaningMechanism
+  - ReferentSystem
+  - CulturalCode
+  - Ideology
+  - SocialConcept
+  - PersuasionTechnique
+  - EmotionalLever
+  - TheoreticalConcept
+  - AudiencePosition
+- id: corpus_relationships
+  owns:
+  - belongs_to_campaign
+  - variant_of
+  - references_ad
+  - responds_to_ad
+  - shared_concepts
+  - shared_mechanisms
+  - chronological_relationships
+temporal:
+  shape:
+    start_year: integer|null
+    end_year: integer|null
+    precision: enum
+    start_date: date|null
+    end_date: date|null
+  precision_values:
+  - exact_date
+  - month
+  - year
+  - circa_year
+  - range
+  - decade
+  - unknown
+  rule: Uncertainty must remain explicit. Source-post timestamps and acquisition dates
+    are not advertisement publication dates unless independently established.
+metadata_assertion:
+  required_fields:
+  - field
+  - value
+  - certainty
+  - source_refs
+  certainty_values:
+  - confirmed
+  - probable
+  - possible
+  - unknown
+  rule: Model guesses never silently become corpus facts.
+decode_revision:
+  identity_fields:
+  - model
+  - model_version
+  - analysis_schema_version
+  - ontology_version
+  - generated_at
+  - pipeline_version
+  rule: Re-analysis creates a new revision; it does not silently overwrite intellectual
+    history.
+interpretation:
+  kinds:
+  - thesis
+  - semiotic
+  - persuasion
+  - audience
+  - ideology
+  - other
+  stances:
+  - primary
+  - alternative
+  - counter
+  - qualifying
+  relations:
+  - supports
+  - challenges
+  - qualifies
+  - extends
+  - contradicts
+  - alternative_to
+  rule: Thesis is Interpretation(kind=thesis), not an unstructured parallel summary
+    object.
+graph_edges:
+- type: asserted_factual
+  examples:
+  - Advertisement→Brand
+  - Advertisement→Campaign
+  - Advertisement→Product
+  - Advertisement→Placement
+  - Advertisement→variant_of→Advertisement
+  persistence: stored when provenance supports the assertion
+- type: analytical
+  examples:
+  - Interpretation→CulturalCode
+  - Interpretation→Ideology
+  - Observation→Signifier
+  - Signifier→Signified
+  - Interpretation→MeaningMechanism
+  persistence: stored as contestable analysis with revision provenance
+- type: derived
+  examples:
+  - shared concepts
+  - shared mechanisms
+  - same brand across time
+  persistence: computed/regenerable by default; not timeless truth
+runtime_boundary: This is target corpus authority. Current decode-draft.v1, Case Library
+  persistence, and runtime controlled-vocabulary shapes remain unchanged until a separate
+  migration slice explicitly changes them.

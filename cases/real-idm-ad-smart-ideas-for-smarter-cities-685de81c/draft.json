@@ -1,0 +1,327 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-idm-ad-smart-ideas-for-smarter-cities-685de81c",
+    "media_type": "image",
+    "path": "cases/real-idm-ad-smart-ideas-for-smarter-cities-685de81c/asset.jpg",
+    "sha256": "7becfe779608250ce075977deb24a59e5c09f62dc829b2e312426d66de048306"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:02:54.475Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-idm-ad-smart-ideas-for-smarter-cities-685de81c",
+    "sha256": "7becfe779608250ce075977deb24a59e5c09f62dc829b2e312426d66de048306"
+  },
+  "raw_provider_output": {
+    "summary": "IBM's 'Smarter Cities' campaign uses interactive, functional street furniture to demonstrate how smart technology can seamlessly integrate into daily urban life.",
+    "observations": [
+      {
+        "description": "A man sits on a bench that is part of a large orange billboard. The bench is functional, and the billboard displays the text 'Smart Ideas for Smarter Cities' and the IBM logo.",
+        "evidence_type": "visual",
+        "location": "Top-left panel",
+        "confidence": "high"
+      },
+      {
+        "description": "A person stands under a blue billboard that has a striped awning. Rain is falling, and the awning is providing shelter, turning the advertisement into a functional shelter.",
+        "evidence_type": "visual",
+        "location": "Top-right panel",
+        "confidence": "high"
+      },
+      {
+        "description": "A woman with a rolling suitcase walks up a set of stairs. A teal billboard extends from the wall to form a ramp, allowing her to roll her luggage up the steps.",
+        "evidence_type": "visual",
+        "location": "Bottom panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'Smart Ideas for Smarter Cities' is repeated across all three installations, accompanied by the IBM logo and a URL (people.smartercities.com).",
+        "evidence_type": "copy",
+        "location": "All three panels",
+        "confidence": "high"
+      },
+      {
+        "description": "The advertisements are placed in real-world urban environments (sidewalks, stairs) and are designed to be used by the public, blurring the line between advertising and public infrastructure.",
+        "evidence_type": "context",
+        "location": "Overall composition",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The core message is that IBM's technology can solve practical urban problems by making the city 'smarter' and more user-friendly.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad uses the physical transformation of the billboard into a functional object (bench, shelter, ramp) as a visual metaphor for how technology should work: invisibly and usefully within the environment.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "symbol",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By providing a tangible benefit (shelter from rain, a place to sit, a way to move luggage), the ad uses the principle of reciprocity to create a positive association with the brand.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "reciprocity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "relief",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target audience is urban dwellers and commuters who interact with city infrastructure daily and value convenience and innovation.",
+        "evidence_indices": [
+          0,
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A man sits on a bench that is part of a large orange billboard. The bench is functional, and the billboard displays the text 'Smart Ideas for Smarter Cities' and the IBM logo.",
+      "location": "Top-left panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A person stands under a blue billboard that has a striped awning. Rain is falling, and the awning is providing shelter, turning the advertisement into a functional shelter.",
+      "location": "Top-right panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A woman with a rolling suitcase walks up a set of stairs. A teal billboard extends from the wall to form a ramp, allowing her to roll her luggage up the steps.",
+      "location": "Bottom panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'Smart Ideas for Smarter Cities' is repeated across all three installations, accompanied by the IBM logo and a URL (people.smartercities.com).",
+      "location": "All three panels",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The advertisements are placed in real-world urban environments (sidewalks, stairs) and are designed to be used by the public, blurring the line between advertising and public infrastructure.",
+      "location": "Overall composition",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "IBM's 'Smarter Cities' campaign uses interactive, functional street furniture to demonstrate how smart technology can seamlessly integrate into daily urban life.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The core message is that IBM's technology can solve practical urban problems by making the city 'smarter' and more user-friendly.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad uses the physical transformation of the billboard into a functional object (bench, shelter, ramp) as a visual metaphor for how technology should work: invisibly and usefully within the environment.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "symbol",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By providing a tangible benefit (shelter from rain, a place to sit, a way to move luggage), the ad uses the principle of reciprocity to create a positive association with the brand.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "reciprocity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "relief",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The target audience is urban dwellers and commuters who interact with city infrastructure daily and value convenience and innovation.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

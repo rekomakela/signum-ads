@@ -1,0 +1,275 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ad-for-the-french-open-f34bb270",
+    "media_type": "image",
+    "path": "cases/real-ad-for-the-french-open-f34bb270/asset.jpg",
+    "sha256": "e4c4c6d557def3383be5a4ada076178e8cd2890b65577ebb9ad01fb1cd6ab6d1"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:04:44.219Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ad-for-the-french-open-f34bb270",
+    "sha256": "e4c4c6d557def3383be5a4ada076178e8cd2890b65577ebb9ad01fb1cd6ab6d1"
+  },
+  "raw_provider_output": {
+    "summary": "A promotional graphic for the French Open tennis tournament, highlighting the live broadcast schedule on the SuperSports channel.",
+    "observations": [
+      {
+        "description": "A close-up, low-angle shot of a tennis racket handle and throat against a clear blue sky.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'THE FRENCH OPEN' in large, white, sans-serif capital letters.",
+        "evidence_type": "copy",
+        "location": "bottom",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'LIVE ON SUPERSPORTS (28 MAY-10 JUNE)' in smaller white capital letters.",
+        "evidence_type": "copy",
+        "location": "bottom, above main title",
+        "confidence": "high"
+      },
+      {
+        "description": "A logo in the top right corner featuring the letters 'SCV' and the text 'MaxTV'.",
+        "evidence_type": "brand_mark",
+        "location": "top right",
+        "confidence": "high"
+      },
+      {
+        "description": "A logo in the top left corner with the text 'SUPERSPORTS'.",
+        "evidence_type": "brand_mark",
+        "location": "top left",
+        "confidence": "high"
+      },
+      {
+        "description": "The tennis racket is positioned vertically, dominating the frame and pointing upward.",
+        "evidence_type": "layout",
+        "location": "center",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad announces that the French Open tennis tournament will be broadcast live on the SuperSports channel between May 28 and June 10.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a tennis racket against a blue sky serves as a direct visual signifier for the sport of tennis, immediately establishing the context of the event.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "iconic_sign",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The low-angle shot of the racket makes the object appear monumental and heroic, elevating the status of the sport and the tournament to a prestigious level.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets viewers of the SuperSports channel who are interested in live tennis coverage, specifically for the French Open.",
+        "evidence_indices": [
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "sports_fandom",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A close-up, low-angle shot of a tennis racket handle and throat against a clear blue sky.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text 'THE FRENCH OPEN' in large, white, sans-serif capital letters.",
+      "location": "bottom",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The text 'LIVE ON SUPERSPORTS (28 MAY-10 JUNE)' in smaller white capital letters.",
+      "location": "bottom, above main title",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "A logo in the top right corner featuring the letters 'SCV' and the text 'MaxTV'.",
+      "location": "top right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "A logo in the top left corner with the text 'SUPERSPORTS'.",
+      "location": "top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "layout",
+      "description": "The tennis racket is positioned vertically, dominating the frame and pointing upward.",
+      "location": "center",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A promotional graphic for the French Open tennis tournament, highlighting the live broadcast schedule on the SuperSports channel.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad announces that the French Open tennis tournament will be broadcast live on the SuperSports channel between May 28 and June 10.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a tennis racket against a blue sky serves as a direct visual signifier for the sport of tennis, immediately establishing the context of the event.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "iconic_sign",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The low-angle shot of the racket makes the object appear monumental and heroic, elevating the status of the sport and the tournament to a prestigious level.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets viewers of the SuperSports channel who are interested in live tennis coverage, specifically for the French Open.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "sports_fandom",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

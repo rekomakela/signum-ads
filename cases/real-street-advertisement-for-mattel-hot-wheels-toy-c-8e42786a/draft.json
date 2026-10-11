@@ -1,0 +1,307 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-street-advertisement-for-mattel-hot-wheels-toy-c-8e42786a",
+    "media_type": "image",
+    "path": "cases/real-street-advertisement-for-mattel-hot-wheels-toy-c-8e42786a/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:02:48.985Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-street-advertisement-for-mattel-hot-wheels-toy-c-8e42786a",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A giant, smiling boy leans over a city overpass, transforming an ordinary urban commute into a moment of childhood wonder and excitement for Hot Wheels.",
+    "observations": [
+      {
+        "description": "A giant, photorealistic image of a young boy with a joyful expression is superimposed onto a blue pedestrian overpass, appearing to lean over the railing.",
+        "evidence_type": "visual",
+        "location": "center, upper half of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The Hot Wheels logo, featuring its signature flame design, is displayed prominently on the front of the blue overpass structure.",
+        "evidence_type": "brand_mark",
+        "location": "center, on the overpass",
+        "confidence": "high"
+      },
+      {
+        "description": "A city street scene with multiple cars in traffic, buildings, and manicured landscaping serves as the background.",
+        "evidence_type": "visual",
+        "location": "background and lower half of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The composition uses forced perspective to make the boy appear gigantic relative to the cars and the street below.",
+        "evidence_type": "layout",
+        "location": "entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "The boy is wearing a simple, light-colored t-shirt, suggesting a relatable, everyday child rather than a model in costume.",
+        "evidence_type": "visual",
+        "location": "center, on the boy",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Hot Wheels is a source of pure, unadulterated joy and excitement that can make the mundane feel magical.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "joy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a giant child in a real-world setting is a visual metaphor for the 'big' feelings and imagination that a small toy can evoke.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By placing the brand in a relatable, everyday environment, the ad suggests that Hot Wheels is an accessible and integral part of childhood, not just a toy on a shelf.",
+        "evidence_indices": [
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "While the child is the subject, the target audience is likely parents, who are the purchasers, and the ad appeals to their desire to provide their children with moments of happiness.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A giant, photorealistic image of a young boy with a joyful expression is superimposed onto a blue pedestrian overpass, appearing to lean over the railing.",
+      "location": "center, upper half of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "The Hot Wheels logo, featuring its signature flame design, is displayed prominently on the front of the blue overpass structure.",
+      "location": "center, on the overpass",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A city street scene with multiple cars in traffic, buildings, and manicured landscaping serves as the background.",
+      "location": "background and lower half of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "layout",
+      "description": "The composition uses forced perspective to make the boy appear gigantic relative to the cars and the street below.",
+      "location": "entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "The boy is wearing a simple, light-colored t-shirt, suggesting a relatable, everyday child rather than a model in costume.",
+      "location": "center, on the boy",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A giant, smiling boy leans over a city overpass, transforming an ordinary urban commute into a moment of childhood wonder and excitement for Hot Wheels.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Hot Wheels is a source of pure, unadulterated joy and excitement that can make the mundane feel magical.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "joy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a giant child in a real-world setting is a visual metaphor for the 'big' feelings and imagination that a small toy can evoke.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By placing the brand in a relatable, everyday environment, the ad suggests that Hot Wheels is an accessible and integral part of childhood, not just a toy on a shelf.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "While the child is the subject, the target audience is likely parents, who are the purchasers, and the ad appeals to their desire to provide their children with moments of happiness.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

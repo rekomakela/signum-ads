@@ -1,0 +1,328 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-duvet-ad-by-ikea-2020-dd8ba83f",
+    "media_type": "image",
+    "path": "cases/real-duvet-ad-by-ikea-2020-dd8ba83f/asset.jpg",
+    "sha256": "5d917cd1a45dc015ad430ba67d91443abc613494aab57d79ba31b23d8662b872"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:40:10.151Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-duvet-ad-by-ikea-2020-dd8ba83f",
+    "sha256": "5d917cd1a45dc015ad430ba67d91443abc613494aab57d79ba31b23d8662b872"
+  },
+  "raw_provider_output": {
+    "summary": "An IKEA advertisement for a duvet that uses a visual metaphor to present sleep as a luxury cosmetic product, positioning the affordable duvet as a natural anti-ageing remedy.",
+    "observations": [
+      {
+        "description": "A white, fluffy duvet is stuffed into a large, frosted glass jar, mimicking the packaging of a high-end cosmetic cream.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The word 'SLEEP' is printed in large, bold, sans-serif capital letters on the front of the jar.",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The tagline 'THE MOST NATURAL ANTI-AGEING REMEDY' is printed below the main word on the jar.",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "Product details 'SMÅSPORRE 7.5 TOG double duvet' and the price '£16' are displayed in the upper right corner.",
+        "evidence_type": "copy",
+        "location": "top_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The IKEA logo and the slogan 'THE WONDERFUL EVERYDAY' are located in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The phrase 'Tomorrow starts tonight' appears in the bottom left corner.",
+        "evidence_type": "copy",
+        "location": "bottom_left",
+        "confidence": "high"
+      },
+      {
+        "description": "The entire scene is set against a monochromatic, muted blue background with soft, studio-style lighting.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by packaging a duvet in a cosmetic jar to reframe sleep as a beauty product.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By labeling sleep as an 'anti-ageing remedy,' the ad appeals to the consumer's desire for self-care and physical well-being.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The juxtaposition of the luxury cosmetic aesthetic with the low price of £16 creates a strong value proposition, suggesting high-quality benefits at an affordable cost.",
+        "evidence_indices": [
+          3,
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The campaign positions the IKEA duvet as an essential, natural tool for a better life, reinforcing the brand's 'wonderful everyday' philosophy.",
+        "evidence_indices": [
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "hope",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A white, fluffy duvet is stuffed into a large, frosted glass jar, mimicking the packaging of a high-end cosmetic cream.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The word 'SLEEP' is printed in large, bold, sans-serif capital letters on the front of the jar.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The tagline 'THE MOST NATURAL ANTI-AGEING REMEDY' is printed below the main word on the jar.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "Product details 'SMÅSPORRE 7.5 TOG double duvet' and the price '£16' are displayed in the upper right corner.",
+      "location": "top_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The IKEA logo and the slogan 'THE WONDERFUL EVERYDAY' are located in the bottom right corner.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "The phrase 'Tomorrow starts tonight' appears in the bottom left corner.",
+      "location": "bottom_left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "visual",
+      "description": "The entire scene is set against a monochromatic, muted blue background with soft, studio-style lighting.",
+      "location": "background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "An IKEA advertisement for a duvet that uses a visual metaphor to present sleep as a luxury cosmetic product, positioning the affordable duvet as a natural anti-ageing remedy.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by packaging a duvet in a cosmetic jar to reframe sleep as a beauty product.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By labeling sleep as an 'anti-ageing remedy,' the ad appeals to the consumer's desire for self-care and physical well-being.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The juxtaposition of the luxury cosmetic aesthetic with the low price of £16 creates a strong value proposition, suggesting high-quality benefits at an affordable cost.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "core_message",
+        "text": "The campaign positions the IKEA duvet as an essential, natural tool for a better life, reinforcing the brand's 'wonderful everyday' philosophy.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "hope",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

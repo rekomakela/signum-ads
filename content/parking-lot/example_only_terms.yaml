@@ -1,0 +1,102 @@
+schema_version: "signum_example_only_terms_v1"
+source_note: "Derived from OCR-assisted conceptual extraction; not quote-perfect."
+terms:
+  - term: "USP"
+    category: strategy
+    reason: "Useful advertising term, but too industry-specific for core learner flow."
+    possible_future_use: "Advanced strategy notes or examples about genuinely unique product claims."
+
+  - term: "Single-minded proposition"
+    category: strategy
+    reason: "Important advertising concept, but covered in v1 by Proposition and PersuasiveClaim."
+    possible_future_use: "Advanced explanation of focused claims."
+
+  - term: "Variety proposition"
+    category: strategy
+    reason: "Exception case to single-claim structure."
+    possible_future_use: "Examples where the ad sells range, variety, or multiplicity."
+
+  - term: "Parity product"
+    category: strategy
+    reason: "Useful for strategy diagnosis, but not central to meaning-making."
+    possible_future_use: "Advanced notes on brands without clear functional differentiation."
+
+  - term: "Competitive advertising"
+    category: strategy
+    reason: "Relevant only when an ad directly or implicitly compares alternatives."
+    possible_future_use: "Comparison-claim analysis."
+
+  - term: "Demonstration ad"
+    category: persuasion
+    reason: "Covered by PersuasionMechanism and SupportReason."
+    possible_future_use: "Subtype for ads that prove a benefit by showing it."
+
+  - term: "Before-and-after"
+    category: persuasion
+    reason: "Useful pattern, but not necessary as a core class."
+    possible_future_use: "Narrative structure subtype for transformation ads."
+
+  - term: "Teaser campaign"
+    category: campaign
+    reason: "Specific campaign pattern rather than core concept."
+    possible_future_use: "Subtype of CampaignPattern involving delayed reveal."
+
+  - term: "Consecutive ads"
+    category: campaign
+    reason: "Specific sequence format rather than core concept."
+    possible_future_use: "Subtype for ordered campaign reading."
+
+  - term: "Ambient media"
+    category: media
+    reason: "Medium subtype under MediumContext."
+    possible_future_use: "Examples where placement or environment is part of the meaning."
+
+  - term: "Interactive media"
+    category: media
+    reason: "Medium subtype under MediumContext."
+    possible_future_use: "Examples where user action completes the ad."
+
+  - term: "Viral effect"
+    category: media
+    reason: "Propagation concept, not core meaning ontology."
+    possible_future_use: "Social-distribution analysis."
+
+  - term: "Call to action"
+    category: execution
+    reason: "Useful later, but not required for the first meaning-making model."
+    possible_future_use: "Action-flow or conversion-oriented ad analysis."
+
+  - term: "Headline twist"
+    category: semiotics
+    reason: "Good example of SemioticDevice, but too narrow as a class."
+    possible_future_use: "Subtype for copy-based surprise."
+
+  - term: "Rhetorical question"
+    category: semiotics
+    reason: "Good example of copy-based implication."
+    possible_future_use: "Subtype for questions that function as claims."
+
+  - term: "Visual simile"
+    category: semiotics
+    reason: "Good subtype of SemioticDevice, but narrower than visual metaphor."
+    possible_future_use: "Subtype for resemblance-based visual meaning."
+
+  - term: "Word pun"
+    category: execution
+    reason: "Useful copy example, but often low analytic value."
+    possible_future_use: "Copy-device examples or weak/strong wordplay comparison."
+
+  - term: "Alliteration"
+    category: execution
+    reason: "Craft term rather than core decoding concept."
+    possible_future_use: "Advanced copy craft notes."
+
+  - term: "Mnemonic"
+    category: brand
+    reason: "Covered by BrandCue and Recall."
+    possible_future_use: "Subtype for repeated memory devices."
+
+  - term: "Borrowed interest"
+    category: persuasion
+    reason: "Included as P3 glossary, but not a core ontology class."
+    possible_future_use: "Advanced critique of celebrity, fame, or trend transfer."

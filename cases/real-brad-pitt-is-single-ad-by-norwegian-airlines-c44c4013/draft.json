@@ -1,0 +1,333 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-brad-pitt-is-single-ad-by-norwegian-airlines-c44c4013",
+    "media_type": "image",
+    "path": "cases/real-brad-pitt-is-single-ad-by-norwegian-airlines-c44c4013/asset.jpg",
+    "sha256": "f1002defced33b5d550b237d0aa7e5d83e7042ae30412e3c38dd7d2be9ac02bb"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:19:57.708Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-brad-pitt-is-single-ad-by-norwegian-airlines-c44c4013",
+    "sha256": "f1002defced33b5d550b237d0aa7e5d83e7042ae30412e3c38dd7d2be9ac02bb"
+  },
+  "raw_provider_output": {
+    "summary": "A Norwegian Airlines advertisement that uses the cultural trope of a 'single male' to market a flight to Los Angeles, framing the destination as a romantic opportunity.",
+    "observations": [
+      {
+        "description": "The headline text 'Brad is single' is prominently displayed in large white font.",
+        "evidence_type": "copy",
+        "location": "Upper center of the red panel",
+        "confidence": "high"
+      },
+      {
+        "description": "Subtext reads 'Los Angeles. From/one way, incl. taxes.'",
+        "evidence_type": "copy",
+        "location": "Below the headline",
+        "confidence": "high"
+      },
+      {
+        "description": "The price '£169*' is displayed in large white numerals.",
+        "evidence_type": "price",
+        "location": "Center of the red panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The URL 'norwegian.com' and the airline's logo are visible at the top right.",
+        "evidence_type": "brand_mark",
+        "location": "Top right corner",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a solid, textured red color.",
+        "evidence_type": "visual",
+        "location": "Entire ad panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The ad is printed on a newspaper page, with columns of text visible on the left and right sides.",
+        "evidence_type": "context",
+        "location": "Surrounding the red panel",
+        "confidence": "high"
+      },
+      {
+        "description": "Fine print at the bottom details travel dates (Jan 2017 - Feb 2017) and booking deadlines.",
+        "evidence_type": "copy",
+        "location": "Bottom of the red panel",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The name 'Brad' functions as a signifier for a specific cultural archetype of a desirable, single male, likely referencing the 'Brad Pitt' persona associated with Los Angeles.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad employs a curiosity gap and a double entendre, suggesting that the flight to LA is an opportunity to meet a romantic partner ('Brad') rather than just a destination.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of a bold red background serves as a visual metaphor for passion, romance, and urgency, reinforcing the 'single' status of the subject.",
+        "evidence_indices": [
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The advertisement positions a flight to Los Angeles as an affordable gateway to romance and celebrity culture, targeting an audience interested in the 'single life' or dating.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "The headline text 'Brad is single' is prominently displayed in large white font.",
+      "location": "Upper center of the red panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "Subtext reads 'Los Angeles. From/one way, incl. taxes.'",
+      "location": "Below the headline",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "price",
+      "description": "The price '£169*' is displayed in large white numerals.",
+      "location": "Center of the red panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The URL 'norwegian.com' and the airline's logo are visible at the top right.",
+      "location": "Top right corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "The background is a solid, textured red color.",
+      "location": "Entire ad panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "The ad is printed on a newspaper page, with columns of text visible on the left and right sides.",
+      "location": "Surrounding the red panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "copy",
+      "description": "Fine print at the bottom details travel dates (Jan 2017 - Feb 2017) and booking deadlines.",
+      "location": "Bottom of the red panel",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A Norwegian Airlines advertisement that uses the cultural trope of a 'single male' to market a flight to Los Angeles, framing the destination as a romantic opportunity.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The name 'Brad' functions as a signifier for a specific cultural archetype of a desirable, single male, likely referencing the 'Brad Pitt' persona associated with Los Angeles.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The ad employs a curiosity gap and a double entendre, suggesting that the flight to LA is an opportunity to meet a romantic partner ('Brad') rather than just a destination.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "interpretation",
+        "text": "The use of a bold red background serves as a visual metaphor for passion, romance, and urgency, reinforcing the 'single' status of the subject.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "core_message",
+        "text": "The advertisement positions a flight to Los Angeles as an affordable gateway to romance and celebrity culture, targeting an audience interested in the 'single life' or dating.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

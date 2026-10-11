@@ -1,0 +1,281 @@
+metadata:
+  id: signum_domain_ontology.ad_context
+  version: 0.1.0
+  status: final_draft
+  project: Signum
+  title: Ad Context Layer
+  description: Classes describing the advertisement object, product, campaign, source, audience, visual
+    style, and narrative form.
+  source_manifest: ../ontology.yaml
+layer:
+  id: ad_context
+  order: '02'
+  class_names:
+  - Advertisement
+  - Campaign
+  - Product
+  - Source
+  - TargetAudience
+  - VisualStyle
+  - NarrativePattern
+entity_classes:
+  Advertisement:
+    description: A discrete, bounded promotional artifact used as the primary object of analysis in Signum.
+    properties:
+      id:
+        type: id
+        required: true
+      title:
+        type: string
+        required: true
+      year:
+        type: integer
+      decade:
+        type: integer
+        derived_from: year
+      medium:
+        type: enum
+        values:
+        - print_magazine
+        - print_newspaper
+        - print_poster
+        - digital_display
+        - digital_social_media
+        - digital_landing_page
+        - digital_email
+        - digital_search_ad
+        - outdoor_billboard
+        - product_packaging
+        - television_frame
+        - other
+      format:
+        type: enum
+        values:
+        - full_page
+        - half_page
+        - quarter_page
+        - double_spread
+        - cover
+        - back_cover
+        - static_image
+        - carousel
+        - video_frame
+        - banner
+        - landing_page_full
+        - email_body
+      image_path:
+        type: string
+        required: true
+      headline_text:
+        type: string
+      brand:
+        type: string
+      product_id:
+        type: reference
+        range: Product
+      source_id:
+        type: reference
+        range: Source
+      campaign_id:
+        type: reference
+        range: Campaign
+      variant_of:
+        type: reference
+        range: Advertisement
+      narrative_pattern:
+        type: enum
+        values:
+        - transformation_before_after
+        - quest_problem_solution
+        - origin_story
+        - revelation_discovery
+        - temptation_desire
+        - return_to_nature
+        - social_ascent
+        - everyday_moment
+        - none_apparent
+      production_context:
+        type: object
+        properties:
+          photographer:
+            type: string
+          agency:
+            type: string
+          art_director:
+            type: string
+          historical_note:
+            type: text
+      curator_notes:
+        type: text
+      source_references:
+        type: list
+        item_type: SourceReference
+  Campaign:
+    description: A group of related advertisements united by creative strategy, brand message, visual
+      system, or ideological approach.
+    properties:
+      id:
+        type: id
+        required: true
+      name:
+        type: string
+        required: true
+      brand:
+        type: string
+      years_active:
+        type: string
+      description:
+        type: text
+      primary_ideologies:
+        type: list
+        item_type: reference
+        range: Ideology
+      ads:
+        type: list
+        item_type: reference
+        range: Advertisement
+  Product:
+    description: The item, service, platform, cause, or idea promoted by an advertisement.
+    properties:
+      id:
+        type: id
+        required: true
+      name:
+        type: string
+        required: true
+      brand:
+        type: string
+      category:
+        type: enum
+        values:
+        - fragrance
+        - cosmetics_skincare
+        - fashion_apparel_accessories
+        - automotive
+        - alcohol_beverages
+        - tobacco
+        - technology_software
+        - home_goods_furniture
+        - food_grocery
+        - luxury_goods
+        - financial_services
+        - entertainment_media
+        - travel_hospitality
+        - health_wellness
+        - political_social_cause
+        - other
+      subcategory:
+        type: string
+      price_positioning:
+        type: enum
+        values:
+        - mass_market
+        - premium
+        - luxury
+        - ultra_luxury
+        - unknown
+      era:
+        type: enum
+        values:
+        - pre_1950
+        - 1950s
+        - 1960s
+        - 1970s
+        - 1980s
+        - 1990s
+        - 2000s
+        - 2010s
+        - 2020s
+  Source:
+    description: The publication, platform, venue, or archive source where an advertisement appeared or
+      was collected.
+    properties:
+      id:
+        type: id
+        required: true
+      name:
+        type: string
+        required: true
+      source_type:
+        type: enum
+        values:
+        - magazine
+        - newspaper
+        - website
+        - social_platform
+        - email
+        - search_engine
+        - outdoor_location
+        - direct_mail
+        - product_packaging
+        - archive
+        - other
+      demographic_notes:
+        type: text
+      cultural_context:
+        type: text
+      country_of_origin:
+        type: string
+      language:
+        type: string
+  TargetAudience:
+    description: The viewer group or subject position an ad appears to address.
+    properties:
+      id:
+        type: id
+        required: true
+      label:
+        type: string
+        required: true
+      demographic_notes:
+        type: text
+      psychographic_notes:
+        type: text
+      assumed_knowledge:
+        type: list
+        item_type: string
+  VisualStyle:
+    description: A named aesthetic mode or visual treatment used by an advertisement.
+    properties:
+      id:
+        type: id
+        required: true
+      name:
+        type: string
+        required: true
+      description:
+        type: text
+      examples:
+        type: list
+        item_type: string
+  NarrativePattern:
+    description: A recurring story structure used to organize the viewer’s understanding of the product.
+    properties:
+      id:
+        type: id
+        required: true
+      name:
+        type: string
+        required: true
+      definition:
+        type: text
+      pattern_type:
+        type: enum
+        values:
+        - transformation
+        - quest
+        - origin_story
+        - revelation
+        - temptation
+        - return_to_nature
+        - social_ascent
+        - everyday_moment
+relationships:
+  contains_signifier:
+    domain: Advertisement
+    range: Signifier
+    description: An ad contains a visible signifier.
+  participates_in_ideology:
+    domain: Advertisement
+    range: Ideology
+    description: An ad naturalizes or reinforces an ideology.

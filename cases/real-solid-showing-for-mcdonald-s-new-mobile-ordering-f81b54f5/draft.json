@@ -1,0 +1,300 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-solid-showing-for-mcdonald-s-new-mobile-ordering-f81b54f5",
+    "media_type": "image",
+    "path": "cases/real-solid-showing-for-mcdonald-s-new-mobile-ordering-f81b54f5/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:58:16.141Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-solid-showing-for-mcdonald-s-new-mobile-ordering-f81b54f5",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "McDonald's announces the launch of its mobile ordering feature by visually transforming smartphones into its iconic golden arches and burger components.",
+    "observations": [
+      {
+        "description": "The text 'Mobile Ordering is here' appears in white sans-serif font at the top of both panels.",
+        "evidence_type": "copy",
+        "location": "Top center of both left and right panels",
+        "confidence": "high"
+      },
+      {
+        "description": "A stack of five smartphones standing vertically, all colored in a metallic gold/yellow hue, arranged to resemble the McDonald's 'M' logo.",
+        "evidence_type": "visual",
+        "location": "Left panel",
+        "confidence": "high"
+      },
+      {
+        "description": "A horizontal stack of seven smartphones, colored in alternating gold, brown, and green, arranged to resemble a hamburger.",
+        "evidence_type": "visual",
+        "location": "Right panel",
+        "confidence": "high"
+      },
+      {
+        "description": "The 'MyMcD's' app icon featuring the golden arches logo on a red background.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom center of both panels",
+        "confidence": "high"
+      },
+      {
+        "description": "A solid red background that matches the McDonald's brand color palette.",
+        "evidence_type": "visual",
+        "location": "Background of the entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "The side profiles of the phones (buttons, ports, speakers) are visible, confirming the objects are mobile devices.",
+        "evidence_type": "visual",
+        "location": "Left and right panels",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement announces the availability of the McDonald's mobile ordering service through the MyMcD's app.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor where the smartphone, the tool for ordering, is physically transformed into the product (the burger) and the brand symbol (the arches), suggesting the technology is an integral part of the food experience.",
+        "evidence_indices": [
+          1,
+          2,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By using the brand's signature red and gold colors and the recognizable 'M' shape, the ad leverages strong brand association to make the new digital feature feel like a natural extension of the McDonald's identity.",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The transformation of the phone into a burger implies that the digital interface is not just a utility but a 'tasty' or desirable experience, blurring the line between the digital service and the physical food.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "The text 'Mobile Ordering is here' appears in white sans-serif font at the top of both panels.",
+      "location": "Top center of both left and right panels",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A stack of five smartphones standing vertically, all colored in a metallic gold/yellow hue, arranged to resemble the McDonald's 'M' logo.",
+      "location": "Left panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A horizontal stack of seven smartphones, colored in alternating gold, brown, and green, arranged to resemble a hamburger.",
+      "location": "Right panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The 'MyMcD's' app icon featuring the golden arches logo on a red background.",
+      "location": "Bottom center of both panels",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A solid red background that matches the McDonald's brand color palette.",
+      "location": "Background of the entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The side profiles of the phones (buttons, ports, speakers) are visible, confirming the objects are mobile devices.",
+      "location": "Left and right panels",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "McDonald's announces the launch of its mobile ordering feature by visually transforming smartphones into its iconic golden arches and burger components.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement announces the availability of the McDonald's mobile ordering service through the MyMcD's app.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor where the smartphone, the tool for ordering, is physically transformed into the product (the burger) and the brand symbol (the arches), suggesting the technology is an integral part of the food experience.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By using the brand's signature red and gold colors and the recognizable 'M' shape, the ad leverages strong brand association to make the new digital feature feel like a natural extension of the McDonald's identity.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The transformation of the phone into a burger implies that the digital interface is not just a utility but a 'tasty' or desirable experience, blurring the line between the digital service and the physical food.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

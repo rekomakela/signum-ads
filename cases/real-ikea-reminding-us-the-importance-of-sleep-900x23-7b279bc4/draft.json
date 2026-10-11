@@ -1,0 +1,338 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ikea-reminding-us-the-importance-of-sleep-900x23-7b279bc4",
+    "media_type": "image",
+    "path": "cases/real-ikea-reminding-us-the-importance-of-sleep-900x23-7b279bc4/asset.jpg",
+    "sha256": "f23deb432b5640cde1db9ebd17093b2b83daebbf5755935bb398ca18b3dc4d33"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:07:36.383Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ikea-reminding-us-the-importance-of-sleep-900x23-7b279bc4",
+    "sha256": "f23deb432b5640cde1db9ebd17093b2b83daebbf5755935bb398ca18b3dc4d33"
+  },
+  "raw_provider_output": {
+    "summary": "An IKEA advertisement that uses a visual metaphor of a 'Sleep' supplement bottle spilling out ergonomic pillows to suggest that the product is the natural, effective solution for better sleep.",
+    "observations": [
+      {
+        "description": "A large amber bottle labeled 'Sleep' with subtext 'NATURALLY SUPPLEMENTS FOCUS & MEMORY' is shown tipped over.",
+        "evidence_type": "visual",
+        "location": "Top left quadrant",
+        "confidence": "high"
+      },
+      {
+        "description": "Instead of pills, the bottle is spilling out several small, white, rectangular ergonomic pillows.",
+        "evidence_type": "visual",
+        "location": "Center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'RUMSMALVA ergonomic pillows' identifies the specific product being advertised.",
+        "evidence_type": "copy",
+        "location": "Middle right",
+        "confidence": "high"
+      },
+      {
+        "description": "The price '£13' is displayed prominently next to the product name.",
+        "evidence_type": "price",
+        "location": "Middle right",
+        "confidence": "high"
+      },
+      {
+        "description": "The tagline 'Tomorrow starts tonight' is located in the bottom left corner.",
+        "evidence_type": "copy",
+        "location": "Bottom left",
+        "confidence": "high"
+      },
+      {
+        "description": "The IKEA logo and the slogan 'THE WONDERFUL EVERYDAY' are positioned in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a solid, muted blue-grey color, creating a clean and clinical yet calm atmosphere.",
+        "evidence_type": "layout",
+        "location": "Entire background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by equating the physical product (pillows) with a medical or wellness supplement, suggesting the pillows are a 'cure' for sleep issues.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By labeling the bottle 'Sleep' and 'Naturally Supplements', the ad frames the pillows as a natural and effective solution for improving focus and memory, appealing to the consumer's desire for better health outcomes.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The core message is that the RUMSMALVA pillows are an affordable, everyday solution that provides the restorative sleep necessary to start the next day well.",
+        "evidence_indices": [
+          2,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "Product",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of a 'supplement' bottle suggests a scientific or ergonomic approach to sleep, positioning the product as a functional tool rather than just a decorative item.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large amber bottle labeled 'Sleep' with subtext 'NATURALLY SUPPLEMENTS FOCUS & MEMORY' is shown tipped over.",
+      "location": "Top left quadrant",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "Instead of pills, the bottle is spilling out several small, white, rectangular ergonomic pillows.",
+      "location": "Center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The text 'RUMSMALVA ergonomic pillows' identifies the specific product being advertised.",
+      "location": "Middle right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "price",
+      "description": "The price '£13' is displayed prominently next to the product name.",
+      "location": "Middle right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The tagline 'Tomorrow starts tonight' is located in the bottom left corner.",
+      "location": "Bottom left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "The IKEA logo and the slogan 'THE WONDERFUL EVERYDAY' are positioned in the bottom right corner.",
+      "location": "Bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "layout",
+      "description": "The background is a solid, muted blue-grey color, creating a clean and clinical yet calm atmosphere.",
+      "location": "Entire background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "An IKEA advertisement that uses a visual metaphor of a 'Sleep' supplement bottle spilling out ergonomic pillows to suggest that the product is the natural, effective solution for better sleep.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by equating the physical product (pillows) with a medical or wellness supplement, suggesting the pillows are a 'cure' for sleep issues.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By labeling the bottle 'Sleep' and 'Naturally Supplements', the ad frames the pillows as a natural and effective solution for improving focus and memory, appealing to the consumer's desire for better health outcomes.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "core_message",
+        "text": "The core message is that the RUMSMALVA pillows are an affordable, everyday solution that provides the restorative sleep necessary to start the next day well.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "Product",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The use of a 'supplement' bottle suggests a scientific or ergonomic approach to sleep, positioning the product as a functional tool rather than just a decorative item.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

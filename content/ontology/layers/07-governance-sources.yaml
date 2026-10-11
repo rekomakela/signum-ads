@@ -1,0 +1,61 @@
+metadata:
+  id: signum_domain_ontology.governance_sources
+  version: 0.1.0
+  status: final_draft
+  project: Signum
+  title: Governance and Sources Layer
+  description: Classes and policies for source references, quote safety, change governance, and validation
+    notes.
+  source_manifest: ../ontology.yaml
+layer:
+  id: governance_sources
+  order: '07'
+  class_names:
+  - SourceReference
+entity_classes:
+  SourceReference:
+    description: Auditable source reference used by ontology, glossary, ads, and interpretations.
+    properties: &id001
+      type:
+        type: enum
+        values:
+        - direct_quote
+        - paraphrase
+        - conceptual_attribution
+      text:
+        type: text
+        required: true
+      source:
+        type: string
+      page:
+        type: string
+      verified:
+        type: boolean
+        required: true
+governance:
+  source_of_truth: true
+  derivatives:
+  - glossary YAML entries
+  - ad annotation YAML/JSON files
+  - runtime JSON schemas
+  - TypeScript interfaces
+  - future SQLModel classes
+  - future auto-decoder output schema
+  change_rule: Ontology changes require updating derived schemas, validators, glossary refs, and affected
+    sample data.
+source_reference_policy:
+  description: All theory references must distinguish verified direct quotations from paraphrase and conceptual
+    attribution.
+  rules:
+  - Do not use williamson_quote, defining_quote, or other plain quote fields in derived content.
+  - Use source_references[] for all references to Williamson, Barthes, Marx, Cialdini, or other theorists.
+  - 'Direct quotes require verified: true plus source and page or stable locator metadata.'
+  - 'If page/source verification is missing, use type: paraphrase or conceptual_attribution and verified:
+    false.'
+  - Do not invent page numbers or exact quotations.
+  source_reference_shape: *id001
+validation_notes:
+- All glossary ontology_ref.class values must exist in entity_classes.
+- If ontology_ref.subtype is present, it must exist under the referenced class subtypes or enum values.
+- All direct_quote source references must be verified and include source metadata.
+- Observation text must remain descriptive unless explicitly marked as reflection, question, or interpretation.

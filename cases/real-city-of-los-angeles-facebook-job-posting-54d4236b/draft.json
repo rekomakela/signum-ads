@@ -1,0 +1,385 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-city-of-los-angeles-facebook-job-posting-54d4236b",
+    "media_type": "image",
+    "path": "cases/real-city-of-los-angeles-facebook-job-posting-54d4236b/asset.jpg",
+    "sha256": "55414b51a7c475c303eb9020203e3526f24ec482b5ece4c9b757ed90c8fbaeb0"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:26:58.916Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-city-of-los-angeles-facebook-job-posting-54d4236b",
+    "sha256": "55414b51a7c475c303eb9020203e3526f24ec482b5ece4c9b757ed90c8fbaeb0"
+  },
+  "raw_provider_output": {
+    "summary": "The City of Los Angeles is hiring a Graphics Designer, using a deliberately amateurish and 'hand-drawn' visual style to signal a relaxed, creative, and human-centered workplace culture.",
+    "observations": [
+      {
+        "description": "The main headline text 'The City of Los Angeles is now hiring' is written in a shaky, hand-drawn font that mimics a child's or amateur's handwriting.",
+        "evidence_type": "visual",
+        "location": "Top center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The job title 'Graphics Designer' is rendered in a multi-colored, uneven, marker-style font, with letters of varying sizes and colors.",
+        "evidence_type": "visual",
+        "location": "Center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A cluster of overlapping, brightly colored squares and rectangles is positioned on the left, resembling a rough, abstract collage or a 'color palette' test.",
+        "evidence_type": "visual",
+        "location": "Left side of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The official City of Los Angeles seal is displayed in the top left corner and again on the right side of the image.",
+        "evidence_type": "brand_mark",
+        "location": "Top left and center right",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'Jan 12 - 25 per.lacity.org $46,708 - $103,230' provides the application deadline, website, and salary range.",
+        "evidence_type": "copy",
+        "location": "Bottom left of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The post is from the official 'City of Los Angeles - Job Opportunities' page, with a link to a governmentjobs.com listing.",
+        "evidence_type": "context",
+        "location": "Top of the social media post",
+        "confidence": "high"
+      },
+      {
+        "description": "The post has high engagement metrics: 9.2K reactions, 5.6K comments, and 12.1K shares.",
+        "evidence_type": "context",
+        "location": "Bottom of the social media post",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The City of Los Angeles is actively recruiting for a Graphics Designer position with a competitive salary range.",
+        "evidence_indices": [
+          3,
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a 'bad' or amateurish design style is a deliberate semiotic choice. It functions as a visual metaphor for the creative, unstructured, and human nature of the design work, contrasting with the rigid, formal branding of the city seal.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses irony and self-deprecation to appeal to a specific target audience: creative professionals who value authenticity and a non-corporate culture over polished, sterile branding.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target audience is likely young to mid-career designers who are culturally attuned to internet humor and value 'vibes' and authenticity in their workplace.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The high engagement metrics (shares and comments) suggest the ad successfully triggered a viral response, likely because the 'bad design' was perceived as a clever, self-aware joke that resonated with the design community.",
+        "evidence_indices": [
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "The main headline text 'The City of Los Angeles is now hiring' is written in a shaky, hand-drawn font that mimics a child's or amateur's handwriting.",
+      "location": "Top center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The job title 'Graphics Designer' is rendered in a multi-colored, uneven, marker-style font, with letters of varying sizes and colors.",
+      "location": "Center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A cluster of overlapping, brightly colored squares and rectangles is positioned on the left, resembling a rough, abstract collage or a 'color palette' test.",
+      "location": "Left side of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The official City of Los Angeles seal is displayed in the top left corner and again on the right side of the image.",
+      "location": "Top left and center right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The text 'Jan 12 - 25 per.lacity.org $46,708 - $103,230' provides the application deadline, website, and salary range.",
+      "location": "Bottom left of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "The post is from the official 'City of Los Angeles - Job Opportunities' page, with a link to a governmentjobs.com listing.",
+      "location": "Top of the social media post",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "context",
+      "description": "The post has high engagement metrics: 9.2K reactions, 5.6K comments, and 12.1K shares.",
+      "location": "Bottom of the social media post",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The City of Los Angeles is hiring a Graphics Designer, using a deliberately amateurish and 'hand-drawn' visual style to signal a relaxed, creative, and human-centered workplace culture.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The City of Los Angeles is actively recruiting for a Graphics Designer position with a competitive salary range.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a 'bad' or amateurish design style is a deliberate semiotic choice. It functions as a visual metaphor for the creative, unstructured, and human nature of the design work, contrasting with the rigid, formal branding of the city seal.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad uses irony and self-deprecation to appeal to a specific target audience: creative professionals who value authenticity and a non-corporate culture over polished, sterile branding.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The target audience is likely young to mid-career designers who are culturally attuned to internet humor and value 'vibes' and authenticity in their workplace.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "The high engagement metrics (shares and comments) suggest the ad successfully triggered a viral response, likely because the 'bad design' was perceived as a clever, self-aware joke that resonated with the design community.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

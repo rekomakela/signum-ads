@@ -1,0 +1,292 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-i-guess-the-most-simple-yet-powerful-promotional-8c8038af",
+    "media_type": "image",
+    "path": "cases/real-i-guess-the-most-simple-yet-powerful-promotional-8c8038af/asset.jpg",
+    "sha256": "a683e380760eba03b6becfa0ebb7ee122a99a25f70b385b86cd9f261c02ae81f"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:01:29.269Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-i-guess-the-most-simple-yet-powerful-promotional-8c8038af",
+    "sha256": "a683e380760eba03b6becfa0ebb7ee122a99a25f70b385b86cd9f261c02ae81f"
+  },
+  "raw_provider_output": {
+    "summary": "A chalkboard sign invites passersby to eat at the establishment, using a humorous threat of mutual starvation to create a sense of urgency and personal connection.",
+    "observations": [
+      {
+        "description": "A black chalkboard with a teal frame stands on a sidewalk, featuring handwritten white chalk text.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text 'EAT HERE' is written in large, underlined capital letters at the top of the board.",
+        "evidence_type": "copy",
+        "location": "top center",
+        "confidence": "high"
+      },
+      {
+        "description": "Below the headline, the text reads 'or we will both Starve!' in a smaller, casual script.",
+        "evidence_type": "copy",
+        "location": "middle",
+        "confidence": "high"
+      },
+      {
+        "description": "The sign is signed off with '- The Owner' and a hand-drawn orange smiley face at the bottom.",
+        "evidence_type": "copy",
+        "location": "bottom",
+        "confidence": "high"
+      },
+      {
+        "description": "In the background, a red storefront and a 'cash' machine are visible, situating the sign in a commercial street environment.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The primary goal is to direct foot traffic into the restaurant by framing the act of eating as a mutual benefit for both the customer and the business.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad employs humor by personifying the business's need for revenue as a literal threat of starvation, creating a lighthearted and memorable interaction.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a chalkboard and handwritten text functions as a signifier for 'local,' 'authentic,' and 'informal,' distinguishing the business from corporate chains.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "craft_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By signing the message 'The Owner' and adding a smiley face, the ad creates a sense of personal accountability and warmth, leveraging the 'liking' principle to build rapport.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "liking_and_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A black chalkboard with a teal frame stands on a sidewalk, featuring handwritten white chalk text.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The headline text 'EAT HERE' is written in large, underlined capital letters at the top of the board.",
+      "location": "top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "Below the headline, the text reads 'or we will both Starve!' in a smaller, casual script.",
+      "location": "middle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The sign is signed off with '- The Owner' and a hand-drawn orange smiley face at the bottom.",
+      "location": "bottom",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "In the background, a red storefront and a 'cash' machine are visible, situating the sign in a commercial street environment.",
+      "location": "background",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A chalkboard sign invites passersby to eat at the establishment, using a humorous threat of mutual starvation to create a sense of urgency and personal connection.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The primary goal is to direct foot traffic into the restaurant by framing the act of eating as a mutual benefit for both the customer and the business.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The ad employs humor by personifying the business's need for revenue as a literal threat of starvation, creating a lighthearted and memorable interaction.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The use of a chalkboard and handwritten text functions as a signifier for 'local,' 'authentic,' and 'informal,' distinguishing the business from corporate chains.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "craft_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "By signing the message 'The Owner' and adding a smiley face, the ad creates a sense of personal accountability and warmth, leveraging the 'liking' principle to build rapport.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "liking_and_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-firefighters-don-t-like-fire-movies-1421-2048-9d290567",
+    "media_type": "image",
+    "path": "cases/real-firefighters-don-t-like-fire-movies-1421-2048-9d290567/asset.jpg",
+    "sha256": "487d85fb8695b2425289212a3efed96e97a9261c3836a35a564182d7047335d8"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:46:29.221Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-firefighters-don-t-like-fire-movies-1421-2048-9d290567",
+    "sha256": "487d85fb8695b2425289212a3efed96e97a9261c3836a35a564182d7047335d8"
+  },
+  "raw_provider_output": {
+    "summary": "A New Zealand Fire Emergency advertisement uses a heavily annotated movie script depicting a house fire to demonstrate the deadly speed of real fires, urging viewers to install working smoke alarms.",
+    "observations": [
+      {
+        "description": "A typed movie script titled 'INTERIOR BEDROOM, JOHNSON HOUSE - NIGHT' is shown on a sheet of paper, depicting a family waking up to a fire.",
+        "evidence_type": "visual",
+        "location": "Center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "Red handwritten annotations cover the script, including the large header 'HATE THIS!!' and specific corrections like 'Door knob would be 700 C' and 'ALL CHARACTERS WOULD BE DEAD AT THIS POINT.'",
+        "evidence_type": "copy",
+        "location": "Overlaid on the script text",
+        "confidence": "high"
+      },
+      {
+        "description": "A signature at the bottom of the script reads 'Peter Gallagher - National Advisor Fire Risk'.",
+        "evidence_type": "copy",
+        "location": "Bottom center of the paper",
+        "confidence": "high"
+      },
+      {
+        "description": "A teal 'RETURN TO SCRIPT DEPARTMENT' stamp is visible on the lower right of the paper.",
+        "evidence_type": "visual",
+        "location": "Lower right of the paper",
+        "confidence": "high"
+      },
+      {
+        "description": "The bottom banner features the 'FIRE EMERGENCY NEW ZEALAND' logo on the left and the slogan 'FIRE GETS REAL FAST' on the right.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom corners",
+        "confidence": "high"
+      },
+      {
+        "description": "The central call to action text reads 'Install working smoke alarms today.'",
+        "evidence_type": "cta",
+        "location": "Bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "Annotations point out unrealistic elements in the script, such as 'Wouldn't wake up' and 'If flames visible fire unavoidable in less than 1 minute.'",
+        "evidence_type": "copy",
+        "location": "Margins of the script",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement's primary goal is to persuade the audience to install working smoke alarms by highlighting the immediate danger of house fires.",
+        "evidence_indices": [
+          5,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a 'script' being rejected by a fire expert serves as a visual metaphor for the gap between fictional movie portrayals of fire and the harsh reality of how fast a fire spreads.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad employs a fear appeal by explicitly stating that in a real scenario, 'ALL CHARACTERS WOULD BE DEAD' and that the fire would be 1000 degrees at head height.",
+        "evidence_indices": [
+          1,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The signature of the 'National Advisor Fire Risk' provides an appeal to authority, validating the technical corrections made to the script.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The 'HATE THIS!!' header and the 'Return to Script Department' stamp create a narrative of professional rejection, framing the fictional script as dangerously inaccurate and the real-world advice as the only correct path.",
+        "evidence_indices": [
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A typed movie script titled 'INTERIOR BEDROOM, JOHNSON HOUSE - NIGHT' is shown on a sheet of paper, depicting a family waking up to a fire.",
+      "location": "Center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "Red handwritten annotations cover the script, including the large header 'HATE THIS!!' and specific corrections like 'Door knob would be 700 C' and 'ALL CHARACTERS WOULD BE DEAD AT THIS POINT.'",
+      "location": "Overlaid on the script text",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "A signature at the bottom of the script reads 'Peter Gallagher - National Advisor Fire Risk'.",
+      "location": "Bottom center of the paper",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A teal 'RETURN TO SCRIPT DEPARTMENT' stamp is visible on the lower right of the paper.",
+      "location": "Lower right of the paper",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The bottom banner features the 'FIRE EMERGENCY NEW ZEALAND' logo on the left and the slogan 'FIRE GETS REAL FAST' on the right.",
+      "location": "Bottom corners",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "cta",
+      "description": "The central call to action text reads 'Install working smoke alarms today.'",
+      "location": "Bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "copy",
+      "description": "Annotations point out unrealistic elements in the script, such as 'Wouldn't wake up' and 'If flames visible fire unavoidable in less than 1 minute.'",
+      "location": "Margins of the script",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A New Zealand Fire Emergency advertisement uses a heavily annotated movie script depicting a house fire to demonstrate the deadly speed of real fires, urging viewers to install working smoke alarms.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement's primary goal is to persuade the audience to install working smoke alarms by highlighting the immediate danger of house fires.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a 'script' being rejected by a fire expert serves as a visual metaphor for the gap between fictional movie portrayals of fire and the harsh reality of how fast a fire spreads.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad employs a fear appeal by explicitly stating that in a real scenario, 'ALL CHARACTERS WOULD BE DEAD' and that the fire would be 1000 degrees at head height.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "The signature of the 'National Advisor Fire Risk' provides an appeal to authority, validating the technical corrections made to the script.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "The 'HATE THIS!!' header and the 'Return to Script Department' stamp create a narrative of professional rejection, framing the fictional script as dangerously inaccurate and the real-world advice as the only correct path.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-daihatsu-hijet-ad-from-1996-82ce25b6",
+    "media_type": "image",
+    "path": "cases/real-daihatsu-hijet-ad-from-1996-82ce25b6/asset.jpg",
+    "sha256": "95b681dc7d3e7f852b3563829435b491030670b90f65acbc753704812539e2e7"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:30:46.699Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-daihatsu-hijet-ad-from-1996-82ce25b6",
+    "sha256": "95b681dc7d3e7f852b3563829435b491030670b90f65acbc753704812539e2e7"
+  },
+  "raw_provider_output": {
+    "summary": "The Daihatsu Hijet MPV is positioned as a practical and attractive vehicle that appeals to women more effectively than a high-end sports car, despite its modest price and utility-focused design.",
+    "observations": [
+      {
+        "description": "Large, bold headline text stating 'Picks up five times more women than a Lamborghini.'",
+        "evidence_type": "copy",
+        "location": "Top half of the advertisement",
+        "confidence": "high"
+      },
+      {
+        "description": "A white Daihatsu Hijet MPV van shown in profile, filled with smiling women and a male driver.",
+        "evidence_type": "visual",
+        "location": "Center of the advertisement",
+        "confidence": "high"
+      },
+      {
+        "description": "The driver is a man wearing a tuxedo and bow tie, giving a thumbs-up gesture.",
+        "evidence_type": "visual",
+        "location": "Front of the van",
+        "confidence": "high"
+      },
+      {
+        "description": "Small body copy describing the vehicle's features, including 'six comfortable seats,' 'two sun roofs,' and a '3 year/60,000 mile warranty.'",
+        "evidence_type": "copy",
+        "location": "Bottom of the advertisement",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand name 'DAIHATSU' is visible on the side of the van and in a red vertical box on the bottom right.",
+        "evidence_type": "brand_mark",
+        "location": "Side of the vehicle and bottom right corner",
+        "confidence": "high"
+      },
+      {
+        "description": "The copy mentions a price of '£8,497' and compares it to the '£167,503 change from a Lamborghini.'",
+        "evidence_type": "price",
+        "location": "Bottom body copy",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement argues that the Daihatsu Hijet is superior to a Lamborghini in terms of its ability to attract female passengers, prioritizing social appeal over raw performance.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a tuxedo-clad driver and a van full of women creates a visual metaphor for the vehicle as a 'babe-magnet,' framing a utilitarian van as a status symbol for social success.",
+        "evidence_indices": [
+          2,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By explicitly stating the vehicle attracts 'five times more women' than a Lamborghini, the ad uses a specific, exaggerated statistic to create a memorable and humorous hook that redefines the criteria for a 'good' car.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "exaggeration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The ad targets a male audience by suggesting that owning this affordable, practical vehicle will result in greater social and romantic success than owning an expensive, traditional symbol of masculine power like a Lamborghini.",
+        "evidence_indices": [
+          0,
+          2,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "masculine_grooming",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "Large, bold headline text stating 'Picks up five times more women than a Lamborghini.'",
+      "location": "Top half of the advertisement",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A white Daihatsu Hijet MPV van shown in profile, filled with smiling women and a male driver.",
+      "location": "Center of the advertisement",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The driver is a man wearing a tuxedo and bow tie, giving a thumbs-up gesture.",
+      "location": "Front of the van",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "Small body copy describing the vehicle's features, including 'six comfortable seats,' 'two sun roofs,' and a '3 year/60,000 mile warranty.'",
+      "location": "Bottom of the advertisement",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The brand name 'DAIHATSU' is visible on the side of the van and in a red vertical box on the bottom right.",
+      "location": "Side of the vehicle and bottom right corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "price",
+      "description": "The copy mentions a price of '£8,497' and compares it to the '£167,503 change from a Lamborghini.'",
+      "location": "Bottom body copy",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The Daihatsu Hijet MPV is positioned as a practical and attractive vehicle that appeals to women more effectively than a high-end sports car, despite its modest price and utility-focused design.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement argues that the Daihatsu Hijet is superior to a Lamborghini in terms of its ability to attract female passengers, prioritizing social appeal over raw performance.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a tuxedo-clad driver and a van full of women creates a visual metaphor for the vehicle as a 'babe-magnet,' framing a utilitarian van as a status symbol for social success.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By explicitly stating the vehicle attracts 'five times more women' than a Lamborghini, the ad uses a specific, exaggerated statistic to create a memorable and humorous hook that redefines the criteria for a 'good' car.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "exaggeration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The ad targets a male audience by suggesting that owning this affordable, practical vehicle will result in greater social and romantic success than owning an expensive, traditional symbol of masculine power like a Lamborghini.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "masculine_grooming",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

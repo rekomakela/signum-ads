@@ -1,0 +1,297 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-erdal-shoe-polish-17131522",
+    "media_type": "image",
+    "path": "cases/real-erdal-shoe-polish-17131522/asset.jpg",
+    "sha256": "bffaa5c0c2ee21f48e928fc3cdc83fd0a86558a5d6ad2e9ebdce55116713830e"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:41:28.751Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-erdal-shoe-polish-17131522",
+    "sha256": "bffaa5c0c2ee21f48e928fc3cdc83fd0a86558a5d6ad2e9ebdce55116713830e"
+  },
+  "raw_provider_output": {
+    "summary": "A man in a luxury car uses a can of Erdal shoe polish to clean and shine his side mirror, suggesting the product's versatility and superior cleaning power.",
+    "observations": [
+      {
+        "description": "A man's hand, wearing a pinstripe suit, is shown holding a can of Erdal shoe polish and wiping it onto a car's side mirror.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The setting is the interior of a car, with a view of a city street and other cars through the window.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The product logo, a circular emblem for 'Erdal SHOE POLISH', is prominently displayed in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The side mirror is shown with a high-gloss, reflective finish, implying it has been polished to a shine.",
+        "evidence_type": "visual",
+        "location": "center-left",
+        "confidence": "high"
+      },
+      {
+        "description": "The man is dressed in a formal pinstripe suit, suggesting a professional or affluent status.",
+        "evidence_type": "visual",
+        "location": "right side",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Erdal shoe polish is so effective that it can be used to clean and shine a car's side mirror, not just shoes.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a shoe polish can on a car part is a visual metaphor that transfers the product's core benefit (shine) to a new, unexpected context, highlighting its versatility.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets a male, affluent audience who values a well-maintained appearance for both personal grooming and their vehicles.",
+        "evidence_indices": [
+          4,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "masculine_grooming",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By showing the product in a high-end context (a luxury car, a suit), the ad uses association to elevate the brand's perceived quality and effectiveness.",
+        "evidence_indices": [
+          1,
+          4,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A man's hand, wearing a pinstripe suit, is shown holding a can of Erdal shoe polish and wiping it onto a car's side mirror.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The setting is the interior of a car, with a view of a city street and other cars through the window.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The product logo, a circular emblem for 'Erdal SHOE POLISH', is prominently displayed in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The side mirror is shown with a high-gloss, reflective finish, implying it has been polished to a shine.",
+      "location": "center-left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "The man is dressed in a formal pinstripe suit, suggesting a professional or affluent status.",
+      "location": "right side",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A man in a luxury car uses a can of Erdal shoe polish to clean and shine his side mirror, suggesting the product's versatility and superior cleaning power.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Erdal shoe polish is so effective that it can be used to clean and shine a car's side mirror, not just shoes.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a shoe polish can on a car part is a visual metaphor that transfers the product's core benefit (shine) to a new, unexpected context, highlighting its versatility.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "audience",
+        "text": "The ad targets a male, affluent audience who values a well-maintained appearance for both personal grooming and their vehicles.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "masculine_grooming",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "By showing the product in a high-end context (a luxury car, a suit), the ad uses association to elevate the brand's perceived quality and effectiveness.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

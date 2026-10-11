@@ -1,0 +1,260 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ford-saudi-women-driving",
+    "media_type": "image",
+    "path": "cases/real-ford-saudi-women-driving/asset.jpg",
+    "sha256": "8d835e27014dfd44c4f9cbbfab796a9d1c187e6f176989ebbd9e6fa66c636672"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:50:25.517Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ford-saudi-women-driving",
+    "sha256": "8d835e27014dfd44c4f9cbbfab796a9d1c187e6f176989ebbd9e6fa66c636672"
+  },
+  "raw_provider_output": {
+    "summary": "A minimalist advertisement using a car rearview mirror to frame a woman's eyes, suggesting a focus on self-reflection, identity, or beauty.",
+    "observations": [
+      {
+        "description": "A car rearview mirror is centered against a solid black background.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The reflection in the mirror shows a close-up of a woman's eyes, eyebrows, and the bridge of her nose.",
+        "evidence_type": "visual",
+        "location": "inside the mirror",
+        "confidence": "high"
+      },
+      {
+        "description": "The woman's eyes are looking directly forward, creating a sense of direct engagement with the viewer.",
+        "evidence_type": "visual",
+        "location": "inside the mirror",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is entirely black, isolating the mirror and the reflection.",
+        "evidence_type": "layout",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "There is no visible text, logo, or call to action in the image.",
+        "evidence_type": "copy",
+        "location": null,
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The rearview mirror functions as a signifier for self-reflection and the act of looking back at oneself, transforming a utilitarian object into a frame for identity.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of a stark black background and a single focal point creates a sense of luxury and exclusivity, relying on visual minimalism to convey high value.",
+        "evidence_indices": [
+          3,
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The direct gaze of the eyes through the mirror creates an intimate connection, suggesting that the product or brand is about seeing oneself clearly or with confidence.",
+        "evidence_indices": [
+          2,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "confidence",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A car rearview mirror is centered against a solid black background.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The reflection in the mirror shows a close-up of a woman's eyes, eyebrows, and the bridge of her nose.",
+      "location": "inside the mirror",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The woman's eyes are looking directly forward, creating a sense of direct engagement with the viewer.",
+      "location": "inside the mirror",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "layout",
+      "description": "The background is entirely black, isolating the mirror and the reflection.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "There is no visible text, logo, or call to action in the image.",
+      "location": null,
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A minimalist advertisement using a car rearview mirror to frame a woman's eyes, suggesting a focus on self-reflection, identity, or beauty.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The rearview mirror functions as a signifier for self-reflection and the act of looking back at oneself, transforming a utilitarian object into a frame for identity.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The use of a stark black background and a single focal point creates a sense of luxury and exclusivity, relying on visual minimalism to convey high value.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "interpretation",
+        "text": "The direct gaze of the eyes through the mirror creates an intimate connection, suggesting that the product or brand is about seeing oneself clearly or with confidence.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "confidence",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

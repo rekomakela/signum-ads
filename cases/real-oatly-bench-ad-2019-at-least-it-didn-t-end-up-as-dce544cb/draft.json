@@ -1,0 +1,307 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-oatly-bench-ad-2019-at-least-it-didn-t-end-up-as-dce544cb",
+    "media_type": "image",
+    "path": "cases/real-oatly-bench-ad-2019-at-least-it-didn-t-end-up-as-dce544cb/asset.jpg",
+    "sha256": "791ff9e7309876326e50c615b9487ac8927263814381ba44a60fc75612ed2796"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:37:29.407Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-oatly-bench-ad-2019-at-least-it-didn-t-end-up-as-dce544cb",
+    "sha256": "791ff9e7309876326e50c615b9487ac8927263814381ba44a60fc75612ed2796"
+  },
+  "raw_provider_output": {
+    "summary": "Oatly uses a self-deprecating billboard to acknowledge its failure to secure a premium advertising spot, turning a setback into a relatable, humorous brand moment.",
+    "observations": [
+      {
+        "description": "The ad is displayed on a green public bench, not a traditional billboard.",
+        "evidence_type": "visual",
+        "location": "entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "The text reads: 'THIS OATMILK AD CAME TO LOS ANGELES LOOKING TO MAKE IT AS A GIANT BILLBOARD ON SUNSET. OH WELL.'",
+        "evidence_type": "copy",
+        "location": "center of the bench backrest",
+        "confidence": "high"
+      },
+      {
+        "description": "A small image of an Oatly carton is shown on the right side of the ad.",
+        "evidence_type": "visual",
+        "location": "right side of the bench backrest",
+        "confidence": "high"
+      },
+      {
+        "description": "The background shows a plain wall and pavement, suggesting an urban, non-premium setting.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "medium"
+      },
+      {
+        "description": "The phrase 'OH WELL' is used to downplay the failure to get a premium ad spot.",
+        "evidence_type": "copy",
+        "location": "end of the main text",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The brand is self-aware and willing to joke about its own marketing limitations, which builds a sense of authenticity and relatability.",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a bench instead of a billboard acts as a visual metaphor for the brand's 'failure' to reach the top, reinforcing the humorous text.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By acknowledging a negative (not getting a big ad) and framing it positively, the brand creates a 'likeable' persona that appeals to consumers who value authenticity over corporate polish.",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "liking_and_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets a younger, urban demographic in Los Angeles who are culturally literate enough to appreciate the meta-humor and the specific reference to the Sunset strip.",
+        "evidence_indices": [
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": false
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "The ad is displayed on a green public bench, not a traditional billboard.",
+      "location": "entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text reads: 'THIS OATMILK AD CAME TO LOS ANGELES LOOKING TO MAKE IT AS A GIANT BILLBOARD ON SUNSET. OH WELL.'",
+      "location": "center of the bench backrest",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A small image of an Oatly carton is shown on the right side of the ad.",
+      "location": "right side of the bench backrest",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "context",
+      "description": "The background shows a plain wall and pavement, suggesting an urban, non-premium setting.",
+      "location": "background",
+      "confidence": "medium"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The phrase 'OH WELL' is used to downplay the failure to get a premium ad spot.",
+      "location": "end of the main text",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "Oatly uses a self-deprecating billboard to acknowledge its failure to secure a premium advertising spot, turning a setback into a relatable, humorous brand moment.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The brand is self-aware and willing to joke about its own marketing limitations, which builds a sense of authenticity and relatability.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a bench instead of a billboard acts as a visual metaphor for the brand's 'failure' to reach the top, reinforcing the humorous text.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By acknowledging a negative (not getting a big ad) and framing it positively, the brand creates a 'likeable' persona that appeals to consumers who value authenticity over corporate polish.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "liking_and_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets a younger, urban demographic in Los Angeles who are culturally literate enough to appreciate the meta-humor and the specific reference to the Sunset strip.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": false
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

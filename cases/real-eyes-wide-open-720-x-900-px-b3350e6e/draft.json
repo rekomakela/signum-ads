@@ -1,0 +1,247 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-eyes-wide-open-720-x-900-px-b3350e6e",
+    "media_type": "image",
+    "path": "cases/real-eyes-wide-open-720-x-900-px-b3350e6e/asset.jpg",
+    "sha256": "8999579ccfc0218c058e3a2ca0ece2bf09f5a433d6a60f9515627f38fd4177fb"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:42:41.454Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-eyes-wide-open-720-x-900-px-b3350e6e",
+    "sha256": "8999579ccfc0218c058e3a2ca0ece2bf09f5a433d6a60f9515627f38fd4177fb"
+  },
+  "raw_provider_output": {
+    "summary": "A surreal advertisement for Mocha Gold coffee that uses a visual metaphor to suggest the product is so potent it can be seen as a source of life or energy.",
+    "observations": [
+      {
+        "description": "An extreme close-up of a human face where the iris and pupil of the eye have been replaced by a top-down view of a white coffee cup filled with dark liquid.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A small product package for 'Mocha Gold' coffee is visible in the bottom left corner, featuring the brand's logo and a cup of coffee.",
+        "evidence_type": "brand_mark",
+        "location": "bottom left corner",
+        "confidence": "high"
+      },
+      {
+        "description": "The image is a photorealistic composite, showing the texture of skin, eyelashes, and the handle of the cup seamlessly integrated into the eye socket.",
+        "evidence_type": "visual",
+        "location": "entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "The coffee cup in the eye contains a dark liquid with a white swirl, resembling a latte or mocha.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by replacing the eye with a coffee cup, signifying that the coffee is 'essential' or 'life-giving' to the consumer.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By associating the product with the eye, the ad suggests that the coffee provides clarity, focus, or a 'new perspective' on life.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The core message is that Mocha Gold is an integral part of the consumer's identity and daily routine, as fundamental as sight.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "identity_signaling",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "An extreme close-up of a human face where the iris and pupil of the eye have been replaced by a top-down view of a white coffee cup filled with dark liquid.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "A small product package for 'Mocha Gold' coffee is visible in the bottom left corner, featuring the brand's logo and a cup of coffee.",
+      "location": "bottom left corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The image is a photorealistic composite, showing the texture of skin, eyelashes, and the handle of the cup seamlessly integrated into the eye socket.",
+      "location": "entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The coffee cup in the eye contains a dark liquid with a white swirl, resembling a latte or mocha.",
+      "location": "center of the image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A surreal advertisement for Mocha Gold coffee that uses a visual metaphor to suggest the product is so potent it can be seen as a source of life or energy.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The ad employs a visual metaphor by replacing the eye with a coffee cup, signifying that the coffee is 'essential' or 'life-giving' to the consumer.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By associating the product with the eye, the ad suggests that the coffee provides clarity, focus, or a 'new perspective' on life.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "core_message",
+        "text": "The core message is that Mocha Gold is an integral part of the consumer's identity and daily routine, as fundamental as sight.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "identity_signaling",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-skittles-ad-for-pride-month-b1e8ce49",
+    "media_type": "image",
+    "path": "cases/real-skittles-ad-for-pride-month-b1e8ce49/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:55:20.420Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-skittles-ad-for-pride-month-b1e8ce49",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "Skittles addresses the London Pride event with a humorous, self-deprecating letter, acknowledging the shared use of the rainbow symbol and promising to stay out of the way while celebrating the occasion.",
+    "observations": [
+      {
+        "description": "The Skittles logo is displayed in the top left corner, accompanied by the tagline 'Give the Rainbow. Taste the Rainbow.' and the hashtag '#onerainbow'.",
+        "evidence_type": "brand_mark",
+        "location": "top_left",
+        "confidence": "high"
+      },
+      {
+        "description": "The main body of the ad is formatted as a letter beginning with the salutation 'Dear Pride in London,'.",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text of the letter is arranged in a diagonal, curved line that mimics the shape of a rainbow.",
+        "evidence_type": "layout",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The copy uses a casual, self-deprecating tone, stating 'So this is kinda awkward' and referring to the brand's own rainbow as 'hunky-dory'.",
+        "evidence_type": "copy",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The letter explicitly states the brand's intention to 'give up our rainbow' and 'stay out of the way' so that Pride can be the 'centre of attention'.",
+        "evidence_type": "copy",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The letter concludes with a supportive message: 'Have a great day, Pride. From Skittles.'",
+        "evidence_type": "copy",
+        "location": "bottom_right",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The brand is positioning itself as a respectful ally that recognizes the cultural significance of the rainbow to the LGBTQ+ community, prioritizing their celebration over its own marketing.",
+        "evidence_indices": [
+          1,
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The diagonal layout of the text serves as a visual metaphor for the rainbow, reinforcing the central theme without using the brand's typical colorful packaging.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By adopting a self-deprecating and humble tone, the brand builds 'liking' and trust, avoiding the appearance of 'rainbow-washing' or co-opting the movement for profit.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The minimalist, black-and-white design of the letter contrasts with the usual vibrant Skittles branding, signaling a serious and respectful intent behind the message.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "The Skittles logo is displayed in the top left corner, accompanied by the tagline 'Give the Rainbow. Taste the Rainbow.' and the hashtag '#onerainbow'.",
+      "location": "top_left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The main body of the ad is formatted as a letter beginning with the salutation 'Dear Pride in London,'.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "layout",
+      "description": "The text of the letter is arranged in a diagonal, curved line that mimics the shape of a rainbow.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The copy uses a casual, self-deprecating tone, stating 'So this is kinda awkward' and referring to the brand's own rainbow as 'hunky-dory'.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The letter explicitly states the brand's intention to 'give up our rainbow' and 'stay out of the way' so that Pride can be the 'centre of attention'.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "The letter concludes with a supportive message: 'Have a great day, Pride. From Skittles.'",
+      "location": "bottom_right",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "Skittles addresses the London Pride event with a humorous, self-deprecating letter, acknowledging the shared use of the rainbow symbol and promising to stay out of the way while celebrating the occasion.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The brand is positioning itself as a respectful ally that recognizes the cultural significance of the rainbow to the LGBTQ+ community, prioritizing their celebration over its own marketing.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The diagonal layout of the text serves as a visual metaphor for the rainbow, reinforcing the central theme without using the brand's typical colorful packaging.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By adopting a self-deprecating and humble tone, the brand builds 'liking' and trust, avoiding the appearance of 'rainbow-washing' or co-opting the movement for profit.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "self_deprecation",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The minimalist, black-and-white design of the letter contrasts with the usual vibrant Skittles branding, signaling a serious and respectful intent behind the message.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

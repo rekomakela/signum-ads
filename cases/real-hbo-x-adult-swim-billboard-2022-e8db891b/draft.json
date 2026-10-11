@@ -1,0 +1,282 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-hbo-x-adult-swim-billboard-2022-e8db891b",
+    "media_type": "image",
+    "path": "cases/real-hbo-x-adult-swim-billboard-2022-e8db891b/asset.jpg",
+    "sha256": "6f64a340adc156198bea60f7ddc2033d732b98ac7156b2a8a46538b8b699056d"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:56:34.824Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-hbo-x-adult-swim-billboard-2022-e8db891b",
+    "sha256": "6f64a340adc156198bea60f7ddc2033d732b98ac7156b2a8a46538b8b699056d"
+  },
+  "raw_provider_output": {
+    "summary": "The advertisement uses a meta-humorous format, displaying an internal email thread as the billboard content to inform viewers that Adult Swim is available on HBO Max.",
+    "observations": [
+      {
+        "description": "The billboard displays a mock email interface with the subject line 'Re: New Adult Swim Generic Billboard'.",
+        "evidence_type": "copy",
+        "location": "Top of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "The email body contains the text: 'We need a billboard to tell people adult swim is on HBO Max. small in lower corner: [adult swim] logo above HBOMAX logo'.",
+        "evidence_type": "copy",
+        "location": "Center of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard is mounted on a large metal structure with the 'OUTFRONT' media company logo visible on the support beam.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom center of the billboard structure",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard is set against a bright blue sky with a palm tree on the left and a white building in the foreground.",
+        "evidence_type": "visual",
+        "location": "Background and foreground",
+        "confidence": "high"
+      },
+      {
+        "description": "The email header includes a timestamp '2/1/22, 5:45 PM' and a 'Show Reply' button, mimicking a digital interface.",
+        "evidence_type": "layout",
+        "location": "Top left and top right of the billboard",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The primary informational goal is to announce that the Adult Swim channel is now available on the HBO Max streaming platform.",
+        "evidence_indices": [
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad employs a meta-ironic strategy by presenting the 'brief' for the billboard as the billboard itself, breaking the fourth wall of traditional advertising.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By using a dry, internal corporate email format, the ad signals a specific brand identity that is self-aware, irreverent, and distinct from typical polished commercial messaging.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The use of digital interface aesthetics and meta-humor targets a digitally literate audience familiar with the specific comedic tone of Adult Swim.",
+        "evidence_indices": [
+          4,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "The billboard displays a mock email interface with the subject line 'Re: New Adult Swim Generic Billboard'.",
+      "location": "Top of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The email body contains the text: 'We need a billboard to tell people adult swim is on HBO Max. small in lower corner: [adult swim] logo above HBOMAX logo'.",
+      "location": "Center of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The billboard is mounted on a large metal structure with the 'OUTFRONT' media company logo visible on the support beam.",
+      "location": "Bottom center of the billboard structure",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The billboard is set against a bright blue sky with a palm tree on the left and a white building in the foreground.",
+      "location": "Background and foreground",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The email header includes a timestamp '2/1/22, 5:45 PM' and a 'Show Reply' button, mimicking a digital interface.",
+      "location": "Top left and top right of the billboard",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The advertisement uses a meta-humorous format, displaying an internal email thread as the billboard content to inform viewers that Adult Swim is available on HBO Max.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The primary informational goal is to announce that the Adult Swim channel is now available on the HBO Max streaming platform.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad employs a meta-ironic strategy by presenting the 'brief' for the billboard as the billboard itself, breaking the fourth wall of traditional advertising.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By using a dry, internal corporate email format, the ad signals a specific brand identity that is self-aware, irreverent, and distinct from typical polished commercial messaging.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The use of digital interface aesthetics and meta-humor targets a digitally literate audience familiar with the specific comedic tone of Adult Swim.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

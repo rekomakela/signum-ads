@@ -1,0 +1,354 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ikea-ad-for-simpson-s-fans-1bac41da",
+    "media_type": "image",
+    "path": "cases/real-ikea-ad-for-simpson-s-fans-1bac41da/asset.jpg",
+    "sha256": "a0f15421425fdf950842555fce5635bc0c89207bec428deadfeb6bd4ec0f29a2"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:06:00.772Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ikea-ad-for-simpson-s-fans-1bac41da",
+    "sha256": "a0f15421425fdf950842555fce5635bc0c89207bec428deadfeb6bd4ec0f29a2"
+  },
+  "raw_provider_output": {
+    "summary": "An IKEA advertisement showcasing a retro-styled living room setup with bold colors and specific product prices, emphasizing affordability and family-oriented design.",
+    "observations": [
+      {
+        "description": "The IKEA logo is prominently displayed in the top right corner with the tagline 'For real families.'",
+        "evidence_type": "brand_mark",
+        "location": "top right",
+        "confidence": "high"
+      },
+      {
+        "description": "A living room scene featuring a pink wall, green floor, and an orange sofa.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "Product labels with names and prices in Dhs (e.g., 'KNISLINGE Three-seat sofa Dhs 1,795', 'RICKARUM Lamp Dhs 195').",
+        "evidence_type": "price",
+        "location": "scattered throughout the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A framed picture of a sailboat hanging on the pink wall.",
+        "evidence_type": "visual",
+        "location": "upper center",
+        "confidence": "high"
+      },
+      {
+        "description": "A purple side table with a lamp and a green rotary phone.",
+        "evidence_type": "visual",
+        "location": "left side",
+        "confidence": "high"
+      },
+      {
+        "description": "A round rug with concentric circles in black, white, and red on the green floor.",
+        "evidence_type": "visual",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "A floor lamp with a curved arm and a beige shade.",
+        "evidence_type": "visual",
+        "location": "right side",
+        "confidence": "high"
+      },
+      {
+        "description": "A small potted plant in a yellow pot on the wall.",
+        "evidence_type": "visual",
+        "location": "right side",
+        "confidence": "high"
+      },
+      {
+        "description": "A dark wooden TV stand with a retro television antenna in the foreground.",
+        "evidence_type": "visual",
+        "location": "bottom right",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad promotes IKEA's ability to furnish a home with stylish, affordable products suitable for families.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of bold, contrasting colors (pink, green, orange) and retro items (rotary phone, TV antenna) creates a nostalgic and playful aesthetic.",
+        "evidence_indices": [
+          1,
+          4,
+          8
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "nostalgia",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The specific pricing of each item emphasizes the affordability and accessibility of the products.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "confidence",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The tagline 'For real families' targets a broad audience of families looking for practical and stylish home solutions.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "pride",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "The IKEA logo is prominently displayed in the top right corner with the tagline 'For real families.'",
+      "location": "top right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A living room scene featuring a pink wall, green floor, and an orange sofa.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "price",
+      "description": "Product labels with names and prices in Dhs (e.g., 'KNISLINGE Three-seat sofa Dhs 1,795', 'RICKARUM Lamp Dhs 195').",
+      "location": "scattered throughout the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A framed picture of a sailboat hanging on the pink wall.",
+      "location": "upper center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A purple side table with a lamp and a green rotary phone.",
+      "location": "left side",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "A round rug with concentric circles in black, white, and red on the green floor.",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "visual",
+      "description": "A floor lamp with a curved arm and a beige shade.",
+      "location": "right side",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_008",
+      "evidence_type": "visual",
+      "description": "A small potted plant in a yellow pot on the wall.",
+      "location": "right side",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_009",
+      "evidence_type": "visual",
+      "description": "A dark wooden TV stand with a retro television antenna in the foreground.",
+      "location": "bottom right",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "An IKEA advertisement showcasing a retro-styled living room setup with bold colors and specific product prices, emphasizing affordability and family-oriented design.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad promotes IKEA's ability to furnish a home with stylish, affordable products suitable for families.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of bold, contrasting colors (pink, green, orange) and retro items (rotary phone, TV antenna) creates a nostalgic and playful aesthetic.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_009",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "nostalgia",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The specific pricing of each item emphasizes the affordability and accessibility of the products.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "confidence",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The tagline 'For real families' targets a broad audience of families looking for practical and stylish home solutions.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "pride",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

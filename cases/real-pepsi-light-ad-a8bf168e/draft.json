@@ -1,0 +1,327 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-pepsi-light-ad-a8bf168e",
+    "media_type": "image",
+    "path": "cases/real-pepsi-light-ad-a8bf168e/asset.jpg",
+    "sha256": "a06d52b6875d1d2a073ce26079a6c930adfd15663d49c4f750cebf7dbcd3bfd9"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:46:56.028Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-pepsi-light-ad-a8bf168e",
+    "sha256": "a06d52b6875d1d2a073ce26079a6c930adfd15663d49c4f750cebf7dbcd3bfd9"
+  },
+  "raw_provider_output": {
+    "summary": "A massive truck is depicted with its cargo of Pepsi Light crates bursting out of the side, visually representing an overwhelming abundance of the product.",
+    "observations": [
+      {
+        "description": "A large semi-trailer truck is shown in profile, parked on a paved surface.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The side of the truck's trailer is covered with dozens of blue crates containing bottles, all labeled with the Pepsi logo.",
+        "evidence_type": "visual",
+        "location": "side of the trailer",
+        "confidence": "high"
+      },
+      {
+        "description": "The crates appear to be bursting out of the side of the truck, defying the physical containment of the trailer.",
+        "evidence_type": "visual",
+        "location": "side of the trailer",
+        "confidence": "high"
+      },
+      {
+        "description": "A large white sign with the 'PEPSI light' logo is mounted on the rear of the truck.",
+        "evidence_type": "brand_mark",
+        "location": "rear of the trailer",
+        "confidence": "high"
+      },
+      {
+        "description": "The truck is a standard commercial vehicle, suggesting a delivery or logistics context.",
+        "evidence_type": "context",
+        "location": "entire image",
+        "confidence": "high"
+      },
+      {
+        "description": "The image is a photograph, not an illustration, grounding the surreal element in a realistic setting.",
+        "evidence_type": "visual",
+        "location": "entire image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad's core message is that Pepsi Light is available in such abundance that it cannot be contained, suggesting it is everywhere and always accessible.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "exaggeration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The overflowing truck functions as a visual metaphor for abundance and excess, transforming a mundane logistics vehicle into a symbol of the product's ubiquity.",
+        "evidence_indices": [
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "symbol",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By showing the product in such a large quantity, the ad uses the principle of social proof, implying that because so much is being delivered, it must be popular and worth buying.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The surreal nature of the image, where crates float outside the truck, creates a sense of wonder and surprise, making the advertisement memorable and distinct from typical product shots.",
+        "evidence_indices": [
+          2,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad likely targets consumers who are looking for a refreshing, light beverage and are influenced by the idea of a product being widely available and popular.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large semi-trailer truck is shown in profile, parked on a paved surface.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The side of the truck's trailer is covered with dozens of blue crates containing bottles, all labeled with the Pepsi logo.",
+      "location": "side of the trailer",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The crates appear to be bursting out of the side of the truck, defying the physical containment of the trailer.",
+      "location": "side of the trailer",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "A large white sign with the 'PEPSI light' logo is mounted on the rear of the truck.",
+      "location": "rear of the trailer",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The truck is a standard commercial vehicle, suggesting a delivery or logistics context.",
+      "location": "entire image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The image is a photograph, not an illustration, grounding the surreal element in a realistic setting.",
+      "location": "entire image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A massive truck is depicted with its cargo of Pepsi Light crates bursting out of the side, visually representing an overwhelming abundance of the product.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad's core message is that Pepsi Light is available in such abundance that it cannot be contained, suggesting it is everywhere and always accessible.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "exaggeration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The overflowing truck functions as a visual metaphor for abundance and excess, transforming a mundane logistics vehicle into a symbol of the product's ubiquity.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "symbol",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By showing the product in such a large quantity, the ad uses the principle of social proof, implying that because so much is being delivered, it must be popular and worth buying.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The surreal nature of the image, where crates float outside the truck, creates a sense of wonder and surprise, making the advertisement memorable and distinct from typical product shots.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The ad likely targets consumers who are looking for a refreshing, light beverage and are influenced by the idea of a product being widely available and popular.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

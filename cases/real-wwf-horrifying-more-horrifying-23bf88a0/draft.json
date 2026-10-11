@@ -1,0 +1,335 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-wwf-horrifying-more-horrifying-23bf88a0",
+    "media_type": "image",
+    "path": "cases/real-wwf-horrifying-more-horrifying-23bf88a0/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:21:32.712Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-wwf-horrifying-more-horrifying-23bf88a0",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A WWF advertisement that uses a split-screen visual metaphor to argue that the disappearance of marine life is a greater threat than the animals themselves, urging action to protect the ecosystem.",
+    "observations": [
+      {
+        "description": "The image is split vertically into two panels. The left panel shows a shark fin breaking the surface of the calm blue ocean, while the right panel shows the exact same ocean scene but with the fin completely absent.",
+        "evidence_type": "visual",
+        "location": "main image area",
+        "confidence": "high"
+      },
+      {
+        "description": "The word \"HORRIFYING\" is printed in white, sans-serif capital letters in the lower third of the left panel.",
+        "evidence_type": "copy",
+        "location": "left panel, lower third",
+        "confidence": "high"
+      },
+      {
+        "description": "The phrase \"MORE HORRIFYING\" is printed in white, sans-serif capital letters in the lower third of the right panel.",
+        "evidence_type": "copy",
+        "location": "right panel, lower third",
+        "confidence": "high"
+      },
+      {
+        "description": "A white footer bar contains the text \"EXPLOITING THE ECOSYSTEM ALSO THREATENS HUMAN LIVES.\" on the left and \"FOR A LIVING PLANET: WWF.ORG\" on the right.",
+        "evidence_type": "copy",
+        "location": "bottom footer",
+        "confidence": "high"
+      },
+      {
+        "description": "The WWF logo, featuring a panda silhouette, is centered in the footer bar between the two text blocks.",
+        "evidence_type": "brand_mark",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The visual composition relies on a stark contrast between the presence of a predator and its absence, using the identical background to isolate the variable.",
+        "evidence_type": "layout",
+        "location": "entire image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad argues that the extinction of species (represented by the missing shark) is a more terrifying outcome than the existence of the species itself, framing environmental protection as a matter of human survival.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The shark fin functions as a signifier for the broader marine ecosystem; its removal signifies the collapse of biodiversity, transforming a symbol of danger into a symbol of loss.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By labeling the empty ocean as \"MORE HORRIFYING,\" the ad employs a rhetorical inversion to shift the audience's fear from the animal to the act of exploitation, thereby motivating conservation behavior.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The tagline \"EXPLOITING THE ECOSYSTEM ALSO THREATENS HUMAN LIVES\" connects the visual metaphor to a utilitarian argument, suggesting that protecting nature is ultimately self-preservation for humans.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "The image is split vertically into two panels. The left panel shows a shark fin breaking the surface of the calm blue ocean, while the right panel shows the exact same ocean scene but with the fin completely absent.",
+      "location": "main image area",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The word \"HORRIFYING\" is printed in white, sans-serif capital letters in the lower third of the left panel.",
+      "location": "left panel, lower third",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The phrase \"MORE HORRIFYING\" is printed in white, sans-serif capital letters in the lower third of the right panel.",
+      "location": "right panel, lower third",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "A white footer bar contains the text \"EXPLOITING THE ECOSYSTEM ALSO THREATENS HUMAN LIVES.\" on the left and \"FOR A LIVING PLANET: WWF.ORG\" on the right.",
+      "location": "bottom footer",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The WWF logo, featuring a panda silhouette, is centered in the footer bar between the two text blocks.",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "layout",
+      "description": "The visual composition relies on a stark contrast between the presence of a predator and its absence, using the identical background to isolate the variable.",
+      "location": "entire image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A WWF advertisement that uses a split-screen visual metaphor to argue that the disappearance of marine life is a greater threat than the animals themselves, urging action to protect the ecosystem.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad argues that the extinction of species (represented by the missing shark) is a more terrifying outcome than the existence of the species itself, framing environmental protection as a matter of human survival.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The shark fin functions as a signifier for the broader marine ecosystem; its removal signifies the collapse of biodiversity, transforming a symbol of danger into a symbol of loss.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By labeling the empty ocean as \"MORE HORRIFYING,\" the ad employs a rhetorical inversion to shift the audience's fear from the animal to the act of exploitation, thereby motivating conservation behavior.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The tagline \"EXPLOITING THE ECOSYSTEM ALSO THREATENS HUMAN LIVES\" connects the visual metaphor to a utilitarian argument, suggesting that protecting nature is ultimately self-preservation for humans.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

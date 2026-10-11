@@ -1,0 +1,82 @@
+#!/usr/bin/env bash
+# Canonical Signum validation entrypoint.
+# Local development and CI converge here.
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+
+MODE="${1:---full}"
+case "$MODE" in
+  --full|--core|--frontend|--docs) ;;
+  *)
+    echo "usage: bash scripts/validate [--full|--core|--frontend|--docs]" >&2
+    exit 2
+    ;;
+esac
+
+section() {
+  printf '\n== %s ==\n' "$1"
+}
+
+section "repository hygiene"
+git diff --check
+bash -n scripts/bootstrap scripts/doctor scripts/validate
+
+section "documentation authority"
+npm run docs:check
+
+section "format"
+npm run format:check
+
+if [[ "$MODE" == "--docs" ]]; then
+  echo "Documentation/authority validation passed."
+  exit 0
+fi
+
+run_core() {
+  section "core lint"
+  npm run lint
+
+  section "generated glossary data"
+  npm run glossary:data
+
+  section "core typecheck + tests"
+  npm run verify
+
+  section "corpus model qualification"
+  mkdir -p .state
+  node dist/src/cli/corpus-qualify.js --count 50 > .state/corpus-qualification-latest.json
+  node -e "const r=require('./.state/corpus-qualification-latest.json'); if(r.status!=='pass') process.exit(1); console.log('Corpus qualification:', r.status, r.cohort_size + ' advertisements')"
+}
+
+run_frontend() {
+  section "frontend tests"
+  npm run test:frontend
+
+  section "frontend type/Svelte checks"
+  npm run frontend:check
+
+  section "frontend production build"
+  npm run frontend:build
+}
+
+case "$MODE" in
+  --core)
+    run_core
+    ;;
+  --frontend)
+    run_frontend
+    ;;
+  --full)
+    run_core
+    run_frontend
+
+    section "dependency security"
+    npm run security:audit
+
+    ;;
+esac
+
+printf '\nValidation passed: %s\n' "$MODE"

@@ -1,0 +1,326 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-simple-yet-effective-fb6ac760",
+    "media_type": "image",
+    "path": "cases/real-simple-yet-effective-fb6ac760/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:53:43.444Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-simple-yet-effective-fb6ac760",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A framed iPhone screenshot of a text message conversation between a venue manager and a designer, detailing the booking of a 'Music Nights' poster.",
+    "observations": [
+      {
+        "description": "A physical picture frame with a white inner mat and a dark outer border surrounds the image.",
+        "evidence_type": "visual",
+        "location": "perimeter",
+        "confidence": "high"
+      },
+      {
+        "description": "The image displays a mobile phone interface with a status bar showing 'Orange 3G', the time '10:17 AM', and a battery level of '85%'.",
+        "evidence_type": "visual",
+        "location": "top",
+        "confidence": "high"
+      },
+      {
+        "description": "The header of the messaging app reads 'Messages' with the contact name 'The Friars' and a 'Contact' button.",
+        "evidence_type": "copy",
+        "location": "top center",
+        "confidence": "high"
+      },
+      {
+        "description": "The conversation begins with a grey bubble: 'Hi Dave, it's Tom. Can you do a poster for our Music Nights?'",
+        "evidence_type": "copy",
+        "location": "upper middle",
+        "confidence": "high"
+      },
+      {
+        "description": "A blue reply bubble reads: 'Yes mate. Send me the details.'",
+        "evidence_type": "copy",
+        "location": "upper middle",
+        "confidence": "high"
+      },
+      {
+        "description": "A list of four text messages provides specific dates and band names: 'Fri 05/05 - Michaela Wylde', 'Fri 26/05 - The Swinnertones', 'Fri 02/06 - 40s Groove', and 'Sat 10/06 - Crimson Child'.",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The conversation concludes with the blue bubble 'All done mate' and the grey bubble 'I love you Dave xx'.",
+        "evidence_type": "copy",
+        "location": "bottom",
+        "confidence": "high"
+      },
+      {
+        "description": "The bottom of the screen shows an 'iMessage' input field and a 'Send' button.",
+        "evidence_type": "visual",
+        "location": "bottom",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad presents a realistic, behind-the-scenes look at the process of creating a poster for a local music venue.",
+        "evidence_indices": [
+          3,
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "storytelling",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a physical frame to display a digital screenshot creates a juxtaposition between the ephemeral nature of a text message and the permanence of a framed object, elevating the mundane to the status of an artifact.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The casual, friendly tone of the messages ('Yes mate', 'All done mate', 'I love you Dave xx') is used to build a sense of trust and approachability, suggesting the service is personal and reliable.",
+        "evidence_indices": [
+          4,
+          6
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "liking_and_association",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The specific band names and dates target a local audience interested in live music and community events.",
+        "evidence_indices": [
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A physical picture frame with a white inner mat and a dark outer border surrounds the image.",
+      "location": "perimeter",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The image displays a mobile phone interface with a status bar showing 'Orange 3G', the time '10:17 AM', and a battery level of '85%'.",
+      "location": "top",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The header of the messaging app reads 'Messages' with the contact name 'The Friars' and a 'Contact' button.",
+      "location": "top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The conversation begins with a grey bubble: 'Hi Dave, it's Tom. Can you do a poster for our Music Nights?'",
+      "location": "upper middle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "A blue reply bubble reads: 'Yes mate. Send me the details.'",
+      "location": "upper middle",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "A list of four text messages provides specific dates and band names: 'Fri 05/05 - Michaela Wylde', 'Fri 26/05 - The Swinnertones', 'Fri 02/06 - 40s Groove', and 'Sat 10/06 - Crimson Child'.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "copy",
+      "description": "The conversation concludes with the blue bubble 'All done mate' and the grey bubble 'I love you Dave xx'.",
+      "location": "bottom",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_008",
+      "evidence_type": "visual",
+      "description": "The bottom of the screen shows an 'iMessage' input field and a 'Send' button.",
+      "location": "bottom",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A framed iPhone screenshot of a text message conversation between a venue manager and a designer, detailing the booking of a 'Music Nights' poster.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad presents a realistic, behind-the-scenes look at the process of creating a poster for a local music venue.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "storytelling",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a physical frame to display a digital screenshot creates a juxtaposition between the ephemeral nature of a text message and the permanence of a framed object, elevating the mundane to the status of an artifact.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The casual, friendly tone of the messages ('Yes mate', 'All done mate', 'I love you Dave xx') is used to build a sense of trust and approachability, suggesting the service is personal and reliable.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_007",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "liking_and_association",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The specific band names and dates target a local audience interested in live music and community events.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

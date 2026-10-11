@@ -1,0 +1,347 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-anti-tick-mall-floor-d5a8abc8",
+    "media_type": "image",
+    "path": "cases/real-anti-tick-mall-floor-d5a8abc8/asset.png",
+    "sha256": "3629876b81a35e4d149d141bdf33429107924dacfe1e001c1f4905f4f59a5833"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:18:31.874Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-anti-tick-mall-floor-d5a8abc8",
+    "sha256": "3629876b81a35e4d149d141bdf33429107924dacfe1e001c1f4905f4f59a5833"
+  },
+  "raw_provider_output": {
+    "summary": "A humorous advertisement for Frontline flea and tick spray that uses a visual pun of a dog rolling on its back to 'shake off' the pests, positioning the product as an effective and easy solution.",
+    "observations": [
+      {
+        "description": "A large golden retriever is depicted lying on its back with its paws in the air, appearing to roll around playfully.",
+        "evidence_type": "visual",
+        "location": "Center of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "Numerous small black insects, identifiable as fleas or ticks, are scattered across the dog's fur and the surrounding white background.",
+        "evidence_type": "visual",
+        "location": "On the dog and background",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text reads 'Get them off your dog.'",
+        "evidence_type": "copy",
+        "location": "Right side of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand logo 'FRONTLINE' is displayed in blue, with the subtext 'FLEA & TICK SPRAY available at your VET.'",
+        "evidence_type": "brand_mark",
+        "location": "Below the headline",
+        "confidence": "high"
+      },
+      {
+        "description": "The advertisement is a large-scale billboard installed on the wall of a modern, multi-story building with glass railings and a polished floor.",
+        "evidence_type": "context",
+        "location": "Background and surroundings",
+        "confidence": "high"
+      },
+      {
+        "description": "A small Reddit logo is visible in the bottom right corner of the image.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom right corner",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad communicates that Frontline spray is the effective way to remove fleas and ticks from a pet.",
+        "evidence_indices": [
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The image employs a visual metaphor where the dog's playful rolling motion is recontextualized as a method for dislodging pests, creating a humorous link between the problem and the solution.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By using a happy, rolling dog rather than a distressed one, the ad uses humor to make the unpleasant topic of parasites more approachable and less anxiety-inducing for the viewer.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The copy 'available at your VET' leverages the authority of veterinary professionals to build trust in the product's efficacy and safety.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets pet owners who are concerned about their animal's health and comfort, using the dog's image to create an immediate emotional connection.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large golden retriever is depicted lying on its back with its paws in the air, appearing to roll around playfully.",
+      "location": "Center of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "Numerous small black insects, identifiable as fleas or ticks, are scattered across the dog's fur and the surrounding white background.",
+      "location": "On the dog and background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The headline text reads 'Get them off your dog.'",
+      "location": "Right side of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The brand logo 'FRONTLINE' is displayed in blue, with the subtext 'FLEA & TICK SPRAY available at your VET.'",
+      "location": "Below the headline",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The advertisement is a large-scale billboard installed on the wall of a modern, multi-story building with glass railings and a polished floor.",
+      "location": "Background and surroundings",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "A small Reddit logo is visible in the bottom right corner of the image.",
+      "location": "Bottom right corner",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A humorous advertisement for Frontline flea and tick spray that uses a visual pun of a dog rolling on its back to 'shake off' the pests, positioning the product as an effective and easy solution.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad communicates that Frontline spray is the effective way to remove fleas and ticks from a pet.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The image employs a visual metaphor where the dog's playful rolling motion is recontextualized as a method for dislodging pests, creating a humorous link between the problem and the solution.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By using a happy, rolling dog rather than a distressed one, the ad uses humor to make the unpleasant topic of parasites more approachable and less anxiety-inducing for the viewer.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "The copy 'available at your VET' leverages the authority of veterinary professionals to build trust in the product's efficacy and safety.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The ad targets pet owners who are concerned about their animal's health and comfort, using the dog's image to create an immediate emotional connection.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "empathy",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

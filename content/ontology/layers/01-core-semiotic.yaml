@@ -1,0 +1,432 @@
+metadata:
+  id: signum_domain_ontology.core_semiotic
+  version: 0.1.0
+  status: final_draft
+  project: Signum
+  title: Core Semiotic Layer
+  description: Foundational semiotic classes for describing how advertisements create meaning through
+    signs.
+  source_manifest: ../ontology.yaml
+layer:
+  id: core_semiotic
+  order: '01'
+  class_names:
+  - Signifier
+  - Signified
+  - ReferentSystem
+entity_classes:
+  Signifier:
+    description: 'A concrete, perceptible element within an advertisement: something the learner can point
+      to before interpreting it.'
+    properties:
+      id:
+        type: id
+        required: true
+      label:
+        type: string
+        required: true
+      visual_description:
+        type: text
+      bounding_box_pct:
+        type: object
+        properties:
+          x:
+            type: number
+          y:
+            type: number
+          w:
+            type: number
+          h:
+            type: number
+      prominence:
+        type: enum
+        values:
+        - dominant
+        - prominent
+        - subordinate
+        - background
+      auto_detected:
+        type: boolean
+        default: false
+      auto_detection_confidence:
+        type: number
+        minimum: 0.0
+        maximum: 1.0
+      fill_color:
+        type: string
+      subtype:
+        type: enum
+        values:
+        - PersonSignifier
+        - ObjectSignifier
+        - TextSignifier
+        - ColorSignifier
+        - CompositionSignifier
+        - TypographySignifier
+    subtypes:
+      PersonSignifier:
+        properties:
+          person_role:
+            type: enum
+            values:
+            - spokesperson_named
+            - spokesperson_unnamed
+            - character
+            - background_extra
+            - body_part_only
+          is_celebrity:
+            type: boolean
+          person_name:
+            type: string
+          gender_presentation:
+            type: enum
+            values:
+            - feminine
+            - masculine
+            - androgynous
+            - ambiguous
+            - not_applicable
+          age_presentation:
+            type: enum
+            values:
+            - infant
+            - child
+            - adolescent
+            - young_adult
+            - middle_aged
+            - elder
+            - ambiguous
+          gaze_direction:
+            type: enum
+            values:
+            - direct_to_camera
+            - at_product
+            - at_another_person_in_frame
+            - averted_down
+            - averted_up
+            - averted_side
+            - eyes_closed
+            - not_visible
+          facial_expression:
+            type: string
+          body_language:
+            type: string
+          skin_visibility:
+            type: enum
+            values:
+            - fully_clothed
+            - partial_exposure
+            - substantial_exposure
+            - not_applicable
+      ObjectSignifier:
+        properties:
+          object_role:
+            type: enum
+            values:
+            - the_product
+            - supporting_prop
+            - setting_element
+            - symbolic_object
+          product_narrative_role:
+            type: enum
+            values:
+            - hero_solution
+            - gift_mediator
+            - reward_deserved
+            - companion_lifestyle
+            - status_signal
+            - magic_object
+            - expert_authority
+            - key_unlock
+            - not_applicable
+          material_rendering:
+            type: string
+          is_in_use:
+            type: boolean
+          scale_relative_to_frame:
+            type: enum
+            values:
+            - fills_frame
+            - large
+            - medium
+            - small
+            - tiny
+          product_reference:
+            type: reference
+            range: Product
+      TextSignifier:
+        properties:
+          text_content:
+            type: string
+            required: true
+          text_role:
+            type: enum
+            values:
+            - headline
+            - subheadline
+            - body_copy
+            - tagline
+            - brand_name
+            - call_to_action
+            - testimonial
+            - statistic
+            - social_proof_text
+            - disclaimer
+            - pricing
+            - url
+          typographic_description:
+            type: string
+          language:
+            type: string
+      ColorSignifier:
+        properties:
+          color_role:
+            type: enum
+            values:
+            - dominant_palette
+            - accent
+            - background
+            - product_color
+            - text_color
+            - skin_tone
+          hex_values:
+            type: list
+            item_type: string
+          saturation_level:
+            type: enum
+            values:
+            - vivid
+            - muted
+            - desaturated
+            - monochrome
+          warmth:
+            type: enum
+            values:
+            - warm
+            - cool
+            - neutral
+      CompositionSignifier:
+        properties:
+          composition_type:
+            type: enum
+            values:
+            - gaze_direction_of_subject
+            - spatial_hierarchy
+            - camera_distance
+            - visual_weight_distribution
+            - rule_of_thirds_placement
+            - symmetry_or_asymmetry
+            - figure_ground_relationship
+            - leading_lines
+            - negative_space_usage
+            - framing_cropping
+          description:
+            type: text
+          layout_pattern:
+            type: enum
+            values:
+            - center_framed
+            - z_pattern
+            - f_pattern
+            - full_bleed
+            - split_screen
+            - rule_of_thirds
+            - diagonal
+            - radial
+            - grid_based
+            - freeform
+      TypographySignifier:
+        properties:
+          typeface_category:
+            type: enum
+            values:
+            - serif
+            - sans_serif
+            - script
+            - display_decorative
+            - hand_drawn
+            - monospace
+            - mixed
+          typography_role:
+            type: enum
+            values:
+            - elegance_signifier
+            - authority_signifier
+            - modernity_signifier
+            - tradition_signifier
+            - playfulness_signifier
+            - urgency_signifier
+  Signified:
+    description: The mental concept, quality, emotion, social position, or value evoked by a signifier.
+    properties:
+      id:
+        type: id
+        required: true
+      concept_name:
+        type: string
+        required: true
+      definition:
+        type: text
+      subtype:
+        type: enum
+        values:
+        - Quality
+        - Emotion
+        - SocialPosition
+        - Value
+      is_universal_claim:
+        type: boolean
+      source_references:
+        type: list
+        item_type: SourceReference
+    subtypes:
+      Quality:
+        examples:
+        - elegance
+        - sophistication
+        - purity
+        - strength
+        - youth
+        - luxury
+      Emotion:
+        examples:
+        - desire
+        - nostalgia
+        - confidence
+        - security
+        - aspiration
+        - belonging
+      SocialPosition:
+        examples:
+        - wealth
+        - status
+        - distinction
+        - expertise
+        - exclusivity
+      Value:
+        examples:
+        - freedom
+        - tradition
+        - progress
+        - nature
+        - authenticity
+        - success
+  ReferentSystem:
+    description: An external cultural knowledge structure that a signifier draws upon for meaning.
+    properties:
+      id:
+        type: id
+        required: true
+      name:
+        type: string
+        required: true
+      description:
+        type: text
+      cultural_specificity:
+        type: enum
+        values:
+        - universal_claim
+        - western_european
+        - north_american
+        - east_asian
+        - south_asian
+        - middle_eastern
+        - african
+        - latin_american
+        - global_consumer_culture
+        - subcultural
+      subtype:
+        type: enum
+        values:
+        - Nature
+        - Science
+        - CulturalHeritage
+        - CelebrityCulture
+        - TraditionCraft
+        - TheFuture
+        - TheExotic
+        - LuxuryWealth
+        - EverydayLife
+    subtypes:
+      Nature:
+        variants:
+        - untamed_wilderness
+        - domesticated_garden
+        - pastoral_ideal
+        - sublime_landscape
+        - natural_materials
+        - seasons_and_cycles
+      Science:
+        variants:
+        - laboratory_authority
+        - data_driven_truth
+        - technological_progress
+        - medical_expertise
+        - clinical_purity
+      CulturalHeritage:
+        variants:
+        - classical_antiquity
+        - renaissance_art
+        - national_identity
+        - artistic_avant_garde
+        - parisian_elegance
+        - american_frontier
+      CelebrityCulture:
+        variants:
+        - hollywood_glamour
+        - athletic_excellence
+        - artistic_genius
+        - digital_influence
+        - aristocratic_lineage
+      TraditionCraft:
+        variants:
+        - artisanal_production
+        - family_heritage
+        - old_world_craft
+        - generational_wisdom
+        - handmade_authenticity
+      TheFuture:
+        variants:
+        - technological_utopia
+        - space_age
+        - digital_revolution
+        - tomorrows_world
+        - sleek_minimalism
+      TheExotic:
+        variants:
+        - tropical_paradise
+        - oriental_mystery
+        - african_safari
+        - south_pacific_idyll
+        - ancient_wisdom
+      LuxuryWealth:
+        variants:
+        - old_money
+        - nouveau_riche
+        - minimalist_wealth
+        - aspirational_luxury
+        - aristocratic_elegance
+      EverydayLife:
+        variants:
+        - domestic_bliss
+        - family_togetherness
+        - relatable_moments
+        - slice_of_life
+        - casual_authenticity
+relationships:
+  contains_signifier:
+    domain: Advertisement
+    range: Signifier
+    description: An ad contains a visible signifier.
+  evokes_signified:
+    domain: Signifier
+    range: Signified
+    description: A signifier evokes a signified concept.
+  draws_on_referent_system:
+    domain: Signifier
+    range: ReferentSystem
+    description: A signifier borrows meaning from a cultural referent system.
+  frames_referent_system:
+    domain: SocialConcept
+    range: ReferentSystem
+    description: A curated social concept helps name the broader cultural system an ad draws upon.

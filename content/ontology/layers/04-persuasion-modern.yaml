@@ -1,0 +1,81 @@
+metadata:
+  id: signum_domain_ontology.persuasion_modern
+  version: 0.1.0
+  status: final_draft
+  project: Signum
+  title: Modern Persuasion Layer
+  description: Classes connecting semiotic and ideological analysis to contemporary persuasion, CRO, and
+    behavioral design vocabulary.
+  source_manifest: ../ontology.yaml
+layer:
+  id: persuasion_modern
+  order: '04'
+  class_names:
+  - PersuasionTechnique
+  - ModernBridge
+entity_classes:
+  PersuasionTechnique:
+    description: A named contemporary persuasion mechanism used in digital marketing, CRO, and behavioral
+      design.
+    properties:
+      id:
+        type: id
+        required: true
+      name:
+        type: string
+        required: true
+      definition:
+        type: text
+        required: true
+      subtype:
+        type: enum
+        values:
+        - SocialProof
+        - Scarcity
+        - Authority
+        - Reciprocity
+        - LikingAssociation
+        - CommitmentConsistency
+        - OutcomeVisualization
+        - CuriosityGap
+      modern_examples:
+        type: list
+        item_type: string
+      source_references:
+        type: list
+        item_type: SourceReference
+    subtypes:
+      SocialProof: {}
+      Scarcity: {}
+      Authority: {}
+      Reciprocity: {}
+      LikingAssociation: {}
+      CommitmentConsistency: {}
+      OutcomeVisualization: {}
+      CuriosityGap: {}
+  ModernBridge:
+    description: A mapping between historical semiotic/ideological analysis and contemporary digital persuasion
+      practice.
+    properties:
+      id:
+        type: id
+        required: true
+      from_concept_id:
+        type: reference
+        range: GlossaryEntry
+      to_persuasion_technique_id:
+        type: reference
+        range: PersuasionTechnique
+      explanation:
+        type: text
+        required: true
+relationships:
+  bridges_to_technique:
+    domain: Ideology
+    range: PersuasionTechnique
+    description: A historical ideology appears as a modern persuasion technique.
+  modern_bridge_reuses_social_concept:
+    domain: ModernBridge
+    range: SocialConcept
+    description: A modern bridge can reuse a curated social concept when connecting older readings to
+      newer persuasion.

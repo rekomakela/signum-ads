@@ -1,0 +1,315 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-samsung-vs-apple-e1023a2b",
+    "media_type": "image",
+    "path": "cases/real-samsung-vs-apple-e1023a2b/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:52:06.618Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-samsung-vs-apple-e1023a2b",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "Samsung positions itself as a pioneer in 8K video technology, directly challenging Apple by highlighting its long-standing commitment to the format.",
+    "observations": [
+      {
+        "description": "The Samsung logo is prominently displayed in the top left corner of the billboard.",
+        "evidence_type": "brand_mark",
+        "location": "top left",
+        "confidence": "high"
+      },
+      {
+        "description": "A close-up, angled shot of a smartphone's rear camera module, featuring multiple lenses, is shown on the left side.",
+        "evidence_type": "visual",
+        "location": "left side",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text reads: 'Welcome to the party, Apple.'",
+        "evidence_type": "copy",
+        "location": "center right",
+        "confidence": "high"
+      },
+      {
+        "description": "Sub-headline text reads: 'We've been filming in 8K for'.",
+        "evidence_type": "copy",
+        "location": "center right, below headline",
+        "confidence": "high"
+      },
+      {
+        "description": "A digital-style counter displays the numbers '2 6 4 28 51' with labels 'YEARS', 'MONTHS', 'DAYS', 'MINUTES', 'SECONDS'.",
+        "evidence_type": "visual",
+        "location": "center right, below sub-headline",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard is mounted on a large metal structure against an overcast sky.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Samsung is asserting its technological lead over Apple in 8K video capabilities, framing Apple's entry into the market as a late arrival.",
+        "evidence_indices": [
+          2,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of a live counter creates a sense of urgency and tangible proof of Samsung's long-term investment in 8K technology, making the claim feel objective and verifiable.",
+        "evidence_indices": [
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The phrase 'Welcome to the party' is a metaphor that frames the 8K video market as an exclusive social event, positioning Samsung as the host and Apple as the new, perhaps unwelcome, guest.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets tech-savvy consumers who are aware of the rivalry between Samsung and Apple and value cutting-edge camera features, using the competitor's name to capture their attention.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "The Samsung logo is prominently displayed in the top left corner of the billboard.",
+      "location": "top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A close-up, angled shot of a smartphone's rear camera module, featuring multiple lenses, is shown on the left side.",
+      "location": "left side",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The headline text reads: 'Welcome to the party, Apple.'",
+      "location": "center right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "Sub-headline text reads: 'We've been filming in 8K for'.",
+      "location": "center right, below headline",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A digital-style counter displays the numbers '2 6 4 28 51' with labels 'YEARS', 'MONTHS', 'DAYS', 'MINUTES', 'SECONDS'.",
+      "location": "center right, below sub-headline",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "The billboard is mounted on a large metal structure against an overcast sky.",
+      "location": "background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "Samsung positions itself as a pioneer in 8K video technology, directly challenging Apple by highlighting its long-standing commitment to the format.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Samsung is asserting its technological lead over Apple in 8K video capabilities, framing Apple's entry into the market as a late arrival.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The use of a live counter creates a sense of urgency and tangible proof of Samsung's long-term investment in 8K technology, making the claim feel objective and verifiable.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The phrase 'Welcome to the party' is a metaphor that frames the 8K video market as an exclusive social event, positioning Samsung as the host and Apple as the new, perhaps unwelcome, guest.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets tech-savvy consumers who are aware of the rivalry between Samsung and Apple and value cutting-edge camera features, using the competitor's name to capture their attention.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,1388 @@
+metadata:
+  version: 0.1.0
+  status: curated_draft
+  project: Signum
+  source_bank: content/concepts/social_concepts.wikipedia.yaml
+  entry_count: 55
+  notes: Curated Signum social-concept shortlist for ad reading. These concepts are
+    learner-facing only after runtime and glossary promotion.
+entries:
+- id: culture
+  label: Culture
+  slug: culture
+  concept_type: sociology
+  subtype: CulturalCode
+  broader: []
+  related:
+  - cultural_code
+  - dominant_culture
+  - cultural_identity
+  signum_roles:
+  - orientation_anchor
+  - comparison_lens
+  source_bank_ref: culture
+  curation_status: curated
+  learner_rationale: Keeps the learner from treating ad meanings as natural facts.
+    Culture names the shared background that makes the ad legible.
+  glossary_refs: []
+  match_terms:
+  - culture
+  - cultural meaning
+- id: identity_social_science
+  label: Identity
+  slug: identity-social-science
+  concept_type: sociology
+  subtype: IdentityCategory
+  broader: []
+  related:
+  - cultural_identity
+  - master_status
+  - social_identity_threat
+  signum_roles:
+  - orientation_anchor
+  - interpretation_anchor
+  source_bank_ref: identity-social-science
+  curation_status: curated
+  learner_rationale: Useful when the ad is not only selling an object but also offering
+    a version of who the viewer should be.
+  glossary_refs: []
+  match_terms:
+  - identity role
+  - self-image
+  - who you are
+  - who you could be
+- id: power_social_and_political
+  label: Power
+  slug: power-social-and-political
+  concept_type: sociology
+  subtype: PowerRelation
+  broader: []
+  related:
+  - authority
+  - power_distance
+  - cultural_hegemony
+  signum_roles:
+  - orientation_anchor
+  - counter_reading_prompt
+  source_bank_ref: power-social-and-political
+  curation_status: curated
+  learner_rationale: Gives the learner a way to ask who gets to define normality,
+    value, expertise, and desirability in the ad.
+  glossary_refs: []
+  match_terms:
+  - power relations
+  - power dynamics
+  - unequal power
+  - control over
+  - dominance
+- id: social_constructionism
+  label: Social constructionism
+  slug: social-constructionism
+  concept_type: sociology
+  subtype: CulturalCode
+  broader:
+  - culture
+  related:
+  - social_norm
+  - doing_gender
+  - cultural_code
+  signum_roles:
+  - orientation_anchor
+  - counter_reading_prompt
+  source_bank_ref: social-constructionism
+  curation_status: curated
+  learner_rationale: Reminds the learner that ad meanings are made inside shared social
+    systems, not discovered straight from the image.
+  glossary_refs: []
+  match_terms:
+  - social construction
+  - social construction of
+  - socially made
+  - made by society
+  - treated as natural
+- id: authority
+  label: Authority
+  slug: authority
+  concept_type: sociology
+  subtype: SocialRole
+  broader:
+  - power_social_and_political
+  related:
+  - rational_legal_authority
+  - social_norm
+  - cultural_hegemony
+  signum_roles:
+  - interpretation_anchor
+  - comparison_lens
+  source_bank_ref: authority
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful for ads that borrow legitimacy from experts, institutions,
+    prestige figures, or inherited status.
+  glossary_refs:
+  - authority_social_concept
+  - authority_persuasion
+  - scientific_authority
+  match_terms:
+  - authority
+  - expert
+  - expertise
+  - official
+  - legitimate
+  - trusted
+- id: cultural_code
+  label: Cultural code
+  slug: cultural-code
+  concept_type: sociology
+  subtype: CulturalCode
+  broader:
+  - culture
+  related:
+  - cultural_capital
+  - cultural_identity
+  - social_norm
+  signum_roles:
+  - glossary_candidate
+  - interpretation_anchor
+  - comparison_lens
+  source_bank_ref: cultural-code
+  curation_status: promoted_to_glossary
+  learner_rationale: Lets the learner name the shared meanings an ad assumes before
+    a single sentence is explained.
+  glossary_refs:
+  - cultural_code
+  - referent_system
+  match_terms:
+  - code
+  - shared meaning
+  - symbolic cue
+  - cultural cue
+- id: cultural_capital
+  label: Cultural capital
+  slug: cultural-capital
+  concept_type: sociology
+  subtype: ValueIdeal
+  broader:
+  - culture
+  related:
+  - luxury_belief
+  - class_consciousness
+  - lifestyle
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: cultural-capital
+  curation_status: promoted_to_glossary
+  learner_rationale: Helpful when the ad is selling taste, refinement, or educated
+    distinction as much as the product itself.
+  glossary_refs:
+  - cultural_capital
+  - luxury_wealth_referent_system
+  - product_as_status_signal
+  match_terms:
+  - taste
+  - refinement
+  - distinction
+  - good taste
+  - cultured
+- id: cultural_identity
+  label: Cultural identity
+  slug: cultural-identity
+  concept_type: sociology
+  subtype: IdentityCategory
+  broader:
+  - identity_social_science
+  - culture
+  related:
+  - dominant_culture
+  - cultural_appropriation
+  - techno_orientalism
+  signum_roles:
+  - glossary_candidate
+  - representation_check
+  source_bank_ref: cultural-identity
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad borrows belonging, heritage, ethnicity, or
+    national style as a source of meaning.
+  glossary_refs:
+  - cultural_identity
+  - cultural_heritage_referent_system
+  match_terms:
+  - heritage
+  - belonging
+  - identity
+  - national style
+  - tradition
+- id: dominant_culture
+  label: Dominant culture
+  slug: dominant-culture
+  concept_type: sociology
+  subtype: CulturalCode
+  broader:
+  - culture
+  - power_social_and_political
+  related:
+  - cultural_hegemony
+  - social_norm
+  - average_joe
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: dominant-culture
+  curation_status: promoted_to_glossary
+  learner_rationale: Helps the learner see whose way of life is treated as normal,
+    central, and unmarked in the ad.
+  glossary_refs:
+  - dominant_culture
+  - subject_position
+  match_terms:
+  - normal
+  - ordinary
+  - mainstream
+  - respectable
+  - default
+- id: cultural_appropriation
+  label: Cultural appropriation
+  slug: cultural-appropriation
+  concept_type: media_literacy
+  subtype: PowerRelation
+  broader:
+  - culture
+  - power_social_and_political
+  related:
+  - cultural_identity
+  - cultural_imperialism
+  - dominant_culture
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  - representation_check
+  source_bank_ref: cultural-appropriation
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when an ad borrows a culture’s symbols without keeping
+    the history, people, or power relations attached to them.
+  glossary_refs:
+  - cultural_appropriation
+  - exotic_referent_system
+  match_terms:
+  - borrowed culture
+  - exotic style
+  - tribal
+  - foreign motif
+- id: cultural_imperialism
+  label: Cultural imperialism
+  slug: cultural-imperialism
+  concept_type: sociology
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  - culture
+  related:
+  - dominant_culture
+  - techno_orientalism
+  - cultural_hegemony
+  signum_roles:
+  - counter_reading_prompt
+  - comparison_lens
+  source_bank_ref: cultural-imperialism
+  curation_status: curated
+  learner_rationale: Useful when the ad presents one cultural worldview as aspirational
+    and pushes other ways of living to the margins.
+  glossary_refs: []
+  match_terms:
+  - civilized
+  - modern world
+  - global standard
+  - western
+- id: cultural_reproduction
+  label: Cultural reproduction
+  slug: cultural-reproduction
+  concept_type: sociology
+  subtype: CulturalCode
+  broader:
+  - culture
+  related:
+  - cultural_capital
+  - social_norm
+  - dominant_culture
+  signum_roles:
+  - comparison_lens
+  - counter_reading_prompt
+  source_bank_ref: cultural-reproduction
+  curation_status: curated
+  learner_rationale: Helps explain how repeated ad imagery keeps familiar hierarchies
+    and taste rules in circulation.
+  glossary_refs: []
+  match_terms:
+  - tradition
+  - proper way
+  - good breeding
+  - kept in place
+- id: techno_orientalism
+  label: Techno-Orientalism
+  slug: techno-orientalism
+  concept_type: media_literacy
+  subtype: CulturalCode
+  broader:
+  - culture
+  - power_social_and_political
+  related:
+  - cultural_appropriation
+  - cultural_identity
+  - context_collapse
+  signum_roles:
+  - glossary_candidate
+  - representation_check
+  source_bank_ref: techno-orientalism
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when futuristic style borrows Asian-coded aesthetics while
+    flattening real cultures into design shorthand.
+  glossary_refs:
+  - techno_orientalism
+  - the_future_referent
+  match_terms:
+  - futuristic asia
+  - neon orient
+  - tech oriental
+  - exotic future
+- id: context_collapse
+  label: Context collapse
+  slug: context-collapse
+  concept_type: media_literacy
+  subtype: CulturalCode
+  broader:
+  - culture
+  related:
+  - mediatization_media
+  - lifestyle
+  - social_identity_threat
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: context-collapse
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when an ad compresses many social contexts into one clean
+    lifestyle image and hides the conflicts between them.
+  glossary_refs:
+  - context_collapse
+  match_terms:
+  - flattened context
+  - many audiences
+  - polished lifestyle
+  - one message for everyone
+- id: media_ritual
+  label: Media ritual
+  slug: media-ritual
+  concept_type: media_literacy
+  subtype: CulturalCode
+  broader:
+  - culture
+  related:
+  - social_norm
+  - lifestyle
+  - family_values
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: media-ritual
+  curation_status: promoted_to_glossary
+  learner_rationale: Helps the learner notice repeated scenes that teach the right
+    way to celebrate, care, relax, clean, or desire.
+  glossary_refs:
+  - media_ritual
+  - everyday_life_referent_system
+  match_terms:
+  - ritual
+  - routine
+  - ceremony
+  - daily ritual
+  - family scene
+- id: mediatization_media
+  label: Mediatization
+  slug: mediatization-media
+  concept_type: media_literacy
+  subtype: CulturalCode
+  broader:
+  - culture
+  related:
+  - media_ritual
+  - context_collapse
+  - lifestyle
+  signum_roles:
+  - comparison_lens
+  source_bank_ref: mediatization-media
+  curation_status: curated
+  learner_rationale: Useful for noticing how media formats reshape everyday life into
+    scenes ready for circulation, branding, and imitation.
+  glossary_refs: []
+  match_terms:
+  - staged for media
+  - shareable
+  - camera-ready
+  - image-first
+- id: lifestyle
+  label: Lifestyle
+  slug: lifestyle
+  concept_type: sociology
+  subtype: CulturalCode
+  broader:
+  - culture
+  - identity_social_science
+  related:
+  - average_joe
+  - family_values
+  - luxury_belief
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: lifestyle
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the product is attached to a whole way of living
+    rather than a single practical function.
+  glossary_refs:
+  - lifestyle
+  match_terms:
+  - way of life
+  - lifestyle
+  - daily life
+  - aspirational life
+  - routine
+- id: luxury_belief
+  label: Luxury belief
+  slug: luxury-belief
+  concept_type: sociology
+  subtype: ValueIdeal
+  broader:
+  - culture
+  related:
+  - cultural_capital
+  - class_consciousness
+  - master_status
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: luxury-belief
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad sells a belief, style, or moral posture that
+    signals elite distinction as much as material wealth.
+  glossary_refs:
+  - luxury_belief
+  - luxury_wealth_referent_system
+  - product_as_status_signal
+  match_terms:
+  - luxury
+  - exclusive
+  - taste
+  - refined
+  - elite
+- id: greenwashing
+  label: Greenwashing
+  slug: greenwashing
+  concept_type: media_literacy
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - sustainable_consumption
+  - natural_capital
+  - environmental_justice
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: greenwashing
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when an ad uses ecological language or imagery faster
+    than it provides evidence for real environmental care.
+  glossary_refs:
+  - greenwashing
+  - nature_referent_system
+  - scientific_authority
+  match_terms:
+  - green
+  - eco
+  - sustainable
+  - planet
+  - natural
+  - clean
+- id: woke_capitalism
+  label: Woke capitalism
+  slug: woke-capitalism
+  concept_type: media_literacy
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - greenwashing
+  - cultural_hegemony
+  - social_privilege
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: woke-capitalism
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when a brand adopts justice language as market style without
+    changing the commercial logic underneath it.
+  glossary_refs:
+  - woke_capitalism
+  match_terms:
+  - empowerment
+  - purpose-driven
+  - inclusive brand
+  - activist brand
+  - justice language
+- id: average_joe
+  label: Average Joe
+  slug: average-joe
+  concept_type: sociology
+  subtype: SocialRole
+  broader:
+  - identity_social_science
+  related:
+  - dominant_culture
+  - family_values
+  - social_norm
+  signum_roles:
+  - glossary_candidate
+  - subject_position_check
+  source_bank_ref: average-joe
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad builds trust by presenting an ordinary, familiar,
+    non-exceptional person as the model viewer.
+  glossary_refs:
+  - average_joe
+  - subject_position
+  match_terms:
+  - ordinary person
+  - everyday person
+  - normal family
+  - regular guy
+  - regular person
+- id: family_values
+  label: Family values
+  slug: family-values
+  concept_type: sociology
+  subtype: ValueIdeal
+  broader:
+  - culture
+  related:
+  - media_ritual
+  - social_norm
+  - doing_gender
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: family-values
+  curation_status: curated
+  learner_rationale: Useful when the ad treats the family as the moral proof that
+    a product, lifestyle, or social order is good.
+  glossary_refs: []
+  match_terms:
+  - family
+  - home
+  - parents
+  - children
+  - domestic
+- id: gender
+  label: Gender
+  slug: gender
+  concept_type: sociology
+  subtype: IdentityCategory
+  broader:
+  - identity_social_science
+  related:
+  - doing_gender
+  - heteronormativity
+  - gender_schema_theory
+  signum_roles:
+  - orientation_anchor
+  - representation_check
+  source_bank_ref: gender
+  curation_status: curated
+  learner_rationale: Useful when the ad sorts behavior, beauty, authority, labor,
+    or desire through gendered expectations.
+  glossary_refs: []
+  match_terms:
+  - gendered expectation
+  - gender role
+  - masculine cue
+  - feminine cue
+  - masculine presentation
+  - feminine presentation
+- id: doing_gender
+  label: Doing gender
+  slug: doing-gender
+  concept_type: sociology
+  subtype: IdentityCategory
+  broader:
+  - gender
+  - social_constructionism
+  related:
+  - social_norm
+  - heteronormativity
+  - average_joe
+  signum_roles:
+  - glossary_candidate
+  - representation_check
+  source_bank_ref: doing-gender
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad shows gender as a performance of posture,
+    grooming, labor, desire, or authority rather than a neutral fact.
+  glossary_refs:
+  - doing_gender
+  - gendered_essentialism
+  match_terms:
+  - masculine role
+  - feminine role
+  - proper woman
+  - proper man
+  - gender performance
+- id: heteronormativity
+  label: Heteronormativity
+  slug: heteronormativity
+  concept_type: media_literacy
+  subtype: IdentityCategory
+  broader:
+  - gender
+  related:
+  - doing_gender
+  - family_values
+  - social_norm
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: heteronormativity
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad treats heterosexual couplehood, romance, or
+    family life as the default social script.
+  glossary_refs:
+  - heteronormativity
+  match_terms:
+  - husband and wife
+  - boy meets girl
+  - ideal couple
+  - normal family
+- id: toxic_masculinity
+  label: Toxic masculinity
+  slug: toxic-masculinity
+  concept_type: media_literacy
+  subtype: IdentityCategory
+  broader:
+  - gender
+  related:
+  - fragile_masculinity
+  - power_distance
+  - authority
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: toxic-masculinity
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when masculinity is tied to domination, emotional hardness,
+    risk, entitlement, or control.
+  glossary_refs:
+  - toxic_masculinity
+  match_terms:
+  - toughness
+  - hard man
+  - dominating male
+  - control
+  - aggressive masculinity
+- id: fragile_masculinity
+  label: Fragile masculinity
+  slug: fragile-masculinity
+  concept_type: media_literacy
+  subtype: IdentityCategory
+  broader:
+  - gender
+  related:
+  - toxic_masculinity
+  - social_identity_threat
+  - doing_gender
+  signum_roles:
+  - representation_check
+  - counter_reading_prompt
+  source_bank_ref: fragile-masculinity
+  curation_status: curated
+  learner_rationale: Useful when masculinity appears as something that must constantly
+    be defended, repaired, or publicly proven.
+  glossary_refs: []
+  match_terms:
+  - prove manhood
+  - not weak
+  - real man
+  - defend status
+- id: master_status
+  label: Master status
+  slug: master-status
+  concept_type: sociology
+  subtype: IdentityCategory
+  broader:
+  - identity_social_science
+  related:
+  - achieved_status
+  - ascribed_status
+  - social_identity_threat
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: master-status
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when one visible trait, role, or class marker is made
+    to explain the whole person in the ad.
+  glossary_refs:
+  - master_status
+  - subject_position
+  match_terms:
+  - status marker
+  - defines the person
+  - whole identity
+  - social rank
+- id: social_identity_threat
+  label: Social identity threat
+  slug: social-identity-threat
+  concept_type: behavioral_science
+  subtype: IdentityCategory
+  broader:
+  - identity_social_science
+  related:
+  - master_status
+  - solo_status
+  - social_salience
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: social-identity-threat
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad quietly suggests that the viewer risks exclusion,
+    embarrassment, or not measuring up.
+  glossary_refs:
+  - social_identity_threat
+  - scarcity
+  match_terms:
+  - not enough
+  - left behind
+  - fit in
+  - measure up
+  - social risk
+- id: social_norm
+  label: Social norm
+  slug: social-norm
+  concept_type: sociology
+  subtype: SocialRole
+  broader:
+  - social_constructionism
+  related:
+  - dominant_culture
+  - media_ritual
+  - doing_gender
+  signum_roles:
+  - glossary_candidate
+  - interpretation_anchor
+  source_bank_ref: social-norm
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad is teaching what counts as proper, desirable,
+    respectable, or expected behavior.
+  glossary_refs:
+  - social_norm
+  - ideology
+  match_terms:
+  - normal
+  - proper
+  - respectable
+  - expected
+  - the right way
+- id: achieved_status
+  label: Achieved status
+  slug: achieved-status
+  concept_type: sociology
+  subtype: SocialRole
+  broader:
+  - identity_social_science
+  related:
+  - ascribed_status
+  - master_status
+  - class_consciousness
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: achieved-status
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad links worth to earned success, discipline,
+    self-making, or visible accomplishment.
+  glossary_refs:
+  - achieved_status
+  - success_through_consumption
+  match_terms:
+  - earned
+  - worked for
+  - success
+  - achievement
+  - deserved
+- id: ascribed_status
+  label: Ascribed status
+  slug: ascribed-status
+  concept_type: sociology
+  subtype: SocialRole
+  broader:
+  - identity_social_science
+  related:
+  - achieved_status
+  - master_status
+  - social_privilege
+  signum_roles:
+  - glossary_candidate
+  - comparison_lens
+  source_bank_ref: ascribed-status
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad makes inherited class, race, gender, age,
+    or pedigree feel like natural authority.
+  glossary_refs:
+  - ascribed_status
+  - subject_position
+  match_terms:
+  - born to
+  - pedigree
+  - lineage
+  - breeding
+  - natural superiority
+- id: solo_status
+  label: Solo status
+  slug: solo-status
+  concept_type: behavioral_science
+  subtype: IdentityCategory
+  broader:
+  - identity_social_science
+  related:
+  - social_identity_threat
+  - social_salience
+  - in_group_and_out_group
+  signum_roles:
+  - representation_check
+  source_bank_ref: solo-status
+  curation_status: curated
+  learner_rationale: Useful when one person is presented as the only representative
+    of a group and carries the burden of standing for it.
+  glossary_refs: []
+  match_terms:
+  - only one
+  - token figure
+  - single representative
+- id: norm_entrepreneur
+  label: Norm entrepreneur
+  slug: norm-entrepreneur
+  concept_type: sociology
+  subtype: SocialRole
+  broader:
+  - social_norm
+  related:
+  - authority
+  - cultural_hegemony
+  - social_constructionism
+  signum_roles:
+  - comparison_lens
+  source_bank_ref: norm-entrepreneur
+  curation_status: curated
+  learner_rationale: Useful when a brand positions itself as the actor that defines
+    better taste, better behavior, or better politics for others.
+  glossary_refs: []
+  match_terms:
+  - sets the standard
+  - teaches better
+  - defines what is right
+- id: class_consciousness
+  label: Class consciousness
+  slug: class-consciousness
+  concept_type: sociology
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - cultural_capital
+  - luxury_belief
+  - master_status
+  signum_roles:
+  - comparison_lens
+  - counter_reading_prompt
+  source_bank_ref: class-consciousness
+  curation_status: curated
+  learner_rationale: Useful when the ad invites the viewer to read class position,
+    aspiration, or resentment through products and settings.
+  glossary_refs: []
+  match_terms:
+  - class
+  - elite
+  - working class
+  - upward mobility
+  - status
+- id: habitus_sociology
+  label: Habitus
+  slug: habitus-sociology
+  concept_type: sociology
+  subtype: CulturalCode
+  broader:
+  - culture
+  related:
+  - cultural_capital
+  - lifestyle
+  - social_norm
+  signum_roles:
+  - comparison_lens
+  source_bank_ref: habitus-sociology
+  curation_status: curated
+  learner_rationale: Useful when the ad makes taste, posture, confidence, or ease
+    look natural even though they are socially learned.
+  glossary_refs: []
+  match_terms:
+  - effortless taste
+  - natural ease
+  - good breeding
+  - easy confidence
+- id: in_group_and_out_group
+  label: In-group and out-group
+  slug: in-group-and-out-group
+  concept_type: behavioral_science
+  subtype: PowerRelation
+  broader:
+  - identity_social_science
+  related:
+  - social_salience
+  - social_identity_threat
+  - social_privilege
+  signum_roles:
+  - counter_reading_prompt
+  - audience_check
+  source_bank_ref: in-group-and-out-group
+  curation_status: curated
+  learner_rationale: Useful when the ad makes belonging feel safe and flattering while
+    pushing other groups outside the frame.
+  glossary_refs: []
+  match_terms:
+  - us and them
+  - belonging
+  - outsider
+  - our kind
+- id: social_salience
+  label: Social salience
+  slug: social-salience
+  concept_type: behavioral_science
+  subtype: IdentityCategory
+  broader:
+  - identity_social_science
+  related:
+  - solo_status
+  - social_identity_threat
+  - master_status
+  signum_roles:
+  - audience_check
+  source_bank_ref: social-salience
+  curation_status: curated
+  learner_rationale: Useful when one identity cue becomes especially noticeable because
+    the ad turns it into the main social signal.
+  glossary_refs: []
+  match_terms:
+  - stands out
+  - marked identity
+  - visibly different
+- id: gender_schema_theory
+  label: Gender schema theory
+  slug: gender-schema-theory
+  concept_type: behavioral_science
+  subtype: IdentityCategory
+  broader:
+  - gender
+  related:
+  - doing_gender
+  - social_norm
+  - heteronormativity
+  signum_roles:
+  - glossary_candidate
+  - representation_check
+  source_bank_ref: gender-schema-theory
+  curation_status: curated
+  learner_rationale: Useful when the ad relies on already familiar mental templates
+    for what men, women, boys, or girls are supposed to be like.
+  glossary_refs: []
+  match_terms:
+  - gendered expectation
+  - masculine cue
+  - feminine cue
+  - gender template
+- id: power_distance
+  label: Power distance
+  slug: power-distance
+  concept_type: sociology
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - authority
+  - social_privilege
+  - cultural_hegemony
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: power-distance
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when hierarchy, command, deference, or unequal authority
+    is staged as desirable or ordinary.
+  glossary_refs:
+  - power_distance
+  - authority_social_concept
+  match_terms:
+  - hierarchy
+  - deference
+  - command
+  - higher status
+  - obedience
+- id: cultural_hegemony
+  label: Cultural hegemony
+  slug: cultural-hegemony
+  concept_type: sociology
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  - culture
+  related:
+  - dominant_culture
+  - social_norm
+  - woke_capitalism
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: cultural-hegemony
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad turns one group’s worldview into common sense
+    and hides the labor of making it dominant.
+  glossary_refs:
+  - cultural_hegemony
+  - ideology
+  match_terms:
+  - common sense
+  - natural order
+  - obvious lifestyle
+  - dominant worldview
+- id: social_privilege
+  label: Social privilege
+  slug: social-privilege
+  concept_type: sociology
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - white_privilege
+  - ascribed_status
+  - dominant_culture
+  signum_roles:
+  - glossary_candidate
+  - counter_reading_prompt
+  source_bank_ref: social-privilege
+  curation_status: promoted_to_glossary
+  learner_rationale: Useful when the ad treats some kinds of ease, safety, visibility,
+    or authority as if everyone naturally has them.
+  glossary_refs:
+  - social_privilege
+  match_terms:
+  - ease
+  - assumed right
+  - taken for granted
+  - deserved comfort
+- id: white_privilege
+  label: White privilege
+  slug: white-privilege
+  concept_type: media_literacy
+  subtype: PowerRelation
+  broader:
+  - social_privilege
+  related:
+  - dominant_culture
+  - cultural_hegemony
+  - average_joe
+  signum_roles:
+  - representation_check
+  - counter_reading_prompt
+  source_bank_ref: white-privilege
+  curation_status: curated
+  learner_rationale: Useful when whiteness disappears into the background and gets
+    treated as the default look of safety, beauty, or authority.
+  glossary_refs: []
+  match_terms:
+  - default whiteness
+  - unmarked norm
+  - white respectability
+- id: internalized_oppression
+  label: Internalized oppression
+  slug: internalized-oppression
+  concept_type: sociology
+  subtype: PowerRelation
+  broader:
+  - oppression
+  related:
+  - social_identity_threat
+  - dehumanization
+  - social_norm
+  signum_roles:
+  - counter_reading_prompt
+  source_bank_ref: internalized-oppression
+  curation_status: curated
+  learner_rationale: Useful when the ad encourages viewers to judge themselves through
+    the same hierarchy that limits them.
+  glossary_refs: []
+  match_terms:
+  - self-correction
+  - not enough
+  - fix yourself
+  - shame
+- id: oppression
+  label: Oppression
+  slug: oppression
+  concept_type: sociology
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - dehumanization
+  - social_privilege
+  - internalized_oppression
+  signum_roles:
+  - counter_reading_prompt
+  source_bank_ref: oppression
+  curation_status: curated
+  learner_rationale: Useful when the ad depends on or beautifies a hierarchy that
+    systematically limits some groups more than others.
+  glossary_refs: []
+  match_terms:
+  - subordinate
+  - inferior
+  - control others
+  - dominated
+- id: dehumanization
+  label: Dehumanization
+  slug: dehumanization
+  concept_type: media_literacy
+  subtype: PowerRelation
+  broader:
+  - oppression
+  related:
+  - oppression
+  - techno_orientalism
+  - internalized_oppression
+  signum_roles:
+  - counter_reading_prompt
+  - representation_check
+  source_bank_ref: dehumanization
+  curation_status: curated
+  learner_rationale: Useful when people are reduced to types, surfaces, functions,
+    or threats instead of being treated as full persons.
+  glossary_refs: []
+  match_terms:
+  - objectified
+  - faceless mass
+  - type not person
+  - animalized
+- id: social_dominance_theory
+  label: Social dominance theory
+  slug: social-dominance-theory
+  concept_type: behavioral_science
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - power_distance
+  - social_privilege
+  - cultural_hegemony
+  signum_roles:
+  - comparison_lens
+  source_bank_ref: social-dominance-theory
+  curation_status: curated
+  learner_rationale: Useful when the ad makes hierarchy feel beneficial, necessary,
+    or simply the way society works.
+  glossary_refs: []
+  match_terms:
+  - natural hierarchy
+  - some lead others follow
+  - rank order
+- id: sustainable_consumption
+  label: Sustainable consumption
+  slug: sustainable-consumption
+  concept_type: media_literacy
+  subtype: ValueIdeal
+  broader:
+  - culture
+  related:
+  - greenwashing
+  - natural_capital
+  - environmental_justice
+  signum_roles:
+  - comparison_lens
+  - counter_reading_prompt
+  source_bank_ref: sustainable-consumption
+  curation_status: curated
+  learner_rationale: Useful when the ad frames consumption itself as the path to ecological
+    responsibility.
+  glossary_refs: []
+  match_terms:
+  - sustainable
+  - responsible choice
+  - eco purchase
+  - planet-friendly
+- id: overconsumption
+  label: Overconsumption
+  slug: overconsumption
+  concept_type: media_literacy
+  subtype: ValueIdeal
+  broader:
+  - culture
+  related:
+  - sustainable_consumption
+  - greenwashing
+  - mcdonaldization
+  signum_roles:
+  - counter_reading_prompt
+  source_bank_ref: overconsumption
+  curation_status: curated
+  learner_rationale: Useful when the ad normalizes endless acquisition, upgrade pressure,
+    or waste as ordinary desire.
+  glossary_refs: []
+  match_terms:
+  - more and more
+  - upgrade
+  - bigger haul
+  - consume more
+- id: environmental_justice
+  label: Environmental justice
+  slug: environmental-justice
+  concept_type: media_literacy
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - greenwashing
+  - natural_capital
+  - social_privilege
+  signum_roles:
+  - counter_reading_prompt
+  source_bank_ref: environmental-justice
+  curation_status: curated
+  learner_rationale: Useful when ecological benefits are advertised broadly while
+    environmental harms remain unevenly distributed or hidden.
+  glossary_refs: []
+  match_terms:
+  - clean future
+  - green progress
+  - who pays the cost
+  - environmental harm
+- id: natural_capital
+  label: Natural capital
+  slug: natural-capital
+  concept_type: media_literacy
+  subtype: ValueIdeal
+  broader:
+  - culture
+  related:
+  - sustainable_consumption
+  - greenwashing
+  - environmental_justice
+  signum_roles:
+  - comparison_lens
+  source_bank_ref: natural-capital
+  curation_status: curated
+  learner_rationale: Useful when nature is treated as a stock of value that can be
+    converted into trust, purity, or future security.
+  glossary_refs: []
+  match_terms:
+  - nature as asset
+  - natural resource
+  - planet value
+  - ecological wealth
+- id: ecofeminism
+  label: Ecofeminism
+  slug: ecofeminism
+  concept_type: media_literacy
+  subtype: PowerRelation
+  broader:
+  - power_social_and_political
+  related:
+  - gender
+  - environmental_justice
+  - greenwashing
+  signum_roles:
+  - counter_reading_prompt
+  source_bank_ref: ecofeminism
+  curation_status: curated
+  learner_rationale: Useful when the ad links women and nature through care, purity,
+    fertility, or moral responsibility in a way that needs questioning.
+  glossary_refs: []
+  match_terms:
+  - woman as nature
+  - mother earth
+  - female purity
+  - natural femininity
+- id: social_consumerism
+  label: Social consumerism
+  slug: social-consumerism
+  concept_type: media_literacy
+  subtype: ValueIdeal
+  broader:
+  - culture
+  related:
+  - woke_capitalism
+  - sustainable_consumption
+  - social_privilege
+  signum_roles:
+  - comparison_lens
+  source_bank_ref: social-consumerism
+  curation_status: curated
+  learner_rationale: Useful when buying is framed as a political, ethical, or identity-defining
+    act in itself.
+  glossary_refs: []
+  match_terms:
+  - shop your values
+  - ethical purchase
+  - buy to support
+  - consumer action
+- id: mcdonaldization
+  label: McDonaldization
+  slug: mcdonaldization
+  concept_type: sociology
+  subtype: CulturalCode
+  broader:
+  - culture
+  related:
+  - lifestyle
+  - overconsumption
+  - mediatization_media
+  signum_roles:
+  - comparison_lens
+  source_bank_ref: mcdonaldization
+  curation_status: curated
+  learner_rationale: Useful when the ad values efficiency, predictability, speed,
+    and standardization above lived complexity.
+  glossary_refs: []
+  match_terms:
+  - streamlined
+  - efficient
+  - standardized
+  - frictionless
+- id: rational_legal_authority
+  label: Rational-legal authority
+  slug: rational-legal-authority
+  concept_type: sociology
+  subtype: SocialRole
+  broader:
+  - authority
+  related:
+  - authority
+  - power_distance
+  - social_norm
+  signum_roles:
+  - comparison_lens
+  source_bank_ref: rational-legal-authority
+  curation_status: curated
+  learner_rationale: Useful when the ad borrows trust from rules, systems, certificates,
+    or institutional procedure rather than charisma alone.
+  glossary_refs: []
+  match_terms:
+  - certified
+  - regulated
+  - approved
+  - official procedure
+  - systematic

@@ -1,0 +1,728 @@
+# Signum glossary editorial refresh
+#
+# Layered over entries.yaml by id. This file contains reviewed replacements and
+# carefully scoped additions, not a second independent glossary.
+#
+# Editorial rule: describe what a concept can support without turning an
+# interpretation, contested term, or external-world claim into visible fact.
+
+---
+id: signifier
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A perceptible feature of an advertisement treated as a sign within a particular reading.
+plain_language: >-
+  A signifier is something you can point to in the ad before deciding what it means: a face,
+  object, word, color, type treatment, gesture, or spatial relationship. Calling something a
+  signifier does not yet tell us what it signifies.
+why_it_matters: >-
+  It keeps analysis anchored to inspectable material while leaving meaning open to argument.
+how_to_spot:
+  - 'Identify the concrete element before using interpretive adjectives.'
+  - 'Record where it appears and what form it takes.'
+  - 'Then ask what meanings the element can plausibly activate in this context.'
+scope_note: >-
+  In Signum, an Observation records what is perceptibly present; a signifier is that perceptible
+  material considered for its meaning-making role. The two can overlap but are not synonyms.
+common_misreadings:
+  - 'Treating the inferred meaning as part of the signifier itself.'
+  - 'Assuming every visible detail is analytically important simply because it is present.'
+
+---
+id: signified
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A concept, value, quality, emotion, or social meaning evoked through a signifier in a particular reading.
+plain_language: >-
+  The signified is the meaning being activated rather than the visible thing itself. A lab coat may
+  signify expertise; an empty road may signify freedom. Those associations are interpretive and
+  culturally situated, not physical properties of the image.
+why_it_matters: >-
+  It makes the inferential step from visible material to meaning explicit and therefore open to
+  evidence, context, and counter-reading.
+how_to_spot:
+  - 'Start from a named signifier and ask what abstract idea it evokes here.'
+  - 'Test whether the association depends on cultural knowledge or context.'
+  - 'Phrase the connection as a supported reading rather than a universal fact.'
+scope_note: >-
+  Signifieds are not fixed dictionary translations of signifiers. The same signifier can support
+  different signifieds in different advertisements, cultures, and viewer positions.
+common_misreadings:
+  - 'Treating a signified as universally shared by every audience.'
+  - 'Listing moods or values without showing which signifier supports them.'
+
+---
+id: referent_system
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A wider cultural field from which an advertisement borrows already meaningful associations and attaches them to a product, brand, or viewer position.
+plain_language: >-
+  Ads rarely invent meaning from nothing. They draw on things that already mean something outside the
+  ad—science, nature, celebrity, family life, luxury, heritage, sport, technology—and redirect those
+  associations toward the advertised object or viewer.
+why_it_matters: >-
+  It explains where transferred meaning comes from instead of treating the product as its natural source.
+how_to_spot:
+  - 'Ask what knowledge the viewer must bring from outside the advertisement.'
+  - 'Name the cultural field that makes the signifier legible.'
+  - 'Explain what meaning is borrowed from that field and where the ad redirects it.'
+scope_note: >-
+  Referent System is especially important to Signum's Williamson-inspired method. It is broader than a
+  single symbol or Cultural Code and should be used when an external field of meaning is doing real
+  analytical work.
+common_misreadings:
+  - 'Using Referent System as a generic label for any background context.'
+  - 'Naming a cultural field without explaining the meaning transfer.'
+
+---
+id: ideology
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A structured set of assumptions and values through which social relations, identities, desires, or hierarchies can be made to appear normal, desirable, or self-evident.
+plain_language: >-
+  Ideology is the worldview an ad relies on or helps reproduce. It can appear in what the ad treats as
+  obvious: what success looks like, whose authority counts, which relationships are normal, what a good
+  life requires, or what consumption is imagined to solve.
+why_it_matters: >-
+  It moves analysis beyond message and technique toward the social assumptions that make the message
+  persuasive in the first place.
+how_to_spot:
+  - 'Ask what must already seem normal or desirable for the ad promise to work.'
+  - 'Look for repeated social roles, hierarchies, values, and absences rather than one isolated symbol.'
+  - 'Separate what the ad explicitly claims from the worldview the claim presupposes.'
+scope_note: >-
+  Ideology does not mean a secret intention, a lie, or a political-party position. It can be explicit
+  or implicit and should be inferred from patterns of evidence rather than attributed to an advertiser's
+  private motives.
+common_misreadings:
+  - 'Calling any opinion or persuasive claim an ideology.'
+  - 'Inferring the advertiser conscious intent from an ideological effect of the ad.'
+  - 'Treating one stereotype as sufficient proof of a complete ideology.'
+
+---
+id: semiotics
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The study of signs, sign systems, and the processes through which meaning is produced and interpreted.
+plain_language: >-
+  Semiotics asks how an advertisement comes to mean what it means. In Signum, that usually means moving
+  carefully from perceptible material to associations, cultural reference systems, claims, and possible
+  ideological effects.
+why_it_matters: >-
+  It turns an intuitive reaction to an ad into an inspectable account of how meaning is constructed.
+how_to_spot:
+  - 'Separate perceptible evidence from the interpretation built on it.'
+  - 'Trace relationships among signs instead of assigning isolated symbolic meanings.'
+  - 'Ask what cultural knowledge makes the reading possible.'
+scope_note: >-
+  Signifier → signified → Referent System → ideology is a useful Signum learning path, not a universal law
+  that every advertisement must follow in exactly that order.
+common_misreadings:
+  - 'Treating semiotics as a dictionary of fixed symbol meanings.'
+  - 'Assuming a semiotic reading reveals the one hidden true meaning of an advertisement.'
+
+---
+id: observation
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A directly inspectable statement about what is present in the advertisement, kept distinct from the conclusion drawn from it.
+plain_language: >-
+  “A woman looks directly at the camera” is an Observation. “The gaze creates intimacy” is a Claim.
+  Good Observations make it possible to inspect whether later interpretations are actually grounded in
+  the source image.
+why_it_matters: >-
+  Observation is Signum's main guardrail against turning a plausible interpretation into invented evidence.
+how_to_spot:
+  - 'Ask whether another viewer can verify the statement from the Asset itself.'
+  - 'Prefer concrete nouns, visible relationships, quoted copy, and location.'
+  - 'Move suggests, represents, implies, symbolizes, or targets into a Claim unless they describe literal copy.'
+scope_note: >-
+  Observations can still contain uncertainty—for example when text is partly obscured—but uncertainty
+  should describe perception, not smuggle in an interpretive conclusion.
+common_misreadings:
+  - 'Describing inferred class, emotion, intent, or audience as if it were directly visible fact.'
+  - 'Treating model confidence as proof that an Observation is correct.'
+
+---
+id: claim
+refresh_mode: add
+reviewed_at: '2026-08-29'
+concept_name: Claim
+slug: claim
+domain: media_literacy
+difficulty: beginner
+tier: 1
+entry_status: full
+ontology_ref:
+  class: Claim
+short_definition: >-
+  An explicit interpretive proposition about what an advertisement means, implies, communicates, or does persuasively.
+plain_language: >-
+  A Claim is the unit Signum can argue for. It says something beyond the literal image and points back
+  to the Observations that support, challenge, or leave it uncertain.
+why_it_matters: >-
+  Making the proposition explicit lets a reader inspect the reasoning instead of receiving a seamless
+  machine interpretation as fact.
+how_to_spot:
+  - 'Look for a sentence that answers what the observed material means or does.'
+  - 'Check that it can point to specific Observations rather than only to another interpretation.'
+  - 'Keep one analytically testable proposition per Claim when practical.'
+scope_note: >-
+  A Claim is smaller and more auditable than a whole Interpretation or Decode Summary. In current Signum
+  domain language, Evidence Links connect Claims to Observations.
+common_misreadings:
+  - 'Treating the Claim as factual merely because it passed structural validation.'
+  - 'Combining unrelated interpretations into one claim that no single evidence chain can support.'
+related_concepts:
+  - observation
+  - evidence_link
+  - interpretation
+  - counter_reading
+ads_using_concept: []
+source_references: []
+
+---
+id: interpretation
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A reasoned reading that organizes one or more Claims into an account of how the advertisement produces meaning or persuasion.
+plain_language: >-
+  Interpretation is the analytical layer above literal description. It can connect several Claims into
+  a larger reading, but important propositions should still remain traceable to evidence.
+why_it_matters: >-
+  It gives Signum room for synthesis without erasing the difference between source material and inference.
+how_to_spot:
+  - 'Identify which Claims make up the larger reading.'
+  - 'Ask whether the interpretation explains relationships among signs rather than merely restating them.'
+  - 'Look for places where another evidence-based reading would also be plausible.'
+scope_note: >-
+  The current product contract persists Claims rather than a separate authoritative human Interpretation
+  object. This term describes the analytical activity and ontology concept, not a second approval stage.
+common_misreadings:
+  - 'Treating interpretation as less rigorous simply because it is not literal Observation.'
+  - 'Treating the Decode Summary as sufficient evidence for an Interpretation.'
+
+---
+id: evidence_link
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The explicit relationship from a Claim to an Observation stating how that Observation bears on the Claim.
+plain_language: >-
+  An Evidence Link answers “what in the ad supports this?” Current Signum links can mark an Observation
+  as supporting, not supporting, or leaving a Claim uncertain.
+why_it_matters: >-
+  It makes the inferential chain auditable and prevents theory or vocabulary References from being
+  mistaken for source evidence.
+how_to_spot:
+  - 'Follow the Claim back to the exact Observation IDs it cites.'
+  - 'Check the stated support relationship rather than assuming every linked Observation confirms the Claim.'
+  - 'Ask whether removing the linked Observation would materially weaken the Claim.'
+scope_note: >-
+  An Evidence Link is not a controlled-concept Reference. References name analytical concepts; Evidence
+  Links connect interpretation to perceptible source evidence.
+common_misreadings:
+  - 'Treating a glossary or ontology Reference as evidence.'
+  - 'Linking an Observation that is adjacent to a Claim but does not actually support it.'
+
+---
+id: counter_reading
+reviewed_at: '2026-08-29'
+short_definition: >-
+  An evidence-based alternative reading that challenges, qualifies, or repositions a primary interpretation.
+plain_language: >-
+  A counter-reading asks what else the same ad could plausibly mean from another viewer position or
+  analytical lens. It is not automatically the opposite of the first reading.
+why_it_matters: >-
+  It keeps Signum from presenting interpretation as a single hidden answer and makes ambiguity inspectable.
+how_to_spot:
+  - 'Reuse the same source evidence and test whether it supports a materially different conclusion.'
+  - 'Ask which viewer position or assumption changes between the readings.'
+  - 'State what the counter-reading explains better and what it leaves unresolved.'
+scope_note: >-
+  Counter-readings should be evidence-bearing alternatives, not contrarian possibilities invented only
+  to manufacture balance.
+common_misreadings:
+  - 'Assuming every Claim needs an equally strong opposite Claim.'
+  - 'Using a different fact pattern rather than re-reading the same Advertisement.'
+
+---
+id: confidence_interpretation
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A qualifier expressing how strongly the available evidence and reasoning support an interpretation.
+plain_language: >-
+  Confidence is a statement about support, not truth. A reading can be plausible without being certain,
+  and a confident model can still be wrong about what is visible or what it means.
+why_it_matters: >-
+  It makes uncertainty explicit and encourages inspection of why one inference deserves more weight than another.
+scope_note: >-
+  Current runtime confidence fields and UI labels are implementation-specific. The analytical principle
+  is broader: confidence should never substitute for the evidence chain itself.
+common_misreadings:
+  - 'Reading a high-confidence label as objective certainty.'
+  - 'Collapsing model confidence, Observation confidence, and interpretive support into one number.'
+
+---
+id: magic_naturalization
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A Williamson-inspired process in which the connection between a commodity and a desired quality, identity, or social value is made to feel natural rather than constructed.
+plain_language: >-
+  Advertising can make a product appear to simply contain beauty, freedom, sophistication, care, or
+  another social meaning. The “magic” is the disappearance of the work that joined the commodity to
+  that meaning.
+why_it_matters: >-
+  It focuses attention on the transfer itself: how an arbitrary commercial association becomes
+  experienced as if it belonged to the product all along.
+scope_note: >-
+  Hiding labor or industrial production can contribute to naturalization, but it is not the whole
+  concept. Keep Magic Naturalization distinct from Commodity Fetishism and Cooking Nature.
+common_misreadings:
+  - 'Defining it only as the absence of factories, workers, or supply chains.'
+  - 'Treating any polished product photograph as evidence of Magic Naturalization.'
+
+---
+id: mirror_identification
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A mode of address in which an advertisement offers the viewer an image or position through which to recognize, imagine, or evaluate the self.
+plain_language: >-
+  The ad does not merely show a person; it can organize the scene so the viewer is invited to see “me,”
+  “someone I could be,” or “someone whose recognition matters.” The product can become part of that
+  imagined identity relation.
+why_it_matters: >-
+  It explains how mass advertising can address individuals through identification without assuming that
+  every viewer actually identifies in the intended way.
+scope_note: >-
+  Direct gaze can support Mirror Identification but does not prove it. Identification is an interpretive
+  relationship, not a visible property of the depicted person.
+common_misreadings:
+  - 'Equating any human face with viewer identification.'
+  - 'Assuming the Target Audience and offered Subject Position are the same thing.'
+
+---
+id: commodity_fetishism
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A Marxian concept describing how social relations involved in commodity production and exchange can appear instead as qualities or relations belonging to commodities themselves.
+plain_language: >-
+  The product seems to possess value and social power on its own, while labor, institutions, exchange
+  relations, and social history recede from view. Advertising can intensify this by giving commodities
+  personality, agency, or social meaning.
+why_it_matters: >-
+  It prevents Signum from treating prestige, desirability, or exchange value as natural substances inside objects.
+scope_note: >-
+  The concept originates in Marx, not Williamson. Williamson is relevant because her advertising analysis
+  draws on Marxist accounts of commodities and meaning.
+common_misreadings:
+  - 'Using the term for any luxurious or dramatically photographed product.'
+  - 'Reducing it to “the ad hides the factory,” which misses the reification of social relations.'
+source_references:
+  - type: conceptual_attribution
+    text: >-
+      Concept originates in Marx's critique of commodity fetishism; Signum applies it cautiously to advertising.
+    source: 'Karl Marx, Capital, Volume I, chapter 1'
+    verified: false
+  - type: conceptual_attribution
+    text: >-
+      Advertising-semiotic application is informed by Williamson's Marxist analysis of commodity meaning; no exact quotation is asserted.
+    source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising (1978)'
+    verified: false
+
+---
+id: cultural_code
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A culturally learned convention or shorthand that helps viewers interpret a sign in a particular social context.
+plain_language: >-
+  A code is a learned rule of reading. A white coat can cue medical expertise; a red carpet can cue
+  celebrity; a visual style can cue a subculture. The code works because viewers have encountered similar
+  associations elsewhere.
+why_it_matters: >-
+  It explains why a sign can communicate quickly without the advertisement spelling out the association.
+scope_note: >-
+  A Cultural Code is usually narrower than a Referent System. The code is a convention of reading; the
+  Referent System is the wider cultural field from which meaning is borrowed.
+common_misreadings:
+  - 'Treating stereotypes about a culture as if they were neutral Cultural Codes.'
+  - 'Assuming a code is shared by all viewers because it feels familiar to the analyst.'
+
+---
+id: subject_position
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The role, identity, or standpoint from which an advertisement's address and values are designed to make sense.
+plain_language: >-
+  Subject Position asks not only “who is this for?” but “who does the ad ask me to be while I read it?”
+  The viewer may be positioned as a caring parent, discerning expert, rebel, insider, responsible citizen,
+  desirable partner, or future successful self.
+why_it_matters: >-
+  It separates marketing segmentation from the identity work the advertisement performs on its viewer.
+scope_note: >-
+  Subject Position is an interpretive concept. It is not a demographic fact and should not be inferred
+  solely from the appearance of people in the image.
+common_misreadings:
+  - 'Using Subject Position as a synonym for Target Audience.'
+  - 'Assuming the viewer accepts the position offered by the Advertisement.'
+
+---
+id: target_audience
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The audience group an advertisement appears designed, placed, or explicitly configured to reach.
+plain_language: >-
+  Target Audience is a communication and marketing inference about who the campaign is aimed at. Evidence
+  can come from placement, language, product, price, declared targeting, cultural references, or repeated
+  creative choices—not just from who appears in the picture.
+why_it_matters: >-
+  It gives audience analysis a concrete question without confusing intended reach with the identity the ad asks a viewer to inhabit.
+scope_note: >-
+  Target Audience describes intended or implied reach. Subject Position describes the identity or standpoint
+  constructed by the ad. They can overlap, but they answer different questions.
+common_misreadings:
+  - 'Inferring protected or sensitive demographic traits from appearance alone.'
+  - 'Assuming the people depicted are necessarily the people being targeted.'
+
+---
+id: scientific_authority
+reviewed_at: '2026-08-29'
+short_definition: >-
+  An ideological or rhetorical framing in which the prestige of science is used to make a claim appear objective, settled, or beyond ordinary dispute.
+plain_language: >-
+  Clinical design, expert figures, statistics, technical language, and laboratory imagery can borrow the
+  authority of science. Sometimes the evidence is strong; sometimes the scientific style is doing more
+  work than the evidence.
+why_it_matters: >-
+  It helps Signum separate valid scientific support from the persuasive use of scientific legitimacy.
+scope_note: >-
+  Scientific Authority is not inherently deceptive. The analytical question is how scientific legitimacy
+  is being used and whether the ad evidence warrants the certainty it communicates.
+common_misreadings:
+  - 'Calling any statistic or doctor image pseudoscience.'
+  - 'Treating scientific visual style as proof that the underlying product claim is false.'
+
+---
+id: context_collapse
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The convergence of multiple distinct audiences or social contexts into one communication context, making audience-specific self-presentation harder to maintain.
+plain_language: >-
+  Online, the same message can reach coworkers, family, customers, subcultures, and strangers at once.
+  Context Collapse describes that audience collision—not simply a visually simplified or culturally
+  “flattened” scene.
+why_it_matters: >-
+  It is useful for analyzing platform-native advertising, creators, branded social content, and messages
+  designed for heterogeneous networked audiences.
+scope_note: >-
+  Use this term primarily for communication and audience conditions. Do not diagnose Context Collapse from
+  a static image merely because it combines several lifestyle cues; inspect the distribution environment.
+common_misreadings:
+  - 'Using the term as a synonym for aesthetic simplification or cultural flattening.'
+  - 'Ignoring platform distribution and imagined audience when applying the concept.'
+source_references:
+  - type: scholarly_source
+    text: >-
+      Foundational networked-audience formulation of context collapse and imagined audiences.
+    source: 'Alice E. Marwick and danah boyd, I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience, New Media & Society 13(1), 2011'
+    verified: true
+
+---
+id: greenwashing
+reviewed_at: '2026-08-29'
+short_definition: >-
+  Environmental communication that creates a more favorable impression of environmental performance or responsibility than the available substantiation warrants.
+plain_language: >-
+  Green imagery is not automatically greenwashing. The concern begins when environmental language,
+  symbols, or selective facts imply a level of environmental benefit that the advertiser does not
+  adequately support.
+why_it_matters: >-
+  It gives Signum a way to analyze ecological persuasion without converting visual suspicion into an unsupported accusation.
+scope_note: >-
+  A single Advertisement often cannot establish greenwashing conclusively because the diagnosis can require
+  external evidence about product or company performance. In an image-only Decode, prefer wording such as
+  “uses environmental cues” unless substantiation is available.
+common_misreadings:
+  - 'Calling any use of leaves, green color, nature, or sustainability language greenwashing.'
+  - 'Treating lack of proof inside a small-format ad as proof that no substantiation exists elsewhere.'
+
+---
+id: woke_capitalism
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A contested political label applied to corporate adoption, branding, or promotion of progressive social causes, especially when critics view the positioning as instrumental or inconsistent with business practice.
+plain_language: >-
+  The term describes a criticism of companies that visibly align themselves with social-justice or
+  identity-related causes. Because the label is politically loaded and used differently by different
+  speakers, Signum should identify the underlying communication first and use the label only when context
+  justifies it.
+why_it_matters: >-
+  It can name a critique of cause-related branding, but casual use can turn analysis into partisan labeling
+  instead of evidence-based decoding.
+scope_note: >-
+  This is a contested evaluative term, not a neutral ontology primitive. Prefer it in sourced discussion or
+  counter-reading rather than as an automatic classifier output.
+common_misreadings:
+  - 'Equating any corporate diversity, inclusion, or social-justice message with Woke Capitalism.'
+  - 'Treating the term as if it had one politically neutral academic definition.'
+source_references:
+  - type: scholarly_source
+    text: >-
+      Contemporary scholarship notes that the meaning of “woke capitalism” and “woke” is contested and politically deployed.
+    source: 'Business and Politics, The war on woke capitalism: State deployment of discursive power in the backlash to responsible investment (2026)'
+    verified: true
+
+---
+id: toxic_masculinity
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A critical term for harmful norms of masculinity that equate masculine legitimacy with domination, aggression, entitlement, emotional restriction, or rejection of vulnerability.
+plain_language: >-
+  The term does not mean masculinity itself is toxic. It names particular social expectations that can harm
+  men and others when toughness, control, or dominance become requirements for being recognized as properly masculine.
+why_it_matters: >-
+  It can sharpen a gender reading when an Advertisement clearly rewards harmful masculine norms, while
+  avoiding the shortcut of treating any masculine styling as pathology.
+scope_note: >-
+  Use cautiously. Masculinity, confidence, physical strength, competition, or rugged aesthetics alone are
+  not sufficient evidence of Toxic Masculinity.
+common_misreadings:
+  - 'Using the term as a synonym for masculinity or for men behaving badly.'
+  - 'Diagnosing a person rather than analyzing the norm the Advertisement rewards.'
+
+---
+id: luxury_belief
+reviewed_at: '2026-08-29'
+short_definition: >-
+  Rob Henderson's contested term for ideas or opinions said to confer status on socially advantaged people while imposing more of their practical costs on less advantaged people.
+plain_language: >-
+  Luxury Belief is a named argument about class signaling through ideas rather than goods. It is not a
+  general synonym for refined taste, moral branding, Cultural Capital, or elite opinion.
+why_it_matters: >-
+  The concept may be relevant to ads that sell ideological distinction as status, but its contested origin
+  and political use must remain visible in the analysis.
+scope_note: >-
+  This is an attributed and contested concept rather than settled neutral sociology. Signum should not infer
+  “Luxury Belief” automatically from elite aesthetics or progressive/conservative messaging.
+common_misreadings:
+  - 'Treating any elite-associated opinion as a Luxury Belief.'
+  - 'Removing the term from its attribution to Henderson and presenting it as consensus social science.'
+source_references:
+  - type: primary_source
+    text: >-
+      Henderson states that he coined the phrase and defines it as ideas or opinions that confer upper-class status while often imposing costs on lower classes.
+    source: 'Rob K. Henderson, Luxury Beliefs writings (term coined 2019; author restatement 2026)'
+    verified: true
+
+---
+id: techno_orientalism
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A critical concept describing representations that construct East Asia or Asians through hyper-technological futurity while maintaining Orientalist otherness, anxiety, exoticism, or dehumanization.
+plain_language: >-
+  Techno-Orientalism is more specific than “Asian-looking cyberpunk.” It examines how technological
+  advancement itself becomes part of an Orientalist construction—for example when an Asian future is
+  imagined as dazzling but alien, threatening, inhuman, or available as aesthetic raw material.
+why_it_matters: >-
+  It helps Signum analyze futuristic advertising without reducing Asian scripts, cities, people, or design
+  traditions to a generic neon technology code.
+scope_note: >-
+  The concept was developed in relation to Western representations of Japan and later extended in scholarship.
+  Do not apply it solely because an ad contains Japanese, Korean, or Chinese visual elements or futuristic styling.
+common_misreadings:
+  - 'Using Techno-Orientalism as a label for any neon East Asian cityscape.'
+  - 'Treating East Asian technological modernity itself as the problem rather than the representational frame imposed on it.'
+source_references:
+  - type: scholarly_source
+    text: >-
+      Foundational formulation of techno-orientalism in relation to Western anxiety about Japanese technological modernity.
+    source: 'David Morley and Kevin Robins, Spaces of Identity: Global Media, Electronic Landscapes and Cultural Boundaries, chapter 8 “Techno-Orientalism: Japan Panic” (1995)'
+    verified: true
+
+---
+id: metaphor
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A meaning-making relation in which one thing is understood in terms of another, transferring selected qualities between them.
+plain_language: >-
+  An ad uses metaphor when it asks you to understand the product, problem, or user through another domain:
+  a car as a predator, data as fuel, or a moisturizer as armor. The relationship is interpretive rather than literal.
+why_it_matters: >-
+  It explains how advertisements compress complex claims into memorable conceptual relationships.
+scope_note: >-
+  Name both domains and the qualities transferred between them; not every symbolic image is a Metaphor.
+common_misreadings:
+  - 'Calling every symbolic image a Metaphor.'
+  - 'Naming the Metaphor without explaining what meaning is transferred.'
+
+---
+id: metonymy
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A meaning-making relation in which something is represented through a closely associated part, object, place, role, or attribute rather than through similarity.
+plain_language: >-
+  A crown can stand for monarchy, a lab coat for scientific expertise, Wall Street for finance, or a steering
+  wheel for driving. The connection comes from association or contiguity, not because the two things resemble each other.
+why_it_matters: >-
+  It helps distinguish association-based shortcuts from metaphorical comparison.
+scope_note: >-
+  Use Metonymy when the relation is based on association or contiguity; use Metaphor when one domain is understood through another by analogy.
+common_misreadings:
+  - 'Treating Metonymy and Metaphor as interchangeable.'
+  - 'Calling any culturally learned Symbol Metonymy without an associative relation.'
+
+---
+id: denotation
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The relatively direct descriptive or conventional reference of a sign before broader associative meanings are considered.
+plain_language: >-
+  Denotation asks what the sign most straightforwardly depicts or states. “A red sports car on a road” is
+  denotative description; speed, freedom, danger, or status are possible Connotations.
+why_it_matters: >-
+  It gives analysis a baseline from which more culturally loaded meanings can be distinguished.
+scope_note: >-
+  “Literal dictionary meaning” is too narrow for visual advertising. Signum uses Denotation as a practical
+  descriptive level, not as a claim that perception is culturally neutral.
+common_misreadings:
+  - 'Treating Denotation as completely objective or culture-free.'
+  - 'Confusing Denotation with every detail recorded in an Observation.'
+
+---
+id: connotation
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The social, cultural, emotional, or evaluative meanings that a sign can carry beyond its relatively direct reference.
+plain_language: >-
+  A black suit denotes clothing; in a particular ad it may connote authority, mourning, professionalism,
+  luxury, or restraint. Which Connotation is plausible depends on context and evidence.
+why_it_matters: >-
+  Advertising often persuades through Connotation because it can attach values to products without stating them as explicit claims.
+scope_note: >-
+  Connotations are contextual readings, not fixed meanings built into colors, objects, or styles.
+common_misreadings:
+  - 'Treating Connotations as fixed meanings built into colors or objects.'
+  - 'Listing free associations without contextual support.'
+
+---
+id: juxtaposition
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The deliberate placement or presentation of elements in relation to one another so their comparison, contrast, or collision produces additional meaning.
+plain_language: >-
+  Meaning can arise from what two things do together. A luxury watch beside climbing gear can connect
+  refinement with toughness; a formal portrait beside irreverent copy can produce comic tension.
+why_it_matters: >-
+  It keeps analysis relational: the persuasive meaning may belong to the pairing rather than to either element alone.
+scope_note: >-
+  Distinguish meaningful Juxtaposition from ordinary co-presence in a crowded layout.
+common_misreadings:
+  - 'Calling every pair of nearby elements a Juxtaposition.'
+
+---
+id: visual_pun
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A visual construction that creates humor or insight by activating two compatible meanings, often through resemblance, substitution, or interaction with words.
+plain_language: >-
+  A Visual Pun gives an image a double reading. A product shape may complete a familiar phrase, one object
+  may visually become another, or image and copy may make each other's second meaning legible.
+why_it_matters: >-
+  It explains why a clever image works instead of merely labeling it “creative.”
+scope_note: >-
+  State both readings and the visual or verbal hinge that connects them; the double meaning should be materially present rather than invented after the fact.
+common_misreadings:
+  - 'Using Visual Pun as a generic synonym for humorous imagery.'
+
+---
+id: iconic_sign
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A sign whose form resembles or imitates aspects of what it represents.
+plain_language: >-
+  A photograph of a bottle resembles the bottle; a simplified silhouette can resemble a person. Resemblance
+  helps the sign be read, though convention can still shape that reading.
+why_it_matters: >-
+  It distinguishes resemblance-based signification from symbolic convention and association-based Metonymy.
+scope_note: >-
+  Iconic does not mean famous, important, or culturally “iconic” in this semiotic sense.
+common_misreadings:
+  - 'Using Iconic Sign to mean a famous logo or memorable image.'
+
+---
+id: symbolism
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The use of signs whose broader meanings depend substantially on learned cultural conventions, narratives, or repeated associations.
+plain_language: >-
+  Symbolism is the use of culturally meaningful signs—for example a flag, halo, crown, wedding ring, or
+  color code—to carry ideas beyond what is literally depicted.
+why_it_matters: >-
+  It provides a useful umbrella for conventional meaning while still requiring the analyst to name the specific sign, context, and interpretation.
+scope_note: >-
+  Prefer a more precise concept such as Metaphor, Metonymy, or Cultural Code when it better describes the relationship.
+common_misreadings:
+  - 'Treating Symbolism as permission to assign any personal association to an object.'
+
+---
+id: causality
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A represented or implied relationship in which one factor is presented as producing, enabling, preventing, or changing another.
+plain_language: >-
+  Ads often compress “use this product” and “get this outcome” into a causal story. The visual sequence can
+  imply causation even when the copy never explicitly says “causes.”
+why_it_matters: >-
+  It distinguishes an Advertisement's causal implication from evidence that the causal relationship is actually established.
+scope_note: >-
+  Signum can identify a causal Claim in an Advertisement without validating the real-world causal effect.
+common_misreadings:
+  - 'Treating temporal sequence or correlation as proof of causation.'
+  - 'Converting an implied advertising Claim into a factual Claim by the decoder.'
+
+---
+id: authenticity
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A culturally produced impression that a person, brand, object, or message is genuine, sincere, uncontrived, or faithful to an origin or identity.
+plain_language: >-
+  Advertising can manufacture the signs of “not being manufactured.” Handheld photography, imperfections,
+  candid speech, craft processes, founder stories, local settings, or anti-polish aesthetics can all function as authenticity cues.
+why_it_matters: >-
+  It lets Signum analyze Authenticity as a persuasive construction without assuming either that the brand is genuinely authentic or that every authenticity cue is deceptive.
+scope_note: >-
+  Representation of Authenticity is not external proof that a brand, person, or product is authentic.
+common_misreadings:
+  - 'Treating Authenticity as an objective property visible in the image.'
+  - 'Assuming polished advertising cannot construct Authenticity.'
+
+---
+id: clarity
+reviewed_at: '2026-08-29'
+short_definition: >-
+  The degree to which an advertisement makes its relevant message, hierarchy, or requested action easy to identify and interpret.
+plain_language: >-
+  Clarity is not the same as simplicity. A visually rich ad can be clear if its hierarchy and proposition
+  are legible, while a minimal ad can remain ambiguous.
+why_it_matters: >-
+  It separates communicative legibility from aesthetic taste and prevents “clean design” from being automatically scored as good communication.
+scope_note: >-
+  Productive ambiguity can be deliberate; Clarity should be judged against the communication task, not against a universal preference for minimalism.
+common_misreadings:
+  - 'Equating Clarity with Minimalism or large type.'
+  - 'Assuming ambiguity is always a defect in advertising.'
+
+---
+id: professionalism
+reviewed_at: '2026-08-29'
+short_definition: >-
+  A cluster of signs used to communicate competence, legitimacy, discipline, reliability, or conformity to expectations associated with professional roles.
+plain_language: >-
+  Professionalism is not visible expertise itself. Clothing, tone, typography, settings, credentials, and
+  controlled presentation can create a professional code that encourages trust.
+why_it_matters: >-
+  It helps Signum distinguish the appearance of competence from evidence that competence or authority is deserved.
+scope_note: >-
+  Professional styling is a Cultural Code; it is not proof of expertise, credentials, or trustworthy conduct.
+common_misreadings:
+  - 'Treating formal dress or polished design as proof of expertise.'
+  - 'Assuming the same professional code works identically across industries and cultures.'

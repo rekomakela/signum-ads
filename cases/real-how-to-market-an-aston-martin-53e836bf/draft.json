@@ -1,0 +1,307 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-how-to-market-an-aston-martin-53e836bf",
+    "media_type": "image",
+    "path": "cases/real-how-to-market-an-aston-martin-53e836bf/asset.png",
+    "sha256": "edc6951e23a57536ab0483b7ddf779179f5c7cc97955b57e6fc700b332204be4"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:00:12.922Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-how-to-market-an-aston-martin-53e836bf",
+    "sha256": "edc6951e23a57536ab0483b7ddf779179f5c7cc97955b57e6fc700b332204be4"
+  },
+  "raw_provider_output": {
+    "summary": "A Bentley truck drives down a highway with its rear doors open, revealing a Bentley car inside, creating a surreal and humorous visual metaphor for the brand's luxury and engineering.",
+    "observations": [
+      {
+        "description": "A large, black truck is driving on a highway. The rear doors of the truck are open, and a silver Bentley car is visible inside the cargo area.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The Bentley logo is visible on the side of the truck and on the car inside the truck.",
+        "evidence_type": "brand_mark",
+        "location": "on the truck and car",
+        "confidence": "high"
+      },
+      {
+        "description": "The scene is shot from the perspective of a driver in another car, with the dashboard and a GPS device visible in the foreground.",
+        "evidence_type": "visual",
+        "location": "foreground",
+        "confidence": "high"
+      },
+      {
+        "description": "The truck is on a highway with other vehicles and a rural landscape in the background.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The image has a slightly grainy, documentary-style quality, suggesting it might be a candid shot or a creative campaign piece.",
+        "evidence_type": "visual",
+        "location": "overall image",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad uses a visual metaphor to suggest that Bentley is not just a car, but a complete, self-contained world of luxury and engineering that can be 'transported' anywhere.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The surreal and unexpected nature of the image is designed to be memorable and shareable, leveraging humor and surprise to create a strong brand impression.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The truck itself, bearing the Bentley logo, acts as a signifier for the brand's power and capability, while the car inside is the signified, representing the ultimate product.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets an affluent audience that appreciates luxury, exclusivity, and clever, understated marketing.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large, black truck is driving on a highway. The rear doors of the truck are open, and a silver Bentley car is visible inside the cargo area.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "The Bentley logo is visible on the side of the truck and on the car inside the truck.",
+      "location": "on the truck and car",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The scene is shot from the perspective of a driver in another car, with the dashboard and a GPS device visible in the foreground.",
+      "location": "foreground",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "context",
+      "description": "The truck is on a highway with other vehicles and a rural landscape in the background.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "The image has a slightly grainy, documentary-style quality, suggesting it might be a candid shot or a creative campaign piece.",
+      "location": "overall image",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A Bentley truck drives down a highway with its rear doors open, revealing a Bentley car inside, creating a surreal and humorous visual metaphor for the brand's luxury and engineering.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad uses a visual metaphor to suggest that Bentley is not just a car, but a complete, self-contained world of luxury and engineering that can be 'transported' anywhere.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The surreal and unexpected nature of the image is designed to be memorable and shareable, leveraging humor and surprise to create a strong brand impression.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The truck itself, bearing the Bentley logo, acts as a signifier for the brand's power and capability, while the car inside is the signified, representing the ultimate product.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets an affluent audience that appreciates luxury, exclusivity, and clever, understated marketing.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "status",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

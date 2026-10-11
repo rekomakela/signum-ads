@@ -1,0 +1,68 @@
+{
+  "name": "signum-decoder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "decode:server": "npm run build --silent && node dist/src/server/main.js",
+    "decode:batch": "npm run build --silent && node dist/src/cli/decode-batch.js",
+    "decode:audit": "npm run build --silent && node dist/src/cli/decode-audit.js",
+    "meta:ingest": "npm run build --silent && node dist/src/cli/ingest-meta.js",
+    "reddit:ingest": "npm run build --silent && node dist/src/cli/ingest-adporn.js",
+    "test": "npm run build && node --test --test-concurrency=1 dist/tests/*.test.js",
+    "verify": "npm run check && npm test",
+    "glossary:data": "python3 tools/signum-knowledge/generate_glossary_catalog.py",
+    "frontend:data": "npm run glossary:data && npm run build --silent && node dist/src/cli/frontend-data.js",
+    "frontend:dev": "npm run frontend:data && npm run --workspace frontend dev",
+    "frontend:build": "npm run frontend:data && npm run --workspace frontend build",
+    "frontend:check": "npm run frontend:data && npm run --workspace frontend check",
+    "frontend:preview": "npm run frontend:data && npm run --workspace frontend preview",
+    "lint": "eslint src tests eslint.config.js",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\" \"frontend/src/**/*.{ts,svelte}\" package.json frontend/package.json tsconfig.json frontend/tsconfig.json eslint.config.js \"scripts/*.mjs\" \".github/**/*.{md,yml,yaml,json}\" docs/AUTHORITY.md \"cases/README.md\" \"docs/architecture/**/*.md\" \"docs/product/system/**/*.md\" AGENTS.md ARCHITECTURE.md README.md CONTRIBUTING.md SECURITY.md",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\" \"frontend/src/**/*.{ts,svelte}\" package.json frontend/package.json tsconfig.json frontend/tsconfig.json eslint.config.js \"scripts/*.mjs\" \".github/**/*.{md,yml,yaml,json}\" docs/AUTHORITY.md \"cases/README.md\" \"docs/architecture/**/*.md\" \"docs/product/system/**/*.md\" AGENTS.md ARCHITECTURE.md README.md CONTRIBUTING.md SECURITY.md",
+    "security:audit": "npm audit --audit-level=high",
+    "doctor": "bash scripts/doctor",
+    "bootstrap": "bash scripts/bootstrap",
+    "validate": "bash scripts/validate",
+    "test:frontend": "npm run build --silent && node --test --test-concurrency=1 dist/tests/frontend-*.test.js",
+    "docs:check": "node scripts/check-docs.mjs",
+    "corpus:migrate": "npm run build --silent && node dist/src/cli/corpus-migrate.js",
+    "corpus:ingest": "npm run build --silent && node dist/src/cli/corpus-ingest.js",
+    "corpus:qualify": "npm run build --silent && node dist/src/cli/corpus-qualify.js",
+    "corpus:acquire": "npm run build --silent && node dist/src/cli/corpus-acquire.js",
+    "corpus:review": "npm run build --silent && node dist/src/cli/corpus-review.js",
+    "corpus:promote": "npm run build --silent && node dist/src/cli/corpus-promote.js",
+    "corpus:auto-review": "npm run build --silent && node dist/src/cli/corpus-auto-review.js",
+    "corpus:commons-evidence": "npm run build --silent && node dist/src/cli/corpus-commons-evidence.js",
+    "corpus:commons-temporal": "npm run build --silent && node dist/src/cli/corpus-commons-temporal.js",
+    "corpus:decode": "npm run build --silent && node dist/src/cli/corpus-decode.js",
+    "corpus:publication-overlay": "npm run build --silent && node dist/src/cli/corpus-publication-overlay.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "24.10.1",
+    "eslint": "^10.9.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-svelte": "^3.23.0",
+    "globals": "^17.11.0",
+    "prettier": "^3.9.6",
+    "prettier-plugin-svelte": "^4.1.1",
+    "typescript": "5.9.3",
+    "typescript-eslint": "^8.68.0"
+  },
+  "dependencies": {
+    "pino": "^10.3.1"
+  },
+  "overrides": {},
+  "description": "Decoding advertisements with a local vision model: observations, contestable interpretations, and controlled semiotic concepts, in the spirit of Judith Williamson.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rekomakela/signum-ads.git"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-an-advertisement-for-keloptic-com-a-french-websi-2e2e7c7e",
+    "media_type": "image",
+    "path": "cases/real-an-advertisement-for-keloptic-com-a-french-websi-2e2e7c7e/asset.jpg",
+    "sha256": "98ca1afc09cc83ac794b2f6a6b6628922074b66ace0e23ca7761a7fe20ad0916"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:06:49.443Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-an-advertisement-for-keloptic-com-a-french-websi-2e2e7c7e",
+    "sha256": "98ca1afc09cc83ac794b2f6a6b6628922074b66ace0e23ca7761a7fe20ad0916"
+  },
+  "raw_provider_output": {
+    "summary": "An advertisement for Keloptic eyewear that uses a visual pun on a Van Gogh self-portrait to demonstrate the clarity of their lenses, promising to see the world more clearly for less money.",
+    "observations": [
+      {
+        "description": "A framed painting of a man in the style of Vincent van Gogh, where the background and body are painted with thick, swirling brushstrokes, but the face is a photorealistic, high-definition image.",
+        "evidence_type": "visual",
+        "location": "center of the image, inside the frame",
+        "confidence": "high"
+      },
+      {
+        "description": "A pair of rimless eyeglasses is positioned in the foreground, with the left lens perfectly aligned over the photorealistic face in the painting.",
+        "evidence_type": "visual",
+        "location": "foreground, overlapping the painting",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand logo 'Keloptic.com' is displayed in a white box in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The tagline 'Voyez plus clair pour moins cher sur www.keloptic.com' (See more clearly for less on www.keloptic.com) is written in white text at the bottom left.",
+        "evidence_type": "copy",
+        "location": "bottom left",
+        "confidence": "high"
+      },
+      {
+        "description": "The entire scene is set against a plain, muted sage-green wall, which makes the framed artwork and glasses stand out.",
+        "evidence_type": "layout",
+        "location": "background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The core message is that Keloptic glasses provide superior visual clarity, allowing the user to see the world in sharp, true detail.",
+        "evidence_indices": [
+          0,
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad uses a visual metaphor where the 'blurry' painted world represents a view without glasses, and the 'clear' photorealistic face seen through the lens represents the view with Keloptic glasses.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The tagline 'Voyez plus clair pour moins cher' (See more clearly for less) directly links the product's benefit (clarity) with a value proposition (affordability), appealing to both quality and price-conscious consumers.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "By using a famous piece of art, the ad elevates the product from a simple medical device to a tool for a better, more aesthetic experience of the world, suggesting that clear vision is a form of appreciation.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "high_art",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A framed painting of a man in the style of Vincent van Gogh, where the background and body are painted with thick, swirling brushstrokes, but the face is a photorealistic, high-definition image.",
+      "location": "center of the image, inside the frame",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A pair of rimless eyeglasses is positioned in the foreground, with the left lens perfectly aligned over the photorealistic face in the painting.",
+      "location": "foreground, overlapping the painting",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The brand logo 'Keloptic.com' is displayed in a white box in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The tagline 'Voyez plus clair pour moins cher sur www.keloptic.com' (See more clearly for less on www.keloptic.com) is written in white text at the bottom left.",
+      "location": "bottom left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The entire scene is set against a plain, muted sage-green wall, which makes the framed artwork and glasses stand out.",
+      "location": "background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "An advertisement for Keloptic eyewear that uses a visual pun on a Van Gogh self-portrait to demonstrate the clarity of their lenses, promising to see the world more clearly for less money.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The core message is that Keloptic glasses provide superior visual clarity, allowing the user to see the world in sharp, true detail.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad uses a visual metaphor where the 'blurry' painted world represents a view without glasses, and the 'clear' photorealistic face seen through the lens represents the view with Keloptic glasses.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The tagline 'Voyez plus clair pour moins cher' (See more clearly for less) directly links the product's benefit (clarity) with a value proposition (affordability), appealing to both quality and price-conscious consumers.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "By using a famous piece of art, the ad elevates the product from a simple medical device to a tool for a better, more aesthetic experience of the world, suggesting that clear vision is a form of appreciation.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "high_art",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

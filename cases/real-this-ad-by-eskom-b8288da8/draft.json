@@ -1,0 +1,277 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-this-ad-by-eskom-b8288da8",
+    "media_type": "image",
+    "path": "cases/real-this-ad-by-eskom-b8288da8/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:11:10.423Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-this-ad-by-eskom-b8288da8",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "A public service advertisement by Eskom urging consumers to conserve energy, using the visual metaphor of a billboard that is only partially illuminated to represent the consequences of power shortages.",
+    "observations": [
+      {
+        "description": "A large billboard structure is shown against a dark, twilight sky. The left two-thirds of the billboard are completely black and unlit, while the right third is brightly illuminated.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'Use Electricity Wisely' is displayed in white sans-serif font on the illuminated section of the billboard.",
+        "evidence_type": "copy",
+        "location": "top right",
+        "confidence": "high"
+      },
+      {
+        "description": "The Eskom logo and brand name appear below the slogan on the lit portion of the billboard.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard is supported by a tall, dark metal lattice tower structure.",
+        "evidence_type": "visual",
+        "location": "center bottom",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a dark, gradient sky, suggesting dusk or early night, with faint silhouettes of buildings or structures at the very bottom.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement's primary message is a direct call to action for consumers to reduce their electricity consumption to prevent power outages.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The visual composition acts as a visual metaphor where the unlit portion of the billboard represents the 'darkness' or load-shedding that results from excessive electricity usage, while the lit portion represents the functioning grid.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad utilizes a stark contrast between light and dark to create a sense of urgency and demonstrate the immediate consequence of not following the advice.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The message targets the general public in regions where Eskom is the primary electricity provider, specifically those who may be experiencing or anticipating power cuts.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large billboard structure is shown against a dark, twilight sky. The left two-thirds of the billboard are completely black and unlit, while the right third is brightly illuminated.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text 'Use Electricity Wisely' is displayed in white sans-serif font on the illuminated section of the billboard.",
+      "location": "top right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The Eskom logo and brand name appear below the slogan on the lit portion of the billboard.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The billboard is supported by a tall, dark metal lattice tower structure.",
+      "location": "center bottom",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The background is a dark, gradient sky, suggesting dusk or early night, with faint silhouettes of buildings or structures at the very bottom.",
+      "location": "background",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public service advertisement by Eskom urging consumers to conserve energy, using the visual metaphor of a billboard that is only partially illuminated to represent the consequences of power shortages.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement's primary message is a direct call to action for consumers to reduce their electricity consumption to prevent power outages.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The visual composition acts as a visual metaphor where the unlit portion of the billboard represents the 'darkness' or load-shedding that results from excessive electricity usage, while the lit portion represents the functioning grid.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad utilizes a stark contrast between light and dark to create a sense of urgency and demonstrate the immediate consequence of not following the advice.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The message targets the general public in regions where Eskom is the primary electricity provider, specifically those who may be experiencing or anticipating power cuts.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

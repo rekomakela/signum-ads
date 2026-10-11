@@ -1,0 +1,274 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-ford-s-advertising-after-women-in-saudi-arabia-a-8ab8f689",
+    "media_type": "image",
+    "path": "cases/real-ford-s-advertising-after-women-in-saudi-arabia-a-8ab8f689/asset.jpg",
+    "sha256": "922d2d47e43050464474e8645fd6f8a04589990c31765c2e30aa66ebf574ad24"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:49:16.737Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-ford-s-advertising-after-women-in-saudi-arabia-a-8ab8f689",
+    "sha256": "922d2d47e43050464474e8645fd6f8a04589990c31765c2e30aa66ebf574ad24"
+  },
+  "raw_provider_output": {
+    "summary": "The ad uses a rearview mirror to frame a woman's eyes, suggesting that the product (likely makeup or beauty care) is essential for the confident, alluring gaze that captivates others.",
+    "observations": [
+      {
+        "description": "A car rearview mirror is centered in the frame, reflecting a close-up of a woman's eyes and nose bridge.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a solid, deep black, isolating the mirror and the reflection.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The eyes in the reflection are heavily made up with dark eyeliner, mascara, and defined eyebrows, looking directly at the viewer.",
+        "evidence_type": "visual",
+        "location": "inside mirror reflection",
+        "confidence": "high"
+      },
+      {
+        "description": "The image contains no text, logos, or call-to-action buttons.",
+        "evidence_type": "copy",
+        "location": null,
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The rearview mirror functions as a signifier for 'the gaze of the other' or the driver, implying that the subject's appearance is being judged or admired from the back seat or by a passenger.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By focusing exclusively on the eyes, the ad appeals to the idea that eyes are the 'window to the soul' and that beauty is concentrated in the gaze, creating an intimate and intense connection with the viewer.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of a car mirror suggests a narrative of travel or a journey, positioning the beauty product as a companion for the modern, mobile woman who needs to look her best on the go.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "The ad implies that the product provides the confidence and allure necessary to hold the attention of others, even in a fleeting moment like a glance in a mirror.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "confidence",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A car rearview mirror is centered in the frame, reflecting a close-up of a woman's eyes and nose bridge.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The background is a solid, deep black, isolating the mirror and the reflection.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The eyes in the reflection are heavily made up with dark eyeliner, mascara, and defined eyebrows, looking directly at the viewer.",
+      "location": "inside mirror reflection",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The image contains no text, logos, or call-to-action buttons.",
+      "location": null,
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The ad uses a rearview mirror to frame a woman's eyes, suggesting that the product (likely makeup or beauty care) is essential for the confident, alluring gaze that captivates others.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The rearview mirror functions as a signifier for 'the gaze of the other' or the driver, implying that the subject's appearance is being judged or admired from the back seat or by a passenger.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "By focusing exclusively on the eyes, the ad appeals to the idea that eyes are the 'window to the soul' and that beauty is concentrated in the gaze, creating an intimate and intense connection with the viewer.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "desire",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "interpretation",
+        "text": "The use of a car mirror suggests a narrative of travel or a journey, positioning the beauty product as a companion for the modern, mobile woman who needs to look her best on the go.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "core_message",
+        "text": "The ad implies that the product provides the confidence and allure necessary to hold the attention of others, even in a fleeting moment like a glance in a mirror.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "confidence",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

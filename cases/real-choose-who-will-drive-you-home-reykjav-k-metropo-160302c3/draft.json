@@ -1,0 +1,384 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-choose-who-will-drive-you-home-reykjav-k-metropo-160302c3",
+    "media_type": "image",
+    "path": "cases/real-choose-who-will-drive-you-home-reykjav-k-metropo-160302c3/asset.jpg",
+    "sha256": "c18af8ecf55eb5b031a60ba09892c668b627aa564fee13289c9fcbb39bc4b6ad"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:23:56.885Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-choose-who-will-drive-you-home-reykjav-k-metropo-160302c3",
+    "sha256": "c18af8ecf55eb5b031a60ba09892c668b627aa564fee13289c9fcbb39bc4b6ad"
+  },
+  "raw_provider_output": {
+    "summary": "A public safety advertisement from the Icelandic National Police asking who will drive you home after the holidays, implying that police, ambulance, and funeral services are the only options if you drink and drive.",
+    "observations": [
+      {
+        "description": "A white Mercedes-Benz station wagon with a yellow 'TAXI' sign on the roof.",
+        "evidence_type": "visual",
+        "location": "Far left of the vehicle lineup",
+        "confidence": "high"
+      },
+      {
+        "description": "A white Volvo police car with blue lights and 'LÖGREGLAN' written on the front bumper.",
+        "evidence_type": "visual",
+        "location": "Second from left in the vehicle lineup",
+        "confidence": "high"
+      },
+      {
+        "description": "A white Mercedes-Benz ambulance with a red cross and 'SJÚKRABÍLL' written on the front.",
+        "evidence_type": "visual",
+        "location": "Third from left in the vehicle lineup",
+        "confidence": "high"
+      },
+      {
+        "description": "A black Cadillac hearse with a formal coach roof.",
+        "evidence_type": "visual",
+        "location": "Far right of the vehicle lineup",
+        "confidence": "high"
+      },
+      {
+        "description": "Four men standing in a row in front of the vehicles, wearing uniforms for a taxi driver, police officer, paramedic, and a funeral director.",
+        "evidence_type": "visual",
+        "location": "Center foreground",
+        "confidence": "high"
+      },
+      {
+        "description": "The main headline text in Icelandic: 'Hver ekur þér heim um hátíðarnar?' (Who will drive you home over the holidays?).",
+        "evidence_type": "copy",
+        "location": "Bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The sub-headline text in Icelandic: 'Eftir einn ei aki neinn' (After one, drive none).",
+        "evidence_type": "copy",
+        "location": "Bottom center, below the main headline",
+        "confidence": "high"
+      },
+      {
+        "description": "The logo and name of the organization: 'Lögreglan á höfuðborgarsvæðinu' (National Police of the Capital Region).",
+        "evidence_type": "brand_mark",
+        "location": "Bottom right corner",
+        "confidence": "high"
+      },
+      {
+        "description": "A snowy, open field setting with houses in the background, suggesting a winter holiday context.",
+        "evidence_type": "context",
+        "location": "Background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement warns against drunk driving during the holidays by presenting the only available 'drivers' as emergency or funeral services.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The visual lineup of a taxi, police car, ambulance, and hearse functions as a visual metaphor for the escalating consequences of impaired driving, ranging from a safe ride to death.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses the specific context of the holidays to target a high-risk time for alcohol consumption and driving.",
+        "evidence_indices": [
+          5,
+          8
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The presence of the funeral director and hearse serves as a stark reminder of the ultimate consequence of drunk driving, moving the message beyond simple legal trouble to mortality.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A white Mercedes-Benz station wagon with a yellow 'TAXI' sign on the roof.",
+      "location": "Far left of the vehicle lineup",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A white Volvo police car with blue lights and 'LÖGREGLAN' written on the front bumper.",
+      "location": "Second from left in the vehicle lineup",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A white Mercedes-Benz ambulance with a red cross and 'SJÚKRABÍLL' written on the front.",
+      "location": "Third from left in the vehicle lineup",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A black Cadillac hearse with a formal coach roof.",
+      "location": "Far right of the vehicle lineup",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "Four men standing in a row in front of the vehicles, wearing uniforms for a taxi driver, police officer, paramedic, and a funeral director.",
+      "location": "Center foreground",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "The main headline text in Icelandic: 'Hver ekur þér heim um hátíðarnar?' (Who will drive you home over the holidays?).",
+      "location": "Bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "copy",
+      "description": "The sub-headline text in Icelandic: 'Eftir einn ei aki neinn' (After one, drive none).",
+      "location": "Bottom center, below the main headline",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_008",
+      "evidence_type": "brand_mark",
+      "description": "The logo and name of the organization: 'Lögreglan á höfuðborgarsvæðinu' (National Police of the Capital Region).",
+      "location": "Bottom right corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_009",
+      "evidence_type": "context",
+      "description": "A snowy, open field setting with houses in the background, suggesting a winter holiday context.",
+      "location": "Background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public safety advertisement from the Icelandic National Police asking who will drive you home after the holidays, implying that police, ambulance, and funeral services are the only options if you drink and drive.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement warns against drunk driving during the holidays by presenting the only available 'drivers' as emergency or funeral services.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The visual lineup of a taxi, police car, ambulance, and hearse functions as a visual metaphor for the escalating consequences of impaired driving, ranging from a safe ride to death.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad uses the specific context of the holidays to target a high-risk time for alcohol consumption and driving.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_009",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The presence of the funeral director and hearse serves as a stark reminder of the ultimate consequence of drunk driving, moving the message beyond simple legal trouble to mortality.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

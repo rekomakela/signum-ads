@@ -1,0 +1,302 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-parking-space-for-jeeps-0940e6d6",
+    "media_type": "image",
+    "path": "cases/real-parking-space-for-jeeps-0940e6d6/asset.jpg",
+    "sha256": "32f7cf3fe9fa5d47a9e283fd539da87bdcde76baa200519f1baf17bb7d2ae424"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:45:32.635Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-parking-space-for-jeeps-0940e6d6",
+    "sha256": "32f7cf3fe9fa5d47a9e283fd539da87bdcde76baa200519f1baf17bb7d2ae424"
+  },
+  "raw_provider_output": {
+    "summary": "A Jeep vehicle is humorously implied to be parked in a pedestrian plaza, using the 'P' parking symbol and the brand name to suggest the car's ability to go anywhere.",
+    "observations": [
+      {
+        "description": "A large white letter 'P' is painted on the cobblestone ground, indicating a parking space.",
+        "evidence_type": "visual",
+        "location": "center of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The word 'Jeep' is painted in white on the cobblestones in the lower right corner of the marked area.",
+        "evidence_type": "copy",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The parking space is outlined with thick white lines on a pedestrian walkway made of cobblestones.",
+        "evidence_type": "visual",
+        "location": "foreground",
+        "confidence": "high"
+      },
+      {
+        "description": "A circular planter with a statue base is visible in the upper left, confirming the setting is a public pedestrian area, not a road.",
+        "evidence_type": "context",
+        "location": "top left",
+        "confidence": "high"
+      },
+      {
+        "description": "The image is a photograph of a real-world environment, functioning as an out-of-home advertisement.",
+        "evidence_type": "layout",
+        "location": "entire image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Jeep vehicles are versatile and capable of going anywhere, even where cars are not expected.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses humor by placing a parking spot in a pedestrian zone to create a memorable and surprising brand moment.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The 'P' symbol, a universal signifier for parking, is repurposed to signify the presence of a Jeep, creating a visual pun that links the brand to the concept of parking anywhere.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The absence of the actual car is a key part of the message, forcing the viewer to imagine the vehicle and reinforcing the idea that a Jeep can be found in unexpected places.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large white letter 'P' is painted on the cobblestone ground, indicating a parking space.",
+      "location": "center of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The word 'Jeep' is painted in white on the cobblestones in the lower right corner of the marked area.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The parking space is outlined with thick white lines on a pedestrian walkway made of cobblestones.",
+      "location": "foreground",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "context",
+      "description": "A circular planter with a statue base is visible in the upper left, confirming the setting is a public pedestrian area, not a road.",
+      "location": "top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The image is a photograph of a real-world environment, functioning as an out-of-home advertisement.",
+      "location": "entire image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A Jeep vehicle is humorously implied to be parked in a pedestrian plaza, using the 'P' parking symbol and the brand name to suggest the car's ability to go anywhere.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Jeep vehicles are versatile and capable of going anywhere, even where cars are not expected.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The ad uses humor by placing a parking spot in a pedestrian zone to create a memorable and surprising brand moment.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The 'P' symbol, a universal signifier for parking, is repurposed to signify the presence of a Jeep, creating a visual pun that links the brand to the concept of parking anywhere.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The absence of the actual car is a key part of the message, forcing the viewer to imagine the vehicle and reinforcing the idea that a Jeep can be found in unexpected places.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

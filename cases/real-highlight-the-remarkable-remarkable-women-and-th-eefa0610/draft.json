@@ -1,0 +1,320 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-highlight-the-remarkable-remarkable-women-and-th-eefa0610",
+    "media_type": "image",
+    "path": "cases/real-highlight-the-remarkable-remarkable-women-and-th-eefa0610/asset.jpg",
+    "sha256": "fc87d685dcdb963faa34d18c18bd7780e065d5c0aa5dfc61b069edd856859e8e"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:58:03.928Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-highlight-the-remarkable-remarkable-women-and-th-eefa0610",
+    "sha256": "fc87d685dcdb963faa34d18c18bd7780e065d5c0aa5dfc61b069edd856859e8e"
+  },
+  "raw_provider_output": {
+    "summary": "A Stabilo highlighter ad uses a historical NASA photo to position its product as a tool for recognizing and celebrating the overlooked contributions of Katherine Johnson.",
+    "observations": [
+      {
+        "description": "A yellow Stabilo highlighter is shown at the top right, with a line of yellow ink extending down into the image.",
+        "evidence_type": "visual",
+        "location": "top right",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'Highlight the remarkable Katherine Johnson.' is displayed in the center.",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "Subtext reads: 'The Nasa mathematician responsible for the calculations resulting in Apollo 11's safe return to earth.'",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "A black and white archival photograph shows a crowded NASA mission control room filled with men at consoles.",
+        "evidence_type": "visual",
+        "location": "bottom half",
+        "confidence": "high"
+      },
+      {
+        "description": "The yellow ink from the highlighter is used to color a single woman in the background of the black and white photo, making her stand out.",
+        "evidence_type": "visual",
+        "location": "center-right of the photo",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand name 'STABILO' is visible on the highlighter body.",
+        "evidence_type": "brand_mark",
+        "location": "top right",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad's core message is that the Stabilo highlighter is a tool for bringing attention to and celebrating important but overlooked figures in history.",
+        "evidence_indices": [
+          1,
+          2,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a highlighter to 'reveal' a woman in a sea of men is a visual metaphor for uncovering hidden history and challenging the male-dominated narrative of the space race.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "historical_recognition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses the authority of NASA and the historical significance of the Apollo 11 mission to lend credibility and weight to the story of Katherine Johnson.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "admiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "By associating its product with a story of social justice and historical recognition, the brand elevates itself from a simple office supply to a tool for intellectual and cultural engagement.",
+        "evidence_indices": [
+          1,
+          2,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A yellow Stabilo highlighter is shown at the top right, with a line of yellow ink extending down into the image.",
+      "location": "top right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text 'Highlight the remarkable Katherine Johnson.' is displayed in the center.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "Subtext reads: 'The Nasa mathematician responsible for the calculations resulting in Apollo 11's safe return to earth.'",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A black and white archival photograph shows a crowded NASA mission control room filled with men at consoles.",
+      "location": "bottom half",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "The yellow ink from the highlighter is used to color a single woman in the background of the black and white photo, making her stand out.",
+      "location": "center-right of the photo",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "The brand name 'STABILO' is visible on the highlighter body.",
+      "location": "top right",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A Stabilo highlighter ad uses a historical NASA photo to position its product as a tool for recognizing and celebrating the overlooked contributions of Katherine Johnson.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad's core message is that the Stabilo highlighter is a tool for bringing attention to and celebrating important but overlooked figures in history.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a highlighter to 'reveal' a woman in a sea of men is a visual metaphor for uncovering hidden history and challenging the male-dominated narrative of the space race.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "historical_recognition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad uses the authority of NASA and the historical significance of the Apollo 11 mission to lend credibility and weight to the story of Katherine Johnson.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "admiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "By associating its product with a story of social justice and historical recognition, the brand elevates itself from a simple office supply to a tool for intellectual and cultural engagement.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_association",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

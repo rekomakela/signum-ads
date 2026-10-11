@@ -1,0 +1,378 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-that-was-just-genius-15b2023e",
+    "media_type": "image",
+    "path": "cases/real-that-was-just-genius-15b2023e/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:07:34.933Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-that-was-just-genius-15b2023e",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "BIC EZ Reach is the ultimate lighter, designed to be safe and easy to use for lighting candles and other items.",
+    "observations": [
+      {
+        "description": "The BIC logo and the product name 'EZ Reach THE ULTIMATE LIGHTER' are prominently displayed in the top left corner.",
+        "evidence_type": "brand_mark",
+        "location": "top left",
+        "confidence": "high"
+      },
+      {
+        "description": "A woman is shown holding a candle in one hand and using the BIC EZ Reach lighter to light it with the other, demonstrating the product's primary use case.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "A man is shown in the background holding the lighter, suggesting the product is for a wide audience.",
+        "evidence_type": "visual",
+        "location": "right",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'PERFECT FOR CANDLES' is displayed in a blue box at the top.",
+        "evidence_type": "copy",
+        "location": "top center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'AND MORE!' is displayed in a yellow box on the right.",
+        "evidence_type": "copy",
+        "location": "right",
+        "confidence": "high"
+      },
+      {
+        "description": "The product packaging is shown on the left, with bullet points listing key features: 'Perfect For Candles and More', 'Helps Keep Fingers Away From Flame', and '100% Safety Tested'.",
+        "evidence_type": "copy",
+        "location": "left",
+        "confidence": "high"
+      },
+      {
+        "description": "The product packaging also features a claim of 'UP TO 50% MORE LIGHTS'.",
+        "evidence_type": "copy",
+        "location": "left, on packaging",
+        "confidence": "high"
+      },
+      {
+        "description": "The ad uses a clean layout with a white background on the left and a blue and yellow background on the right, separating the product information from the lifestyle imagery.",
+        "evidence_type": "layout",
+        "location": "overall",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The BIC EZ Reach is a versatile and safe lighter, ideal for lighting candles and other things.",
+        "evidence_indices": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses a demonstration of the product in use to show its ease and effectiveness, which is a form of product demonstration.",
+        "evidence_indices": [
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "product_demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The claim that the lighter 'Helps Keep Fingers Away From Flame' and is '100% Safety Tested' appeals to the consumer's desire for safety and control.",
+        "evidence_indices": [
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of two different people, a woman and a man, acts as a signifier for the product's broad appeal and universal usability, moving beyond a single demographic.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets a general consumer audience, including both men and women, who are looking for a convenient and safe way to light candles and other items.",
+        "evidence_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "brand_mark",
+      "description": "The BIC logo and the product name 'EZ Reach THE ULTIMATE LIGHTER' are prominently displayed in the top left corner.",
+      "location": "top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A woman is shown holding a candle in one hand and using the BIC EZ Reach lighter to light it with the other, demonstrating the product's primary use case.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A man is shown in the background holding the lighter, suggesting the product is for a wide audience.",
+      "location": "right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'PERFECT FOR CANDLES' is displayed in a blue box at the top.",
+      "location": "top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The text 'AND MORE!' is displayed in a yellow box on the right.",
+      "location": "right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "The product packaging is shown on the left, with bullet points listing key features: 'Perfect For Candles and More', 'Helps Keep Fingers Away From Flame', and '100% Safety Tested'.",
+      "location": "left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "copy",
+      "description": "The product packaging also features a claim of 'UP TO 50% MORE LIGHTS'.",
+      "location": "left, on packaging",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_008",
+      "evidence_type": "layout",
+      "description": "The ad uses a clean layout with a white background on the left and a blue and yellow background on the right, separating the product information from the lifestyle imagery.",
+      "location": "overall",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "BIC EZ Reach is the ultimate lighter, designed to be safe and easy to use for lighting candles and other items.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The BIC EZ Reach is a versatile and safe lighter, ideal for lighting candles and other things.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The ad uses a demonstration of the product in use to show its ease and effectiveness, which is a form of product demonstration.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "product_demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The claim that the lighter 'Helps Keep Fingers Away From Flame' and is '100% Safety Tested' appeals to the consumer's desire for safety and control.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "semiotic",
+        "text": "The use of two different people, a woman and a man, acts as a signifier for the product's broad appeal and universal usability, moving beyond a single demographic.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The ad targets a general consumer audience, including both men and women, who are looking for a convenient and safe way to light candles and other items.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

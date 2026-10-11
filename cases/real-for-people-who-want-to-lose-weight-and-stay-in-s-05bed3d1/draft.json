@@ -1,0 +1,322 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-for-people-who-want-to-lose-weight-and-stay-in-s-05bed3d1",
+    "media_type": "image",
+    "path": "cases/real-for-people-who-want-to-lose-weight-and-stay-in-s-05bed3d1/asset.jpg",
+    "sha256": "29baff2f0f67514722dc00e64e9cec9bb721330246a8dc676b46b775d136d550"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:47:57.633Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-for-people-who-want-to-lose-weight-and-stay-in-s-05bed3d1",
+    "sha256": "29baff2f0f67514722dc00e64e9cec9bb721330246a8dc676b46b775d136d550"
+  },
+  "raw_provider_output": {
+    "summary": "WeightWatchers is presented as the essential bridge that transforms the daunting 'entrance' to a weight-loss journey into a successful 'exit.'",
+    "observations": [
+      {
+        "description": "A large, standard white interior door on the left side of the frame, labeled with the word 'ENTRANCE' in small, sans-serif capital letters.",
+        "evidence_type": "visual",
+        "location": "Left side of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A significantly narrower, slimmer white interior door on the right side of the frame, labeled with the word 'EXIT' in small, sans-serif capital letters.",
+        "evidence_type": "visual",
+        "location": "Right side of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "The WeightWatchers logo, featuring the brand name and a blue and green swirl icon, displayed on a white rectangular plaque.",
+        "evidence_type": "brand_mark",
+        "location": "Center of the image, on the green wall between the two doors",
+        "confidence": "high"
+      },
+      {
+        "description": "The background consists of a solid, light green wall and a dark wood floor, creating a clean, neutral setting.",
+        "evidence_type": "visual",
+        "location": "Background and floor",
+        "confidence": "high"
+      },
+      {
+        "description": "The 'ENTRANCE' door is visibly wider than the 'EXIT' door, creating a clear visual contrast in size.",
+        "evidence_type": "layout",
+        "location": "Comparison between the left and right doors",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "semiotic",
+        "text": "The ad uses a visual metaphor where the physical width of the doors represents a person's body size or weight, with the 'Entrance' being the starting point (larger) and the 'Exit' being the goal (slimmer).",
+        "evidence_indices": [
+          0,
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "core_message",
+        "text": "WeightWatchers is positioned as the necessary intermediary or 'key' that allows a person to successfully transition from their starting state to their desired, slimmer outcome.",
+        "evidence_indices": [
+          2,
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of the terms 'Entrance' and 'Exit' frames the weight-loss journey as a manageable process with a clear beginning and a definitive, successful end, reducing the perceived complexity of the challenge.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The clean, minimalist aesthetic of the ad, featuring a simple green wall and white doors, reinforces the brand's promise of a clear, straightforward, and uncluttered path to health.",
+        "evidence_indices": [
+          3,
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "relief",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large, standard white interior door on the left side of the frame, labeled with the word 'ENTRANCE' in small, sans-serif capital letters.",
+      "location": "Left side of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A significantly narrower, slimmer white interior door on the right side of the frame, labeled with the word 'EXIT' in small, sans-serif capital letters.",
+      "location": "Right side of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The WeightWatchers logo, featuring the brand name and a blue and green swirl icon, displayed on a white rectangular plaque.",
+      "location": "Center of the image, on the green wall between the two doors",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The background consists of a solid, light green wall and a dark wood floor, creating a clean, neutral setting.",
+      "location": "Background and floor",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "The 'ENTRANCE' door is visibly wider than the 'EXIT' door, creating a clear visual contrast in size.",
+      "location": "Comparison between the left and right doors",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "WeightWatchers is presented as the essential bridge that transforms the daunting 'entrance' to a weight-loss journey into a successful 'exit.'",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "semiotic",
+        "text": "The ad uses a visual metaphor where the physical width of the doors represents a person's body size or weight, with the 'Entrance' being the starting point (larger) and the 'Exit' being the goal (slimmer).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "core_message",
+        "text": "WeightWatchers is positioned as the necessary intermediary or 'key' that allows a person to successfully transition from their starting state to their desired, slimmer outcome.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The use of the terms 'Entrance' and 'Exit' frames the weight-loss journey as a manageable process with a clear beginning and a definitive, successful end, reducing the perceived complexity of the challenge.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "control",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The clean, minimalist aesthetic of the ad, featuring a simple green wall and white doors, reinforces the brand's promise of a clear, straightforward, and uncluttered path to health.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "relief",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

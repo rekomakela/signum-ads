@@ -1,0 +1,287 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-coca-cola-a233b286",
+    "media_type": "image",
+    "path": "cases/real-coca-cola-a233b286/asset.jpg",
+    "sha256": "c015b931d9e167f116ac9d6711eafb611a9eba2275fe582679ba3d57bc2487cf"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:28:03.892Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-coca-cola-a233b286",
+    "sha256": "c015b931d9e167f116ac9d6711eafb611a9eba2275fe582679ba3d57bc2487cf"
+  },
+  "raw_provider_output": {
+    "summary": "A minimalist visual comparison that highlights the iconic status of the Pepsi logo by contrasting it with a generic circle and a 'Pepsi-Cola' hybrid, suggesting Pepsi's brand identity is instantly recognizable and distinct.",
+    "observations": [
+      {
+        "description": "A plain white circle outline on a blue background.",
+        "evidence_type": "visual",
+        "location": "Top left",
+        "confidence": "high"
+      },
+      {
+        "description": "A white circle outline with a small red and white wave in the upper right quadrant.",
+        "evidence_type": "visual",
+        "location": "Top right",
+        "confidence": "high"
+      },
+      {
+        "description": "The full Pepsi logo (red, white, and blue circle) with the word 'pepsi' in lowercase white text below it.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom left",
+        "confidence": "high"
+      },
+      {
+        "description": "A red circle containing the white 'Coca-Cola' script logo, with the word 'pepsi' partially visible below it, and a white circle obscuring the bottom right portion of the red circle.",
+        "evidence_type": "visual",
+        "location": "Bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "A solid dark blue background covering the entire image.",
+        "evidence_type": "layout",
+        "location": "Background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Pepsi's brand identity is defined by its specific visual mark, which is distinct from generic shapes and its competitors.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The progression from a generic circle to the specific logo illustrates the semiotic process of signification, where a simple shape becomes a branded signifier.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By juxtaposing the Pepsi logo with a 'Pepsi-Cola' hybrid, the ad uses contrast to assert Pepsi's unique market position against its primary rival.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of a minimalist design language suggests a modern, confident brand that does not need excessive decoration to be recognized.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A plain white circle outline on a blue background.",
+      "location": "Top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A white circle outline with a small red and white wave in the upper right quadrant.",
+      "location": "Top right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The full Pepsi logo (red, white, and blue circle) with the word 'pepsi' in lowercase white text below it.",
+      "location": "Bottom left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A red circle containing the white 'Coca-Cola' script logo, with the word 'pepsi' partially visible below it, and a white circle obscuring the bottom right portion of the red circle.",
+      "location": "Bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "A solid dark blue background covering the entire image.",
+      "location": "Background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A minimalist visual comparison that highlights the iconic status of the Pepsi logo by contrasting it with a generic circle and a 'Pepsi-Cola' hybrid, suggesting Pepsi's brand identity is instantly recognizable and distinct.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Pepsi's brand identity is defined by its specific visual mark, which is distinct from generic shapes and its competitors.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The progression from a generic circle to the specific logo illustrates the semiotic process of signification, where a simple shape becomes a branded signifier.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By juxtaposing the Pepsi logo with a 'Pepsi-Cola' hybrid, the ad uses contrast to assert Pepsi's unique market position against its primary rival.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The use of a minimalist design language suggests a modern, confident brand that does not need excessive decoration to be recognized.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

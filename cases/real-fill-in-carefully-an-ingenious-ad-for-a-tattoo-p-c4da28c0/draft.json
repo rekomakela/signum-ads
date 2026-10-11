@@ -1,0 +1,313 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-fill-in-carefully-an-ingenious-ad-for-a-tattoo-p-c4da28c0",
+    "media_type": "image",
+    "path": "cases/real-fill-in-carefully-an-ingenious-ad-for-a-tattoo-p-c4da28c0/asset.jpg",
+    "sha256": "abf2d5d2ec746eaa2006899c97f6e07311233ab92f7a0fe4cb95e65a46bd4bca"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:44:21.083Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-fill-in-carefully-an-ingenious-ad-for-a-tattoo-p-c4da28c0",
+    "sha256": "abf2d5d2ec746eaa2006899c97f6e07311233ab92f7a0fe4cb95e65a46bd4bca"
+  },
+  "raw_provider_output": {
+    "summary": "A creative recruitment campaign for a new tattoo studio that uses a QR code disguised as a tattoo on newspaper to direct applicants to a digital application form.",
+    "observations": [
+      {
+        "description": "A large, tan-colored newspaper page featuring a faint, square QR code in the center and the text 'NEW TATTOO ARTISTS WANTED. TO APPLY, FILL IN THE QR CODE CAREFULLY.' at the bottom.",
+        "evidence_type": "visual",
+        "location": "Left panel",
+        "confidence": "high"
+      },
+      {
+        "description": "A circular black logo with white script text reading 'Bergge Tattoo' located at the bottom of the newspaper page.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom left",
+        "confidence": "high"
+      },
+      {
+        "description": "A close-up of a hand using a black marker to draw a QR code on a newspaper, simulating the act of getting a tattoo.",
+        "evidence_type": "visual",
+        "location": "Top right panel (labeled 1)",
+        "confidence": "high"
+      },
+      {
+        "description": "A hand holding a smartphone (iPhone) with the camera pointed at the newspaper, displaying a scanning interface.",
+        "evidence_type": "visual",
+        "location": "Middle right panel (labeled 2)",
+        "confidence": "high"
+      },
+      {
+        "description": "A smartphone screen showing an email application interface with the subject 'To: berggetattoobosnvrush@gmail.com' and buttons for 'Send Email' and 'Save to Contacts'.",
+        "evidence_type": "visual",
+        "location": "Bottom right panel (labeled 3)",
+        "confidence": "high"
+      },
+      {
+        "description": "Explanatory text stating: 'Those who want to apply for a job at the newly opened Bergge Tattoo, must carefully fill out the QR code and show off their skills, in order to access the application form.'",
+        "evidence_type": "copy",
+        "location": "Bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The layout is a step-by-step visual narrative showing the process: 1. Draw the code, 2. Scan the code, 3. Access the form.",
+        "evidence_type": "layout",
+        "location": "Right column",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement is a recruitment drive for tattoo artists that requires applicants to demonstrate their skill by manually drawing a QR code to access the application.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad uses a visual metaphor where the act of drawing a QR code on paper is equated to the act of tattooing, blurring the line between the medium (newspaper) and the body (skin).",
+        "evidence_indices": [
+          2,
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By requiring applicants to 'fill in' the code, the brand creates a barrier to entry that serves as a practical test of the artist's precision and creativity, appealing to a professional identity.",
+        "evidence_indices": [
+          5,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "pride",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "craft_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of a newspaper as the canvas suggests a connection to traditional media and perhaps a 'street' or underground aesthetic common in tattoo culture, while the QR code bridges it to the digital age.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large, tan-colored newspaper page featuring a faint, square QR code in the center and the text 'NEW TATTOO ARTISTS WANTED. TO APPLY, FILL IN THE QR CODE CAREFULLY.' at the bottom.",
+      "location": "Left panel",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "A circular black logo with white script text reading 'Bergge Tattoo' located at the bottom of the newspaper page.",
+      "location": "Bottom left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A close-up of a hand using a black marker to draw a QR code on a newspaper, simulating the act of getting a tattoo.",
+      "location": "Top right panel (labeled 1)",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A hand holding a smartphone (iPhone) with the camera pointed at the newspaper, displaying a scanning interface.",
+      "location": "Middle right panel (labeled 2)",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A smartphone screen showing an email application interface with the subject 'To: berggetattoobosnvrush@gmail.com' and buttons for 'Send Email' and 'Save to Contacts'.",
+      "location": "Bottom right panel (labeled 3)",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "copy",
+      "description": "Explanatory text stating: 'Those who want to apply for a job at the newly opened Bergge Tattoo, must carefully fill out the QR code and show off their skills, in order to access the application form.'",
+      "location": "Bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "layout",
+      "description": "The layout is a step-by-step visual narrative showing the process: 1. Draw the code, 2. Scan the code, 3. Access the form.",
+      "location": "Right column",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A creative recruitment campaign for a new tattoo studio that uses a QR code disguised as a tattoo on newspaper to direct applicants to a digital application form.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement is a recruitment drive for tattoo artists that requires applicants to demonstrate their skill by manually drawing a QR code to access the application.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad uses a visual metaphor where the act of drawing a QR code on paper is equated to the act of tattooing, blurring the line between the medium (newspaper) and the body (skin).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By requiring applicants to 'fill in' the code, the brand creates a barrier to entry that serves as a practical test of the artist's precision and creativity, appealing to a professional identity.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "pride",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "craft_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The use of a newspaper as the canvas suggests a connection to traditional media and perhaps a 'street' or underground aesthetic common in tattoo culture, while the QR code bridges it to the digital age.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

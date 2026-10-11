@@ -1,0 +1,325 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-dhl-has-2-competitors-fedex-and-ups-and-now-look-246b64fb",
+    "media_type": "image",
+    "path": "cases/real-dhl-has-2-competitors-fedex-and-ups-and-now-look-246b64fb/asset.jpg",
+    "sha256": "83277dad445753df710c64db8cb60f668ae31836a21d5cd3c064c30caf68af59"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:33:34.468Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-dhl-has-2-competitors-fedex-and-ups-and-now-look-246b64fb",
+    "sha256": "83277dad445753df710c64db8cb60f668ae31836a21d5cd3c064c30caf68af59"
+  },
+  "raw_provider_output": {
+    "summary": "A humorous advertisement that uses a visual pun to suggest FedEx is 'Fed up' with the competition, positioning DHL as the superior alternative.",
+    "observations": [
+      {
+        "description": "A white FedEx logo sticker is placed on the left side of the image, with the letters 'Ex' partially obscured or cut off.",
+        "evidence_type": "visual",
+        "location": "left-center",
+        "confidence": "high"
+      },
+      {
+        "description": "A brown, textured sticker with the word 'up' in a stylized font is placed immediately to the right of the FedEx logo.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "A large black question mark is positioned to the right of the 'up' sticker.",
+        "evidence_type": "visual",
+        "location": "right-center",
+        "confidence": "high"
+      },
+      {
+        "description": "The entire composition is set against a solid, bright yellow background.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The DHL logo is visible in the bottom right corner of the image.",
+        "evidence_type": "brand_mark",
+        "location": "bottom-right",
+        "confidence": "high"
+      },
+      {
+        "description": "The arrangement of the FedEx logo and the 'up' sticker creates the visual phrase 'Fed up'.",
+        "evidence_type": "layout",
+        "location": "center",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad's core message is that FedEx is 'fed up' with the competition, implying that DHL is the better choice for shipping.",
+        "evidence_indices": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The ad functions as a visual pun, a form of semiotic play where the signifier (the logos) is manipulated to create a new signified (the phrase 'Fed up').",
+        "evidence_indices": [
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The use of humor and a playful tone is intended to make the advertisement more memorable and to create a positive association with the DHL brand.",
+        "evidence_indices": [
+          2,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The question mark adds a layer of ambiguity, inviting the viewer to complete the thought and engage with the joke, which can increase the ad's effectiveness.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A white FedEx logo sticker is placed on the left side of the image, with the letters 'Ex' partially obscured or cut off.",
+      "location": "left-center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A brown, textured sticker with the word 'up' in a stylized font is placed immediately to the right of the FedEx logo.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A large black question mark is positioned to the right of the 'up' sticker.",
+      "location": "right-center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The entire composition is set against a solid, bright yellow background.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The DHL logo is visible in the bottom right corner of the image.",
+      "location": "bottom-right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "layout",
+      "description": "The arrangement of the FedEx logo and the 'up' sticker creates the visual phrase 'Fed up'.",
+      "location": "center",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A humorous advertisement that uses a visual pun to suggest FedEx is 'Fed up' with the competition, positioning DHL as the superior alternative.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad's core message is that FedEx is 'fed up' with the competition, implying that DHL is the better choice for shipping.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The ad functions as a visual pun, a form of semiotic play where the signifier (the logos) is manipulated to create a new signified (the phrase 'Fed up').",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The use of humor and a playful tone is intended to make the advertisement more memorable and to create a positive association with the DHL brand.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "amusement",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The question mark adds a layer of ambiguity, inviting the viewer to complete the thought and engage with the joke, which can increase the ad's effectiveness.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

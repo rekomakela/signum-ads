@@ -1,0 +1,325 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-lego-campaign-developed-by-asawin-tejasakulsin-s-285fe04b",
+    "media_type": "image",
+    "path": "cases/real-lego-campaign-developed-by-asawin-tejasakulsin-s-285fe04b/asset.jpg",
+    "sha256": "afeb2ce607c2d43ef4802e525fd906791100eaaee330bb5bc97b72633aff5b31"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:19:22.900Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-lego-campaign-developed-by-asawin-tejasakulsin-s-285fe04b",
+    "sha256": "afeb2ce607c2d43ef4802e525fd906791100eaaee330bb5bc97b72633aff5b31"
+  },
+  "raw_provider_output": {
+    "summary": "A young child is depicted as a rock star playing a guitar, with the entire scene constructed from LEGO bricks, illustrating the brand's slogan that building with LEGO is about creating the future.",
+    "observations": [
+      {
+        "description": "A young child with short brown hair is shown smiling and playing a red electric guitar.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The child is wearing a dark jacket, jeans, and boots, all of which are constructed entirely from individual LEGO bricks.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The electric guitar held by the child is also built from LEGO bricks, featuring a red body and white neck.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is a smooth, dark gradient with a purple and pink glow at the bottom, creating a stage-like atmosphere.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'Build the future.' appears in white sans-serif font in the bottom right corner.",
+        "evidence_type": "copy",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The red LEGO logo with white text is positioned in the bottom right corner next to the slogan.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement argues that LEGO is a tool for imagination and creativity that allows children to build their own reality and future.",
+        "evidence_indices": [
+          0,
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a rock star archetype (guitar, boots, jacket) serves as a signifier for creative expression and identity, suggesting that LEGO is not just a toy but a medium for self-expression.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By showing a child as the creator of the entire scene, the ad appeals to parents' desire to nurture their children's potential and future success.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "hope",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The visual metaphor of the 'brick-built' world suggests that the future is something that can be constructed piece by piece through play and imagination.",
+        "evidence_indices": [
+          1,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A young child with short brown hair is shown smiling and playing a red electric guitar.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The child is wearing a dark jacket, jeans, and boots, all of which are constructed entirely from individual LEGO bricks.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The electric guitar held by the child is also built from LEGO bricks, featuring a red body and white neck.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The background is a smooth, dark gradient with a purple and pink glow at the bottom, creating a stage-like atmosphere.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "copy",
+      "description": "The text 'Build the future.' appears in white sans-serif font in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "The red LEGO logo with white text is positioned in the bottom right corner next to the slogan.",
+      "location": "bottom right",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A young child is depicted as a rock star playing a guitar, with the entire scene constructed from LEGO bricks, illustrating the brand's slogan that building with LEGO is about creating the future.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement argues that LEGO is a tool for imagination and creativity that allows children to build their own reality and future.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "aspiration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a rock star archetype (guitar, boots, jacket) serves as a signifier for creative expression and identity, suggesting that LEGO is not just a toy but a medium for self-expression.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By showing a child as the creator of the entire scene, the ad appeals to parents' desire to nurture their children's potential and future success.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "hope",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The visual metaphor of the 'brick-built' world suggests that the future is something that can be constructed piece by piece through play and imagination.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

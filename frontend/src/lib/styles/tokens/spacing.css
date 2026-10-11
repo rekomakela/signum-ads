@@ -1,0 +1,43 @@
+:root {
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 2rem;
+  --space-8: 2.5rem;
+  --space-9: 3rem;
+  --space-10: 4rem;
+
+  --measure-narrow: 36ch;
+  --measure-base: 66ch;
+  --measure-wide: 78ch;
+
+  --radius-0: 0;
+  --radius-1: 6px;
+  --radius-2: 10px;
+  --radius-3: 14px;
+  --radius-round: 999px;
+
+  --border-thin: 1px solid var(--border-hairline);
+  --border-input: 1px solid var(--line-1);
+  --border-rule: 1px solid var(--line-1);
+
+  --shadow-none: none;
+  --shadow-xs: 0 1px 2px rgb(var(--shadow-color) / 0.05);
+  --shadow-sm: 0 3px 10px rgb(var(--shadow-color) / 0.07);
+  --shadow-md: 0 10px 28px rgb(var(--shadow-color) / 0.1);
+  --shadow-lg: 0 22px 54px rgb(var(--shadow-color) / 0.14);
+
+  --sidebar-width: 192px;
+  --mobile-header-height: 62px;
+  --content-max: 1680px;
+
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  --duration-fast: 120ms;
+  --duration-base: 180ms;
+  --duration-slow: 280ms;
+}

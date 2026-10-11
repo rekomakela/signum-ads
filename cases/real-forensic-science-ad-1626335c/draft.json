@@ -1,0 +1,347 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-forensic-science-ad-1626335c",
+    "media_type": "image",
+    "path": "cases/real-forensic-science-ad-1626335c/asset.jpg",
+    "sha256": "adfd8da780d4caca02a5c5d8cf704ac4913c35b3f7ea641f4028c6e790e4f63a"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:52:12.251Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-forensic-science-ad-1626335c",
+    "sha256": "adfd8da780d4caca02a5c5d8cf704ac4913c35b3f7ea641f4028c6e790e4f63a"
+  },
+  "raw_provider_output": {
+    "summary": "The advertisement argues that forensic science is essential to remove doubt in criminal cases and calls for donations to fund a new research lab at UCL.",
+    "observations": [
+      {
+        "description": "The phrase 'THE POLICE SAID THE ACCUSED HAD THROWN THE FIRST PUNCH' is printed in bold black text in the upper left quadrant.",
+        "evidence_type": "copy",
+        "location": "top left",
+        "confidence": "high"
+      },
+      {
+        "description": "The same phrase is repeated below the first instance, but with red quotation marks added around 'THE POLICE', 'ACCUSED', 'HAD', and 'PUNCH'.",
+        "evidence_type": "visual",
+        "location": "middle left",
+        "confidence": "high"
+      },
+      {
+        "description": "A text block at the bottom reads: 'Guilty or innocent? It shouldn't be open to interpretation. Forensic science can remove the doubt. But it's drastically underfunded. So, many criminal cases rely on guess work.'",
+        "evidence_type": "copy",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "A call to action instructs the reader to 'Text JUSTICE to 60777 and donate to build a new research lab at UCL to change this.'",
+        "evidence_type": "cta",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The UCL Forensic Sciences logo is displayed in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The background of the ad is a light, off-white color with faint, illegible text visible through the paper, suggesting it is printed in a newspaper.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad's primary message is that forensic science is underfunded and necessary to ensure justice in criminal cases.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The visual repetition of the text with added quotation marks functions as a visual metaphor for the ambiguity and 'interpretation' of witness testimony, contrasting it with the objective nature of forensic science.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses a fear appeal by suggesting that without funding, criminal cases rely on 'guess work,' implying a risk of wrongful convictions.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad leverages the authority of UCL, a prestigious university, to validate the importance of the research lab being funded.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "authority_persuasion",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target audience is likely the general public with an interest in social justice and the legal system, as indicated by the newspaper placement and the direct call to action.",
+        "evidence_indices": [
+          3,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "The phrase 'THE POLICE SAID THE ACCUSED HAD THROWN THE FIRST PUNCH' is printed in bold black text in the upper left quadrant.",
+      "location": "top left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "The same phrase is repeated below the first instance, but with red quotation marks added around 'THE POLICE', 'ACCUSED', 'HAD', and 'PUNCH'.",
+      "location": "middle left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "A text block at the bottom reads: 'Guilty or innocent? It shouldn't be open to interpretation. Forensic science can remove the doubt. But it's drastically underfunded. So, many criminal cases rely on guess work.'",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "cta",
+      "description": "A call to action instructs the reader to 'Text JUSTICE to 60777 and donate to build a new research lab at UCL to change this.'",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The UCL Forensic Sciences logo is displayed in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "The background of the ad is a light, off-white color with faint, illegible text visible through the paper, suggesting it is printed in a newspaper.",
+      "location": "background",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The advertisement argues that forensic science is essential to remove doubt in criminal cases and calls for donations to fund a new research lab at UCL.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad's primary message is that forensic science is underfunded and necessary to ensure justice in criminal cases.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The visual repetition of the text with added quotation marks functions as a visual metaphor for the ambiguity and 'interpretation' of witness testimony, contrasting it with the objective nature of forensic science.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad uses a fear appeal by suggesting that without funding, criminal cases rely on 'guess work,' implying a risk of wrongful convictions.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "The ad leverages the authority of UCL, a prestigious university, to validate the importance of the research lab being funded.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "authority_persuasion",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The target audience is likely the general public with an interest in social justice and the legal system, as indicated by the newspaper placement and the direct call to action.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

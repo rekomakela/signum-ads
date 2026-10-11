@@ -1,0 +1,140 @@
+metadata:
+  id: signum_domain_ontology.interpretation_evidence
+  version: 0.1.0
+  status: final_draft
+  project: Signum
+  title: Interpretation and Evidence Layer
+  description: Classes that separate observation from interpretation and make analytical claims auditable.
+  source_manifest: ../ontology.yaml
+layer:
+  id: interpretation_evidence
+  order: '05'
+  class_names:
+  - Observation
+  - Interpretation
+  - EvidenceLink
+entity_classes:
+  Observation:
+    description: A noticed element or question recorded before or during analysis; distinct from interpretation.
+    properties:
+      id:
+        type: id
+        required: true
+      text:
+        type: text
+        required: true
+      observer:
+        type: enum
+        values:
+        - curator
+        - user
+        - ml_pipeline
+        - williamson
+      timestamp:
+        type: datetime
+      observation_type:
+        type: enum
+        values:
+        - visual_element
+        - textual_element
+        - compositional_element
+        - color_element
+        - typographic_element
+        - reflection
+        - question
+      signifier_id:
+        type: reference
+        range: Signifier
+  Interpretation:
+    description: An analytical claim about how an advertisement produces meaning or persuasion.
+    properties:
+      id:
+        type: id
+        required: true
+      title:
+        type: string
+        required: true
+      full_text:
+        type: text
+        required: true
+      author:
+        type: enum
+        values:
+        - curator
+        - williamson
+        - ml_pipeline
+        - user
+      confidence:
+        type: enum
+        values:
+        - well_supported
+        - plausible
+        - speculative
+        - disputed
+      subtype:
+        type: enum
+        values:
+        - PrimaryReading
+        - CounterReading
+        - ModernBridge
+      observation_ids:
+        type: list
+        item_type: reference
+        range: Observation
+      ideology_ids:
+        type: list
+        item_type: reference
+        range: Ideology
+      source_references:
+        type: list
+        item_type: SourceReference
+  EvidenceLink:
+    description: A typed connection between an observation, signifier, interpretation, and supporting
+      concept chain.
+    properties:
+      id:
+        type: id
+        required: true
+      from_id:
+        type: reference
+        required: true
+      to_id:
+        type: reference
+        required: true
+      relationship:
+        type: enum
+        values:
+        - observes
+        - signifies
+        - draws_on
+        - produces
+        - supports
+        - challenges
+        - bridges_to
+        - demonstrates
+      confidence:
+        type: enum
+        values:
+        - well_supported
+        - plausible
+        - speculative
+        - disputed
+      rationale:
+        type: text
+relationships:
+  supports_interpretation:
+    domain: Observation
+    range: Interpretation
+    description: An observation supports an interpretation.
+  has_counter_reading:
+    domain: Interpretation
+    range: Interpretation
+    description: A primary interpretation has an alternative reading.
+  informs_interpretation:
+    domain: SocialConcept
+    range: Interpretation
+    description: A curated social concept gives analytical vocabulary to an interpretation.
+  surfaced_in_observation:
+    domain: Observation
+    range: SocialConcept
+    description: An observation can explicitly surface a relevant social concept before a full interpretation.

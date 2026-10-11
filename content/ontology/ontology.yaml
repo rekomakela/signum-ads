@@ -1,0 +1,135 @@
+metadata:
+  id: signum_domain_ontology
+  version: 0.1.0
+  status: source_layer_manifest
+  last_updated: '2026-06-22'
+  project: Signum
+  description: Imported layered domain ontology retained as source material. Corpus
+    Model v0.1 and core-classes/core-relationships are the current target corpus foundation.
+  grounding:
+  - source: 'Judith Williamson, Decoding Advertisements: Ideology and Meaning in Advertising
+      (1978)'
+    use: conceptual foundation and vocabulary inspiration
+    quote_policy: No unverified direct quotations included.
+  - source: Semiotics, media literacy, sociology, behavioral design, CRO, and digital
+      persuasion practice
+    use: modern extension layer
+  competency_questions:
+  - What ideology does a given advertisement participate in?
+  - What signifiers in this ad link to a given referent system?
+  - What is the full concept chain from signifier to ideology?
+  - What modern persuasion techniques does an ideology manifest as?
+  - What counter-readings exist for a given interpretation?
+  - What is the confidence level of a given interpretation?
+  - What observations did the learner make before seeing expert analysis?
+  - What subject position does this ad offer the viewer?
+  - What narrative role does the product play in this ad?
+manifest_role: source_layer_manifest
+description: Source-layer manifest retained for imported ontology classes and mappings;
+  not the canonical Signum corpus model.
+source_original: ../original/ontology.original.yaml
+layers:
+- order: '01'
+  id: core_semiotic
+  title: Core Semiotic Layer
+  path: layers/01-core-semiotic.yaml
+  classes:
+  - Signifier
+  - Signified
+  - ReferentSystem
+- order: '02'
+  id: ad_context
+  title: Ad Context Layer
+  path: layers/02-ad-context.yaml
+  classes:
+  - Advertisement
+  - Campaign
+  - Product
+  - Source
+  - TargetAudience
+  - VisualStyle
+  - NarrativePattern
+- order: '03'
+  id: ideology_social
+  title: Ideology and Social Concepts Layer
+  path: layers/03-ideology-social.yaml
+  classes:
+  - Ideology
+  - SocialConcept
+- order: '04'
+  id: persuasion_modern
+  title: Modern Persuasion Layer
+  path: layers/04-persuasion-modern.yaml
+  classes:
+  - PersuasionTechnique
+  - ModernBridge
+- order: '05'
+  id: interpretation_evidence
+  title: Interpretation and Evidence Layer
+  path: layers/05-interpretation-evidence.yaml
+  classes:
+  - Observation
+  - Interpretation
+  - EvidenceLink
+- order: '06'
+  id: learning_support
+  title: Learning Support Layer
+  path: layers/06-learning-support.yaml
+  classes:
+  - GlossaryEntry
+  - TryFirstResponse
+  - UserSession
+- order: '07'
+  id: governance_sources
+  title: Governance and Sources Layer
+  path: layers/07-governance-sources.yaml
+  classes:
+  - SourceReference
+assembly_notes:
+  source_of_truth_policy: Use ontology/ontology.yaml as the manifest and the layer
+    files as modular sources. If the project needs a single bundled ontology later,
+    generate it from these layer files.
+  do_not_do:
+  - Do not manually duplicate class definitions across layers.
+  - Do not put learner app state into the core semiotic layer.
+  - Do not add direct quotes without verified source metadata.
+source_reference_policy:
+  description: All theory references must distinguish verified direct quotations from
+    paraphrase and conceptual attribution.
+  rules:
+  - Do not use williamson_quote, defining_quote, or other plain quote fields in derived
+    content.
+  - Use source_references[] for all references to Williamson, Barthes, Marx, Cialdini,
+    or other theorists.
+  - 'Direct quotes require verified: true plus source and page or stable locator metadata.'
+  - 'If page/source verification is missing, use type: paraphrase or conceptual_attribution
+    and verified: false.'
+  - Do not invent page numbers or exact quotations.
+  source_reference_shape:
+    type:
+      type: enum
+      values:
+      - direct_quote
+      - paraphrase
+      - conceptual_attribution
+    text:
+      type: text
+      required: true
+    source:
+      type: string
+    page:
+      type: string
+    verified:
+      type: boolean
+      required: true
+governance:
+  source_of_truth: true
+  derivatives:
+  - glossary YAML entries
+  - ad annotation YAML/JSON files
+  - runtime JSON schemas
+  - TypeScript interfaces
+  - future SQLModel classes
+  - future auto-decoder output schema
+  change_rule: Ontology changes require updating derived schemas, validators, glossary
+    refs, and affected sample data.

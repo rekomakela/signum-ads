@@ -1,0 +1,311 @@
+schema_version: signum_core_relationships.v1
+corpus_model_version: '0.1'
+status: master_corpus_foundation
+project: Signum
+last_updated: '2026-08-29'
+purpose: Core factual, analytical, and derived relationships for Corpus Model v0.1.
+  Edge epistemic type is explicit so archive fact, interpretation, and computed similarity
+  cannot be confused.
+epistemic_type_legend:
+  asserted_factual: Corpus fact supported by provenance.
+  analytical: Contestable analytical relation belonging to a DecodeRevision.
+  derived: Regenerable relation computed from corpus structure.
+relationships:
+- id: SIG-R-01
+  label: has_asset
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-02
+  plain_language: An Advertisement has one or more concrete Asset representations.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-02
+  label: advertises_product
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-03
+  plain_language: An Advertisement promotes a Product, service, cause, or idea.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-03
+  label: belongs_to_campaign
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-04
+  plain_language: An Advertisement belongs to a Campaign when campaign membership
+    is established.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-04
+  label: belongs_to_brand
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-21
+  plain_language: An Advertisement is associated with a canonical Brand.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-05
+  label: campaign_belongs_to_brand
+  source_class_id: SIG-C-04
+  target_class_id: SIG-C-21
+  plain_language: A Campaign belongs to or is run for a Brand.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-06
+  label: has_placement
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-22
+  plain_language: An Advertisement has a known occurrence in a Placement.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-07
+  label: placement_in_market
+  source_class_id: SIG-C-22
+  target_class_id: SIG-C-30
+  plain_language: A Placement occurred in a Market.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-08
+  label: placement_has_time
+  source_class_id: SIG-C-22
+  target_class_id: SIG-C-31
+  plain_language: A Placement has a TemporalExtent with explicit precision.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-09
+  label: advertisement_has_time
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-31
+  plain_language: An Advertisement has a known or bounded creation/publication TemporalExtent
+    when supported.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-10
+  label: asset_acquired_via
+  source_class_id: SIG-C-02
+  target_class_id: SIG-C-23
+  plain_language: An Asset was acquired by Signum through an AcquisitionSource.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-11
+  label: has_decode_revision
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-24
+  plain_language: An Advertisement has one or more versioned DecodeRevisions.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-12
+  label: metadata_assertion_about_advertisement
+  source_class_id: SIG-C-29
+  target_class_id: SIG-C-01
+  plain_language: A MetadataAssertion states a provenance-bearing fact about an Advertisement.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-13
+  label: metadata_assertion_grounded_by_source
+  source_class_id: SIG-C-29
+  target_class_id: SIG-C-20
+  plain_language: A MetadataAssertion is grounded by one or more SourceReferences.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-14
+  label: variant_of
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-01
+  plain_language: An Advertisement is a creative variant of another Advertisement.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-15
+  label: references_advertisement
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-01
+  plain_language: An Advertisement explicitly references another Advertisement.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-16
+  label: responds_to_advertisement
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-01
+  plain_language: An Advertisement responds to another Advertisement or campaign execution.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-17
+  label: revision_contains_observation
+  source_class_id: SIG-C-24
+  target_class_id: SIG-C-16
+  plain_language: A DecodeRevision contains an Observation.
+  epistemic_type: asserted_factual
+  persistence: asserted
+- id: SIG-R-18
+  label: revision_contains_advertiser_claim
+  source_class_id: SIG-C-24
+  target_class_id: SIG-C-25
+  plain_language: A DecodeRevision records an AdvertiserClaim identified in the Advertisement.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-19
+  label: revision_contains_interpretation
+  source_class_id: SIG-C-24
+  target_class_id: SIG-C-14
+  plain_language: A DecodeRevision contains a Signum Interpretation.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-20
+  label: observation_records_signifier
+  source_class_id: SIG-C-16
+  target_class_id: SIG-C-05
+  plain_language: An Observation identifies a perceptible element functioning as a
+    Signifier.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-21
+  label: signifier_evokes_signified
+  source_class_id: SIG-C-05
+  target_class_id: SIG-C-06
+  plain_language: A Signifier evokes or acquires a Signified meaning in context.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-22
+  label: signified_draws_on_referent_system
+  source_class_id: SIG-C-06
+  target_class_id: SIG-C-07
+  plain_language: A Signified meaning draws on a ReferentSystem.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-23
+  label: referent_system_activates_cultural_code
+  source_class_id: SIG-C-07
+  target_class_id: SIG-C-08
+  plain_language: A ReferentSystem activates a CulturalCode.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-24
+  label: evidence_link_points_to_observation
+  source_class_id: SIG-C-17
+  target_class_id: SIG-C-16
+  plain_language: An EvidenceLink points to the Observation used as support.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-25
+  label: interpretation_supported_by_evidence
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-17
+  plain_language: An Interpretation is supported, challenged, or left uncertain by
+    explicit EvidenceLinks.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-26
+  label: advertiser_claim_supported_by_evidence
+  source_class_id: SIG-C-25
+  target_class_id: SIG-C-17
+  plain_language: An identified AdvertiserClaim can be traced to the visible evidence
+    that expresses it.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-27
+  label: interpretation_explains_advertiser_claim
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-25
+  plain_language: An Interpretation explains how an AdvertiserClaim is constructed
+    or made persuasive.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-28
+  label: interpretation_uses_meaning_mechanism
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-26
+  plain_language: An Interpretation identifies a MeaningMechanism through which meaning
+    is produced.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-29
+  label: interpretation_draws_on_referent_system
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-07
+  plain_language: An Interpretation draws on a ReferentSystem.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-30
+  label: interpretation_uses_cultural_code
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-08
+  plain_language: An Interpretation identifies a CulturalCode activated by the Advertisement.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-31
+  label: interpretation_identifies_ideology
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-09
+  plain_language: An Interpretation identifies an Ideology the Advertisement may naturalize
+    or reinforce.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-32
+  label: interpretation_draws_on_social_concept
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-10
+  plain_language: An Interpretation uses a SocialConcept as analytical vocabulary.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-33
+  label: interpretation_uses_persuasion_technique
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-11
+  plain_language: An Interpretation identifies a PersuasionTechnique.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-34
+  label: interpretation_uses_emotional_lever
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-12
+  plain_language: An Interpretation identifies an EmotionalLever.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-35
+  label: interpretation_positions_audience
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-27
+  plain_language: An Interpretation describes an AudiencePosition constructed or invited
+    by the Advertisement.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-36
+  label: interpretation_uses_theoretical_concept
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-28
+  plain_language: An Interpretation is explained through a TheoreticalConcept.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-37
+  label: interpretation_relates_to_interpretation
+  source_class_id: SIG-C-14
+  target_class_id: SIG-C-14
+  plain_language: Interpretations may support, challenge, qualify, extend, contradict,
+    or provide alternatives to one another.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-38
+  label: source_grounds_interpretation
+  source_class_id: SIG-C-20
+  target_class_id: SIG-C-14
+  plain_language: A SourceReference may ground the theoretical basis of an Interpretation.
+  epistemic_type: analytical
+  persistence: asserted
+- id: SIG-R-39
+  label: shares_concept_with
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-01
+  plain_language: Two Advertisements share one or more controlled concepts.
+  epistemic_type: derived
+  persistence: computed
+- id: SIG-R-40
+  label: shares_mechanism_with
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-01
+  plain_language: Two Advertisements share one or more MeaningMechanisms.
+  epistemic_type: derived
+  persistence: computed
+- id: SIG-R-41
+  label: chronologically_related_to
+  source_class_id: SIG-C-01
+  target_class_id: SIG-C-01
+  plain_language: Two Advertisements have a computed chronological relationship such
+    as before/after or years apart.
+  epistemic_type: derived
+  persistence: computed

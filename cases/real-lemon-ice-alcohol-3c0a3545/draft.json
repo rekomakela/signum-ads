@@ -1,0 +1,322 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-lemon-ice-alcohol-3c0a3545",
+    "media_type": "image",
+    "path": "cases/real-lemon-ice-alcohol-3c0a3545/asset.jpg",
+    "sha256": "ea42308cbe2c07f264fb7e9f4bded0af8a37e5247b961de43929785997686016"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:20:52.871Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-lemon-ice-alcohol-3c0a3545",
+    "sha256": "ea42308cbe2c07f264fb7e9f4bded0af8a37e5247b961de43929785997686016"
+  },
+  "raw_provider_output": {
+    "summary": "The advertisement promotes Garage Hard Lemonade by positioning its simple ingredients (lemon, ice, and alcohol) as a 'genius' concept, utilizing a minimalist aesthetic and self-deprecating humor to appeal to a sophisticated consumer base.",
+    "observations": [
+      {
+        "description": "A handwritten note in the upper section reads: 'idea: MAKE AN AD SO DUMB, PEOPLE WILL ACTUALLY WANT TO LOOK AT THE BOTTOM TO SEE WHO THE HECK PAID FOR THIS SHIT.'",
+        "evidence_type": "copy",
+        "location": "top center",
+        "confidence": "high"
+      },
+      {
+        "description": "A minimalist illustration of a glass bottle with a diamond-shaped label reading 'GARAGE HARD LEMONADE' and a glass mason jar mug.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The primary headline text in a bold, sans-serif font: 'LEMON. ICE. AND ALCOHOL. KIND OF GENIUS. KIND OF.'",
+        "evidence_type": "copy",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "A small disclaimer at the very bottom: 'DRINKING RESPONSIBLY. IT'S KIND OF GENIUS.'",
+        "evidence_type": "copy",
+        "location": "bottom edge",
+        "confidence": "high"
+      },
+      {
+        "description": "The advertisement is printed on a page of a newspaper, with visible columns of Danish text to the left.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The layout features a large amount of negative space (white space) surrounding the bottle and the text.",
+        "evidence_type": "layout",
+        "location": "entire ad",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The product is a simple, clever combination of basic ingredients that is 'kind of genius.'",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses a 'curiosity gap' strategy where the perceived 'dumbness' or simplicity of the top of the ad forces the viewer to look at the bottom to identify the brand.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a mason jar and a simple bottle label signifies a 'craft' or 'garage' aesthetic, suggesting a homemade or artisanal quality rather than a mass-produced corporate product.",
+        "evidence_indices": [
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "craft_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The phrase 'Kind of genius. Kind of.' employs understatement and self-deprecation to create a tone of ironic sophistication, distancing the brand from aggressive marketing.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "understatement",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The minimalist design and intellectual humor target an audience that values cultural capital and appreciates 'smart' or 'insider' jokes over traditional flashy advertising.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "A handwritten note in the upper section reads: 'idea: MAKE AN AD SO DUMB, PEOPLE WILL ACTUALLY WANT TO LOOK AT THE BOTTOM TO SEE WHO THE HECK PAID FOR THIS SHIT.'",
+      "location": "top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A minimalist illustration of a glass bottle with a diamond-shaped label reading 'GARAGE HARD LEMONADE' and a glass mason jar mug.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The primary headline text in a bold, sans-serif font: 'LEMON. ICE. AND ALCOHOL. KIND OF GENIUS. KIND OF.'",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "A small disclaimer at the very bottom: 'DRINKING RESPONSIBLY. IT'S KIND OF GENIUS.'",
+      "location": "bottom edge",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The advertisement is printed on a page of a newspaper, with visible columns of Danish text to the left.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "layout",
+      "description": "The layout features a large amount of negative space (white space) surrounding the bottle and the text.",
+      "location": "entire ad",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The advertisement promotes Garage Hard Lemonade by positioning its simple ingredients (lemon, ice, and alcohol) as a 'genius' concept, utilizing a minimalist aesthetic and self-deprecating humor to appeal to a sophisticated consumer base.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The product is a simple, clever combination of basic ingredients that is 'kind of genius.'",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "simplicity_framing",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The ad uses a 'curiosity gap' strategy where the perceived 'dumbness' or simplicity of the top of the ad forces the viewer to look at the bottom to identify the brand.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "curiosity_gap",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The use of a mason jar and a simple bottle label signifies a 'craft' or 'garage' aesthetic, suggesting a homemade or artisanal quality rather than a mass-produced corporate product.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "craft_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The phrase 'Kind of genius. Kind of.' employs understatement and self-deprecation to create a tone of ironic sophistication, distancing the brand from aggressive marketing.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "understatement",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "irony",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The minimalist design and intellectual humor target an audience that values cultural capital and appreciates 'smart' or 'insider' jokes over traditional flashy advertising.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

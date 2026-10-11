@@ -1,0 +1,356 @@
+schema_version: "signum_glossary_v1"
+source_note: "Derived from OCR-assisted conceptual extraction; not quote-perfect."
+terms:
+  - id: signifier
+    term: "Signifier"
+    short_definition: "A thing in the ad that can be noticed and interpreted."
+    category: semiotics
+    related_ontology_class: signifier
+    related_principles:
+      - separate_surface_from_idea
+      - read_signs_relationally
+    learner_value: "Gives learners the first step: identifying what is visible, audible, verbal, spatial, or interactive."
+    priority: P1
+
+  - id: signified_meaning
+    term: "Signified meaning"
+    short_definition: "The idea, value, feeling, or association a signifier points toward."
+    category: semiotics
+    related_ontology_class: signified_meaning
+    related_principles:
+      - separate_surface_from_idea
+      - read_signs_relationally
+    learner_value: "Moves analysis from seeing to meaning."
+    priority: P1
+
+  - id: cultural_code
+    term: "Cultural code"
+    short_definition: "Shared cultural knowledge that makes a sign understandable."
+    category: semiotics
+    related_ontology_class: cultural_code
+    related_principles:
+      - identify_the_cultural_code
+      - always_allow_counter_reading
+    learner_value: "Helps learners explain why a sign means more than itself."
+    priority: P1
+
+  - id: visual_metaphor
+    term: "Visual metaphor"
+    short_definition: "A visual device where one thing stands for another."
+    category: semiotics
+    related_ontology_class: semiotic_device
+    related_principles:
+      - read_signs_relationally
+      - execution_choices_shape_meaning
+    learner_value: "Helps learners decode compressed visual meaning."
+    priority: P1
+
+  - id: symbol
+    term: "Symbol"
+    short_definition: "A sign that represents a broader idea or quality."
+    category: semiotics
+    related_ontology_class: semiotic_device
+    related_principles:
+      - read_signs_relationally
+      - identify_the_cultural_code
+    learner_value: "Helps learners identify shorthand meaning."
+    priority: P1
+
+  - id: implication
+    term: "Implication"
+    short_definition: "Meaning the ad invites the viewer to infer rather than states directly."
+    category: interpretation
+    related_ontology_class: audience_inference
+    related_principles:
+      - look_for_what_is_implied
+      - distinguish_hard_sell_from_soft_sell
+    learner_value: "Supports the core Signum move from visible evidence to unstated meaning."
+    priority: P1
+
+  - id: reading
+    term: "Reading"
+    short_definition: "A coherent interpretation of what the ad means."
+    category: interpretation
+    related_ontology_class: reading
+    related_principles:
+      - separate_surface_from_idea
+      - always_allow_counter_reading
+    learner_value: "Defines the learner’s analytic output."
+    priority: P1
+
+  - id: counter_reading
+    term: "Counter-reading"
+    short_definition: "An alternative or resistant interpretation."
+    category: interpretation
+    related_ontology_class: counter_reading
+    related_principles:
+      - always_allow_counter_reading
+    learner_value: "Encourages critical literacy and avoids treating the intended reading as the only possible reading."
+    priority: P1
+
+  - id: persuasive_claim
+    term: "Persuasive claim"
+    short_definition: "The main thing the ad wants the viewer to believe, feel, or accept."
+    category: persuasion
+    related_ontology_class: persuasive_claim
+    related_principles:
+      - find_the_main_claim
+      - ask_what_supports_the_claim
+    learner_value: "Connects meaning to persuasion."
+    priority: P1
+
+  - id: proposition
+    term: "Proposition"
+    short_definition: "The main promise or benefit behind the ad."
+    category: strategy
+    related_ontology_class: persuasive_claim
+    related_principles:
+      - find_the_main_claim
+      - ask_what_supports_the_claim
+    learner_value: "Gives learners a plain way to name the ad’s central promise."
+    priority: P1
+
+  - id: support_reason
+    term: "Support reason"
+    short_definition: "A fact, cue, demonstration, or reason that backs the claim."
+    category: strategy
+    related_ontology_class: support_reason
+    related_principles:
+      - ask_what_supports_the_claim
+      - simplicity_must_still_carry_insight
+    learner_value: "Helps separate assertion from support."
+    priority: P1
+
+  - id: target_audience
+    term: "Target audience"
+    short_definition: "The intended audience for the ad."
+    category: audience
+    related_ontology_class: target_audience
+    related_principles:
+      - model_the_viewer
+    learner_value: "Helps learners ask who the ad is for."
+    priority: P1
+
+  - id: implied_viewer
+    term: "Implied viewer"
+    short_definition: "The kind of person the ad imagines or invites the viewer to be."
+    category: audience
+    related_ontology_class: implied_viewer
+    related_principles:
+      - model_the_viewer
+      - decode_identity_and_desire
+    learner_value: "Essential for identity, desire, class, gender, status, and aspiration analysis."
+    priority: P1
+
+  - id: audience_response
+    term: "Audience response"
+    short_definition: "The reaction the ad tries to create."
+    category: audience
+    related_ontology_class: audience_response
+    related_principles:
+      - attention_is_not_enough
+      - name_the_persuasion_mechanism
+    learner_value: "Connects technique to effect."
+    priority: P1
+
+  - id: appeal
+    term: "Appeal"
+    short_definition: "The emotional, logical, social, identity, fear, humor, status, or desire route used to persuade."
+    category: persuasion
+    related_ontology_class: appeal
+    related_principles:
+      - decode_identity_and_desire
+      - name_the_persuasion_mechanism
+    learner_value: "Helps classify persuasion without flattening it into a generic claim."
+    priority: P1
+
+  - id: soft_sell
+    term: "Soft sell"
+    short_definition: "Indirect persuasion that works through implication, mood, identity, or idea."
+    category: persuasion
+    related_ontology_class: persuasion_mechanism
+    related_principles:
+      - distinguish_hard_sell_from_soft_sell
+      - name_the_persuasion_mechanism
+    learner_value: "Useful for subtle modern ads where persuasion is not stated directly."
+    priority: P1
+
+  - id: hard_sell
+    term: "Hard sell"
+    short_definition: "Direct persuasion that foregrounds price, offer, urgency, or product claim."
+    category: persuasion
+    related_ontology_class: persuasion_mechanism
+    related_principles:
+      - distinguish_hard_sell_from_soft_sell
+      - name_the_persuasion_mechanism
+    learner_value: "Useful as a contrast with indirect persuasion."
+    priority: P2
+
+  - id: brand
+    term: "Brand"
+    short_definition: "The identity, memory, values, and associations connected to what is being advertised."
+    category: brand
+    related_ontology_class: brand
+    related_principles:
+      - attention_is_not_enough
+      - decode_identity_and_desire
+    learner_value: "Helps learners see that ads often sell brand meaning, not only product features."
+    priority: P1
+
+  - id: brand_cue
+    term: "Brand cue"
+    short_definition: "A logo, color, phrase, sound, style, or recurring device that activates brand recognition."
+    category: brand
+    related_ontology_class: brand_cue
+    related_principles:
+      - attention_is_not_enough
+      - campaigns_repeat_with_variation
+    learner_value: "Explains product recall and brand memory."
+    priority: P1
+
+  - id: tone
+    term: "Tone"
+    short_definition: "The ad’s attitude, mood, or manner of address."
+    category: execution
+    related_ontology_class: tone
+    related_principles:
+      - model_the_viewer
+      - campaigns_repeat_with_variation
+    learner_value: "Helps decode personality, relationship, and implied audience."
+    priority: P1
+
+  - id: execution
+    term: "Execution"
+    short_definition: "The finished ad as actually seen by the audience."
+    category: core
+    related_ontology_class: ad_execution
+    related_principles:
+      - separate_surface_from_idea
+      - execution_choices_shape_meaning
+    learner_value: "Distinguishes visible surface from underlying idea."
+    priority: P1
+
+  - id: campaign
+    term: "Campaign"
+    short_definition: "A set of related executions sharing a core idea."
+    category: campaign
+    related_ontology_class: campaign_pattern
+    related_principles:
+      - campaigns_repeat_with_variation
+    learner_value: "Helps learners compare repeated patterns across ads."
+    priority: P2
+
+  - id: medium
+    term: "Medium"
+    short_definition: "The channel or placement where the ad appears."
+    category: media
+    related_ontology_class: medium_context
+    related_principles:
+      - medium_changes_meaning
+    learner_value: "Explains attention, interaction, sequence, sound, and context."
+    priority: P2
+
+  - id: hierarchy
+    term: "Hierarchy"
+    short_definition: "The order of importance created by size, placement, contrast, and layout."
+    category: execution
+    related_ontology_class: execution_choice
+    related_principles:
+      - execution_choices_shape_meaning
+      - medium_changes_meaning
+    learner_value: "Helps learners describe how attention is guided."
+    priority: P2
+
+  - id: framing
+    term: "Framing"
+    short_definition: "How the ad crops, positions, or reveals what is shown."
+    category: execution
+    related_ontology_class: execution_choice
+    related_principles:
+      - execution_choices_shape_meaning
+    learner_value: "Helps decode visual emphasis and omission."
+    priority: P2
+
+  - id: contrast
+    term: "Contrast"
+    short_definition: "A meaning-making tension between elements, often image and text."
+    category: semiotics
+    related_ontology_class: semiotic_device
+    related_principles:
+      - read_signs_relationally
+      - execution_choices_shape_meaning
+    learner_value: "Helps learners interpret surprise, contradiction, and reversal."
+    priority: P2
+
+  - id: exaggeration
+    term: "Exaggeration"
+    short_definition: "Amplifying a real quality, problem, or truth for persuasive effect."
+    category: persuasion
+    related_ontology_class: persuasion_mechanism
+    related_principles:
+      - identify_the_cultural_code
+      - exaggeration_must_begin_from_truth
+    learner_value: "Helps distinguish strong hyperbole from arbitrary contrivance."
+    priority: P2
+
+  - id: human_truth
+    term: "Truth / human truth"
+    short_definition: "A recognizable reality about people, culture, product use, or desire."
+    category: persuasion
+    related_ontology_class: support_reason
+    related_principles:
+      - ask_what_supports_the_claim
+      - exaggeration_must_begin_from_truth
+    learner_value: "Helps explain why an ad feels believable."
+    priority: P2
+
+  - id: relevance
+    term: "Relevance"
+    short_definition: "The fit between idea, product, audience, medium, and brand."
+    category: evaluation
+    related_ontology_class: reading
+    related_principles:
+      - evaluate_relevance_not_just_cleverness
+    learner_value: "Helps learners evaluate whether a clever idea actually works."
+    priority: P2
+
+  - id: recall
+    term: "Recall"
+    short_definition: "What the audience remembers: the ad, message, product, or brand."
+    category: audience
+    related_ontology_class: audience_response
+    related_principles:
+      - attention_is_not_enough
+      - campaigns_repeat_with_variation
+    learner_value: "Helps avoid analysis that praises memorability without checking brand connection."
+    priority: P2
+
+  - id: interaction
+    term: "Interaction"
+    short_definition: "A viewer action invited by the ad or medium."
+    category: media
+    related_ontology_class: audience_response
+    related_principles:
+      - medium_changes_meaning
+    learner_value: "Useful for interactive, social, and participatory ads."
+    priority: P3
+
+  - id: borrowed_interest
+    term: "Borrowed interest"
+    short_definition: "Using fame, celebrity, or existing attention to help sell something."
+    category: persuasion
+    related_ontology_class: persuasion_mechanism
+    related_principles:
+      - evaluate_relevance_not_just_cleverness
+    learner_value: "Useful for critiquing shallow celebrity or trend-based persuasion."
+    priority: P3
+
+  - id: testimonial
+    term: "Testimonial"
+    short_definition: "A person’s reported experience used as persuasion."
+    category: persuasion
+    related_ontology_class: persuasion_mechanism
+    related_principles:
+      - name_the_persuasion_mechanism
+    learner_value: "Names a common but narrower persuasion type."
+    priority: P3

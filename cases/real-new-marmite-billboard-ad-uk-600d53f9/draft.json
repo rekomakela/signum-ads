@@ -1,0 +1,314 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-new-marmite-billboard-ad-uk-600d53f9",
+    "media_type": "image",
+    "path": "cases/real-new-marmite-billboard-ad-uk-600d53f9/asset.jpg",
+    "sha256": "a3909b49d6a86b03777ec2846893ed914f29e709528dc344a00d909431702f7e"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:32:50.835Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-new-marmite-billboard-ad-uk-600d53f9",
+    "sha256": "a3909b49d6a86b03777ec2846893ed914f29e709528dc344a00d909431702f7e"
+  },
+  "raw_provider_output": {
+    "summary": "An advertisement for a limited edition 'Dynamite Marmite with Chilli' that uses explosive visual metaphors and a polarizing tagline to position the product as a bold, high-impact culinary experience.",
+    "observations": [
+      {
+        "description": "A billboard featuring a central image of a Marmite jar with a red label reading 'DYNAMITE MARMITE WITH CHILLI LIMITED EDITION'.",
+        "evidence_type": "visual",
+        "location": "center of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "Dark brown splatters and droplets radiating outward from the jar, mimicking an explosion or a violent splash.",
+        "evidence_type": "visual",
+        "location": "surrounding the central jar",
+        "confidence": "high"
+      },
+      {
+        "description": "The tagline 'LOVE IT. HATE IT. BE CAREFUL WITH IT.' printed below the product, with the final phrase in red.",
+        "evidence_type": "copy",
+        "location": "bottom center of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A yellow Marmite lid depicted as if it has been blown off the jar and is floating in the air above the billboard.",
+        "evidence_type": "visual",
+        "location": "upper left, above the billboard frame",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard is situated outdoors in a residential area with bare trees and brick buildings in the background.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The product is a 'Dynamite' Marmite, a limited edition variant that is significantly spicier and more intense than the standard product.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The visual of the splattering marmite and the flying lid functions as a visual metaphor for an 'explosion' of flavor, reinforcing the 'Dynamite' brand name.",
+        "evidence_indices": [
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The copy 'Love it. Hate it.' leverages the well-known cultural polarization surrounding Marmite to validate the product's intensity, while 'Be careful with it' adds a layer of playful warning.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The 'Limited Edition' label creates a sense of scarcity, encouraging consumers to purchase the product before it is no longer available.",
+        "evidence_indices": [
+          0
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "scarcity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets consumers who view Marmite as a serious, identity-defining food choice and are looking for a more adventurous or 'extreme' version of a staple product.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "culinary_experimentation",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A billboard featuring a central image of a Marmite jar with a red label reading 'DYNAMITE MARMITE WITH CHILLI LIMITED EDITION'.",
+      "location": "center of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "Dark brown splatters and droplets radiating outward from the jar, mimicking an explosion or a violent splash.",
+      "location": "surrounding the central jar",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The tagline 'LOVE IT. HATE IT. BE CAREFUL WITH IT.' printed below the product, with the final phrase in red.",
+      "location": "bottom center of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "A yellow Marmite lid depicted as if it has been blown off the jar and is floating in the air above the billboard.",
+      "location": "upper left, above the billboard frame",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The billboard is situated outdoors in a residential area with bare trees and brick buildings in the background.",
+      "location": "background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "An advertisement for a limited edition 'Dynamite Marmite with Chilli' that uses explosive visual metaphors and a polarizing tagline to position the product as a bold, high-impact culinary experience.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The product is a 'Dynamite' Marmite, a limited edition variant that is significantly spicier and more intense than the standard product.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The visual of the splattering marmite and the flying lid functions as a visual metaphor for an 'explosion' of flavor, reinforcing the 'Dynamite' brand name.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The copy 'Love it. Hate it.' leverages the well-known cultural polarization surrounding Marmite to validate the product's intensity, while 'Be careful with it' adds a layer of playful warning.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_identity",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "The 'Limited Edition' label creates a sense of scarcity, encouraging consumers to purchase the product before it is no longer available.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "scarcity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The ad targets consumers who view Marmite as a serious, identity-defining food choice and are looking for a more adventurous or 'extreme' version of a staple product.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "culinary_experimentation",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

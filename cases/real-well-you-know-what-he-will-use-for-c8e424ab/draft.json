@@ -1,0 +1,343 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-well-you-know-what-he-will-use-for-c8e424ab",
+    "media_type": "image",
+    "path": "cases/real-well-you-know-what-he-will-use-for-c8e424ab/asset.jpg",
+    "sha256": ""
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T02:19:58.872Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-well-you-know-what-he-will-use-for-c8e424ab",
+    "sha256": ""
+  },
+  "raw_provider_output": {
+    "summary": "The advertisement promotes the BIC EZ Reach lighter as a safe and versatile tool for lighting candles and other items, featuring a demonstration by two individuals.",
+    "observations": [
+      {
+        "description": "A woman is shown holding a white candle and using a blue lighter to light it.",
+        "evidence_type": "visual",
+        "location": "Top left quadrant",
+        "confidence": "high"
+      },
+      {
+        "description": "A man is shown holding a blue lighter, looking at it with a slight smile.",
+        "evidence_type": "visual",
+        "location": "Top right quadrant",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'PERFECT FOR CANDLES' is displayed in large white letters against a blue background.",
+        "evidence_type": "copy",
+        "location": "Top left corner",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'AND MORE!' is displayed in large white letters against an orange background.",
+        "evidence_type": "copy",
+        "location": "Top right corner",
+        "confidence": "high"
+      },
+      {
+        "description": "A product package for the 'BIC EZ Reach' lighter is shown, featuring the blue lighter and text like 'THE ULTIMATE LIGHTER' and '100% Safety Tested'.",
+        "evidence_type": "visual",
+        "location": "Bottom left quadrant",
+        "confidence": "high"
+      },
+      {
+        "description": "The BIC logo and the product name 'EZ Reach THE ULTIMATE LIGHTER' are prominently displayed in the center.",
+        "evidence_type": "brand_mark",
+        "location": "Center",
+        "confidence": "high"
+      },
+      {
+        "description": "An orange button with the text 'SHOP NOW' is located at the bottom right.",
+        "evidence_type": "cta",
+        "location": "Bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The background is split into a blue section on the left and an orange section on the right.",
+        "evidence_type": "layout",
+        "location": "Top half of the image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The BIC EZ Reach lighter is a versatile and safe tool, specifically highlighted for its ability to light candles.",
+        "evidence_indices": [
+          0,
+          2,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses a demonstration of the product in use to show its functionality and ease of use.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The split background color (blue and orange) visually separates the two use cases or user types, while the 'AND MORE!' text suggests the product's versatility beyond the primary example.",
+        "evidence_indices": [
+          3,
+          7
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The '100% Safety Tested' claim on the packaging appeals to the consumer's desire for a safe product, especially when dealing with fire.",
+        "evidence_indices": [
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The presence of two different individuals suggests the product is suitable for a broad demographic, not just a specific gender or age group.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A woman is shown holding a white candle and using a blue lighter to light it.",
+      "location": "Top left quadrant",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A man is shown holding a blue lighter, looking at it with a slight smile.",
+      "location": "Top right quadrant",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "The text 'PERFECT FOR CANDLES' is displayed in large white letters against a blue background.",
+      "location": "Top left corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'AND MORE!' is displayed in large white letters against an orange background.",
+      "location": "Top right corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "visual",
+      "description": "A product package for the 'BIC EZ Reach' lighter is shown, featuring the blue lighter and text like 'THE ULTIMATE LIGHTER' and '100% Safety Tested'.",
+      "location": "Bottom left quadrant",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "The BIC logo and the product name 'EZ Reach THE ULTIMATE LIGHTER' are prominently displayed in the center.",
+      "location": "Center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "cta",
+      "description": "An orange button with the text 'SHOP NOW' is located at the bottom right.",
+      "location": "Bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_008",
+      "evidence_type": "layout",
+      "description": "The background is split into a blue section on the left and an orange section on the right.",
+      "location": "Top half of the image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "The advertisement promotes the BIC EZ Reach lighter as a safe and versatile tool for lighting candles and other items, featuring a demonstration by two individuals.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The BIC EZ Reach lighter is a versatile and safe tool, specifically highlighted for its ability to light candles.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "persuasion",
+        "text": "The ad uses a demonstration of the product in use to show its functionality and ease of use.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "demonstration",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "semiotic",
+        "text": "The split background color (blue and orange) visually separates the two use cases or user types, while the 'AND MORE!' text suggests the product's versatility beyond the primary example.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_008",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "persuasion",
+        "text": "The '100% Safety Tested' claim on the packaging appeals to the consumer's desire for a safe product, especially when dealing with fire.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "The presence of two different individuals suggests the product is suitable for a broad demographic, not just a specific gender or age group.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "social_proof",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-fun-up-your-home-windows-vista-new-zealand-ad-by-fe2626d2",
+    "media_type": "image",
+    "path": "cases/real-fun-up-your-home-windows-vista-new-zealand-ad-by-fe2626d2/asset.jpg",
+    "sha256": "ed7525b70de0e0af927c7b0d435735ec20db3bcdbf057ad994fd6cb1b3155bc2"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:53:36.872Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-fun-up-your-home-windows-vista-new-zealand-ad-by-fe2626d2",
+    "sha256": "ed7525b70de0e0af927c7b0d435735ec20db3bcdbf057ad994fd6cb1b3155bc2"
+  },
+  "raw_provider_output": {
+    "summary": "Windows Vista is presented as a playful and transformative upgrade that makes your home more fun and engaging.",
+    "observations": [
+      {
+        "description": "A large, colorful inflatable bouncy castle shaped like a two-story house is set up in the front yard of a traditional white suburban home.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'fun up your home' is displayed in white lowercase letters on a black bar at the bottom left.",
+        "evidence_type": "copy",
+        "location": "bottom_left",
+        "confidence": "high"
+      },
+      {
+        "description": "The Windows Vista logo and the URL 'windowsvista.co.nz/fun' are located in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The inflatable structure mimics the architectural features of the real house, such as the roofline and windows, but in a cartoonish, vibrant style.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The setting is a quiet residential street with other houses visible in the background, grounding the surreal image in a realistic domestic context.",
+        "evidence_type": "context",
+        "location": "background",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement suggests that installing Windows Vista will transform a standard home into a more entertaining and lively space.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The inflatable house acts as a visual signifier for the 'fun' and 'playful' nature of the software, contrasting with the static, serious nature of the real house.",
+        "evidence_indices": [
+          0,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By placing a child's toy in a domestic setting, the ad appeals to the consumer's desire for joy and leisure within their private living space.",
+        "evidence_indices": [
+          0,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "joy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of the word 'fun' in the copy and the URL reinforces the brand's positioning as a user-friendly and entertaining operating system.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "Advertisement",
+            "required_for_claim": false
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large, colorful inflatable bouncy castle shaped like a two-story house is set up in the front yard of a traditional white suburban home.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text 'fun up your home' is displayed in white lowercase letters on a black bar at the bottom left.",
+      "location": "bottom_left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "The Windows Vista logo and the URL 'windowsvista.co.nz/fun' are located in the bottom right corner.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The inflatable structure mimics the architectural features of the real house, such as the roofline and windows, but in a cartoonish, vibrant style.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The setting is a quiet residential street with other houses visible in the background, grounding the surreal image in a realistic domestic context.",
+      "location": "background",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "Windows Vista is presented as a playful and transformative upgrade that makes your home more fun and engaging.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement suggests that installing Windows Vista will transform a standard home into a more entertaining and lively space.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The inflatable house acts as a visual signifier for the 'fun' and 'playful' nature of the software, contrasting with the static, serious nature of the real house.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "semiotics",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By placing a child's toy in a domestic setting, the ad appeals to the consumer's desire for joy and leisure within their private living space.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "joy",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "emotional_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The use of the word 'fun' in the copy and the URL reinforces the brand's positioning as a user-friendly and entertaining operating system.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "Advertisement",
+            "required_for_claim": false
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-lego-ad-651761c0",
+    "media_type": "image",
+    "path": "cases/real-lego-ad-651761c0/asset.jpg",
+    "sha256": "7e82eb670218952c81ba909912ac0cbb1dbad46ce6bdc9633f3e66962f85334d"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:17:57.362Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-lego-ad-651761c0",
+    "sha256": "7e82eb670218952c81ba909912ac0cbb1dbad46ce6bdc9633f3e66962f85334d"
+  },
+  "raw_provider_output": {
+    "summary": "A LEGO whale model appears to swim out of a book titled 'The Miraculous Life of Whales', bridging the gap between reading and creative play.",
+    "observations": [
+      {
+        "description": "A book titled 'The Miraculous Life of Whales' by Dr. Neil Frank stands upright on a white shelf, featuring a photograph of a whale's tail on its cover.",
+        "evidence_type": "visual",
+        "location": "Top left of the shelf",
+        "confidence": "high"
+      },
+      {
+        "description": "A LEGO model of a whale, constructed from blue, black, and white bricks, is positioned to look like it is emerging from the book and swimming over the edge of the shelf.",
+        "evidence_type": "visual",
+        "location": "Center of the image, bridging the book and the shelf edge",
+        "confidence": "high"
+      },
+      {
+        "description": "The LEGO whale's body extends over the front of the shelf, with the tail section appearing to 'drip' or flow down the side, mimicking the movement of water or a swimming creature.",
+        "evidence_type": "visual",
+        "location": "Front edge of the shelf",
+        "confidence": "high"
+      },
+      {
+        "description": "The red LEGO logo is visible in the bottom right corner of the image.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom right corner",
+        "confidence": "high"
+      },
+      {
+        "description": "The background features a clean, modern interior with a white shelf and light-colored wall, suggesting a home or study environment.",
+        "evidence_type": "context",
+        "location": "Background",
+        "confidence": "high"
+      },
+      {
+        "description": "Other books are visible on the shelf, including 'The Game of Heroes' and 'Waking the Dragon', indicating a collection of reading material.",
+        "evidence_type": "visual",
+        "location": "Shelf below the main book",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "LEGO allows the imagination to bring the content of books to life, turning passive reading into active, creative play.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The visual transition from the 2D photograph on the book cover to the 3D LEGO model serves as a visual metaphor for the transition from the world of ideas (books) to the world of creation (LEGO).",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "By placing the product in a sophisticated, book-filled environment, the ad positions LEGO as a tool for intellectual engagement and cultural enrichment, not just simple play.",
+        "evidence_indices": [
+          4,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The 'dripping' effect of the LEGO bricks down the shelf edge creates a sense of motion and fluidity, reinforcing the idea that the whale is alive and swimming, rather than just a static model.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A book titled 'The Miraculous Life of Whales' by Dr. Neil Frank stands upright on a white shelf, featuring a photograph of a whale's tail on its cover.",
+      "location": "Top left of the shelf",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A LEGO model of a whale, constructed from blue, black, and white bricks, is positioned to look like it is emerging from the book and swimming over the edge of the shelf.",
+      "location": "Center of the image, bridging the book and the shelf edge",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The LEGO whale's body extends over the front of the shelf, with the tail section appearing to 'drip' or flow down the side, mimicking the movement of water or a swimming creature.",
+      "location": "Front edge of the shelf",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "brand_mark",
+      "description": "The red LEGO logo is visible in the bottom right corner of the image.",
+      "location": "Bottom right corner",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The background features a clean, modern interior with a white shelf and light-colored wall, suggesting a home or study environment.",
+      "location": "Background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "Other books are visible on the shelf, including 'The Game of Heroes' and 'Waking the Dragon', indicating a collection of reading material.",
+      "location": "Shelf below the main book",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A LEGO whale model appears to swim out of a book titled 'The Miraculous Life of Whales', bridging the gap between reading and creative play.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "LEGO allows the imagination to bring the content of books to life, turning passive reading into active, creative play.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The visual transition from the 2D photograph on the book cover to the 3D LEGO model serves as a visual metaphor for the transition from the world of ideas (books) to the world of creation (LEGO).",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "By placing the product in a sophisticated, book-filled environment, the ad positions LEGO as a tool for intellectual engagement and cultural enrichment, not just simple play.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_capital",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The 'dripping' effect of the LEGO bricks down the shelf edge creates a sense of motion and fluidity, reinforcing the idea that the whale is alive and swimming, rather than just a static model.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "surprise",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

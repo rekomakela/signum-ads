@@ -1,0 +1,357 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-pakistani-news-site-psa-b2a7e246",
+    "media_type": "image",
+    "path": "cases/real-pakistani-news-site-psa-b2a7e246/asset.png",
+    "sha256": "eec79eb613b8665d5317b0a745be2a3004247d6918c3c2451de7e041e217970e"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:44:11.943Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-pakistani-news-site-psa-b2a7e246",
+    "sha256": "eec79eb613b8665d5317b0a745be2a3004247d6918c3c2451de7e041e217970e"
+  },
+  "raw_provider_output": {
+    "summary": "A public service advertisement that uses a car key as a visual metaphor to link driving with the rapid loss of life, urging viewers to 'Drive Safe.'",
+    "observations": [
+      {
+        "description": "A close-up photograph of a car key with a black leather fob resting on a textured, dark grey surface.",
+        "evidence_type": "visual",
+        "location": "upper center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'Takes one life every 25 seconds*' is displayed in a sans-serif font.",
+        "evidence_type": "copy",
+        "location": "center, below the key",
+        "confidence": "high"
+      },
+      {
+        "description": "The call to action 'Drive Safe' is written in a smaller font below the main headline.",
+        "evidence_type": "cta",
+        "location": "center, below the headline",
+        "confidence": "high"
+      },
+      {
+        "description": "A footnote reads '* WHO Fact Sheet N 358, March 2013', citing a source for the statistic.",
+        "evidence_type": "copy",
+        "location": "bottom left",
+        "confidence": "high"
+      },
+      {
+        "description": "The logo 'The Frontier Post' and its URL are visible in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "The image uses a minimalist composition with a single object and a dark, somber color palette.",
+        "evidence_type": "layout",
+        "location": "overall",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "Driving is a dangerous activity that results in a death every 25 seconds, so viewers must drive safely.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The car key functions as a visual metaphor, transforming a mundane object into a symbol of the deadly consequences of driving.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad establishes credibility by citing a specific World Health Organization fact sheet to support its shocking statistic.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The somber, minimalist aesthetic and dark color palette create a serious and grave tone, reinforcing the message of mortality.",
+        "evidence_indices": [
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The advertisement targets the general public, specifically drivers, by using a universally recognized symbol (the car key) to prompt a change in behavior.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A close-up photograph of a car key with a black leather fob resting on a textured, dark grey surface.",
+      "location": "upper center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text 'Takes one life every 25 seconds*' is displayed in a sans-serif font.",
+      "location": "center, below the key",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "cta",
+      "description": "The call to action 'Drive Safe' is written in a smaller font below the main headline.",
+      "location": "center, below the headline",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "A footnote reads '* WHO Fact Sheet N 358, March 2013', citing a source for the statistic.",
+      "location": "bottom left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The logo 'The Frontier Post' and its URL are visible in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "layout",
+      "description": "The image uses a minimalist composition with a single object and a dark, somber color palette.",
+      "location": "overall",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public service advertisement that uses a car key as a visual metaphor to link driving with the rapid loss of life, urging viewers to 'Drive Safe.'",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "Driving is a dangerous activity that results in a death every 25 seconds, so viewers must drive safely.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The car key functions as a visual metaphor, transforming a mundane object into a symbol of the deadly consequences of driving.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad establishes credibility by citing a specific World Health Organization fact sheet to support its shocking statistic.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The somber, minimalist aesthetic and dark color palette create a serious and grave tone, reinforcing the message of mortality.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "minimalism",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "audience",
+        "text": "The advertisement targets the general public, specifically drivers, by using a universally recognized symbol (the car key) to prompt a change in behavior.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-points-if-you-can-relate-ddcb41e6",
+    "media_type": "image",
+    "path": "cases/real-points-if-you-can-relate-ddcb41e6/asset.jpg",
+    "sha256": "032d3003583b81287fb164e4c40fa65b3711d145df0e192f794247b8e5f5b0fa"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:50:24.703Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-points-if-you-can-relate-ddcb41e6",
+    "sha256": "032d3003583b81287fb164e4c40fa65b3711d145df0e192f794247b8e5f5b0fa"
+  },
+  "raw_provider_output": {
+    "summary": "A billboard by Penn Medicine Abramson Cancer Center uses the age of the floppy disk as a proxy for age to target an older demographic for cancer screening.",
+    "observations": [
+      {
+        "description": "A large outdoor billboard mounted on a metal pole against a blue sky.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "A graphic illustration of a 3.5-inch floppy disk on the left side of the blue background.",
+        "evidence_type": "visual",
+        "location": "left",
+        "confidence": "high"
+      },
+      {
+        "description": "White text in all caps reading 'IF YOU KNOW WHAT A FLOPPY DISK IS'.",
+        "evidence_type": "copy",
+        "location": "top center",
+        "confidence": "high"
+      },
+      {
+        "description": "White text in all caps reading 'IT MAY BE TIME FOR YOUR CANCER SCREENING.'",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The logo and text for 'Penn Medicine Abramson Cancer Center' in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom right",
+        "confidence": "high"
+      },
+      {
+        "description": "Industrial port cranes visible in the background below the billboard.",
+        "evidence_type": "context",
+        "location": "bottom",
+        "confidence": "medium"
+      },
+      {
+        "description": "The number '117' and '0624039' printed on the billboard's support structure.",
+        "evidence_type": "visual",
+        "location": "bottom left",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement encourages individuals who are old enough to remember floppy disks to undergo cancer screening.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The floppy disk functions as a semiotic signifier for a specific generation (likely Gen X or older), using technological nostalgia to identify the target audience.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "nostalgia",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad employs a 'call-out' technique, directly addressing the viewer's personal history to create a sense of relevance and urgency regarding health.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target demographic is defined by cultural literacy of 1980s/90s technology, implying an age group where cancer screening is statistically more critical.",
+        "evidence_indices": [
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The use of a medical institution's branding lends authority to the health advice, framing the screening as a necessary, expert-recommended action.",
+        "evidence_indices": [
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large outdoor billboard mounted on a metal pole against a blue sky.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A graphic illustration of a 3.5-inch floppy disk on the left side of the blue background.",
+      "location": "left",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "copy",
+      "description": "White text in all caps reading 'IF YOU KNOW WHAT A FLOPPY DISK IS'.",
+      "location": "top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "White text in all caps reading 'IT MAY BE TIME FOR YOUR CANCER SCREENING.'",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The logo and text for 'Penn Medicine Abramson Cancer Center' in the bottom right corner.",
+      "location": "bottom right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "context",
+      "description": "Industrial port cranes visible in the background below the billboard.",
+      "location": "bottom",
+      "confidence": "medium"
+    },
+    {
+      "evidence_id": "evidence_007",
+      "evidence_type": "visual",
+      "description": "The number '117' and '0624039' printed on the billboard's support structure.",
+      "location": "bottom left",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A billboard by Penn Medicine Abramson Cancer Center uses the age of the floppy disk as a proxy for age to target an older demographic for cancer screening.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement encourages individuals who are old enough to remember floppy disks to undergo cancer screening.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "informational_appeal",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The floppy disk functions as a semiotic signifier for a specific generation (likely Gen X or older), using technological nostalgia to identify the target audience.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "nostalgia",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad employs a 'call-out' technique, directly addressing the viewer's personal history to create a sense of relevance and urgency regarding health.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "curiosity",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The target demographic is defined by cultural literacy of 1980s/90s technology, implying an age group where cancer screening is statistically more critical.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "cultural_literacy",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_005",
+        "kind": "interpretation",
+        "text": "The use of a medical institution's branding lends authority to the health advice, framing the screening as a necessary, expert-recommended action.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "appeal_to_authority",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

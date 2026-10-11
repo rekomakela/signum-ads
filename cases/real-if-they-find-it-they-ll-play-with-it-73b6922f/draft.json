@@ -1,0 +1,330 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-if-they-find-it-they-ll-play-with-it-73b6922f",
+    "media_type": "image",
+    "path": "cases/real-if-they-find-it-they-ll-play-with-it-73b6922f/asset.jpg",
+    "sha256": "0bf710d81da3dd258cef4e4e29c18202bc59ff4eb9a6554296d027f4f8333fd3"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:04:23.385Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-if-they-find-it-they-ll-play-with-it-73b6922f",
+    "sha256": "0bf710d81da3dd258cef4e4e29c18202bc59ff4eb9a6554296d027f4f8333fd3"
+  },
+  "raw_provider_output": {
+    "summary": "A public safety advertisement using the image of children playing with toy guns to argue that the presence of firearms in the home creates a risk of accidental injury, urging viewers to lock up their guns.",
+    "observations": [
+      {
+        "description": "Two young boys are depicted in a living room, dressed in makeshift costumes (a horned helmet and a cape) and holding colorful balloon animals shaped like guns, engaged in an energetic play-fight.",
+        "evidence_type": "visual",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The headline text 'IF THEY FIND IT, THEY'LL PLAY WITH IT.' is superimposed in white capital letters across the center of the image.",
+        "evidence_type": "copy",
+        "location": "center",
+        "confidence": "high"
+      },
+      {
+        "description": "The setting is a typical, tidy suburban living room with a sofa, coffee table, and framed art, establishing a relatable domestic context.",
+        "evidence_type": "visual",
+        "location": "background",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'ALWAYS LOCK UP YOUR GUNS' appears in the bottom right corner, serving as the direct call to action.",
+        "evidence_type": "cta",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The logo for 'EVOLVE' and the URL 'EVOLVETOGETHER.US' are located in the bottom right corner.",
+        "evidence_type": "brand_mark",
+        "location": "bottom_right",
+        "confidence": "high"
+      },
+      {
+        "description": "The children are wearing knee pads and socks, suggesting a level of safety awareness or a specific play scenario, though the focus remains on the 'gun' props.",
+        "evidence_type": "visual",
+        "location": "foreground",
+        "confidence": "medium"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The advertisement argues that children are naturally curious and will inevitably play with any firearm they can access, making it the responsibility of adults to secure weapons.",
+        "evidence_indices": [
+          0,
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The balloon animals function as a visual metaphor for real firearms; by showing children treating them as toys, the ad implies that real guns are treated with the same lack of caution.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses the 'slippery slope' of domestic safety, suggesting that the failure to lock a gun is a direct precursor to a child finding and playing with it, thereby creating a sense of urgency.",
+        "evidence_indices": [
+          1,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target audience is gun-owning parents or guardians who are concerned with child safety and household management.",
+        "evidence_indices": [
+          0,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "Two young boys are depicted in a living room, dressed in makeshift costumes (a horned helmet and a cape) and holding colorful balloon animals shaped like guns, engaged in an energetic play-fight.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The headline text 'IF THEY FIND IT, THEY'LL PLAY WITH IT.' is superimposed in white capital letters across the center of the image.",
+      "location": "center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "The setting is a typical, tidy suburban living room with a sofa, coffee table, and framed art, establishing a relatable domestic context.",
+      "location": "background",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "cta",
+      "description": "The text 'ALWAYS LOCK UP YOUR GUNS' appears in the bottom right corner, serving as the direct call to action.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The logo for 'EVOLVE' and the URL 'EVOLVETOGETHER.US' are located in the bottom right corner.",
+      "location": "bottom_right",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The children are wearing knee pads and socks, suggesting a level of safety awareness or a specific play scenario, though the focus remains on the 'gun' props.",
+      "location": "foreground",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A public safety advertisement using the image of children playing with toy guns to argue that the presence of firearms in the home creates a risk of accidental injury, urging viewers to lock up their guns.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The advertisement argues that children are naturally curious and will inevitably play with any firearm they can access, making it the responsibility of adults to secure weapons.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "fear_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The balloon animals function as a visual metaphor for real firearms; by showing children treating them as toys, the ad implies that real guns are treated with the same lack of caution.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad uses the 'slippery slope' of domestic safety, suggesting that the failure to lock a gun is a direct precursor to a child finding and playing with it, thereby creating a sense of urgency.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "urgency",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "fear",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The target audience is gun-owning parents or guardians who are concerned with child safety and household management.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "parental_responsibility",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

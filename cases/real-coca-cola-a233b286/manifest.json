@@ -1,0 +1,13 @@
+{
+  "manifest_id": "real-coca-cola-a233b286",
+  "asset": {
+    "asset_id": "asset_real-coca-cola-a233b286",
+    "media_type": "image",
+    "path": "cases/real-coca-cola-a233b286/asset.jpg",
+    "sha256": "c015b931d9e167f116ac9d6711eafb611a9eba2275fe582679ba3d57bc2487cf"
+  },
+  "summary": "Coca-Cola",
+  "source_url": "https://reddit.com/r/AdPorn/comments/i8yz0a/cocacola_640x640/",
+  "observations": [],
+  "claims": []
+}

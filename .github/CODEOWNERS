@@ -1,0 +1,22 @@
+# Default repository owner
+* @rekomakela
+
+# Security-sensitive control plane
+/.github/workflows/ @rekomakela
+/.github/dependabot.yml @rekomakela
+/.github/CODEOWNERS @rekomakela
+/SECURITY.md @rekomakela
+
+# Authority and agent-governance surfaces
+/AGENTS.md @rekomakela
+/docs/AUTHORITY.md @rekomakela
+/docs/architecture/ @rekomakela
+/docs/product/system/ @rekomakela
+/scripts/validate @rekomakela
+/scripts/check-docs.mjs @rekomakela
+
+# Core invariant-bearing modules
+/src/cases/ @rekomakela
+/src/decode/ @rekomakela
+/src/server/ @rekomakela
+/src/providers/llama-server-client.ts @rekomakela

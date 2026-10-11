@@ -1,0 +1,327 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-blood-donation-you-can-be-someone-s-hero-86a9891b",
+    "media_type": "image",
+    "path": "cases/real-blood-donation-you-can-be-someone-s-hero-86a9891b/asset.jpg",
+    "sha256": "56c775ecbb3d3220fc4043c131f8846787e36e6340216d16805b705b6dc555b0"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T00:12:42.878Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-blood-donation-you-can-be-someone-s-hero-86a9891b",
+    "sha256": "56c775ecbb3d3220fc4043c131f8846787e36e6340216d16805b705b6dc555b0"
+  },
+  "raw_provider_output": {
+    "summary": "A superhero's act of donating blood is presented as a heroic gesture, encouraging the viewer to become a blood donor and be a hero for someone in need.",
+    "observations": [
+      {
+        "description": "A close-up of a red and black superhero costume, specifically the hand and forearm, is shown extending downwards.",
+        "evidence_type": "visual",
+        "location": "center and left of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A red tube, similar to a medical IV line, is connected to the superhero's hand and leads down to a blood collection bag.",
+        "evidence_type": "visual",
+        "location": "center and bottom of the image",
+        "confidence": "high"
+      },
+      {
+        "description": "A standard medical blood collection bag, filled with red liquid, is positioned at the bottom of the frame.",
+        "evidence_type": "visual",
+        "location": "bottom center",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'You can be someone's superhero!' is displayed in a white box at the top of the ad.",
+        "evidence_type": "copy",
+        "location": "top center",
+        "confidence": "high"
+      },
+      {
+        "description": "The logo and name 'HELLENIC ASSOCIATION OF BLOOD DONORS' are in a red box in the top right corner.",
+        "evidence_type": "brand_mark",
+        "location": "top right",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad's core message is that donating blood is a heroic act that can save lives, positioning the donor as a superhero.",
+        "evidence_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "heroic_idealization",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "altruism",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The image creates a powerful visual metaphor by merging the iconography of a comic book superhero with the mundane reality of a blood donation, elevating the latter to the status of a superpower.",
+        "evidence_indices": [
+          0,
+          1,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "superhero_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses the aspirational appeal of being a superhero to persuade the audience to take a specific, real-world action: donating blood.",
+        "evidence_indices": [
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "sense_of_purpose",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The ad targets a general audience, particularly those who are familiar with and inspired by superhero narratives, to encourage them to participate in a civic health initiative.",
+        "evidence_indices": [
+          0,
+          3,
+          4
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "civic_duty",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A close-up of a red and black superhero costume, specifically the hand and forearm, is shown extending downwards.",
+      "location": "center and left of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "visual",
+      "description": "A red tube, similar to a medical IV line, is connected to the superhero's hand and leads down to a blood collection bag.",
+      "location": "center and bottom of the image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "A standard medical blood collection bag, filled with red liquid, is positioned at the bottom of the frame.",
+      "location": "bottom center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "copy",
+      "description": "The text 'You can be someone's superhero!' is displayed in a white box at the top of the ad.",
+      "location": "top center",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "brand_mark",
+      "description": "The logo and name 'HELLENIC ASSOCIATION OF BLOOD DONORS' are in a red box in the top right corner.",
+      "location": "top right",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A superhero's act of donating blood is presented as a heroic gesture, encouraging the viewer to become a blood donor and be a hero for someone in need.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad's core message is that donating blood is a heroic act that can save lives, positioning the donor as a superhero.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "heroic_idealization",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "altruism",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The image creates a powerful visual metaphor by merging the iconography of a comic book superhero with the mundane reality of a blood donation, elevating the latter to the status of a superpower.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "visual_metaphor",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "superhero_culture",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad uses the aspirational appeal of being a superhero to persuade the audience to take a specific, real-world action: donating blood.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "aspirational_appeal",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "sense_of_purpose",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The ad targets a general audience, particularly those who are familiar with and inspired by superhero narratives, to encourage them to participate in a civic health initiative.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_005",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "pop_culture",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "civic_duty",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

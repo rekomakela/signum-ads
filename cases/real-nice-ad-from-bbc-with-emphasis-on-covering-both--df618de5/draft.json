@@ -1,0 +1,320 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-nice-ad-from-bbc-with-emphasis-on-covering-both--df618de5",
+    "media_type": "image",
+    "path": "cases/real-nice-ad-from-bbc-with-emphasis-on-covering-both--df618de5/asset.jpg",
+    "sha256": "e290d0cf0c966c0c55c7385e2e8be049e7fd81a09772713f50c0c4dcbeb90e2c"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:34:29.248Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-nice-ad-from-bbc-with-emphasis-on-covering-both--df618de5",
+    "sha256": "e290d0cf0c966c0c55c7385e2e8be049e7fd81a09772713f50c0c4dcbeb90e2c"
+  },
+  "raw_provider_output": {
+    "summary": "A large-scale billboard campaign for BBC World News that uses a split-image of a protest scene to argue that the brand provides a complete, multi-perspective view of global events.",
+    "observations": [
+      {
+        "description": "A large billboard is mounted on the corner of a building, displaying a photograph of a crowd of people in riot gear and a woman in the foreground.",
+        "evidence_type": "visual",
+        "location": "center and right of the main image",
+        "confidence": "high"
+      },
+      {
+        "description": "The text 'SEE BOTH SIDES OF THE STORY' is printed in large white capital letters across the center of the billboard image.",
+        "evidence_type": "copy",
+        "location": "center of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "A red square logo containing the text 'BBC WORLD' and 'NOW IN AMERICA' is positioned in the lower right quadrant of the billboard.",
+        "evidence_type": "brand_mark",
+        "location": "lower right of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard is situated in a dense urban environment, with other buildings, a fire escape, and a sign for a 'PIZZERIA RESTAURANT' visible in the background.",
+        "evidence_type": "context",
+        "location": "background and periphery",
+        "confidence": "high"
+      },
+      {
+        "description": "Two smaller inset images on the left show the same billboard from different angles, emphasizing its large scale and corner placement.",
+        "evidence_type": "layout",
+        "location": "left side of the composite image",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard image itself is split, with the left side showing a line of riot police and the right side showing a woman looking towards the viewer, visually representing the 'two sides' mentioned in the copy.",
+        "evidence_type": "visual",
+        "location": "billboard image",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The core message is that BBC World News offers a balanced and comprehensive perspective on world events, unlike other sources that may only show one side.",
+        "evidence_indices": [
+          1,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of a protest scene as the visual signifier is a deliberate choice to associate the brand with serious, high-stakes journalism and the ability to navigate complex, polarized situations.",
+        "evidence_indices": [
+          0,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The ad uses the 'contrast' technique by visually splitting the image into two distinct groups (police vs. civilian), which reinforces the textual claim of seeing 'both sides' and positions the brand as a neutral arbiter.",
+        "evidence_indices": [
+          1,
+          5
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "audience",
+        "text": "The target audience is likely American consumers, as indicated by the 'NOW IN AMERICA' tagline, who are being introduced to or reminded of the BBC World brand's value proposition in their local market.",
+        "evidence_indices": [
+          2,
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "visual",
+      "description": "A large billboard is mounted on the corner of a building, displaying a photograph of a crowd of people in riot gear and a woman in the foreground.",
+      "location": "center and right of the main image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "copy",
+      "description": "The text 'SEE BOTH SIDES OF THE STORY' is printed in large white capital letters across the center of the billboard image.",
+      "location": "center of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "brand_mark",
+      "description": "A red square logo containing the text 'BBC WORLD' and 'NOW IN AMERICA' is positioned in the lower right quadrant of the billboard.",
+      "location": "lower right of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "context",
+      "description": "The billboard is situated in a dense urban environment, with other buildings, a fire escape, and a sign for a 'PIZZERIA RESTAURANT' visible in the background.",
+      "location": "background and periphery",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "layout",
+      "description": "Two smaller inset images on the left show the same billboard from different angles, emphasizing its large scale and corner placement.",
+      "location": "left side of the composite image",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "visual",
+      "description": "The billboard image itself is split, with the left side showing a line of riot police and the right side showing a woman looking towards the viewer, visually representing the 'two sides' mentioned in the copy.",
+      "location": "billboard image",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "A large-scale billboard campaign for BBC World News that uses a split-image of a protest scene to argue that the brand provides a complete, multi-perspective view of global events.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The core message is that BBC World News offers a balanced and comprehensive perspective on world events, unlike other sources that may only show one side.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "value_proposition",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signified",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of a protest scene as the visual signifier is a deliberate choice to associate the brand with serious, high-stakes journalism and the ability to navigate complex, polarized situations.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "glossary_concept",
+            "reference_value": "signifier",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "cultural_code",
+            "reference_value": "social_justice",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The ad uses the 'contrast' technique by visually splitting the image into two distinct groups (police vs. civilian), which reinforces the textual claim of seeing 'both sides' and positions the brand as a neutral arbiter.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_006",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "emotional_lever",
+            "reference_value": "trust",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "audience",
+        "text": "The target audience is likely American consumers, as indicated by the 'NOW IN AMERICA' tagline, who are being introduced to or reminded of the BBC World brand's value proposition in their local market.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "ontology_class",
+            "reference_value": "TargetAudience",
+            "required_for_claim": true
+          },
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "brand_positioning",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

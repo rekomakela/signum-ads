@@ -1,0 +1,270 @@
+{
+  "schema_version": "decode-draft.v1",
+  "draft_id": "draft_vlm_",
+  "lifecycle_state": "draft",
+  "asset": {
+    "asset_id": "asset_real-meatless-farm-2020-3d443b1c",
+    "media_type": "image",
+    "path": "cases/real-meatless-farm-2020-3d443b1c/asset.jpg",
+    "sha256": "4d3424638932183ab0bd4c9c98d4c52e49b771e94cf8aa9cf2aac6eba7bc65f8"
+  },
+  "provider": {
+    "provider_id": "signum.local-vlm",
+    "provider_name": "Signum local VLM (Qwen3.8-27B)",
+    "provider_version": "1.0.0",
+    "generated_at": "2026-08-16T01:26:50.565Z",
+    "deterministic": false,
+    "requires_review": true
+  },
+  "source_input": {
+    "kind": "image",
+    "id": "asset_real-meatless-farm-2020-3d443b1c",
+    "sha256": "4d3424638932183ab0bd4c9c98d4c52e49b771e94cf8aa9cf2aac6eba7bc65f8"
+  },
+  "raw_provider_output": {
+    "summary": "An advertisement for Meatless Farm featuring an elderly woman holding a burger, using the pun 'M...F Burger' to position their plant-based product as a superior alternative to traditional meat.",
+    "observations": [
+      {
+        "description": "Large white text on a dark green speech bubble reads 'NOW THAT'S A M...F BURGER!'",
+        "evidence_type": "copy",
+        "location": "Left side of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "The brand name 'MEATLESS FARM' appears in white text below the main slogan.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom left of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "An elderly woman with short white hair and glasses is holding a burger up to her face, looking at it with a satisfied expression.",
+        "evidence_type": "visual",
+        "location": "Right side of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "The burger held by the woman features a thick patty, cheese, lettuce, and a bun.",
+        "evidence_type": "visual",
+        "location": "Center-right of the billboard",
+        "confidence": "high"
+      },
+      {
+        "description": "The billboard is mounted on a brick wall above a street where pedestrians are walking.",
+        "evidence_type": "context",
+        "location": "Background and foreground",
+        "confidence": "high"
+      },
+      {
+        "description": "A red 'pressight' logo is visible on the black wall beneath the billboard.",
+        "evidence_type": "brand_mark",
+        "location": "Bottom center",
+        "confidence": "high"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "core_message",
+        "text": "The ad uses a double entendre to suggest that the Meatless Farm burger is so good it's a 'motherf***er' (implying excellence), while also literally identifying it as a 'Meatless Farm' burger.",
+        "evidence_indices": [
+          0,
+          1
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "semiotic",
+        "text": "The use of an elderly woman subverts the typical demographic for fast food or trendy plant-based products, suggesting the product is universally appealing and wholesome enough for all generations.",
+        "evidence_indices": [
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "persuasion",
+        "text": "The visual of the burger is designed to look indistinguishable from a traditional meat burger, using visual cues like the patty and cheese to reduce the 'yuck factor' associated with meat substitutes.",
+        "evidence_indices": [
+          3
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "kind": "interpretation",
+        "text": "The juxtaposition of the polite, traditional appearance of the woman with the aggressive, profane slogan creates a humorous tension that makes the brand memorable and approachable.",
+        "evidence_indices": [
+          0,
+          2
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_records": [
+    {
+      "evidence_id": "evidence_001",
+      "evidence_type": "copy",
+      "description": "Large white text on a dark green speech bubble reads 'NOW THAT'S A M...F BURGER!'",
+      "location": "Left side of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_002",
+      "evidence_type": "brand_mark",
+      "description": "The brand name 'MEATLESS FARM' appears in white text below the main slogan.",
+      "location": "Bottom left of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_003",
+      "evidence_type": "visual",
+      "description": "An elderly woman with short white hair and glasses is holding a burger up to her face, looking at it with a satisfied expression.",
+      "location": "Right side of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_004",
+      "evidence_type": "visual",
+      "description": "The burger held by the woman features a thick patty, cheese, lettuce, and a bun.",
+      "location": "Center-right of the billboard",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_005",
+      "evidence_type": "context",
+      "description": "The billboard is mounted on a brick wall above a street where pedestrians are walking.",
+      "location": "Background and foreground",
+      "confidence": "high"
+    },
+    {
+      "evidence_id": "evidence_006",
+      "evidence_type": "brand_mark",
+      "description": "A red 'pressight' logo is visible on the black wall beneath the billboard.",
+      "location": "Bottom center",
+      "confidence": "high"
+    }
+  ],
+  "proposed_decode": {
+    "summary": "An advertisement for Meatless Farm featuring an elderly woman holding a burger, using the pun 'M...F Burger' to position their plant-based product as a superior alternative to traditional meat.",
+    "interpretive_claims": [
+      {
+        "claim_id": "claim_001",
+        "kind": "core_message",
+        "text": "The ad uses a double entendre to suggest that the Meatless Farm burger is so good it's a 'motherf***er' (implying excellence), while also literally identifying it as a 'Meatless Farm' burger.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_002",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "wordplay",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_002",
+        "kind": "semiotic",
+        "text": "The use of an elderly woman subverts the typical demographic for fast food or trendy plant-based products, suggesting the product is universally appealing and wholesome enough for all generations.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "contrast",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_003",
+        "kind": "persuasion",
+        "text": "The visual of the burger is designed to look indistinguishable from a traditional meat burger, using visual cues like the patty and cheese to reduce the 'yuck factor' associated with meat substitutes.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_004",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "outcome_visualization",
+            "required_for_claim": true
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_004",
+        "kind": "interpretation",
+        "text": "The juxtaposition of the polite, traditional appearance of the woman with the aggressive, profane slogan creates a humorous tension that makes the brand memorable and approachable.",
+        "evidence_references": [
+          {
+            "evidence_id": "evidence_001",
+            "support": "supported"
+          },
+          {
+            "evidence_id": "evidence_003",
+            "support": "supported"
+          }
+        ],
+        "references": [
+          {
+            "reference_type": "persuasion_technique",
+            "reference_value": "humor",
+            "required_for_claim": true
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "not_run",
+    "issues": [],
+    "validated_at": null
+  },
+  "review": {
+    "status": "not_started",
+    "reviewer": null,
+    "reviewed_at": null,
+    "decision": null,
+    "notes": null,
+    "accepted_sections": [],
+    "rejected_sections": [],
+    "decisions": [],
+    "reference_resolutions": []
+  }
+}

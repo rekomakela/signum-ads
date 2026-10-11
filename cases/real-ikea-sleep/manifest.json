@@ -1,0 +1,242 @@
+{
+  "manifest_id": "real-ikea-sleep",
+  "asset": {
+    "asset_id": "asset_real_ikea_sleep",
+    "media_type": "image",
+    "path": "cases/real-ikea-sleep/asset.jpg",
+    "sha256": "48566291fef6dbf3e5ba44255b62ebbb4b83bc598537c9669b16f2698c405f2b"
+  },
+  "source_url": "https://www.reddit.com/r/AdPorn/comments/je966t/ikea_reminding_us_the_importance_of_sleep_900x2300/",
+  "summary": "Real IKEA case built from the supplied image, turning sleep and pillows into a wellness-style product metaphor.",
+  "learning_guidance": {
+    "overview": "Use this case to study how an ordinary household object is recast as a wellness metaphor through packaging, copy, and substitution.",
+    "look_for": [
+      "the bottle label reading SLEEP",
+      "the white pillows spilling across the blue field",
+      "the Tomorrow starts tonight line beneath the image"
+    ],
+    "concepts_to_know": [
+      "signifier",
+      "semiotics",
+      "simplicity_framing"
+    ],
+    "concept_explanations": {
+      "signifier": "A visible form that stands for something else in the ad, like the bottle and pillows standing for sleep.",
+      "semiotics": "How signs and images create meaning together, which this ad does by turning bedding into a product metaphor.",
+      "simplicity_framing": "Making a complex issue feel simple or easy to solve, here by making sleep look purchasable."
+    },
+    "thinking_questions": [
+      "What changes when sleep is shown like a product intervention?",
+      "Who benefits from making sleep feel purchasable?"
+    ],
+    "connects_to": [
+      "real-volkswagen-beetles",
+      "real-mercedes-benz-star"
+    ]
+  },
+  "observations": [
+    {
+      "ref": "obs_sleep_copy",
+      "evidence_type": "copy",
+      "description": "The bottle label reads SLEEP and supplements focus and memory.",
+      "location": "upper left",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_spilled_pillows",
+      "evidence_type": "visual",
+      "description": "White pillows spill out of the bottle and across the blue field in loose clusters.",
+      "location": "center frame",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_tomorrow_line",
+      "evidence_type": "copy",
+      "description": "The line Tomorrow starts tonight appears beneath the image.",
+      "location": "lower left",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_brand_block",
+      "evidence_type": "brand_mark",
+      "description": "The IKEA logo and product naming block sit in the lower-right corner.",
+      "location": "lower right",
+      "confidence": "high"
+    },
+    {
+      "ref": "obs_context_source",
+      "evidence_type": "context",
+      "description": "Analysis is based on the provided image and source provenance, not external campaign knowledge.",
+      "location": null,
+      "confidence": "high"
+    }
+  ],
+  "claims": [
+    {
+      "ref": "claim_core_message",
+      "kind": "core_message",
+      "text": "The bottle and pillows can be read as turning sleep into a product promise rather than a passive condition.",
+      "evidence_refs": [
+        {
+          "ref": "obs_sleep_copy",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_spilled_pillows",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "signifier",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "ontology_class",
+          "reference_value": "ReferentSystem",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_persuasion",
+      "kind": "persuasion",
+      "text": "The medicine-like container and the price block suggest relief that is purchasable and immediate.",
+      "evidence_refs": [
+        {
+          "ref": "obs_sleep_copy",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_brand_block",
+          "support": "unsupported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "persuasion_technique",
+          "reference_value": "simplicity_framing",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "relief",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_semiotic",
+      "kind": "semiotic",
+      "text": "The bottle form and scattered pillows turn sleep into a capsule-like symbol of rest.",
+      "evidence_refs": [
+        {
+          "ref": "obs_sleep_copy",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_spilled_pillows",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "semiotics",
+          "required_for_claim": true
+        },
+        {
+          "reference_type": "cultural_code",
+          "reference_value": "cultural_capital",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_audience",
+      "kind": "audience",
+      "text": "The viewer is positioned as someone wanting a small, purchasable intervention to make tomorrow feel easier.",
+      "evidence_refs": [
+        {
+          "ref": "obs_tomorrow_line",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_context_source",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "ontology_class",
+          "reference_value": "SocialConcept",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "hope",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_interpretation",
+      "kind": "interpretation",
+      "text": "The ad turns everyday bedding into a wellness promise about focus and memory.",
+      "evidence_refs": [
+        {
+          "ref": "obs_sleep_copy",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_tomorrow_line",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "symbol",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "confidence",
+          "required_for_claim": false
+        }
+      ]
+    },
+    {
+      "ref": "claim_interpretation_alternate",
+      "kind": "interpretation",
+      "text": "The bottle form can also read as medicalizing sleep, making rest seem like a problem to be fixed.",
+      "evidence_refs": [
+        {
+          "ref": "obs_sleep_copy",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_spilled_pillows",
+          "support": "supported"
+        },
+        {
+          "ref": "obs_brand_block",
+          "support": "supported"
+        }
+      ],
+      "references": [
+        {
+          "reference_type": "glossary_concept",
+          "reference_value": "symbol",
+          "required_for_claim": false
+        },
+        {
+          "reference_type": "emotional_lever",
+          "reference_value": "relief",
+          "required_for_claim": false
+        }
+      ]
+    }
+  ]
+}
