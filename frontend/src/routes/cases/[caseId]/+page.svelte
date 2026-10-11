@@ -96,10 +96,7 @@
     </aside>
 
     <section class="case-interpretation" aria-labelledby="overall-interpretation-heading">
-      <div>
-        <span class="section-kicker">Interpretation</span>
-        <h2 id="overall-interpretation-heading">Overall interpretation</h2>
-      </div>
+      <h2 id="overall-interpretation-heading">Overall interpretation</h2>
       {#if caseData.archive.analytical_deck || caseData.summary}
         <p class="case-interpretation__thesis">{caseData.archive.analytical_deck ?? caseData.summary}</p>
       {:else}
@@ -126,7 +123,6 @@
   <section class="case-evidence" aria-labelledby="analysis-heading">
     <header class="case-evidence__header">
       <div>
-        <span class="section-kicker">Reasoning</span>
         <h2 id="analysis-heading">Evidence and interpretation</h2>
         <p>The visible details that matter most to this reading, and what they may suggest.</p>
       </div>
@@ -160,9 +156,8 @@
   {#if caseConcepts.length > 0}
     <section class="case-concepts" aria-labelledby="case-concepts-heading">
       <header>
-        <span class="section-kicker">Theory</span>
         <h2 id="case-concepts-heading">Concepts used in this analysis</h2>
-        <p>Ideas that help connect the concrete advertisement to broader patterns of meaning.</p>
+        <p>Ideas that connect this advertisement to broader patterns of meaning.</p>
       </header>
       <div class="case-concepts__grid">
         {#each caseConcepts as concept (concept.id)}
@@ -172,7 +167,7 @@
             )}
           >
             <strong>{concept.label}</strong>
-            <span>{concept.plain_language || concept.definition}</span>
+            {#if concept.plain_language}<span>{concept.plain_language}</span>{/if}
           </a>
         {/each}
       </div>
@@ -197,7 +192,7 @@
     <nav class="case-adjacent-nav" aria-label="Browse adjacent analyses">
       {#if previousCase}
         <a href={resolve('/cases/[caseId]', { caseId: previousCase.case_id })} rel="prev">
-          <span>Previous analysis</span>
+          <span>Previous</span>
           <strong>{caseDisplayTitle(previousCase.case_id, previousCase.title)}</strong>
         </a>
       {:else}
@@ -205,7 +200,7 @@
       {/if}
       {#if nextCase}
         <a href={resolve('/cases/[caseId]', { caseId: nextCase.case_id })} rel="next">
-          <span>Next analysis</span>
+          <span>Next</span>
           <strong>{caseDisplayTitle(nextCase.case_id, nextCase.title)}</strong>
         </a>
       {/if}
