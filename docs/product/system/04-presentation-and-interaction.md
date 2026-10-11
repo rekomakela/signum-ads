@@ -98,7 +98,7 @@ The palette is intentionally low-chroma except for state colors. Graphite owns g
 
 ## Typography
 
-IBM Plex Sans is the single display, reading, and interface family. Hierarchy comes from size, weight, spacing, and placement rather than mixing typefaces. Headlines use tight tracking and semibold weight; body copy remains compact and highly legible. IBM Plex Mono is reserved for identifiers, evidence references, and measurement-like data.
+IBM Plex Sans is the single display, reading, and interface family. Hierarchy comes from size, weight, spacing, and placement rather than mixing typefaces. Headlines use tight tracking and semibold weight and stay between roughly 1.75rem and 2.5rem so that the advertisement and its interpretation, not the page title, are the largest objects on screen; body copy remains compact and highly legible. Headings are not preceded by eyebrow or kicker labels (SDEC-024). IBM Plex Mono is reserved for identifiers, evidence references, and measurement-like data.
 
 **The One Voice Rule.** Do not introduce serif or alternate display families. The analytical product should sound like one instrument, not a publication assembled from multiple typographic voices.
 
@@ -134,7 +134,7 @@ The system uses modest radii: gently curved controls and content surfaces, never
 
 ## Components
 
-**Navigation.** Desktop navigation is a vertical graphite archive index with consistent stroked SVG icons and 44px minimum targets. Destinations are grouped as **Explore** (Analyses, Concepts), **Learn** (Method), and **Create** (Analyse an ad). Analysis map is contextual to an analysis rather than global primary navigation. Mobile navigation is a horizontally scrollable sticky header using the same public destinations.
+**Navigation.** Desktop navigation is a vertical graphite archive index with consistent stroked SVG icons and 44px minimum targets. It is a flat list: Analyses, Concepts, Method, a rule, then Analyse an ad; there are no group labels and no count footer (SDEC-023). The active destination carries a left cobalt bar and a lighter row surface. Analysis map is contextual to an analysis rather than global primary navigation. Mobile navigation is a single-row sticky header using the same four destinations.
 
 **Buttons.** Primary buttons use cobalt with white text; secondary buttons are white with a neutral border; ghost/quiet variants remove the border and surface. Hover changes color or border only, with short state transitions.
 
@@ -171,4 +171,6 @@ The system uses modest radii: gently curved controls and content surfaces, never
 - Don't use monospace merely to make ordinary UI look technical.
 - Don't use modals when persistent or inline inspection preserves context better.
 - Don't put the uploader, runtime status, or tool-first explanation above the archive on the homepage.
+- Don't add eyebrow labels above headings or decorative step numerals to explanatory copy.
+- Don't render a count of zero; omit the line instead.
 - Don't restore Inspect as a peer primary-navigation destination unless its product role materially changes.
