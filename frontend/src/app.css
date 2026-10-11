@@ -42,24 +42,11 @@
 
 .app-nav {
   display: grid;
-  gap: 20px;
-}
-
-.app-nav__group {
-  display: grid;
-  gap: 4px;
-}
-
-.app-nav__group-label {
-  padding: 0 var(--space-3) 5px;
-  color: #7f8a97;
-  font-size: 0.625rem;
-  font-weight: var(--weight-semibold);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  gap: 2px;
 }
 
 .app-nav a {
+  position: relative;
   display: flex;
   align-items: center;
   gap: var(--space-3);
@@ -84,11 +71,11 @@
   color: #ffffff;
 }
 
-.app-nav a.active::after {
-  width: 5px;
-  height: 5px;
-  margin-left: auto;
-  border-radius: 50%;
+.app-nav a.active::before {
+  position: absolute;
+  inset: 11px auto 11px 0;
+  width: 3px;
+  border-radius: 2px;
   background: #6d9cff;
   content: '';
 }
@@ -99,45 +86,12 @@
   flex: none;
 }
 
-.app-sidebar__footer {
-  display: grid;
-  gap: var(--space-4);
-  margin-top: auto;
-  padding: var(--space-4) var(--space-2) 0;
+.app-nav__rule {
+  width: auto;
+  height: 0;
+  margin: 14px var(--space-3);
+  border: 0;
   border-top: 1px solid var(--shell-line);
-}
-
-.app-corpus-status {
-  display: flex;
-  gap: var(--space-3);
-  align-items: flex-start;
-}
-
-.status-dot {
-  width: 7px;
-  height: 7px;
-  flex: none;
-  margin-top: 6px;
-  border-radius: 50%;
-  background: #4fd1a1;
-  box-shadow: 0 0 0 3px rgb(79 209 161 / 0.12);
-}
-
-.app-corpus-status div {
-  display: grid;
-  gap: 2px;
-}
-
-.app-corpus-status strong {
-  color: #e8edf3;
-  font-size: var(--text-xs);
-  font-weight: var(--weight-medium);
-}
-
-.app-corpus-status span {
-  color: var(--shell-muted);
-  font-size: 0.6875rem;
-  line-height: 1.45;
 }
 
 .app-main {
@@ -3336,6 +3290,10 @@ details[open] > summary .disclosure-icon {
     width: 100%;
   }
 
+  .app-mobile-brand__mark {
+    display: none;
+  }
+
   .app-mobile-header nav {
     display: flex;
     gap: var(--space-4);
@@ -3509,26 +3467,33 @@ details[open] > summary .disclosure-icon {
 
 @media (max-width: 640px) {
   :root {
-    --mobile-header-height: 84px;
+    --mobile-header-height: 56px;
   }
 
   .app-mobile-header {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0;
-    padding: 10px 14px 0;
+    gap: var(--space-4);
+    padding: 0 14px;
   }
 
   .app-mobile-brand {
-    width: 98px;
+    width: 28px;
+  }
+
+  .app-mobile-brand__logo {
+    display: none;
+  }
+
+  .app-mobile-brand__mark {
+    display: block;
   }
 
   .app-mobile-header nav {
-    width: 100%;
+    flex: 1;
+    gap: var(--space-3);
   }
 
   .app-mobile-header nav a {
-    padding-top: 12px;
+    padding: 17px 2px 14px;
   }
 
   .decode-home,
@@ -4081,7 +4046,7 @@ details[open] > summary .disclosure-icon {
   .app-mobile-header nav a {
     min-width: max-content;
     min-height: 44px;
-    padding-inline: 10px;
+    padding-inline: 6px;
   }
 
   .method-page {
@@ -4146,11 +4111,6 @@ details[open] > summary .disclosure-icon {
 /* -------------------------------------------------------------------------- */
 /* Archive-first home                                                          */
 /* -------------------------------------------------------------------------- */
-
-.app-nav__group--create {
-  padding-top: 18px;
-  border-top: 1px solid var(--shell-line);
-}
 
 .archive-home {
   width: min(calc(100% - 64px), 1480px);
