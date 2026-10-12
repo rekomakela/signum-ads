@@ -2,7 +2,6 @@
   import { base, resolve } from '$app/paths';
   import { buildGlossary, type SignumGlossaryEntry } from '$lib/deconstruction';
   import { FEATURED_CASE_IDS, featuredRank } from '$lib/featured';
-  import SignumWorkedExample from '$lib/components/signum/SignumWorkedExample.svelte';
   import type { PageData } from './$types';
 
   let { data }: { data: PageData } = $props();
@@ -19,12 +18,6 @@
         (a, b) => featuredRank(a.compatibility_case_id) - featuredRank(b.compatibility_case_id),
       )
       .slice(0, 6),
-  );
-
-  const workedExample = $derived(
-    data.dataset.cases.find(
-      (entry) => entry.compatibility_case_id === 'real-tabasco-ad-fc858453' && entry.asset.src,
-    ) ?? featuredCases[0],
   );
 
   const glossary = $derived(buildGlossary(data.dataset.cases));
@@ -117,35 +110,23 @@
     </div>
   </section>
 
-  <section class="archive-home__reading" aria-labelledby="reading-heading">
-    <header>
-      <h2 id="reading-heading">From what is visible to what is made to seem natural</h2>
-      <p>
-        Signum treats an interpretation as an argument. It starts with what can be pointed to in the
-        ad, then asks what those details suggest and what assumptions they help make ordinary. One
-        analysis, read the way the archive reads every ad:
-      </p>
-    </header>
-    {#if workedExample}
-      <SignumWorkedExample caseData={workedExample} linkLabel="Open the full analysis" />
-    {/if}
-  </section>
-
   <footer class="archive-home__notes">
     <div>
-      <h2 id="home-method-heading">A critical reading, not a verdict</h2>
+      <h2 id="home-method-heading">From what is visible to what is made to seem natural</h2>
       <p>
-        Signum draws on semiotics, critical advertising studies, and Judith Williamson’s
-        <cite>Decoding Advertisements: Ideology and Meaning in Advertising</cite>. Machine-generated
-        interpretations remain contestable readings rather than objective facts.
+        Every reading starts with what can be pointed to in the ad, then asks what those details
+        suggest and what assumptions they help make ordinary. The approach draws on semiotics and
+        Judith Williamson’s
+        <cite>Decoding Advertisements: Ideology and Meaning in Advertising</cite>. Interpretations
+        stay contestable readings, not verdicts.
       </p>
-      <a href={resolve('/method')}>Read the method</a>
+      <a href={resolve('/method')}>See one analysis read layer by layer</a>
     </div>
     <div>
       <h2 id="create-heading">Analyse an advertisement</h2>
       <p>
-        The analysis workspace runs the same reading on an ad you choose, keeping visible evidence
-        separate from the interpretations built from it.
+        The analysis workspace runs the same reading on an ad you choose: what it shows, what it
+        may mean, and which details support each interpretation.
       </p>
       <a href={resolve('/analyse')}>Start an analysis</a>
       {#if data.counts.direct > 0}
