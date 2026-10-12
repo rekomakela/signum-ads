@@ -125,8 +125,8 @@
     <div>
       <h2 id="create-heading">Analyse an advertisement</h2>
       <p>
-        The analysis workspace runs the same reading on an ad you choose: what it shows, what it
-        may mean, and which details support each interpretation.
+        The analysis workspace runs the same reading on an ad you choose: what it shows, what it may
+        mean, and which details support each interpretation.
       </p>
       <a href={resolve('/analyse')}>Start an analysis</a>
       {#if data.counts.direct > 0}
