@@ -2614,17 +2614,9 @@ details[open] > summary .disclosure-icon {
 .layer-observation,
 .layer-claim {
   display: grid;
-  grid-template-columns: 30px minmax(0, 1fr);
   gap: var(--space-3);
   padding: 13px 0;
   border-bottom: 1px solid var(--line-0);
-}
-
-.layer-observation > span,
-.layer-claim > span {
-  color: var(--ink-3);
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
 }
 
 .layer-observation > div,
@@ -2858,7 +2850,7 @@ details[open] > summary .disclosure-icon {
 .decoded-observation-list summary,
 .decoded-claim-list summary {
   display: grid;
-  grid-template-columns: 30px minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: var(--space-3);
   align-items: start;
   padding: 14px 18px;
@@ -2869,13 +2861,6 @@ details[open] > summary .disclosure-icon {
 .decoded-observation-list summary::-webkit-details-marker,
 .decoded-claim-list summary::-webkit-details-marker {
   display: none;
-}
-
-.decoded-observation-list summary > span,
-.decoded-claim-list summary > span {
-  color: var(--ink-3);
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
 }
 
 .decoded-observation-list summary > div,
@@ -2908,7 +2893,7 @@ details[open] > summary .disclosure-icon {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--space-3);
-  padding: 0 18px 14px 60px;
+  padding: 0 18px 14px;
 }
 
 .decoded-observation-list dl div {
@@ -2917,9 +2902,8 @@ details[open] > summary .disclosure-icon {
 }
 
 .decoded-observation-list dt {
-  color: var(--ink-3);
-  font-size: 0.625rem;
-  text-transform: uppercase;
+  color: var(--ink-2);
+  font-size: var(--text-xs);
 }
 
 .decoded-observation-list dd {
@@ -2976,15 +2960,7 @@ details[open] > summary .disclosure-icon {
 }
 
 .decoded-linked-claim > summary {
-  grid-template-columns: 108px minmax(0, 1fr) auto;
   padding: 12px;
-}
-
-.decoded-linked-claim > summary > span {
-  color: var(--accent-strong);
-  font-family: var(--font-ui);
-  font-size: 0.6875rem;
-  font-weight: var(--weight-medium);
 }
 
 .decoded-linked-claim__details {
@@ -3496,7 +3472,6 @@ details[open] > summary .disclosure-icon {
 
   .decoded-observation-list summary,
   .decoded-claim-list summary {
-    grid-template-columns: 26px minmax(0, 1fr) auto;
     padding-inline: 14px;
   }
 
