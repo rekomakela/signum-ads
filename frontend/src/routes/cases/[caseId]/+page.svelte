@@ -70,9 +70,8 @@
     </div>
   </header>
 
-  <section class="case-lede" aria-label="Advertisement and overall interpretation">
-    <aside class="case-source-panel">
-      <div class="case-source-panel__heading"><strong>Advertisement</strong></div>
+  <div class="case-layout">
+    <aside class="case-source-panel" aria-label="Advertisement">
       <div class="case-source-panel__media">
         {#if caseData.asset.src}
           <img src={`${base}${caseData.asset.src}`} alt={caseData.asset.alt} />
@@ -95,98 +94,98 @@
       </div>
     </aside>
 
-    <section class="case-interpretation" aria-labelledby="overall-interpretation-heading">
-      <h2 id="overall-interpretation-heading">Overall interpretation</h2>
-      {#if caseData.archive.analytical_deck || caseData.summary}
-        <p class="case-interpretation__thesis">{caseData.archive.analytical_deck ?? caseData.summary}</p>
-      {:else}
-        <p class="case-interpretation__thesis">No overall interpretation is available yet.</p>
-      {/if}
+    <div class="case-reading">
+      <section class="case-interpretation" aria-labelledby="overall-interpretation-heading">
+        <h2 id="overall-interpretation-heading">Overall interpretation</h2>
+        {#if caseData.archive.analytical_deck || caseData.summary}
+          <p class="case-interpretation__thesis">{caseData.archive.analytical_deck ?? caseData.summary}</p>
+        {:else}
+          <p class="case-interpretation__thesis">No overall interpretation is available yet.</p>
+        {/if}
 
-      {#if keyConcepts.length > 0}
-        <div class="case-key-concepts">
-          <span>Key concepts</span>
-          <div>
-            {#each keyConcepts as concept (concept.id)}
-              <a
-                href={resolve(
-                  `/glossary?from=${encodeURIComponent(caseData.case_id)}&concept=${encodeURIComponent(concept.id)}`,
-                )}
-              >{concept.label}</a>
+        {#if keyConcepts.length > 0}
+          <div class="case-key-concepts">
+            <span>Key concepts</span>
+            <div>
+              {#each keyConcepts as concept (concept.id)}
+                <a
+                  href={resolve(
+                    `/glossary?from=${encodeURIComponent(caseData.case_id)}&concept=${encodeURIComponent(concept.id)}`,
+                  )}
+                >{concept.label}</a>
+              {/each}
+            </div>
+          </div>
+        {/if}
+      </section>
+
+      <section class="case-evidence" aria-labelledby="analysis-heading">
+        <header class="case-evidence__header">
+          <h2 id="analysis-heading">Evidence and interpretation</h2>
+          <p>What the ad visibly shows, and what each detail may mean.</p>
+        </header>
+
+        {#if rankedObservations.length > 0}
+          <div class="observation-list">
+            {#each visibleObservations as observation (observation.ref)}
+              <SignumObservationCard {observation} {caseData} />
             {/each}
           </div>
-        </div>
-      {/if}
-    </section>
-  </section>
 
-  <section class="case-evidence" aria-labelledby="analysis-heading">
-    <header class="case-evidence__header">
-      <div>
-        <h2 id="analysis-heading">Evidence and interpretation</h2>
-        <p>The visible details that matter most to this reading, and what they may suggest.</p>
-      </div>
-      <span>{rankedObservations.length} observations</span>
-    </header>
-
-    {#if rankedObservations.length > 0}
-      <div class="observation-list">
-        {#each visibleObservations as observation (observation.ref)}
-          <SignumObservationCard {observation} {caseData} />
-        {/each}
-      </div>
-
-      {#if remainingEvidenceCount > 0}
-        <button class="case-show-more" type="button" onclick={() => (showAllEvidence = true)}>
-          Show {remainingEvidenceCount} more {remainingEvidenceCount === 1 ? 'observation' : 'observations'}
-        </button>
-      {:else if showAllEvidence && rankedObservations.length > 3}
-        <button class="case-show-more" type="button" onclick={() => (showAllEvidence = false)}>
-          Show only key observations
-        </button>
-      {/if}
-    {:else}
-      <section class="empty-state empty-state--compact">
-        <h3>No clear visual evidence was identified</h3>
-        <p>Try another image or review the source quality before analysing it again.</p>
+          {#if remainingEvidenceCount > 0}
+            <button class="case-show-more" type="button" onclick={() => (showAllEvidence = true)}>
+              Show {remainingEvidenceCount} more {remainingEvidenceCount === 1 ? 'observation' : 'observations'}
+            </button>
+          {:else if showAllEvidence && rankedObservations.length > 3}
+            <button class="case-show-more" type="button" onclick={() => (showAllEvidence = false)}>
+              Show only key observations
+            </button>
+          {/if}
+        {:else}
+          <section class="empty-state empty-state--compact">
+            <h3>No clear visual evidence was identified</h3>
+            <p>Try another image or review the source quality before analysing it again.</p>
+          </section>
+        {/if}
       </section>
-    {/if}
-  </section>
 
-  {#if caseConcepts.length > 0}
-    <section class="case-concepts" aria-labelledby="case-concepts-heading">
-      <header>
-        <h2 id="case-concepts-heading">Concepts used in this analysis</h2>
-        <p>Ideas that connect this advertisement to broader patterns of meaning.</p>
-      </header>
-      <div class="case-concepts__grid">
-        {#each caseConcepts as concept (concept.id)}
-          <a
-            href={resolve(
-              `/glossary?from=${encodeURIComponent(caseData.case_id)}&concept=${encodeURIComponent(concept.id)}`,
-            )}
-          >
-            <strong>{concept.label}</strong>
-            {#if concept.plain_language}<span>{concept.plain_language}</span>{/if}
-          </a>
-        {/each}
-      </div>
-    </section>
-  {/if}
+      {#if caseConcepts.length > 0}
+        <section class="case-concepts" aria-labelledby="case-concepts-heading">
+          <header>
+            <h2 id="case-concepts-heading">Concepts used in this analysis</h2>
+            <p>Ideas that connect this advertisement to broader patterns of meaning.</p>
+          </header>
+          <ul class="case-concepts__list">
+            {#each caseConcepts as concept (concept.id)}
+              <li>
+                <a
+                  href={resolve(
+                    `/glossary?from=${encodeURIComponent(caseData.case_id)}&concept=${encodeURIComponent(concept.id)}`,
+                  )}
+                >{concept.label}</a>
+                {#if concept.plain_language}<p>{concept.plain_language}</p>{/if}
+              </li>
+            {/each}
+          </ul>
+        </section>
+      {/if}
 
-  <details class="case-about">
-    <summary>About this interpretation</summary>
-    <div>
-      <p>
-        Interpretations are arguments, not facts. Signum keeps the visible evidence and the readings
-        built from it inspectable so they can be challenged rather than treated as objective truth.
-      </p>
-      <div class="case-about__actions">
-        <a href={resolve('/method')}>How Signum analyses advertisements</a>
-        <a href={resolve(`/workbench?case=${encodeURIComponent(caseData.case_id)}`)}>View analysis map</a>
-      </div>
+      <details class="case-about">
+        <summary>About this interpretation</summary>
+        <div>
+          <p>
+            Interpretations are arguments, not facts. Signum keeps the visible evidence and the
+            readings built from it inspectable so they can be challenged rather than treated as
+            objective truth.
+          </p>
+          <div class="case-about__actions">
+            <a href={resolve('/method')}>How Signum analyses advertisements</a>
+            <a href={resolve(`/workbench?case=${encodeURIComponent(caseData.case_id)}`)}>View analysis map</a>
+          </div>
+        </div>
+      </details>
     </div>
-  </details>
+  </div>
 
   {#if previousCase || nextCase}
     <nav class="case-adjacent-nav" aria-label="Browse adjacent analyses">
