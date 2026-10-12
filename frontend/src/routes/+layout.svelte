@@ -6,10 +6,15 @@
 
   let { children }: { children: Snippet } = $props();
 
+  // page.url.pathname includes the deployment base path (/signum-ads on GitHub Pages);
+  // compare route paths without it so the active state works in every deployment.
+  const routePath = $derived(
+    page.url.pathname.startsWith(base)
+      ? page.url.pathname.slice(base.length) || '/'
+      : page.url.pathname,
+  );
   const isActive = (href: string): boolean =>
-    href === '/'
-      ? page.url.pathname === '/'
-      : page.url.pathname === href || page.url.pathname.startsWith(`${href}/`);
+    href === '/' ? routePath === '/' : routePath === href || routePath.startsWith(`${href}/`);
 </script>
 
 <svelte:head>
