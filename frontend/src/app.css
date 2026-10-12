@@ -3739,9 +3739,8 @@ details[open] > summary .disclosure-icon {
 
 .method-layers > div {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
-  gap: 24px;
-  padding: 16px 0;
+  gap: 4px;
+  padding: 12px 0;
   border-top: 1px solid var(--line-0);
 }
 
@@ -3751,7 +3750,7 @@ details[open] > summary .disclosure-icon {
 }
 
 .method-layers dt {
-  font-size: var(--text-base);
+  font-size: var(--text-sm);
   font-weight: var(--weight-semibold);
   line-height: 1.4;
 }
@@ -3764,8 +3763,8 @@ details[open] > summary .disclosure-icon {
 
 .method-layers dd p {
   color: var(--ink-1);
-  font-size: var(--text-base);
-  line-height: 1.55;
+  font-size: var(--text-sm);
+  line-height: 1.6;
 }
 
 .method-layers dd a {
@@ -3895,11 +3894,6 @@ details[open] > summary .disclosure-icon {
     margin-top: 40px;
   }
 
-  .method-layers > div {
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
-
   .archive-context {
     align-items: flex-start;
     flex-direction: column;
@@ -3937,7 +3931,7 @@ details[open] > summary .disclosure-icon {
 }
 
 /* -------------------------------------------------------------------------- */
-/* Worked example (shared by home and method)                                  */
+/* Worked example (method page)                                               */
 /* -------------------------------------------------------------------------- */
 
 .worked-example {
@@ -3949,19 +3943,18 @@ details[open] > summary .disclosure-icon {
 }
 
 .worked-example__media {
-  display: grid;
-  place-items: center;
-  overflow: hidden;
-  aspect-ratio: 4 / 3;
-  border: 1px solid var(--line-0);
+  display: block;
   border-radius: var(--radius-2);
-  background: var(--paper-1);
 }
 
 .worked-example__media img {
+  display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: 72vh;
   object-fit: contain;
+  object-position: left top;
+  border-radius: var(--radius-2);
 }
 
 .worked-example__reading {

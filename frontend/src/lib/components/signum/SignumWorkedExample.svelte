@@ -39,7 +39,7 @@
     caseData.archive.analytical_title
       ? [caseData.archive.brand, caseData.archive.year_label, caseData.archive.analytical_title]
           .filter(Boolean)
-          .join(' · ')
+          .join(', ')
       : caseDisplayTitle(caseData.compatibility_case_id, caseData.title),
   );
   const href = $derived(resolve('/cases/[caseId]', { caseId: caseData.case_id }));
@@ -57,7 +57,7 @@
           <dt>What the ad shows</dt>
           <dd>
             <p>{observation.description}</p>
-            <span class="worked-example__term">Observation · {observation.location}</span>
+            <span class="worked-example__term">Observation: {observation.location}</span>
           </dd>
         </div>
         <div>
@@ -65,7 +65,7 @@
           <dd>
             <p>{claim.text}</p>
             <span class="worked-example__term"
-              >Interpretation · {displayClaimKind(claim.kind).toLowerCase()}</span
+              >Interpretation: {displayClaimKind(claim.kind).toLowerCase()}</span
             >
           </dd>
         </div>
@@ -88,7 +88,7 @@
             {/if}
             {#if concepts.length > 0}
               <span class="worked-example__term">
-                Evidence links · concepts:
+                Concepts:
                 {#each concepts as concept, index (concept)}
                   <a
                     href={resolve(

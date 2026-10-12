@@ -37,42 +37,6 @@
     </section>
   {/if}
 
-  <section class="method-section" aria-labelledby="method-layers-heading">
-    <h2 id="method-layers-heading">What each layer holds</h2>
-    <dl class="method-layers">
-      <div>
-        <dt>What the ad shows</dt>
-        <dd>
-          <p>
-            Visible text, objects, people, layout, colour, and composition, recorded without
-            assigning meaning to them.
-          </p>
-          <span>Recorded as observations.</span>
-        </dd>
-      </div>
-      <div>
-        <dt>What it may mean</dt>
-        <dd>
-          <p>
-            Possible messages, persuasive techniques, associations, cultural codes, and ideological
-            readings that those details support.
-          </p>
-          <span>Recorded as interpretations.</span>
-        </dd>
-      </div>
-      <div>
-        <dt>Why that interpretation fits</dt>
-        <dd>
-          <p>
-            Each interpretation points back to the visible details that support it and names the
-            <a href={resolve('/glossary')}>concepts</a> used to explain the reading.
-          </p>
-          <span>Recorded as evidence links and concept references.</span>
-        </dd>
-      </div>
-    </dl>
-  </section>
-
   <section class="method-section method-section--prose" aria-labelledby="method-stance-heading">
     <h2 id="method-stance-heading">A supported reading, not ground truth</h2>
     <p>
@@ -87,7 +51,45 @@
   </section>
 
   <section class="method-section method-notes" aria-labelledby="method-notes-heading">
-    <h2 id="method-notes-heading">Background and limits</h2>
+    <h2 id="method-notes-heading">More about the method</h2>
+
+    <details class="method-note">
+      <summary>What each layer records</summary>
+      <div>
+        <dl class="method-layers">
+          <div>
+            <dt>What the ad shows</dt>
+            <dd>
+              <p>
+                Visible text, objects, people, layout, colour, and composition, recorded without
+                assigning meaning to them.
+              </p>
+              <span>Recorded as observations.</span>
+            </dd>
+          </div>
+          <div>
+            <dt>What it may mean</dt>
+            <dd>
+              <p>
+                Possible messages, persuasive techniques, associations, cultural codes, and
+                ideological readings that those details support.
+              </p>
+              <span>Recorded as interpretations.</span>
+            </dd>
+          </div>
+          <div>
+            <dt>Why that interpretation fits</dt>
+            <dd>
+              <p>
+                Each interpretation points back to the visible details that support it and names the
+                <a href={resolve('/glossary')}>concepts</a> used to explain the reading.
+              </p>
+              <span>Recorded as evidence links and concept references.</span>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </details>
 
     <details class="method-note">
       <summary>Where the approach comes from</summary>
