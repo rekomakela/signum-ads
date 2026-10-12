@@ -16,7 +16,7 @@
   const sourceTitle = $derived(caseDisplayTitle(item.compatibility_case_id, item.title));
   const analyticalTitle = $derived(item.archive.analytical_title ?? sourceTitle);
   const context = $derived(
-    [item.archive.brand, item.archive.year_label].filter(Boolean).join(' · '),
+    [item.archive.brand, item.archive.year_label].filter(Boolean).join(', '),
   );
   // The visible title already names the ad; a duplicate alt would be read twice.
   const imageAlt = $derived(

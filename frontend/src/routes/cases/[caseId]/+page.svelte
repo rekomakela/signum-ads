@@ -14,7 +14,7 @@
   );
   const analyticalTitle = $derived(caseData.archive.analytical_title ?? sourceTitle);
   const archiveContext = $derived(
-    [caseData.archive.brand, caseData.archive.year_label].filter(Boolean).join(' · '),
+    [caseData.archive.brand, caseData.archive.year_label].filter(Boolean).join(', '),
   );
   const previousCase = $derived(data.previousCase);
   const nextCase = $derived(data.nextCase);

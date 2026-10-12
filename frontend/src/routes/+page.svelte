@@ -79,7 +79,7 @@
             <figcaption>
               {#if item.archive.brand || item.archive.year_label}
                 <p class="editorial-analysis-card__context">
-                  {[item.archive.brand, item.archive.year_label].filter(Boolean).join(' · ')}
+                  {[item.archive.brand, item.archive.year_label].filter(Boolean).join(', ')}
                 </p>
               {/if}
               <h3>{item.archive.analytical_title ?? item.title}</h3>
@@ -131,7 +131,7 @@
       <a href={resolve('/analyse')}>Start an analysis</a>
       {#if data.counts.direct > 0}
         <p class="archive-home__corpus">
-          {data.counts.sourced} reference examples · {data.counts.direct} uploaded analyses
+          {data.counts.sourced} reference examples and {data.counts.direct} uploaded analyses
         </p>
       {/if}
     </div>

@@ -673,18 +673,12 @@ details[open] > summary .disclosure-icon {
 .decode-dropzone__icon {
   display: grid;
   place-items: center;
-  width: 54px;
-  height: 54px;
-  border: 1px solid var(--line-1);
-  border-radius: var(--radius-3);
-  background: var(--surface-0);
   color: var(--ink-1);
-  box-shadow: var(--shadow-xs);
 }
 
 .decode-dropzone__icon svg {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
 }
 
 .decode-dropzone__idle > div {
@@ -696,18 +690,15 @@ details[open] > summary .disclosure-icon {
   font-size: var(--text-md);
 }
 
-.decode-dropzone__idle p,
-.decode-dropzone__formats {
+.decode-dropzone__idle p {
   color: var(--ink-2);
   font-size: var(--text-sm);
 }
 
-.decode-dropzone__formats {
-  padding: 5px 8px;
-  border: 1px solid var(--line-0);
-  border-radius: var(--radius-round);
-  background: var(--surface-0);
-  font-size: 0.6875rem;
+.decode-dropzone__choose {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .decode-dropzone__processing,
