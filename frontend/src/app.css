@@ -3826,6 +3826,10 @@ details[open] > summary .disclosure-icon {
     grid-auto-flow: row;
   }
 
+  .archive-toolbar .archive-sort {
+    justify-self: start;
+  }
+
   .archive-toolbar .ds-search {
     grid-column: 1 / -1;
   }
