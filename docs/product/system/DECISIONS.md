@@ -155,9 +155,10 @@ Global navigation lists Analyses, Concepts, Method, then a rule, then Analyse an
 Public reading surfaces (home, analyses, analysis detail, method, analyse) follow these rules:
 
 - No eyebrow/kicker labels above headings. Section meaning is carried by the heading itself; a sentence-case label is used only where it names a data field (for example "Observation", "Interpretation").
-- No decorative step numbering ("01 / 02 / 03") for explanatory copy. Sequence inside an analysis (observation and interpretation indices in Analysis map and direct Decode results) is data and may keep its numeral.
+- No decorative step numbering ("01 / 02 / 03"). This includes the zero-padded positions formerly shown beside observations and interpretations in Analysis map and direct Decode results: they were render order, not identifiers, and nothing referred to them. Stable references remain the observation and claim IDs.
 - Page titles sit between roughly 1.75rem and 2.5rem; the advertisement and its interpretation are the largest objects on an analysis page, and the thesis is set larger than the label above it.
-- The three-layer reading model is explained with one worked example on a real advertisement (shared `SignumWorkedExample`), not with an abstract numbered list. Background and limits sit behind disclosure on the Method page.
+- The three-layer reading model is explained once, on the Method page, with one worked example on a real advertisement (`SignumWorkedExample`), not with an abstract numbered list. The home page links to it instead of repeating it, so the archive tiles stay the first thing on home. Layer definitions, background, and limits sit behind disclosure on the Method page.
+- On wide screens the analysis detail page keeps the advertisement in a sticky column beside the reading, so every observation can be checked against the image without scrolling back. Below 1050px the ad sits above the reading at no more than 70% of the viewport height.
 - Counts are shown only when non-zero. "0 uploaded analyses", "Pending 0" and similar lines are omitted rather than rendered.
 - Interactive control borders (buttons, inputs, chips, dropzone) use the `--line-control` token so they meet the 3:1 non-text contrast requirement; secondary text uses `--ink-2`/`--ink-3` values that pass 4.5:1 on every paper surface.
 - Call-to-action buttons use the shared `.ds-button` classes; page-local button styles are not introduced.
