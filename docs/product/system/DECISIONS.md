@@ -102,9 +102,9 @@ The public homepage presents Signum first as an archive of decoded advertisement
 
 ## SDEC-016 — Analysis map is contextual expert navigation
 
-**Status:** active
+**Status:** active for the Analysis map rule; the grouped navigation labels are superseded by SDEC-023.
 
-The structure/Workbench view remains available from an individual analysis but is not a primary global navigation destination. Global navigation is grouped as **Explore** (Analyses, Concepts), **Learn** (Method), and **Create** (Analyse an ad).
+The structure/Workbench view remains available from an individual analysis but is not a primary global navigation destination. Global navigation was originally grouped as **Explore** (Analyses, Concepts), **Learn** (Method), and **Create** (Analyse an ad); SDEC-023 replaces the visible group labels with a flat list.
 
 ## SDEC-017 — Archive context is curated, never guessed
 
@@ -141,3 +141,24 @@ Time uses explicit precision (`exact_date`, `month`, `year`, `circa_year`, `rang
 **Status:** active
 
 Graph relations are either **asserted factual**, **analytical**, or **derived**. Derived similarity/chronology edges are computed and regenerable by default. Controlled vocabulary IDs are permanent; decoder-proposed unknown concepts become candidates and never silently mutate canonical vocabulary.
+
+## SDEC-023 — Primary navigation is a flat list
+
+**Status:** active
+
+Global navigation lists Analyses, Concepts, Method, then a rule, then Analyse an ad. The former **Explore / Learn / Create** group labels and the sidebar archive-count footer are removed: with four destinations the labels added a reading level without adding orientation, and the count duplicated the Analyses page. The active destination is marked by a left cobalt bar plus a lighter row surface, not by a trailing dot. Mobile keeps the same four destinations in one 56px row. Supersedes the grouping sentence in SDEC-016.
+
+## SDEC-024 — Hierarchy comes from the ad and the reading, not from scaffolding
+
+**Status:** active
+
+Public reading surfaces (home, analyses, analysis detail, method, analyse) follow these rules:
+
+- No eyebrow/kicker labels above headings. Section meaning is carried by the heading itself; a sentence-case label is used only where it names a data field (for example "Observation", "Interpretation").
+- No decorative step numbering ("01 / 02 / 03"). This includes the zero-padded positions formerly shown beside observations and interpretations in Analysis map and direct Decode results: they were render order, not identifiers, and nothing referred to them. Stable references remain the observation and claim IDs.
+- Page titles sit between roughly 1.75rem and 2.5rem; the advertisement and its interpretation are the largest objects on an analysis page, and the thesis is set larger than the label above it.
+- The three-layer reading model is explained once, on the Method page, with one worked example on a real advertisement (`SignumWorkedExample`), not with an abstract numbered list. The home page links to it instead of repeating it, so the archive tiles stay the first thing on home. Layer definitions, background, and limits sit behind disclosure on the Method page.
+- On wide screens the analysis detail page keeps the advertisement in a sticky column beside the reading, so every observation can be checked against the image without scrolling back. Below 1050px the ad sits above the reading at no more than 70% of the viewport height.
+- Counts are shown only when non-zero. "0 uploaded analyses", "Pending 0" and similar lines are omitted rather than rendered.
+- Interactive control borders (buttons, inputs, chips, dropzone) use the `--line-control` token so they meet the 3:1 non-text contrast requirement; secondary text uses `--ink-2`/`--ink-3` values that pass 4.5:1 on every paper surface.
+- Call-to-action buttons use the shared `.ds-button` classes; page-local button styles are not introduced.

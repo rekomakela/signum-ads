@@ -115,7 +115,7 @@ test('analytical support uses native progressive disclosure', async () => {
   assert.doesNotMatch(observationCard, /open=\{index === 1\}/);
   assert.match(observationCard, /claimsForObservation/);
   assert.match(observationCard, /<SignumClaimCard/);
-  assert.match(observationCard, /More analysis/);
+  assert.match(observationCard, /further readings/);
   assert.match(observationCard, /Observation/);
   assert.match(observationCard, /Interpretation/);
   assert.doesNotMatch(observationCard, /epistemic-label/);
@@ -187,9 +187,12 @@ test('frontend exposes the decode and browse surfaces', async () => {
   assert.match(layout, />\s*Method/);
   assert.match(layout, />\s*Analyse an ad/);
   assert.doesNotMatch(layout, />\s*Inspect/);
-  assert.match(layout, />Explore<\/span>/);
-  assert.match(layout, />Learn<\/span>/);
-  assert.match(layout, />Create<\/span>/);
+  assert.doesNotMatch(
+    layout,
+    /app-nav__group-label/,
+    'Primary navigation is a flat list; grouping labels were removed (SDEC-023).',
+  );
+  assert.match(layout, /<hr class="app-nav__rule" \/>/);
   assert.match(home, /An archive of decoded advertisements/);
   assert.match(home, /Explore patterns across advertising/);
   assert.match(home, /From what is visible to what is made to seem natural/);

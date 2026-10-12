@@ -49,33 +49,16 @@
 
 <article class="archive-home">
   <header class="archive-home__hero">
-    <div>
-      <span class="archive-home__kicker">Advertising analysis archive</span>
-      <h1>An archive of decoded advertisements</h1>
-      <p>
-        Explore how ads construct meaning through signs, cultural codes, values, identities, and
-        assumptions that are easy to overlook.
-      </p>
-      <div class="archive-home__actions">
-        <a class="archive-home__primary" href={resolve('/cases')}>Explore analyses</a>
-        <a href={resolve('/method')}>How Signum reads ads</a>
-      </div>
-      <p class="archive-home__corpus">
-        <strong>{data.counts.total} advertisements analysed</strong>
-        <span
-          >{data.counts.sourced} reference examples · {data.counts.direct} uploaded analyses</span
-        >
-      </p>
-    </div>
+    <h1>An archive of decoded advertisements</h1>
+    <p>
+      Each ad is read in three layers: what it shows, what it may mean, and why that reading fits.
+    </p>
   </header>
 
   <section class="archive-home__featured" aria-labelledby="featured-heading">
     <header class="editorial-heading">
-      <div>
-        <span>Explore the archive</span>
-        <h2 id="featured-heading">Featured analyses</h2>
-      </div>
-      <a href={resolve('/cases')}>View all {data.counts.total} analyses</a>
+      <h2 id="featured-heading">Featured analyses</h2>
+      <a href={resolve('/cases')}>All {data.counts.total} analyses</a>
     </header>
 
     <div class="editorial-analysis-grid">
@@ -96,7 +79,7 @@
             <figcaption>
               {#if item.archive.brand || item.archive.year_label}
                 <p class="editorial-analysis-card__context">
-                  {[item.archive.brand, item.archive.year_label].filter(Boolean).join(' · ')}
+                  {[item.archive.brand, item.archive.year_label].filter(Boolean).join(', ')}
                 </p>
               {/if}
               <h3>{item.archive.analytical_title ?? item.title}</h3>
@@ -109,11 +92,8 @@
 
   <section class="archive-home__patterns" aria-labelledby="patterns-heading">
     <header class="editorial-heading">
-      <div>
-        <span>Follow recurring ideas</span>
-        <h2 id="patterns-heading">Explore patterns across advertising</h2>
-      </div>
-      <a href={resolve('/glossary')}>Browse all concepts</a>
+      <h2 id="patterns-heading">Explore patterns across advertising</h2>
+      <a href={resolve('/glossary')}>All concepts</a>
     </header>
 
     <div class="archive-concept-grid">
@@ -121,7 +101,6 @@
         <form method="GET" action={resolve('/cases')}>
           <input type="hidden" name="concept" value={concept.id} />
           <button type="submit">
-            <span>{concept.domain}</span>
             <strong>{concept.label}</strong>
             <p>{concept.plain_language || concept.definition}</p>
             <em>{concept.case_ids.length} analyses</em>
@@ -131,66 +110,30 @@
     </div>
   </section>
 
-  <section class="archive-home__reading" aria-labelledby="reading-heading">
-    <header>
-      <span>How Signum reads ads</span>
-      <h2 id="reading-heading">From what is visible to what is made to seem natural</h2>
-      <p>
-        Signum treats an interpretation as an argument. It starts with what can be pointed to in the
-        ad, then asks what those details suggest and what assumptions they help make ordinary.
-      </p>
-    </header>
-
-    <ol class="archive-reading-model">
-      <li>
-        <span>01</span>
-        <strong>What is shown</strong>
-        <p>Observable text, people, objects, composition, colour, and other visible evidence.</p>
-      </li>
-      <li>
-        <span>02</span>
-        <strong>What it suggests</strong>
-        <p>
-          Associations, values, identities, emotions, and cultural codes attached to that evidence.
-        </p>
-      </li>
-      <li>
-        <span>03</span>
-        <strong>How meaning is constructed</strong>
-        <p>
-          The relationships between signs, persuasive structures, and the readings they support.
-        </p>
-      </li>
-      <li>
-        <span>04</span>
-        <strong>What is made to seem natural</strong>
-        <p>The worldview or assumption the advertisement invites the viewer to accept as normal.</p>
-      </li>
-    </ol>
-  </section>
-
-  <section class="archive-home__method" aria-labelledby="home-method-heading">
+  <footer class="archive-home__notes">
     <div>
-      <span>Method</span>
-      <h2 id="home-method-heading">A critical reading, not a verdict</h2>
+      <h2 id="home-method-heading">From what is visible to what is made to seem natural</h2>
       <p>
-        Signum draws on semiotics, critical advertising studies, and Judith Williamson’s
-        <cite>Decoding Advertisements: Ideology and Meaning in Advertising</cite>. Machine-generated
-        interpretations remain contestable readings rather than objective facts.
+        Every reading starts with what can be pointed to in the ad, then asks what those details
+        suggest and what assumptions they help make ordinary. The approach draws on semiotics and
+        Judith Williamson’s
+        <cite>Decoding Advertisements: Ideology and Meaning in Advertising</cite>. Interpretations
+        stay contestable readings, not verdicts.
       </p>
+      <a href={resolve('/method')}>See one analysis read layer by layer</a>
     </div>
-    <a href={resolve('/method')}>Read the methodology</a>
-  </section>
-
-  <section class="archive-home__create" aria-labelledby="create-heading">
     <div>
-      <span>Create</span>
       <h2 id="create-heading">Analyse an advertisement</h2>
       <p>
-        Want to examine an ad yourself? The analysis workspace separates visible evidence from the
-        interpretations built from it.
+        The analysis workspace runs the same reading on an ad you choose: what it shows, what it may
+        mean, and which details support each interpretation.
       </p>
+      <a href={resolve('/analyse')}>Start an analysis</a>
+      {#if data.counts.direct > 0}
+        <p class="archive-home__corpus">
+          {data.counts.sourced} reference examples and {data.counts.direct} uploaded analyses
+        </p>
+      {/if}
     </div>
-    <a href={resolve('/analyse')}>Start an analysis</a>
-  </section>
+  </footer>
 </article>

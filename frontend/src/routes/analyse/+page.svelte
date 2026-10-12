@@ -32,107 +32,59 @@
 
 <section class="decode-home">
   <header class="decode-home__intro">
-    <div>
-      <h1>Analyse an advertisement.<br />See what it shows, what it may mean, and why.</h1>
-      <p>
-        Signum separates visible details in the ad from interpretations about its message,
-        persuasive techniques, and cultural meaning.
-      </p>
-      <p class="decode-home__stance">
-        <strong>AI-assisted analysis.</strong>
-        Every interpretation shows the evidence it is based on.
-      </p>
-    </div>
+    <h1>Analyse an advertisement.</h1>
+    <p>
+      Upload an ad and Signum reads it the way the archive reads every ad: what it shows, what it
+      may mean, and why that reading fits.
+    </p>
   </header>
 
   <div class="decode-console">
     <section class="decode-console__drop" aria-labelledby="decode-title">
-      <div class="surface-heading">
-        <div>
-          <h2 id="decode-title">Analyse an advertisement</h2>
-          <p>
-            Upload a JPG, PNG, or WebP image. Signum first checks for an existing archived analysis
-            on this device.
-          </p>
-        </div>
-        <span
-          class="surface-heading__badge"
-          title="The image is hashed locally and matched against Signum's persisted archive before any analyzer is considered."
-          >Local-first</span
-        >
+      <div class="decode-console__heading">
+        <h2 id="decode-title">Upload an image</h2>
+        <p>
+          JPG, PNG, or WebP. The image is hashed on this device and matched against the archive
+          before any model runs.
+        </p>
       </div>
       <SignumDropZone archiveCases={data.dataset.cases} />
-    </section>
-
-    <section class="decode-console__method" aria-labelledby="method-title">
-      <div class="surface-heading">
-        <div>
-          <h2 id="method-title">How the analysis works</h2>
-          <p>Signum keeps visible evidence separate from interpretation.</p>
-        </div>
-      </div>
-
-      <ol class="evidence-chain">
-        <li>
-          <span>01</span>
-          <div>
-            <strong>What the ad shows</strong>
-            <p>
-              Identify visible text, people, objects, layout, colours, and other details without
-              assigning meaning.
-            </p>
-          </div>
-        </li>
-        <li>
-          <span>02</span>
-          <div>
-            <strong>What it may mean</strong>
-            <p>
-              Explain possible messages, persuasive techniques, associations, and cultural meanings
-              based on those details.
-            </p>
-          </div>
-        </li>
-        <li>
-          <span>03</span>
-          <div>
-            <strong>Why that interpretation fits</strong>
-            <p>
-              See which details support each interpretation and which concepts were used to explain
-              it.
-            </p>
-          </div>
-        </li>
-      </ol>
-
-      <p class="decode-console__collection-summary">
-        <strong>{data.counts.total} analyses</strong>
-        <span
-          >{data.counts.sourced} reference examples · {data.counts.direct} uploaded analyses</span
-        >
+      <p class="decode-home__stance">
+        <strong>AI-assisted analysis.</strong>
+        Every interpretation shows the evidence it is based on and remains a contestable reading, not
+        a verdict.
       </p>
-
-      <aside class="method-inspiration" aria-label="Methodological inspiration">
-        <span>Methodological inspiration</span>
-        <p>
-          Inspired by Judith Williamson’s <cite
-            >Decoding Advertisements: Ideology and Meaning in Advertising</cite
-          > (1978).
-        </p>
-      </aside>
     </section>
+
+    <aside class="decode-console__method" aria-labelledby="method-title">
+      <h2 id="method-title">What comes back</h2>
+      <dl class="decode-layers">
+        <div>
+          <dt>What the ad shows</dt>
+          <dd>
+            Visible text, people, objects, layout, and colour, recorded without assigning meaning.
+          </dd>
+        </div>
+        <div>
+          <dt>What it may mean</dt>
+          <dd>
+            Possible messages, persuasive techniques, associations, and cultural meanings based on
+            those details.
+          </dd>
+        </div>
+        <div>
+          <dt>Why that interpretation fits</dt>
+          <dd>Which details support each interpretation, and which concepts explain it.</dd>
+        </div>
+      </dl>
+      <a href={resolve('/method')}>Read the method</a>
+    </aside>
   </div>
 
   <section class="recent-cases">
     <header class="section-heading">
-      <div>
-        <h2>Featured analyses</h2>
-        <p>
-          A curated set of ads where the evidence-to-interpretation chain is especially worth
-          exploring.
-        </p>
-      </div>
-      <a href={resolve('/cases')}>View all {data.counts.total} analyses</a>
+      <h2>Featured analyses</h2>
+      <a href={resolve('/cases')}>All {data.counts.total} analyses</a>
     </header>
 
     <div class="recent-cases__grid">

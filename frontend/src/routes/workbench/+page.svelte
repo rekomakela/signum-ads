@@ -105,7 +105,9 @@
 
         <footer>
           <span>{caseData.evidence_types.length} kinds of visible detail</span>
-          <span>{caseData.unresolved_reference_count ?? '—'} unresolved concepts</span>
+          {#if caseData.unresolved_reference_count}
+            <span>{caseData.unresolved_reference_count} unresolved concepts</span>
+          {/if}
         </footer>
       </section>
 
@@ -149,9 +151,8 @@
                 <span>{caseData.observations.length}</span>
               </header>
               <div>
-                {#each caseData.observations as observation, index (observation.ref)}
+                {#each caseData.observations as observation (observation.ref)}
                   <article class="layer-observation">
-                    <span>{String(index + 1).padStart(2, '0')}</span>
                     <div>
                       <small
                         >{displayEvidenceType(observation.evidence_type)} · {observation.location ??
@@ -171,9 +172,8 @@
                 <span>{primaryClaims.length}</span>
               </header>
               <div>
-                {#each primaryClaims as claim, index (claim.ref)}
+                {#each primaryClaims as claim (claim.ref)}
                   <article class="layer-claim">
-                    <span>{String(index + 1).padStart(2, '0')}</span>
                     <div>
                       <small>{claim.kind.replaceAll('_', ' ')}</small>
                       <p>{claim.text}</p>
@@ -209,9 +209,8 @@
                 <span>{caseData.claims.length}</span>
               </header>
               <div>
-                {#each caseData.claims.filter((claim) => claim.kind === 'interpretation' || claim.kind === 'core_message') as claim, index (claim.ref)}
+                {#each caseData.claims.filter((claim) => claim.kind === 'interpretation' || claim.kind === 'core_message') as claim (claim.ref)}
                   <article class="layer-claim">
-                    <span>{String(index + 1).padStart(2, '0')}</span>
                     <div>
                       <small
                         >{claim.ref.includes('alternate')

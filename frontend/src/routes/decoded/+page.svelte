@@ -123,10 +123,9 @@
             <span>{detail.decode.evidence_records.length}</span>
           </header>
           <div class="decoded-observation-list">
-            {#each detail.decode.evidence_records as observation, index (observation.evidence_id)}
+            {#each detail.decode.evidence_records as observation (observation.evidence_id)}
               <details id={`direct-evidence-${observation.evidence_id}`}>
                 <summary>
-                  <span>{String(index + 1).padStart(2, '0')}</span>
                   <div>
                     <small
                       >{observation.evidence_type.replaceAll('_', ' ')} · {observation.location ??
@@ -159,10 +158,9 @@
                         <span>{claimsForEvidence(observation.evidence_id).length}</span>
                       </header>
                       <div>
-                        {#each claimsForEvidence(observation.evidence_id) as claim, claimIndex (claim.claim_id)}
+                        {#each claimsForEvidence(observation.evidence_id) as claim (claim.claim_id)}
                           <details class="decoded-linked-claim">
                             <summary>
-                              <span>Interpretation {String(claimIndex + 1).padStart(2, '0')}</span>
                               <div>
                                 <small>{claim.kind.replaceAll('_', ' ')}</small>
                                 <p>{claim.text}</p>

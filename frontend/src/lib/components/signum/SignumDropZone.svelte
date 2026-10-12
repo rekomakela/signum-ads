@@ -171,7 +171,6 @@
         <strong>Drop an ad here</strong>
         <p>or <span class="decode-dropzone__choose">choose an image</span></p>
       </div>
-      <span class="decode-dropzone__formats">JPG · PNG · WebP</span>
     </div>
   {:else if status === 'matching'}
     <div class="decode-dropzone__processing" aria-live="polite">

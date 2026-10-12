@@ -28,6 +28,10 @@
     conceptFilter = new URL(window.location.href).searchParams.get('concept');
   });
 
+  const isFiltering = $derived(
+    query.trim().length > 0 || statusFilter !== 'all' || conceptFilter !== null,
+  );
+
   const filteredCases = $derived.by(() => {
     const search = query.trim().toLowerCase();
     const matches = data.dataset.cases.filter((entry) => {
@@ -63,7 +67,7 @@
 </script>
 
 <svelte:head>
-  <title>Advertisement analyses · Signum</title>
+  <title>Analyses · Signum</title>
   <meta
     name="description"
     content="Browse analysed advertisements and inspect the visible details, interpretations, and supporting evidence behind each one."
@@ -72,41 +76,38 @@
 
 <section class="archive-page">
   <header class="archive-header">
-    <div>
-      <h1>Advertisement analyses</h1>
-      <p>Browse the reference collection and open any ad to see what it shows, what it may mean, and why.</p>
-    </div>
-    <dl class="archive-header__stats">
-      <div><dt>Analyses</dt><dd>{data.counts.total}</dd></div>
-      <div><dt>Complete</dt><dd>{data.counts.decoded}</dd></div>
-      <div><dt>Pending</dt><dd>{data.counts.pending}</dd></div>
-    </dl>
+    <h1>Analyses</h1>
+    <p>
+      {data.counts.total} advertisements, each read for what it shows, what it may mean, and why that
+      reading fits.
+    </p>
   </header>
 
   {#if activeConcept}
     <div class="archive-context">
       <div>
-        <span>Concept drilldown</span>
-        <strong>{activeConcept.label}</strong>
-        <p>{activeConcept.definition}</p>
+        <strong>Showing analyses that use {activeConcept.label}</strong>
+        <p>{activeConcept.plain_language || activeConcept.definition}</p>
       </div>
-      <a href={resolve('/cases')}>Clear concept</a>
+      <a href={resolve('/cases')}>Show all analyses</a>
     </div>
   {/if}
 
   <div class="archive-toolbar">
     <SignumSearchInput bind:value={query} placeholder="Search title, visible details, or source…" />
-    <div class="archive-toolbar__filters" aria-label="Filter by analysis status">
-      {#each statuses as status (status)}
-        <SignumFilterChip
-          active={statusFilter === status}
-          count={statusCount(status)}
-          onclick={() => (statusFilter = status)}
-        >
-          {status === 'all' ? 'All' : status === 'decoded' ? 'Complete' : 'Pending'}
-        </SignumFilterChip>
-      {/each}
-    </div>
+    {#if data.counts.pending > 0}
+      <div class="archive-toolbar__filters" aria-label="Filter by analysis status">
+        {#each statuses as status (status)}
+          <SignumFilterChip
+            active={statusFilter === status}
+            count={statusCount(status)}
+            onclick={() => (statusFilter = status)}
+          >
+            {status === 'all' ? 'All' : status === 'decoded' ? 'Complete' : 'Pending'}
+          </SignumFilterChip>
+        {/each}
+      </div>
+    {/if}
     <label class="archive-sort">
       <span>Sort</span>
       <select bind:value={sortMode}>
@@ -115,13 +116,19 @@
         <option value="evidence">Most visible details</option>
       </select>
     </label>
-    <span class="archive-toolbar__result-count" aria-live="polite">{filteredCases.length} shown</span>
+    <span class="archive-toolbar__result-count" aria-live="polite">
+      {#if isFiltering}{filteredCases.length} of {data.counts.total}{/if}
+    </span>
   </div>
 
   {#if filteredCases.length > 0}
     <div class="archive-grid">
       {#each filteredCases as item (item.case_id)}
-        <SignumAdThumbnail {item} featured={isFeaturedCase(item.compatibility_case_id)} />
+        <SignumAdThumbnail
+          {item}
+          featured={isFeaturedCase(item.compatibility_case_id)}
+          headingLevel={2}
+        />
       {/each}
     </div>
   {:else}
