@@ -3528,6 +3528,11 @@ details[open] > summary .disclosure-icon {
   font-size: var(--text-xs);
 }
 
+.archive-sort:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
 .archive-sort select {
   min-width: 128px;
   border: 0;
