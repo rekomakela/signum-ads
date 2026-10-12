@@ -441,7 +441,6 @@ details[open] > summary .disclosure-icon {
   height: 17px;
 }
 
-.surface-heading,
 .section-heading {
   display: flex;
   align-items: flex-start;
@@ -449,18 +448,15 @@ details[open] > summary .disclosure-icon {
   gap: var(--space-6);
 }
 
-.surface-heading > div,
 .section-heading > div {
   display: grid;
   gap: 5px;
 }
 
-.surface-heading h2,
 .section-heading h2 {
   font-size: var(--text-xl);
 }
 
-.surface-heading p,
 .section-heading p {
   max-width: var(--measure-base);
   color: var(--ink-2);
@@ -3365,8 +3361,7 @@ details[open] > summary .disclosure-icon {
     justify-self: start;
   }
 
-  .surface-heading,
-  .section-heading,
+    .section-heading,
   .archive-header,
   .case-header__topline,
   .workbench-header,
